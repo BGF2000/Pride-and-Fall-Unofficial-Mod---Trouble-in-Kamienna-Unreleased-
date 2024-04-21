@@ -1,0 +1,5 @@
+Niestety ta modyfikacja nie jest tak świetnie zrobiona jak oryginalny mod. Jednak próbowałem jak najlepiej odzwierciedlić jego wizerunek (czyt. grafikę), jak potrafiłem ze swoimi umiejętnościami graficznymi. Jeżeli znajdziesz jakikolwiek błąd (np. w pisowni) bądź coś w modyfikacji nie będzie działać, poinformuj mię o tym na mailu: gamesbgf@gmail.com
+Dodatkowo, jeżeli chcesz edytować (lub skopiować do późniejszej przeróbki) elementy tego moda, to są tam szablony (GFX), które możesz użyć. Warto też wspomnieć, iż komentarze są głównie po polsku, lecz znajdą się tam elementy języka angielskiego. Więc jeżeli tłumaczysz to w translatorze, to polecam przetłumaczyć także te polskie fragmenty. Może się przydać w zrozumieniu, co gdzie jest.
+Z góry dziękuję.
+
+If you don't speak Polish just use Google Translate or any other translator (except the mail address).
