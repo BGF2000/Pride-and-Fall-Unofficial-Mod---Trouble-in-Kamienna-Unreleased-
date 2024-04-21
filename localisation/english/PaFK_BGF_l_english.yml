@@ -1,0 +1,1188 @@
+﻿l_english:
+ ##Focus trees##
+ wspolnota_ziobro_focus:0 "Anti-Ziobro Uprising Focus tree"
+ wspolnota_nagrabiles_se_zioberko_focus:0 "Anti-Ziobro War Focus tree"
+ wspolnota_post_uprising_focus:0 "Reconstruction and War Focus tree"
+ wspolnota_voi_focus:0 "Voivodeship Focus tree" # Walka o władzę
+ wspolnota_voi_democrats_focus:0 "Voivodeship Focus tree - Part 2"
+ wspolnota_voi_radicals_focus:0 "Voivodeship Focus tree - Part 2"
+ wspolnota_reg_doom_focus:0 "Regional Focus tree - the Path to Doom" # Radykaliści + CELSA
+ wspolnota_reg_focus:0 "Regional Focus tree" # Reszta
+ wspolnota_superreg_doom_focus:0 "Superregional Focus tree - Nearing the End"
+ wspolnota_superreg_focus:0 "Superregional Focus tree"
+ wspolnota_final_democracy_focus:0 "Final Focus tree - Democratic Ending" # Wnuk/SD, Kwietniak, Górczyński
+ wspolnota_final_autocracy_focus:0 "Final Focus tree - Authoritarian Ending" # Mój chrzestny z USA, Konarski, CELSA
+ wspolnota_final_totalitarianism_focus:0 "Final Focus tree - Totalitarian Ending" # Stolarek, Merkel Nazbolej, Filip (mafiozo)
+ wspolnota_doom_focus:0 "It's Over..." # ŚMIERĆ
+ ##Focuses##
+ ## Ziobro spi**dalaj ##
+ BGF_anti_zero_uprising:0 "Anti-Ziobro Uprising"
+ BGF_fight_for_freedom:0 "Fight for Our Freedom!"
+ BGF_no_more_compromise:0 "No More Compromise with Ziobrists"
+ BGF_a_right_revolt:0 "A Right (and Just) Revolt..."
+ BGF_cooperate_with_others:0 "...Can't Be for Our Benefit Only"
+ BGF_supply_soldiers:0 "Supply Our Freedom Fighters"
+ BGF_hooray:0 "We've Done it!"
+
+ BGF_anti_zero_uprising_desc:0 "Zbigniew Ziobro is, to say the least, a horrible human being. His methods of torture and ruthless prosecutorship have not helped with improving his image. The amount of our people that have lost hope in any freedom has seemingly vanished. It all seemed to be lost...\n\nUntil one day. That was when one (now) famous person named Kinga Wnuk has declared Ziobro's State to be "illegitimate and undesirable" and declared an open revolt. Although her campaign to restore order in the Holy Cross Region seemed to be designated for success (especially after taking Kielce for a brief moment), it all turned around after the battle of Wet Mountains (Góry Mokre) when Wnuk and her commanders lost half of their fighting force.\n\nBut thankfully other revolts sprung up around Starachowice and Sandomierz, effectively saving northern Holy Cross from total annihillation. Don't be fooled - the fight is still ongoing, but with enough determination we might just push Zbigniew and his confidants out of our lands.\n\n§GThe End is Near§!"
+ BGF_fight_for_freedom_desc:0 "No more shall we live in fear of getting arrested for basically nothing. No more shall we live under some maniac's boot. And no more shall we stand idly when people are clearly calling for help! We have demonstrated it by helping the victims of the resulting war and granting much-needed liberties (of course the ones that we felt were necessary). However our job is far from done. There are still civilians that can't enjoy our rule due to countless of repressions used by Zbigniew Ziobro. That is why we NEED to fight!\n\nNo matter the cost."
+ BGF_no_more_compromise_desc:0 "General Prosecutorship has to be one of the most evil states (at the time of writing this) that broke up from Third Polish Republic. Their ruthlessness and eagerness to commit atrocities have proven themselves true especially during our uprising. That is why we are spreading a special slogan - [BGF_no_more_compromise]! And we will fight until the bitter end to prove it.\n\nUnfortunately some people aren't as determined to adhere to this parole as we wanted. For these kinds of semi-deserters we have a unique tactical advantage - Ziobro's nature. His brutal reign of terror should be enough to cause shiers down anyone's spine. And if that doesn't work, nothing will."
+ BGF_a_right_revolt_desc:0 "Despite what PiS-men and the Prosecutor say, our revolt has been recognised as a valid response to unlawness by many foreign leaders. This not only fueled our determination, but also caused a surge of conscripts to sign in into the army. Because they know that they're fighting for a good cause.\n\nBut funnily enough there has been an equal amount of countries putting down our war of liberation as "useless slaughter" and "unreasonable fight". Whilst we can agree on some of their points of view, the majority have been completely made up for propaganda purposes. We can't (and won't) tolerate these lies. That's why their voices will be limited - even if it means eroding our freedom of speech..."
+ BGF_cooperate_with_others_desc:0 "Although we have controlled the territories of Sandomierz and Starachowice for a considerable amount of time we eventually had to give them up due to problems arising in our provisional capital. These actions sprung up another revolts - this time targetted not only against Ziobro, but us too. Thankfully we reached a temporary agreement on said issue which combined our forces in order to deport Prosecutorship from Holy Cross.\n\nOur point here is that we can't be selfish and only fight for our cause. Sure, we will eventually fight against these warlords, but for the time being we can buy time and prepare for eventual war. But what is actually important he is a common goal - freedom from oppressive regime. And that is what Bodzechów Accord includes - which no one can deny.\n\nSo to all sons and daughters of Świętokrzyskie - fight for your and our freedom!"
+ BGF_supply_soldiers_desc:0 "Weapons are difficult to come by in these troubling times and it seems as if it is the best of times to use our hidden stockpiles. Their purpose was to supply our soldiers when the hardest of times - that is, near total collapse of our rebellion - came. And while we're not faring as badly as we thought we would their importance can't be denied. Thus we are comfortable to use them to fill in missing equipment in our army.\n\nWill it cost us everything in the long run? Absolutely not.\nIs it necessary? Probably.\nWill it help us fight better? Obviously.\n\nSo what are we waiting for? Let us use them to their fullest advantage!"
+ BGF_hooray_desc:0 "Thanks to our determination and cooperation with other revolts we managed to push Zbigniew Ziobro out of the Northern Counties (or Powiats). With this achievement in our hands, we are sure to cause some trouble in General Prosecutorship. But as long as it causes the whole region to become free (or even some parts of Lesser Poland) this is much expected from us.\n\nThis push is definitely worth a worthy celebration in Ostrowiec. Let this be known to everyone that we won't bend under anyone's knee - not even under the threat of failure."
+
+ BGF_hooray_tt:0 "§CNow we can focus on some really important aspects of our nation...§!\n"
+
+ ## Niech to szlag, on jednak ma ręce ##
+ BGF_back_from_dead:0 "The Impossible"
+ BGF_no_mercy_for_him:0 "No Mercy for the Tyrant"
+ BGF_until_death_do_us_part:0 "Until Death do Us Part (As Enemies)"
+ BGF_hooray_zibro:0 "A Phyrric Victory"
+
+ BGF_back_from_dead_desc:0 "How did we get here? How, despite our best efforts and combined arms with other warlords, did we fail to secure our freedom? But even more confusing is how we managed to rise back unscathed? But I guess sometimes there is no answer to a question. Just confusion.\n\nNo matter. Zbigniew Ziobro is still alive. And he's still repressing our fellow citizens of Holy Cross. We must take as much land as possible from him. Thankfully due to several reasons his army had collapsed - making our job in return simpler.\n\n§0And so begins our another adventure on the "frontlines".§!"
+ BGF_no_mercy_for_him_desc:0 "After we had lost and bended under the pressure of guns and artillery we expected everyone to live AT LEAST without the fear of getting killed for minor offences. We even pleaded to Him (of all people) to reconsider his stance on prosecuting people.\n\nBut it seems that this request has fallen into deaf ears...\n\nNot even one day after the collapse of united front did our citizens feel "better". Instead they realised that §Rnothing has changed at all§!. Zbigniew Ziobro once again began to shoot onto protesters and imprison them. Entire families were sent to work camps for not fulfilling requests of local militias.\n\nThus it is of upmost importance to send Ziobro and his pack of "wolves" cowering back to Lesser Poland in order to get slaughtered even there. §RThere is no other option!§!"
+ BGF_until_death_do_us_part_desc:0 "Understandably we will all have to die at some point. Either as a nation, human being or even the entire world. But not even this process shall make Ostrowiec and Olkusz (or Kielce) friends. §9Don't even think about it.§!\n\nWhat they have done to us can't repair our relations ever. Sure, we have forgived Germans for this. But it required them to realise that they have messed up and apologise to us. Also they weren't our brethrens. But in the case of General Prosecutorship it's the complete opposite.\n\nIf we were to enter hell for some reason, at least we would make a favourable reference to Zbigniew Ziobro ruling it with a magma fist. Even if he weren't to do that."
+ BGF_hooray_zibro_desc:0 "What we have achieved can be barely called a "victory". Sure, we have received our long-awaited independence as a democratic nation. But not only have we lost lands now belonging to other warlords but also our spirit is completely shattered. No one believes that we will be able to reunite the whole region under our rule. No one dares to think that there is some sort of salvation.\n\n§CBut there is still one option...§!\n\nWe will send invitations to other leaders of Holy Cross and begin unification negociations. Whether this will work out for us is still up for debate but maybe... just maybe... §Cwe will see something blessed happen.§!"
+
+ BGF_zibro_tt:0 "§RUnfortunately we'll have to do it the hard way... May God forgive us.§!\n"
+
+ ## Ziobro stracił swoje Żebro ##
+ BGF_celebrations_in_ostrowiec:0 "A Celebration"
+ BGF_now_for_the_real_work:0 "A long way ahead"
+ BGF_the_path_to_war:0 "...And We are Ready to Wage War"
+ # Cywile
+ BGF_restore_civilian_infrastructure:0 "Restore Civilian Infrastructure"
+ BGF_repair_roads:0 "Fill in the Potholes"
+ BGF_focus_on_quality:0 "Quality Over Quantity"
+ BGF_focus_on_quantity:0 "More Guns for Our Nation"
+ BGF_computer_in_every_house:0 "Computer in Every Household"
+ BGF_tv_in_every_house:0 "Provide News and Entertainment"
+ BGF_the_work_is_done_civ:0 "The Civilians are Happy"
+ # Militaria.pl
+ BGF_restore_military_infrastructure:0 "Restore Military Infrastructure"
+ BGF_look_through_trash:0 "Look Through Our Hidden Stockpiles"
+ BGF_more_meatshields:0 "Conscript More Men and Women"
+ BGF_better_weapons:0 "Take Advantage With Technological Superiority"
+ BGF_blast_from_the_past:0 "Learn from AK"
+ BGF_technologie_uber_alles:0 "Learn from NATO"
+ BGF_the_work_is_done_mil:0 "The Army is Ready"
+ # TVN prezentuje - "Szkoła"
+ BGF_restore_education_infrastructure:0 "Restore Proper Education"
+ BGF_print_new_textbooks:0 "Contact Nowa Era and WSiP"
+ BGF_everyone_is_equal:0 "No one Shall be Left Behind!"
+ BGF_put_pressure_on_intelligentsia:0 "The Jewels of Our Education System"
+ BGF_focus_on_science:0 "Grants on Science"
+ BGF_focus_on_history:0 "Teach the (True) History of Poland"
+ BGF_the_work_is_done_edu:0 "Schools are Full Again"
+
+ BGF_celebrations_in_ostrowiec_desc:0 "After countless days of onslaught from Końskie, Busko-Zdrój and other Prosecutorship's cities we can now rest peacefully. For we have achieved what probably not even Zbigniew Ziobro thought we would. A victory over his forces - albeit a forced one due to the depleting supplies on both sides. But whatever - we can now celebrate our new-found victory and independence in Ostrowiec. Let us also invite our neighbours with whom we might not have the best relations. That way, perhaps, we might come to an agreement with them and later annex their territories."
+ BGF_now_for_the_real_work_desc:0 "Tragedy! Our event, which was planned to host the leadership not only from our city but also Starachowice and Sandomierz, is now considered a fiasco. With several dead and the celebration not going as planned in general we haven't achieved what we had promised to the hard-working people of our Commonwealth. Now we are sure to have to fight with others for the unification of the voivodeship.\n\nBut no matter. Because even then there are those who denounce our rule which have sprung up from the Prosecutorship's former territories. We would have to figth nonetheless. But it's still tragic that we need to spill more Polish blood.\n\n§RHowever that is not the only issue plaguing our nation.§!"
+ BGF_the_path_to_war_desc:0 "Now that we have restored every sector of our country back to its prime, we can now focus on our neighbours. There are many different sides to this conflict (and we may have already fought some of them due to how slow our progress was). That is why there are many methods we can use to achieve our goal - a united Holy Cross. But probably the most complicated and varied subject that is still up to date is how we should deal with the leadership of the conquered territories. But I guess it depends on who we will fight, doesn't it?"
+ # Cywile
+ BGF_restore_civilian_infrastructure_desc:0 "It is no surprise to anyone when we tell them that our country is one of the poorest in the entire Poland. Despite being more developed that our neighbours (yes, even in Radom region), our GDP per capita has drastically fallen ever since the war with General Prosecutorship. This, combined with previous socio-economical problems encountered in Ostrowiec and neighbouring areas before the Fall, makes our situations... peculiar to say the least. It would require huge amount of time and effort to reverse the scars and even develop ourselves."
+ BGF_repair_roads_desc:0 "The roads in our voivodeship are things we should be ashamed of. Not only do they frequently break down but also are very limited. There are rarely any alternate passages for trucks to drive through. Also we shouldn't forget about the World War 2 mines that are still present but hidden under layers of concrete.\n\nAll of these factors lead to one conclusion - we should repair and improve our roads so that we won't be a laughing stock of Poland."
+ BGF_focus_on_quality_desc:0 "Quality can't be truly replaced with quantity. If you had to choose between 12 T-34 tanks and 4 M1 Abrams, which one would be the weapon of your choice? Sure, there would be more T-34s to shoot. But for how long would they last against the improved designs of M1s?\n\nThat's my point - without technological advantage we will be nothing. Of course the importance of quantity can't be denied. It's just that relying only on numbers won't get you anywhere far as technology would. Just look at United States - the military force to be reckoned with. The nation whose scientists are a prime example to be followed by.\n\nThankfully we have enough experienced people as well as young scientists who are willing to spend their lives to improving our country - one step at a time."
+ BGF_focus_on_quantity_desc:0 "As one famous person once said "Quantity is a quality in a sense". There have been many examples of that being the case around the history. Even now we can find that out in the products we use every day. So why shouldn't we try this exact thing? After all, with a bigger force we will be able to unite Poland fully (and make it great again).\n\nBut let's take one step at a time. Currently we still have some stockpiles left after the uprising was concluded. We shall use these weapons to arm our forces so that they won't have to fight with bare hands against guns and axes."
+ BGF_computer_in_every_house_desc:0 "Computers are a wonderful invention. Thanks to them the bureaucracy and access to information have improved drastically. Especially with ever-so-developing and -growing Internet market and cryptocurrency. Yes, there are hiccups (like Windows 11's fiasco and Windows 12's major failure) and dangers related to them (like a cyberattack on Estonia back in the 90s), but they are neglectable at least.\n\nWe will implement a program called "Computer in Every House". This will allow families to own at least one workstation (or a laptop according to their needs) and learn again how to use them properly. Because an educated and talented society is better than traditionalist and catholic community."
+ BGF_tv_in_every_house_desc:0 "Televisions have evolved for a long time - usually transforming throughout the years. First used as a source of information now has many other purposes like entertainment. Of course, they can also be used to manipulate society and polarise it (as we know it far too well from the example of TVP), but if we guarantee freedom of speech and clear view on everything we will be able to prevent such outcome.\n\nWe will implement a program called "Television in Every House". This will allow families to own at least one television set with a decoder and access to the most vital programs. Because an informed and truthful nation is better than propagandized and lied country."
+ BGF_the_work_is_done_civ_desc:0 "Despite many setbacks met on our way, we were able to carry through and even develop from our experiences. Now our society is more than satisfied and wealthy. Not only that - we could allow ourselves to expand our army and propagate free lessons on vital knowledge such as using a computer or avoiding propaganda. All of these have allowed us to build a new, more egalitarian society which will survive throughout the crises and collapses."
+ # Militaria.pl
+ BGF_restore_military_infrastructure_desc:0 "While we have the largest army in the Holy Cross, there is still an option that our title will befall onto someone else. That's because of our defeatism and lack of development compared to some warlords.\n\nTo be honest, it isn't that surprising considering that we have gained and lost so much land to other warlords which have a higher morale. But why should we not? We still helped in dismantling Ziobrite realm and freeing (to some extent) our brethren in the region.\n\nWe should bring these points up to our society and remind them who started the fire of uprisings across the Prosecutorship."
+ BGF_look_through_trash_desc:0 "During our costly war with General Prosecutorship we were able to smuggle and keep some of the weapons later used in the actual battle. They have proven especially useful when we were lacking equipment. But now that such stockpile, which was hidden, has no more use a question raises - what should we do with the guns and axes?\n\nThe simple answer is to keep them in case a war was to break out. But let's be honest, we will have to fight (or we fight right now) soon enough. That's why we shall use these stockpiles to arm our army (or deploy more divisions)."
+ BGF_more_meatshields_desc:0 "The more men we have in our army the better the chance we will have in winning our early wars. They are probably the most important in shaping our industry and whatnot. If we don't have enough arms we will fall - sooner or later. That is why we are encouraging more people to enter the armed forces - so that they won't have to be forcefully enlisted at the beginning of a conflict. Otherwise chaos would erupt - and we don't want that to happen."
+ BGF_better_weapons_desc:0 "Nothing beats numerical advantage as much as technological one. Thanks to it we can kill our enemies more accurately and with less chances of them surviving or dodging. That also means that we can let our soldiers equip better armour and camoflauge. But before we can start implementing our ideas into reality there is one major caution that we feel must be addressed...\n\nNumerical advantage is not as significant if your army is slightly smaller but better equipped. However when the disproportion is too large, the technology can't really save you from the onslaught of angry Poles. That is why we are still prioritising improved conscription laws so that we won't have to suffer later on."
+ BGF_blast_from_the_past_desc:0 "When our homeland has fallen to the occupiers during World War 2 an organisation called Union of Armed Struggle began to fight against them. In 1942 it was replaced by Home Army known mostly for the organisation of Warsaw Uprising. But that was not the only thing these two achieved between 1939 and 1945. They have done MUCH more than that.\n\nBesides instigating minor uprisings and sabotaging occupiers, they have held the morale of the people which made Poles one of the only nations not to collaborate en masse. Also they combatted germanisation efforts (such as keeping Polish monuments intact) and used various methods to annoy the Germans (thus the famous "Only swines sit at the cinema").\n\nWe shall follow their example and make sure that the enemy will have a hell of a time trying to keep their newly-found territories compliant."
+ BGF_technologie_uber_alles_desc:0 "After the fall of communism in Poland one of the upmost of priorities was entering North Atlantic Treaty Organisation. An organisation hellbent on protecting liberties (which is rightfully questioned nowadays) and spreading democracy (with instability). It symbolised the free West fighting against the authoritarian East.\n\nBut when we look at NATO we don't really analyse their failures and them breaking international laws. We are mainly focusing on military aspects and technological developments begun by the nations belonging to it. They have proven themselves not only modern but also effective at eliminating armed forces (although they clearly have a lot of trouble with partisans). This is why we shall copy these tactics and decimate our enemies while keeping our casualties low."
+ BGF_the_work_is_done_mil_desc:0 "Now that we have developed our armed forces into something worth applauding, we can start focusing on other aspects of our nation. Because quite frankly there is still some work to do - be it improving our country even more or finally reuniting it under one banner. Whatever happens to us right now will decide whether the choices we have taken were truly right and now a mistake that will cost us our independence."
+ # "Szkoła"
+ BGF_restore_education_infrastructure_desc:0 "Our education system is absolutely terrible. Well, it's not because of Kinga Wnuk's fault. §g(Or is it?)§! If that were true then she would be already deposed by the party. The truth is that we lack resources and proper infrastructure.\n\nMost of our textbooks disappeared in unknown circumstances during the uprising. And those which are still left are mostly outdated. This problem caused more harm than we expected. But there are even more problems besides this one.\n\nAlmost every school is returning to the early 2000s as they bring back chalkboards and old tables and chairs. But even then the shortages of aforementioned items are an often sighting. The teachers are mostly conservative and politicised.\n\nAll of these issues are hampering our progress and must be dealt with as soon as possible."
+ BGF_print_new_textbooks_desc:0 "As we mentioned earlier our textbooks are outdated. They no longer contain current and proper information, and most of them are politicised to extreme. We can't let the schools use them for education. What will they teach our young minds besides nonsense and improper facts? Nothing.\n\nThis is why we should employ two of "our" biggest textbook companies - "Nowa Era" (New Era) and "Wydawnictwa Szkolne i Pedagogiczne" (School and Pedagogical Publications). They will make sure that no more ideology shall be imposed on students just because some paranoid cat owner said so. At least in theory..."
+ BGF_everyone_is_equal_desc:0 "Despite Kinga Wnuk believing that everyone should do their best and not "slack off", the truth is that not everyone is able to compete on such a scale. There are people who just can't learn as much as others due to either problems with health or just different views on something. She may not see it that way, but the party does.\n\nBefore 2019 there functioned a well-working system of gymnasiums and liceums. Those who had problems with taking information and remembering it went to the former. The rest of the students however started their further education in the latter. This made sure that even the most untalented had a chance at improving - even slightly. Thus we should restore that system and hope that it makes a difference - somehow..."
+ BGF_put_pressure_on_intelligentsia_desc:0 "How can someone believe that in order to become a technocracy one's society has to be fully educated? Yes, that part of country's structure is massively important. But you just have to put focus on the most intelligent and talented students so that they can later work for our nation. You can't seek your attention on both them and the rest of pupils.\n\nEven when we try to appease the parents there will be THOSE students who just refuse to comply. They will not care whether they get to graduate to the next class or not. It just makes my blood boil when I think about it.\n\n*sigh* Oh well... At least there will be no objection to my proposal, I hope."
+ BGF_focus_on_science_desc:0 "Konrad Łebek, one of the most vocal figures when it comes to development, recently voiced his worries regarding the regression in the intelligence of our population. According to the studies carried out by independent organisations our society's knowledge has degraded throughout the 4 years after 2023 elections. It may not be surprising on paper, but in practice the facts that they have forgotten leaves much to be desired. For example some men believe that using contraceptives makes them more prone to catching AIDS, while the women use... potatoes instead of tampons just because they are "more ecologically friendly and release less CO2 into the athmosphere".\n\nWell... with these results we have come into an unanimous conclusion: something has to be done. With our improvements in education system currently going through the voting we should in the meantime grant more funds to science."
+ BGF_focus_on_history_desc:0 ""Those who do not learn history are doomed to repeat it."\n\nWith these words we shall remind everyone what happens when you don't learn from your past mistakes and instead repeat them - just in a different form.\n\nAfter introducing "History and Modernity" into the curriculum of the students of liceums, Law and Justice stopped putting effort into making history actually true and instead changed it to make it fit into their narrative. This could ensure that people such as Donald Tusk or Oskar Rogowski were to remain as agents forever in the minds of Poles. This, in return, caused significant damage to our perception of truth and false. Was Christopher Columbus actually a Pole? Did Nicholas Copernicus write a thesis on how Germans destroy Poland from the inside? How did Józef Piłsudski manage to write an anthem by himself?\n\nAll of these questions come from lack of historical knowledge. Thus we must spread the truth and reverse the damage done by Przemysław Czarnek and his friends at MEiN."
+ BGF_the_work_is_done_edu_desc:0 "Thankfully we have managed to revitalise our education sector even thoguh it appeared to be harder to resolve. With this major victory we have secured great reputation in the eyes of teachers and parents alike. Also, just before ending our work on said branch, we made secularism mandatory in every school. Now our pupils won't have to be forced to partake in religious practices - especially if they believe in a different religion. Truly wonderful!"
+
+ BGF_the_path_to_war_tt:0 "§YNow it is time to reunite the Voivodeship...§!"
+
+ ## Czas, abyśmy i my też je stracili ##
+ BGF_strangle_ancap:0 "Strangle Nazi LARPers"
+ BGF_destroy_catholic_cult:0 "Destroy Father Mateusz's Cult"
+ BGF_combine_the_syndicates:0 "Combine the Syndicates (Under Our Management)"
+ BGF_try_the_stalinists:0 "Put the Stalinists Under Trial"
+ BGF_festung_kjelzy:0 "Outmaneuver Tarczyński"
+ BGF_return_fundamentalists_to_monke:0 "Forge the Ideas of Reformism"
+ BGF_im_sorry_little_one:0 "One More Thing..."
+ BGF_united_in_friendship:0 "United in Friendship"
+
+ BGF_strangle_ancap_desc:0 "[KEL.GetName], under the leadership of [KEL.GetLeader], has changed the landscape of its region drastically. Although we are negative on favouring any religion we are also trying to keep the different beliefs (as long as they aren't spreading violence) intact. And their stance on socialism isn't helping our cause either. That's why we have decided to fight against Kelthuz - so that his ideology won't spread any further besides Holy Cross."
+ BGF_destroy_catholic_cult_desc:0 "[SND.GetName], lead by [SND.getLeader], is no more than an extension of catholic cult. Sure, they have tried to help everyone who has sufferened because of constant wars in the region (or entire Poland for that matter). But with how they treat Father Mateusz in their little country there is no other conclusion to be drawn out of this - Sandomierz must go. Even though they might be ideologically compatible with us."
+ BGF_combine_the_syndicates_desc:0 "The state of [STA.GetName] is a peculiar one. On one hand it is an authoritarian syndicate planning to destroy other means of development. But on the other it still allows some degree of freedom. But whatever they actually represent, we don't know just yet.\n\nHowever the fact that they praise the communist ideology tells us enough to create a justification for our war against them. Who knows - maybe we will learn more about syndicalism once we enter their country?"
+ BGF_try_the_stalinists_desc:0 "Joseph Stalin was a horrible human being - no one with a sane mind can deny that. And yet there are idiots who willingly spread his cult all over the world. One such state is [NRA.GetName]. Lead by [NRA.GetLeader] its only goal is to impose stalinist ideals and communism on Poland. We can't let them get away with such acts scott-free. We must declare war on them and stamp down this vile ideology down once and for all."
+ BGF_festung_kjelzy_desc:0 "Ah, [KIE.GetLeader]. The guy who voluntarily subjected himself under the thumb of Zbigniew Ziobro. He is one of the last remnants of ziobrite influences in our voivodeship. And as such it is a no-brainer when it comes to the fate of his little bastion. Utter destruction and full repression of everyone involved in this little endeavour. There is no other way - and anyone saying that probably sympathises with Ziobro. They must also go away."
+ BGF_return_fundamentalists_to_monke_desc:0 "The [NSZ.GetName] is, to be honest, a backwards state in everything including their name. They put the Church in the top spot and clamped down on those who disagree with the teachings of [NSZ.GetLeader]. With this in mind many of our soldiers are willing to fight against this nation. Thankfully their army is still on such level that we won't experience much problems with capitualting their country."
+ BGF_im_sorry_little_one_desc:0 "...to do before we proclaim our ultimate victory over Holy Cross is to imprison [STO.GetLeader]. Yes, he proved himself worthy of our approval up to this point. But now that we border with him the case of "Will we let [STO.GetName] exist?" is much more difficult to answer. But in the end we must do what we have to do - destroy this guerilla. Although it helped us in many of our adventures, we must say goodbye...\n\n§9I'm sorry little one.§!"
+ BGF_united_in_friendship_desc:0 "Well, friendship may be a broad definition here. But now that we control the entire region what else is there to do but befriend (once again) and unite it under one banner - that is, the banner of [ROOT.GetName]. No longer will we claim to be the legitimate government of Holy Cross as our named suggested for a long time. We will be the ONLY government which exists here.\n\nThe process will be a grueling one - especially that now our rule is vulnerable from the inside. As we no longer need to stay united for freedom various sides of the political spectrum are declaring independence from our rule. WHatever this shall bring us is still unclear."
+
+ BGF_united_in_friendship_tt:0 "§CWe can now restore our rightful rule over the Holy Cross region!§!"
+ BGF_potezny_ostrowiec_SND_tt:0 "§0We shall end the illegal occupation of [SND.Capital.GetName]§!"
+ BGF_potezny_ostrowiec_STA_tt:0 "§0We shall end the illegal occupation of [STA.Capital.GetName]§!"
+ BGF_potezny_ostrowiec_NRA_tt:0 "§0We shall end the illegal occupation of [NRA.Capital.GetName]§!"
+ BGF_potezny_ostrowiec_KIE_tt:0 "§0We shall end the illegal occupation of [KIE.Capital.GetName]§!"
+ BGF_under_pressure:0 "§YIs reforming another branch of our country§!"
+ BGF_restore_civilian_infrastructure_tt:0 "§YWe shall begin work in revamping our civilian branch of economy§!"
+ BGF_restore_military_infrastructure_tt:0 "§GWe shall begin work in reforming our military§!"
+ BGF_restore_education_infrastructure_tt:0 "§CWe shall begin work in reinstating mandatory education and refurbishing it§!"
+ BGF_more_companies_tt:0 "§YMore companies will be available...§!"
+ BGF_the_work_is_done_tt:0 "§YThe effects of war devastation will lessen...§!"
+
+ ## Poprzez walkę z Ziobrem po raz drugi ##
+ BGF_holy_scheisse:0 "Here We Go Again"
+ BGF_kibole_kszo_na_ratunek:0 "Call in The Hooligans Of KSZ Ostrowiec"
+
+ BGF_holy_scheisse_desc:0 "As if the region's luck didn't run out enough already we have a problem at our doorstep - revived from near death Prosecutorship. Somehow, in some way, Zbigniew Ziobro managed not only to keep his power intact but also to repel any attempts at invading his country from Lesser Polish territories. We aren't quite sure how that actually happened but what we know for certain is that he'll come to us eventually - with a bigger force than we can even dream of mustering. Thus we must attack him pre-emptively so that he doesn't grow too strong and that our fellow citizens would feel the taste of freedom once again."
+ BGF_kibole_kszo_na_ratunek_desc:0 "As we all know the sport hooligans are the best fighters known to man. In fact, back in the 60s, there was a war between El Salvador and Honduras over the latter's national team winning a match. That's why we are confident that we can safely recruit them and make them fight fro our country. Yes, the divisions made up of them will definitely be lacking in equipment and experience. But when your nation is on the brink of collapse and the future seems uncertain, what else can you realistically do?"
+
+ BGF_holy_scheisse_tt:0 "§RWe shall put Ziobrite threat down once and for all... or die trying§!"
+ BGF_kibole_kszo_na_ratunek_tt:0 "§YUnlocks decisions to recruit holligans into the army (WIP)§!"
+ BGF_kibole_kszo_na_ratunek_decyzja:0 "§YWe will recruit 5 divisions of KSZ Ostrowiec§!"
+
+ ## Święty Krzyż nasz, ale teraz czeka nas walka wewnętrzna ##
+ BGF_one_and_only:0 "One and Only - Holy Cross!"
+ # Socjaldemokracja i lberalizm #
+ BGF_great_minds:0 "Great Minds..."
+ BGF_think_alike:0 "...Think Alike"
+ BGF_under_one_banner:0 "Under one Cause"
+ BGF_for_holy_cross:0 "Dla Świętokrzyskiego!"
+ # SD
+ BGF_side_with_socialdems:0 "Side With §1Social-Democrats§!"
+ BGF_cooperation_above_all:0 "Cooperation Will Get Us Anywhere"
+ BGF_remove_competition:0 "Rid Our Party of Enemies"
+ BGF_antagonise_freemarketists:0 "Antagonise Free-Marketists" # A mieliśmy kooperować...
+ BGF_walking_a_lone_path:0 "Walking Alone.."
+ BGF_we_dont_need_anyone:0 "...As We Don't Need Anyone..."
+ BGF_we_just_need_ourselves:0 "...But Ourselves"
+ BGF_continue_on_unbothered:0 "Just a Small Incovenience"
+ # KO
+ BGF_side_with_liberals:0 "Side With §7Liberals§!"
+ BGF_liberalise_our_society:0 "Bring Back Liberties From PO's Rule"
+ BGF_cut_social_spendings:0 "Cut Our Spendings"
+ BGF_no_centrist_bs:0 "Uniting Factor With Social-Democrats..."
+ BGF_less_allies:0 "...Did Not Grow Us Closer..."
+ BGF_just_as_expected:0 "...But it Was Expected Anyways"
+ BGF_the_worse_side_of_SD:0 "The Black Sheep of New Poland - Kinga Wnuk"
+ BGF_dont_get_sad:0 "There's Still Hope"
+ # Wolny rynek i centryzm #
+ BGF_united_against_radicals:0 "Against Radicals"
+ BGF_reorganise_free_markets:0 "Reorganise Free Markets"
+ BGF_denounce_gabriel_and_kinga:0 "Denounce Our Rivals"
+ # WR
+ BGF_side_with_free_markets:0 "Side With §5Free-Marketists§!"
+ BGF_free_market_to_go:0 "Support Górczyński"
+ BGF_trust_in_kel:0 "Détente With Kelthuz..."
+ BGF_amnesty_for_waffen_kesh_kesh:0 "...And the Rest of Waffen-$$$$"
+ BGF_employ_oligarchs:0 "Gather Help From the Oligarchs"
+ # NP
+ BGF_side_with_centrists:0 "Side With the §9Centrists§!"
+ BGF_centrism_to_go:0 "Support Rogowski-Bystroń"
+ BGF_trust_in_domi:0 "The Old Love Never Rusts..."
+ BGF_unia_unia_zwal_se_kunia:0 "...Unlike European Union's Democratic Ideals"
+ BGF_one_last_gambit:0 "One Last Gambit"
+
+ BGF_one_and_only_desc:0 ""
+ # Socjaldemokracja i liberalizm #
+ BGF_great_minds_desc:0 ""
+ BGF_think_alike_desc:0 ""
+ BGF_under_one_banner_desc:0 ""
+ BGF_for_holy_cross_desc:0 ""
+ # SD
+ BGF_side_with_socialdems_desc:0 ""
+ BGF_cooperation_above_all_desc:0 ""
+ BGF_remove_competition_desc:0 ""
+ BGF_antagonise_freemarketists_desc:0 ""
+ BGF_walking_a_lone_path_desc:0 ""
+ BGF_we_dont_need_anyone_desc:0 ""
+ BGF_we_just_need_ourselves_desc:0 ""
+ BGF_continue_on_unbothered_desc:0 ""
+ # KO
+ BGF_side_with_liberals_desc:0 ""
+ BGF_liberalise_our_society_desc:0 ""
+ BGF_cut_social_spendings_desc:0 ""
+ BGF_no_centrist_bs_desc:0 ""
+ BGF_less_allies_desc:0 ""
+ BGF_just_as_expected_desc:0 ""
+ BGF_the_worse_side_of_SD_desc:0 ""
+ BGF_dont_get_sad_desc:0 ""
+ # Wolny rynek i centryzm #
+ BGF_united_against_radicals_desc:0 ""
+ BGF_reorganise_free_markets_desc:0 ""
+ BGF_denounce_gabriel_and_kinga_desc:0 ""
+ # WR
+ BGF_side_with_free_markets_desc:0 ""
+ BGF_free_market_to_go_desc:0 ""
+ BGF_trust_in_kel_desc:0 ""
+ BGF_amnesty_for_waffen_kesh_kesh_desc:0 ""
+ BGF_employ_oligarchs_desc:0 ""
+ # NP
+ BGF_side_with_centrists_desc:0 ""
+ BGF_centrism_to_go_desc:0 ""
+ BGF_trust_in_domi_desc:0 ""
+ BGF_unia_unia_zwal_se_kunia_desc:0 ""
+ BGF_one_last_gambit_desc:0 ""
+ 
+ BGF_power_struggle_tt:0 "§YIt seems as if the facade of so-called "United Government" is slowly fading away. That means that the§! §Rpower struggle for the leadership§! §Ycan now commence...\n\nYou will have four different sides to support. Whichever gains the most support by the end of electoral run will run the government. However each one of them is prone to§! §0radical coups§! §Yby groups of neonationalists and reactionaries.§!\n\n§GGood luck!§!"
+ BGF_supports_SD:0 "Supports §1$BGF_socialdemocrature_party$§!"
+ BGF_supports_liberals:0 "Supports §7$BGF_euroliberalism_party$§!"
+ BGF_supports_free_market:0 "Supports §5$BGF_freemarketism_party$§!"
+ BGF_supports_centrist_party:0 "Supports §9$BGF_socialdemocrature_party_centre$§!"
+ BGF_wincyj_opcyji_tt:0 "§YMore decisions regarding the power struggle will be available...§!"
+ BGF_wincyj_opcyji_schweiz_tt:0 "§RIf you won't choose any option, we will!§!"
+ BGF_radykalisci_w_akcji_tt:0 "§RRadicalists come out on top§!"
+ BGF_uogromnie_maua_szansa_tt:0 "Somehow, in some way, §Gyour side automatically wins the power struggle§!"
+ BGF_SD_gurom_tt:0 "§1Social-Democratic Party§! has a majority in the power struggle"
+ BGF_EL_gurom_tt:0 "§7Liberal Party§! has a majority in the power struggle"
+ BGF_FM_gurom_tt:0 "§5Free-Market Party§! has a majority in the power struggle"
+ BGF_SH_gurom_tt:0 "§9Centrist Party§! has a majority in the power struggle"
+ BGF_use_it_wisely_tt:0 "§YUse this political power given to you wisely...§!"
+ BGF_befriended_liberals:0 "§GIs on friendly terms with Liberals§!"
+ BGF_antagonised_liberals:0 "§RIs an enemy of Liberals§!"
+ BGF_befriended_socialdems:0 "§GIs on friendly terms with Social-Democrats§!"
+ BGF_antagonised_socialdems:0 "§RIs an enemy of Social-Democrats§!"
+ BGF_lesser_costs_tt:0 "§GThe cost of decisions in "The Power Struggle" category will decrease!§!"
+ BGF_befriend_socialdems_tt:0 "There is a chance that our negociations with §1Social-Democrats§! §Rwill not succeed...§!"
+ BGF_befriend_liberals_tt:0 "There is a chance that our negociations with §7Liberals§! §Rwill not succeed...§!"
+
+ ## Socjale ##
+ BGF_SD_uber_alles:0 "Social-Democrats on Top..."
+ BGF_now_what:0 "But What Did That Give Us?"
+ BGF_time_to_progress:0 "The Power to Change Our Region!"
+ BGF_the_economy_SD:0 "Matters of Economy And Urbanisation"
+ BGF_rebuild_factories:0 "Rebuild Abandoned Factories"
+ BGF_improve_celsa_factory:0 "From Spanish to Polish Hands"
+ BGF_look_into_local_metropolies:0 "Focus on Urbanisation"
+ BGF_look_at_the_countryside:0 "Develop the Countryside"
+ BGF_destroy_conglomerates:0 "Make an Example out of CELSA"
+ BGF_peace_in_our_time:0 "Finally Done With Corporates (And Dissatisfaction)"
+ #------#
+ BGF_the_army_SD:0 "Matters of Army Professionalism And Conscription"
+ BGF_ensure_better_logistics:0 "Ensure Better Logistics"
+ BGF_reinforce_our_industry:0 "Reinforce Our Faltering Industry"
+ BGF_connect_various_cities:0 "Railroads All Over Świętokrzyskie!" # Wyobraź to sobie w realu
+ BGF_make_use_of_patriotism:0 "Fill Your Patriotic Duty..."
+ BGF_little_technocracy:0 "Create A Little Technocracy in Poland..."
+ BGF_en_masse:0 "More Meatshields For Our Army..."
+ BGF_army_supremacy:0 "...In Order to Improve 'Your' Nation"
+ BGF_number_supremacy:0 "...So That We Decimate Our Enemies"
+ BGF_wiencej_ropy_dla_ojczyzny:0 "Defeatism No More!"
+
+ BGF_SD_uber_alles_desc:0 ""
+ BGF_now_what_desc:0 ""
+ BGF_time_to_progress_desc:0 ""
+ BGF_the_economy_SD_desc:0 ""
+ BGF_rebuild_factories_desc:0 ""
+ BGF_improve_celsa_factory_desc:0 ""
+ BGF_look_into_local_metropolies_desc:0 ""
+ BGF_look_at_the_countryside_desc:0 ""
+ BGF_destroy_conglomerates_desc:0 ""
+ BGF_peace_in_our_time_desc:0 ""
+ #------#
+ BGF_the_army_SD_desc:0 ""
+ BGF_ensure_better_logistics_desc:0 ""
+ BGF_reinforce_our_industry_desc:0 ""
+ BGF_connect_various_cities_desc:0 ""
+ BGF_make_use_of_patriotism_desc:0 ""
+ BGF_little_technocracy_desc:0 ""
+ BGF_en_masse_desc:0 ""
+ BGF_army_supremacy_desc:0 ""
+ BGF_number_supremacy_desc:0 ""
+ BGF_wiencej_ropy_dla_ojczyzny_desc:0 ""
+
+ BGF_time_to_progress_tt:0 "§YIt is time to put our administartion to good use.§!\n\nWell, not that we didn't do any worse back then."
+ BGF_unlock_decisions_corpos_tt:0 "§YUnlocks decisions to deal with conglomerates in our country§!"
+ BGF_kolej_lepsza_niz_na_mazowszu_tt:0 "§1When this focus finishes we will have a railroad system connecting many major cities of Holy Cross to our capital of Kielce. All of them will be level 2 and divided into 4 main railways.\n\nWe will make Masovia jealous with our infrastructure!§!"
+ BGF_jeszcze_wincyj_korzysci_tt:0 "§CIf you have chosen a compatible focus in the $wspolnota_post_uprising_focus$, you will earn more bonuses...§!"
+ BGF_end_of_mod_WIP_tt:0 "§C...but that is it for now. Thank you for playing this demo version fo "Trouble in Kamienna"! There is, of course, more to come but for now I have to say goodbye. If you want to, you can also join the Steam Group to check on the updates of said sub-mod.§!"
+
+ ## Liberałowie ##
+ BGF_KO_uber_alles:0 "(Euro)Liberals on Top..."
+
+ BGF_KO_uber_alles_desc:0 ""
+
+ ## Wolny Rynek ##
+ BGF_KO_uber_alles_gura:0 "Free-Marketists on Top..."
+
+ BGF_KO_uber_alles_gura_desc:0 ""
+
+ ## Centryści? (Później PiSowcy) ##
+ BGF_Roenig_uber_alles:0 "Protège of Centrist Ideology (or a Looming Coup)?"
+
+ BGF_Roenig_uber_alles_desc:0 ""
+
+ ##Characters##
+ POLITICS_KINGA_WNUK_DESC:0 "Back in 2003, when Poland was still united, a certain person by the name of Kinga Wnuk, along with her colleagues, decided to create a private preschool in Ostrowiec, in which children would be able to happily get along and learn important life skills, such as communication. She named it "Promyk". Then, a few years later, a primary school and a liceum would open - both named after Stanisław Konarski, a person which was responsible for the reform of Polish education.\n\nEverything seemed to go smoothly ever since, until 2024 when the principal was forced to close all of the facilities due to a local governor's report on "indoctrination" and "falsification of history". After this unfortunate event, Wnuk would work as a tutor in Kielce until the §RBałuty incident.§!\n\nUnder Ziobro's Prosecutorship many teachers have suffered - and no one can deny that. Because of this Kinga began a risky intiative of forming a resistance cell in her hometown of Ostrowiec Świętokrzyski. Several of her former students would join it as well, creating a foundation of a country known as the Ostrowiec Commonwealth.\n\nAll of these years have §Rdrastically§! changed her. From a somewhat loveable principal of one of the most praised schools she changed into a semi-paranoid leader. Due to this many people have worried about the developments the new state could experience were it to unify Poland. §ROnly God knows what will come out of this mixture of reformism and paranoia.§!"
+
+ POLITICS_GABI_DESC:0 "Born in the late 2000s Gabriel Kwietniak may not have known how life used to be during the rule of Civil Platform (or Coalition). Nor will he ever know due to excessive propaganda spewed by Law and Justice to unsuspecting civillians. But what he definitely knows is that these times had been much better than between 2015 and 2027.\n\nAs a relatively young individual he became a member of the Youth Council of Ostrowiec with his older friend Armando. Although it wasn't his actual hometown (it was Kraków), he felt strong connections towards it. And so he began his career as an orator and a young promising politician.\n\nUnfortunately for him, Zbigniew Ziobro would not see these actions as "friendly" towards his plans of consolidating his rule in the Holy Cross region. And so he was imprisoned and forced to do harsh labour. The only saving grace for him were his former friends organising an uprising in the work camp and transferring him to Ostrowiec. There he began cooperating with Kinga Wnuk and ruling alongside her.\n\n§GBut of course, Destiny had other plans.§! After some time he noticed how his former had lost her mind and started purging everyone. Due to this factor, he felt forced to coup d'etat her government and install his own for the time being. Now he stands as a sole "president" (or "prime minister") of an infant nation. In which way will he steer it? How will it affect the people? Perhaps no one knows besides his closests confidants. But one thing is for sure - §Git will be better than Wnuk's madness.§!"
+
+ POLITICS_CBA_DESC:0 "How does a president of a city turn from a beloved figure of the locals to a corrupt scum which takes bribes from his colleagues, and then back to the beginning? Well, it is quite frankly difficult to explain, but one thing is for sure - Jarosław Górczyński had a bit of a tenuous reputation.\n\nBorn in 1971 in Ostrowiec, this politician was one of the most respected people of said city. Modernising it and developing new driveways was one of his upmost priority. Due to his actions (and connection with the locals) many considered him as an ideal politician - one that wouldn't take things for granted.\n\nBut all of it changed in March of 2023 - the time when he was taking bribes worth 40 thousand złotys. The Central Anti-Corruption Bureau arrested him and put him in prison for 3 years. It seemed like his image was terribly tarnished from such act. After his early resignation Artur Łakomiec would continue his legacy of reforms and education grants.\n\nBut then, in 2026, he was abruptly assassinated by one fellow named Łukasz Stolarek. After this incident Jarosław found his second chance and took it without second thoughts. Even after the Fall he provided his citizens with care and hope. And when Anti-Ziobro Uprising began, he took arms and fought bravely, especially in Opatów and Sadowie. Now he rests peacefully for he knows he did a great job. But even then he must be careful - many dangers are lurking from within and without. If he takes one step too far his house of cards could fall apart and be taken by an even worse human being.\n\n§CEvery Ostrowczanin believes in him - don't mess it up.§!" # Dang, Łukasz. I hope you're not mad
+ 
+ POLITICS_ATEIZM_DESC:0 "Łukasz Stolarek was not a religious person at all. Even from a young age he would avoid taking part in Religion lessons. After all - "Why should you believe in God when your life is a complete mess (and it doesn't get better at all)?" That thought began something which not even Łukasz would be able to explain in full detail and confidence.\n\nBut one day it provoked him to destroy a local church in Szewna and every statue containing any religious figure in there. Not only had he caused thousands of złotys of damage but this landed him straight into prison. It wouldn't be until 2027 when he would feel the taste of freedom once again. This time however he has other plans - far more radical than back in the "good old days". He would dismantle religion and force atheism onto everyone - and those who would not agree will meet a §Rscarring§! ending - especially women.\n\nBut before he can put his vision into reality he must conquer all of Poland. No one knows if this hooligan will actually manage to do this, but if he does §Rmay God protect the people of Poland - for they don't know what's coming down their way...§!"
+ 
+ POLITICS_NAZBOL_DESC:0 "When one is joking around, he must be careful not to make it true. Otherwise he will actually believe in it and then cause a catastrophe as well. Unfortunately one Marcel Olejarczyk did not listen to this lesson and actually embraced §0National Bolshevism§! - a mixture of National Socialism and Bolshevism.\n\nBack in high school Marcel used to make semi-nazi jokes with his friend Gabriel. Although no one batted an eye on this as this was as common in Poland as human rights abuses during Law and Justice rule. However what no one knew at a time was that an alternate persona formed inside Marcel. At first it didn't control him directly but it all changed once he graduated. That was when one of his family members was killed by an immigrant in July of 2026. He felt his heart break into million pieces and his true personality vanish within a second.\n\nAfter this incident he made sure that once he would come to power §0Poland would be purified our of non-Poles and quasi-Poles§!. Although not much has happened that would cause reaction from international community (yet), Marcel Olejarczyk is waiting for the right moment - the moment his revenge would be fulfilled. §0Either with a healthy Poland or not.§!"
+
+ POLITICS_BGF_DESC:0 "How does it feel to be denied citizenship and nationality by one madman who despised your stance so much he felt the need to dehumanise you? How does it feel to be disrespected by your peers from the moment you turned six? Perhaps no one knows this better than Oskar Rogowski - a person with great ambitions but horribly harsh personal history.\n\nBeing born in Lublin on 7th of July 2008 he had numerous signs of mental and physical health problems ever since he arrived in his hometown of Opatów (and later Ostrowiec). It didn't help the fact that almost no one seemed to try and befriend young Bystroń (except one time before going to liceum). His situation improved slightly after graduating from primary school - as a model for other students and an extreme introvert. The peers seemed to treat him a tad better but still far from his actual needs.\n\nAnd yet his entire life would turn upside-down. As a stauch anti-PiS activist he gathered the attention of Jarosław Kaczyński who decided that he should "return to his actual homeland of Germany - just like Donald Tusk". This caused him to be deported to Dresden where he would spend the rest of his exile up to April of 2027. During his stay he planned the way to reorganise the Polish government when the time has come. Unfortunately for him that chance wouldn't arrive.\n\nSubjugation of Western Polish territories, chaos in Holy Cross and anarchy everywhere else have changed Oskar Rogowski to the core. His hidden mental problems surfaced yet again and hope for a free Poland vanished. Even after taking power in Ostrowiec the people consider him nothing more than a puppet of von der Leyen or Navalny (or anyone else). He may not be able to turn the situation around, but he will do ANYTHING in his power to at least improve Holy Cross Region slightly.\n\nPerhaps one day the truth will come out...\n\n...and he will become another Nikola Tesla or Vincent van Gogh."
+ POLITICS_BGF_HAPPY_DESC:0 "§CIt almost seems impossible.§!\n\nThe person who was made into an agent belonging to "foreign nations" was destined to be one for eternity. His life was supposed to be one giant tragedy which couldn't be reversed by anyone. And yet... §Cthanks to a childhood peer§! it all changed.\n\nAs a human who knows the best about discrimination and propaganda, Oskar Rogowski was always on a short end of a stick. Whether be it because of school bullying, fury caused by challenging one person from Żoliborz, it doesn't matter. What matters is that all of this have caused irreversible damage to mental health of Bystroń. Not even his broad knowledge could help him survive anywhere - not even in Germany or Czech Republic.\n\n§GBut thankfully these harsh times seem to be over. For good this time.§!\n\nNow Oskar is leading a coalition of socialdemocrats, centrists and liberals to clean up the mess caused by Kinga Wnuk. United in order to achieve this goal, this task will probably be easier to complete. And of course - it wouldn't happen if it wasn't for the determination of his friends and - of course - §4Her.§!"
+
+ POLITICS_UKRAJINA_DESC:0 "$postpolonism_biolchem_subtype_desc$"
+
+ POLITICS_POLONIA_DESC:0 "***** *** i Konfę, dlatego ci politycy nie dostaną opisów. Nie przepraszam za to, jakby co."
+
+ POLITICS_FILIP_DESC:0 "Mafiozo się znalazł z Kunowa,\nZabije Ci syna i Romanowa.\nKiedy nie jest w swoim domu,\nTo śpi z Twoją matką w kocu.\n\nNiewierne kobiety lękajcie się,\nWasze 'zamiary' to bezsensowne przedsięwzięcie.\nTa rymowanka jest do ch**a,\nAle nadal lepsza niż mojego f**ta.\n\nFelipe klnie i TikTokuje,\n'Wy głupie i tępe idiotki!', wykrzykuje.\n'Kapitana Bombę' obejrzał w dzień\nPrzy tym będąc lordem nasień.\n\nGabriel jest jego dz**ką,\nA Armando kochanką.\nMarcel często przebywa z nim na skoś\nGdzie z Oskarem mało ilekroć.\n\nTen pseudo-wiersz zaraz skończy się\njak tylko Dąda zdenerwuje na niego się.\nPani Olgo, przepraszam za mą polszczyznę,\nLecz przyznać się, że jestem gorszy od Ukrainki - ależ skądże!"
+
+ POLITICS_WSTYDZIOCH_DESC:0 "Dominika Mruk might be one of those people who shared a similiar fate with the person she both despised and loved discreetly - Oskar Rogowski. However the end result differed drasticaly between them. Because unlike him, Dominika regained most of her sanity and trust towards others. §RHowever that wasn't the case almost a decade ago.§!\n\nHaving been born in August of 2008 she was one of the last generations that experienced a truly modest and happy childhood. Except that didn't really happen. As she attended the Public Primary School no. 1 in Ostrowiec she had to contest with the jealous peers that would do §Ranything§! to get rid of competition for becoming a boyfriend of one of the people in her class. Despite the best efforts of teachers and said person she fell into anorexia which almost costed her life.\n\nAt this point one would think that her life was basically pointless - §9only suffering and nothing else.§! And yet something happened which not even her parents expected. After some time spent in a school named after Stanisław Konarski her §Cself-esteem§! restored fully and no longer seemed to care about other people's opinion. §CThis would majorly shape the newly-created personality of Mruk§! - including her perspective on life.\n\nHowever this sense of normalcy would end on 8th of July 2024, as the person that she wanted to date for so long got deported to Germany. This event would forever radicalise her and be a stepping stone for nostalgism - an ideology of the better past. Thankfully (until now) this process was hampered slightly by being denied the power to rule Poland. However with her ascension comes §0a new set of concerns§! such as possible formation of §Rdictatorship§! and §Rradicalisation§! of Poles in general. The only thing that can now save Poland from §8vengeance§! towards her previous enemies and oppressors is... wait a second, where is Bystroń?\n\n§RThat can't mean anything good...§!" # TFW the description of your person is shorter that [REDACTED]
+
+ POLITICS_CELSA_DESC:0 "CELSA Group es el primer productor europeo de acero circular de bajas emisiones y constituye la cadena de suministro circular más grande de Europa. Recicla chatarra férrica para producir acero en hornos de arco eléctrico, usando la tecnología más sostenible y la más eficiente energéticamente.\n\nLa compañía está formada por 6 grupos empresariales y cuenta con 120 centros de trabajo, 7 acerías, 12 trenes de laminación y 45 plantas de reciclaje, además de empresas de transformación y distribución que permiten generar puestos de trabajo directo, indirecto e inducido a más de 70.000 profesionales. Está presente en España, Francia, Reino Unido, Dinamarca, Finlandia, Noruega, Polonia, Suecia e Irlanda.\n\nEl grupo trabaja para dar solución a los principales riesgos sistémicos del planeta: el agotamiento de los recursos y la lucha contra el cambio climático. Por ello, la compañía se ha marcado dos objetivos que son estratégicos, reducir sus emisiones de CO2 en un 50% y conseguir el 98% de circularidad en el año 2030 y completar su circularidad y ser empresa Net Positive y residuo 0 en el año 2050.\n\nComo fuerza económica motriz, CELSA Group lidera con visión a largo plazo y con un sólido compromiso con el desarrollo socioeconómico en los países donde opera." #https://www.celsagroup.com/conocenos/
+
+ POLITICS_SLOVENSKO_DESC:0 "To many people Mountain General was a social recluse. He would rarely go outside and instead play Hearts of Iron IV the entire day. His obsession over other map games as well have made a dent on a young man who just finished university. However it all turned south one day.\n\nDuring his trip to Poland before the Fall Mountain General would meet many politicians in Ostrowiec. With them he would discuss the plans for deatheisation of Western Poland. But just before he could return to Záhorie he would be locked inside Ostrowiec Culture Brewery for an undefined amount of time. During this period he became even more radicalised and planned not only to kill all Hungarians but also to exterminate Poles.\n\nAfter the Man escaped from isolation he couldn't return to his homeland. Thus he changed his plans slightly - he would first murder Poland and then Hungary. Of course he would recruit those who deemed worthy of becoming Slovaks not only into the army but also the government. The rest would meet a §Rgruesome end to their life§!.\n\nWhatever happens from now on will decide whether Poland and Hungary will see another day... §0or not.§!"
+ 
+ ##Traits##
+ principal:0 "(Former) Principal\n\n§g$principal_tt$§!\n"
+ principal_tt:0 "As a former owner of one of the schools in Ostrowiec, Kinga Wnuk is familiar with bureaucracy and its flaws. She also has immense general knowledge which helps her with technologically advancing her country. However she is uneager to fight and prefers defense due to scars of war which she experienced for the first time in Sandomierz."
+ submissive_principal:0 "Submissive Principal"
+ eager_reformist:0 "Eager Reformist\n\n§g$eager_reformist_tt$§!\n"
+ eager_reformist_tt:0 "Unlike most of his colleagues, Gabriel Kwietniak wishes for the return of PO/KO's rule to Poland. That's why he promotes "Return to Late 2000s" initiative proving the superiority of Tusk's government compared to Morawiecki's. Sometimes the former's achievements are overexagerrated, but what else can you do to a brain-washed population?"
+ corrupt_liberal:0 "Corrupt Liberal" # Tutaj nie trzeba dodatkowych opisów, gdyż są w głównym
+ comafiaist:0 "§RComafiaist§!"
+ atheist_fighter:0 "Atheist Fighter\n\n§g$atheist_fighter_tt$§!\n"
+ atheist_fighter_tt:0 "It is no surprise that Łukasz Stolarek is not a fan of religion. However the extent he is eager to achieve his dream blows many people's minds. Which also means that civilians are desensitised to any form of brutality and pervertivity. How great of a strategy it is we may not truly know, but (at least) other warlords know what to expect from this state."
+ matgeo:0 "Geograph - Mathematician\n\n§g$matgeo_tt$§!\n"
+ matgeo_tt:0 "With his knowledge of how countries function and benefits from learning extended Geography this leader knows exactly where certain resources are and he plans the best routes for his soldiers, effectively being able to encircle divisions easier. Along with his scientific mind he pays grants for scientists and helps Poland to advance further."
+ artificial_foreigners_stigma:0 ""Foreign" Agent\n\n§g$artificial_foreigners_stigma_tt$§!\n" # Ja cię kręce, ale daję sobie fabułę
+ artificial_foreigners_stigma_tt:0 "Despite him being born in Poland, raised there and taught how to respect his nation, Oskar Rogowski was made a "foreigner" just because he challenged the interests of Law and Justice. Soon after being forcibly deported to Saxony, Jarosław Kaczyński made sure that no one (not even Polonia) knew him as a Pole. Or anyone else in that regard. This campaign was so effective that everyone, no matter their political stance, viewed Oskar as a threat to Polish sovereignty."
+ hidden_autism:0 "Hidden Autism"
+ KO_enthusiast:0 "Civic Coalition Enthusiast"
+ friend_of_the_people:0 "Friend of the People"
+ hedonist_gamer:0 "Hedonistic Gamer"
+ nostalgist:0 "Nostalgist"
+ renaissance_man:0 "Renaissance Man in the 21st Century"
+ third_kaczynski:0 "Third Kaczyński\n\n§g$third_kaczynski_tt$§!\n"
+ third_kaczynski_tt:0 "Unlike his godson Oskar Rogowski, Paweł shares none of his beliefs and is a stauch PiS supporter. In fact, after the death of jarosław Kaczyński, he got a proposition to become the next chairman of Law and Justice party. However due to him living in the United States at the time, he had to decline. But now that he is in Poland ruling with an iron fist he can be now legally called "The Third Kaczyński" - spreading nationalist and conservatist propaganda under the name of "Reform"."
+ biolchem:0 "Biologist - Chemist\n\n§g$biolchem_tt$§!\n"
+ biolchem_tt:0 ""***** tych sk***ysynów, oni tylko umio uprawiać seks i robić in-vitro. Jak im nawet k**wa nie wstyd rozszerzać te przedmioty? To tak jakbym miała zdawać mature z informatyki, bo mi matka każe. To w głowie sie nie mieści!"\n- Baba z monopolowego, lat 69"
+ businesswoman:0 "Businesswoman"
+ regionalist_army_commander:0 "Regionalist Army Commander"
+ panslavic_activist:0 "Panslovanský Aktivista"
+ hoi4_player:0 "Hráč "Železných Sŕdc IV""
+ 
+ ##Decisions##
+ ## Negocjacje
+ BGF_try_to_negociate:0 "Final Negociations"
+ BGF_try_to_negociate_desc:0 "We have failed at an unanimous vote on reunification of the entire voivodeship. Thus is it of upmost importance that we secure at least some of our neighbours and their loyalty towards us. Otherwise the discontent within our ranks could cause an §0unwanted coup§! or §Reven worse.§! This mission not only requires us to compromise with the warlords, but also to improve relations with them. If we fail to do this, §Rwar would be inevitable...§!"
+
+ BGF_negociate_with_SND:0 "[SND.GetFlag]Try to negociate with Sandomierz"
+ #BGF_warning_tt:0 "Keep in mind that this decision will either lead to §Gannexation§! of neighbouring warlord or start a §Rwar§!.\nThe following factors will affect the chance of success: §Gideological compatibility§!, §Ghigh relations§!, §Ghaving signed a non-agression pact with them§! and §Ypolitical power spent during the event chain§!."
+ compatible_with_BGF_tt:0 "§GWe are ideologically compatible with them§!"
+ not_compatible_with_BGF_tt:0 "§RWe are not ideologically compatible with them§!"
+
+ ## Walka o władzę
+ BGF_power_struggle:0 "The Power Struggle"
+ BGF_power_struggle_desc:0 "$BGF_power_struggle_tt$\n\n\nParty Popularites:\n\n§1Social Democracy§!: [?socialdemocrature_support|.0]\n\n§7Liberalism§!: [?liberalism_support|.0]\n\n§5Freemarketism§!: [?freemarketism_support|.0]\n\n§9Centrism§!: [?holownite_support|.0]"
+ 
+ # Decyzje
+ BGF_support_socialdemocrature:0 "Support §1Social-Democrats§! in the Power Struggle"
+ BGF_support_euroliberalism:0 "Support §7Liberals§! in the Power Struggle"
+ BGF_support_freemarketism:0 "Support §5Freemarketists§! in the Power Struggle"
+ BGF_support_centrism:0 "Support §9Centrists§! in the Power Struggle"
+ BGF_gather_army_support:0 "Gain Support From the Army"
+ BGF_gather_army_support_less_cost:0 "Gain Support From the Army"
+ BGF_fight_with_other_ideologies:0 "Attack Opposing Sides"
+ BGF_fight_with_other_ideologies_less_cost:0 "Attack Opposing Sides"
+ 
+ # Misje
+ BGF_choose_something_god_damnit:0 "Choose a side"
+ BGF_end_of_internal_fights:0 "Fight for the Leadership"
+ BGF_socialdems_are_up_to_sth:0 "§1Social-Democrats§! Are Making Moves..."
+ BGF_liberals_are_up_to_sth:0 "§7Liberals§! Are Making Moves..."
+ BGF_free_markets_are_up_to_sth:0 "§5Freemarketists§! Are Making Moves..."
+ BGF_centrists_are_up_to_sth:0 "§9Centrists§! Are Making Moves..."
+
+ # Tooltipy
+ # Koszty
+ decision_cost_CP_50:0 "£command_power  §Y50§!"
+ decision_cost_CP_50_blocked:0 "£command_power  §R50§!"
+ decision_cost_CP_50_tooltip:0 "It costs £command_power  §Y50§! to take the decision"
+ decision_cost_CP_35:0 "£command_power  §Y35§!"
+ decision_cost_CP_35_blocked:0 "£command_power  §R35§!"
+ decision_cost_CP_35_tooltip:0 "It costs £command_power  §Y35§! to take the decision"
+ decision_cost_CP_15:0 "£command_power  §Y15§!"
+ decision_cost_CP_15_blocked:0 "£command_power  §R15§!"
+ decision_cost_CP_15_tooltip:0 "It costs £command_power  §Y15§! to take the decision"
+ 
+ # Socjale
+ BGF_sub_5_from_sd_tt:0 "§1Social-Democratic§! support will decrease by §Y5§!"
+ BGF_sub_10_from_sd_tt:0 "§1Social-Democratic§! support will decrease by §Y10§!"
+ BGF_sub_15_from_sd_tt:0 "§1Social-Democratic§! support will decrease by §Y15§!"
+ BGF_add_5_to_sd_tt:0 "§1Social-Democratic§! support will increase by §Y5§!"
+ BGF_add_10_to_sd_tt:0 "§1Social-Democratic§! support will increase by §Y10§!"
+ BGF_add_15_to_sd_tt:0 "§1Social-Democratic§! support will increase by §Y15§!"
+ # Libertarianie
+ BGF_sub_5_from_lib_tt:0 "§7Liberal§! support will decrease by §Y5§!"
+ BGF_sub_10_from_lib_tt:0 "§7Liberal§! support will decrease by §Y10§!"
+ BGF_sub_15_from_lib_tt:0 "§7Liberal§! support will decrease by §Y15§!"
+ BGF_add_5_to_lib_tt:0 "§7Liberal§! support will increase by §Y5§!"
+ BGF_add_10_to_lib_tt:0 "§7Liberal§! support will increase by §Y10§!"
+ BGF_add_15_to_lib_tt:0 "§7Liberal§! support will increase by §Y15§!"
+ # Wolnościowcy
+ BGF_sub_5_from_free_tt:0 "§5Free-Market§! support will decrease by §Y5§!"
+ BGF_sub_10_from_free_tt:0 "§5Free-Market§! support will decrease by §Y10§!"
+ BGF_sub_15_from_free_tt:0 "§5Free-Market§! support will decrease by §Y15§!"
+ BGF_add_5_to_free_tt:0 "§5Free-Market§! support will increase by §Y5§!"
+ BGF_add_10_to_free_tt:0 "§5Free-Market§! support will increase by §Y10§!"
+ BGF_add_15_to_free_tt:0 "§5Free-Market§! support will increase by §Y15§!"
+ # Centryści
+ BGF_sub_5_from_centre_tt:0 "§9Centrist§! support will decrease by §Y5§!"
+ BGF_sub_10_from_centre_tt:0 "§9Centrist§! support will decrease by §Y10§!"
+ BGF_sub_15_from_centre_tt:0 "§9Centrist§! support will decrease by §Y15§!"
+ BGF_add_5_to_centre_tt:0 "§9Centrist§! support will increase by §Y5§!"
+ BGF_add_10_to_centre_tt:0 "§9Centrist§! support will increase by §Y10§!"
+ BGF_add_15_to_centre_tt:0 "§9Centrist§! support will increase by §Y15§!"
+
+ ## Powiedz 'NIE' monopoliom
+ BGF_fight_conglomerates:0 "Fight the Comglomerates"
+ BGF_fight_conglomerates_desc:0 "For too long have we let certain companies reign over our markets. Those include mostly CELSA Steelworks Company, Nowa Era (New Era) and Żabka. All of them have monopolised their respective branches of economy and now pose a threat to our national security and free markets. That's why we MUST act quickly and swiftly before they act first. Otherwise we would be forced to adapt into brutal version of freemarketsim - corporatocracy.\n\nOur time is quite narrow as day by day they use our weaknesses to empower their so-called capitalist empires.\n\nMore decisions to combat them will be available in the "Balance of Power" interface."
+
+ BGF_cut_ties_with_celsa:0 "Cut Ties With CELSA Steelworks"
+ BGF_cut_ties_with_celsa_desc:0 "CELSA Steelworks has been a vital part of Ostrowiec's development and has allowed the city to build more roads and purchase busses and such. However in recent years, as Spain has fallen into communist revolution which slashed local companies, they have greatly radicalised and monopolised on our shortages of guns and melee weapons. In order to become independent of Spanish influences they must go - no matter how much they helped us reform."
+ BGF_limit_influence_of_celsa:0 "Limit the Spanish Influence"
+ BGF_replace_celsa_with_ursus:0 "Put Ursus in CELSA's Place"
+ BGF_smash_spaniards:0 "La Guerra Por la Independencia de Acero"
+
+ BGF_cut_ties_with_nowa_era:0 "Cut Ties With Nowa Era"
+ BGF_cut_ties_with_nowa_era_desc:0 "Nowa Era may have avoided the ever-growing pressures of Law and Justice for longer than WSiP. But as a result of this it has been difficult for them to adjust to changing political landscape of our country. Before uniting the voivodeship we naively thought that they managed to fully deideologicalise and start printing apolitical textbooks. But it seems that we must help them - one way or another."
+ BGF_give_more_power_to_wsip:0 "Trust in WSiP"
+ BGF_weaken_nowa_era:0 "Demonopolise Nowa Era"
+ BGF_rapture_textbook_companys_intestines:0 "Guide Them to Deideologicalisation" # Ale długie słowo - trochę rzadkie dla angielskiego
+
+ BGF_cut_ties_with_imbeciles:0 "Cut Ties With Żabka - Poland"
+ BGF_cut_ties_with_imbeciles_desc:0 "Żabka has a tenuous reputation for actively breaking consumer rights and using sketchy tactics to make a profit. All the way back in 1992 they "got rid of" anyone who opposed their pseudo-capitalist tactics. In recent times especially, due to semi-no government intervention implemented by Mateusz Morawiecki, they managed not only to monopolise the shop and snacks industry but also destabilise Romania for a few years.\n\nAll of these facts probably make everyone unanimous regarding the decision to eliminate Żabka's leadership once and for all."
+ BGF_avenge_1st_of_september_1992:0 "Avenge the Killed"
+ BGF_demolish_schappkas:0 "Demolish Żabkas"
+ BGF_kill_its_leaders:0 "No Mercy For Tomasz Suchański"
+
+ BGF_lepszy_progres_tt:0 "§YOur progress in fighting against conglomerates will go forward...§!"
+ BGF_dealing_with_tselssa:0 "Is dealing with §8CELSA Steelworks Company§!"
+ BGF_dealing_with_neue_aera:0 "Is dealing with §BNowa Era§!"
+ BGF_dealing_with_schappka:0 "Is dealing with §GŻabka - Poland§!"
+
+ # BoP
+ BGF_organise_pro_corporacy_parades:0 "Organise Pro-Corporatist Parades"
+ BGF_organise_pro_corporacy_parades_desc:0 "By organising parades throughout many cities of Holy Cross which have benefited the most under conglomerates they will earn even more power. Though if you don't want to become a corporatocracy you probably shouldn't choose such options."
+ BGF_divide_and_conquer:0 "Divide And Conquer (Companies)"
+ BGF_divide_and_conquer_desc:0 "A tactic old as time and still effective to this day. If we instill infightings inside the companies which control our country, we will be able to sweep in and retake some of our power. It will be difficult considering their united front but it's not impossible."
+
+ ## (Pato)deweloperskie narzędzia
+ BGF_debug_decisions:0 "OSTROWIEC Debug Decisions"
+ BGF_debug_decisions_desc:0 "Zakochała się w chłopaku,\nTakim fajnym przystojniaku.\nOna kocha tego chłopca\nBo ten chłopak jest z Ostrowca!"
+
+ BGF_wara_ziobro_decision:0 "Get rid of Zbigniew Ziobro"
+ BGF_wara_ziobro_decision_desc:0 "Who cares about the fall of General Prosecutorship?"
+ BGF_wielki_ostrowiec:0 "Make Ostrowiec great again!"
+ BGF_wielki_ostrowiec_desc:0 "Ostrowiec wielka nacja, więc musi być wielka na mapie"
+ BGF_load_focus_ziobro:0 "Load the $wspolnota_ziobro_focus$"
+ BGF_load_focus_ziobro_desc:0 "What else is to say here, really?"
+ BGF_load_focus_ziobro_alternative:0 "Load the $wspolnota_nagrabiles_se_zioberko_focus$"
+ BGF_load_focus_ziobro_alternative_desc:0 ""If Ziobro wins this conflict, I will make sure not to give a damn about his inevitable doom and death."\n- Oskar Rogowski"
+ BGF_load_focus_recwar:0 "Load the $wspolnota_post_uprising_focus$"
+ BGF_load_focus_recwar_desc:0 ""We need to reform, after all. We can't be like Morawiecki and keep on stealing from others like this. That way we would be nothing left to steal after a year or so."\n- Paweł Rogowski"
+ BGF_load_focus_voi:0 "Load the $wspolnota_voi_focus$"
+ BGF_load_focus_voi_desc:0 "I would put another quote here if I knew any that would fit into this situation (and weren't told by Non-Poles)"
+ BGF_load_focus_voi_dem:0 "Load the $wspolnota_voi_democrats_focus$ (Democratic)"
+ BGF_load_focus_voi_dem_desc:0 ""Democracy is an ability to elect a dictator into a goverment"\n- Common saying"
+ BGF_load_focus_voi_auth:0 "Load the $wspolnota_voi_radicals_focus$ (Authoritarian)"
+ BGF_load_focus_voi_auth_desc:0 ""It's literally Zbigniew Ziobro's fault."\n- Oskar Rogowski"
+ BGF_oob_spam:0 "Spam the Order of Battle"
+ BGF_oob_spam_desc:0 "If it weren't for the spam, the Soviets would experience the New Order"
+
+ ##Events##
+ # Początek
+ ostrowiec.1.t:0 "On Our Last Legs"
+ ostrowiec.1.desc:0 "Everything seemed to go smoothly for us. Our victories in Sandomierz, Sadowie, Kunów and then Kielce seemed to prove to us that we're unstoppable. That we could liberate the whole region on our own. How foolish we were.\n\nAfter quick reorganisation of his forces and our devastating blow at Wet Mountains, Zbigniew Ziobro went on to brutally conquer and repress the people in our newly liberated territories. It was a bloody campaign but a successful one. The only saving grace were the uprisings in Sandomierz and Starachowice. Along with them we turned the tides of the war and we began conscripting more people into the army. If everything goes right, we might just see the whole voivodeship liberated (or just not being ruled by the General Prosecutorship).\n\nOnly time will tell."
+ ostrowiec.1.a:0 "We'll make him pay every drop of our blood"
+
+ ostrowiec.2.t:0 "To Each According to His Need..."
+ ostrowiec.2.desc:0 "Kinga Wnuk was trying to contact the Combine of Starachowice for a while now. It seemed as if the meeting would fail - just like it seemed to take such turn when trying to meet with [SND.GetLeader]. Thankfully [STA.GetLeader] came right on time.\n - So, you're telling me that we should deepen our cooperation even though you claim our lands as yours? - asked curiously the leader of the Combine. He felt something was fishy with that offer.\n - Well, cooperation is a broad word in such context... - began [BGF.GetLeader], not knowing what to exactly say to him. - ...but we could at least lessen the tensions between our states, don't you think?\n[STA.GetLeader] was not eager to fully trust [BGF.GetAdjective] state. After all it was sure to backstab the Syndicate. But then again wouldn't he do that as well? [STA.GetLeader] took a big breath and answered:\n - I guess?\n - Splendid! - shouted with excitement the leader of the Commonwealth. - For now we shall compromise and put aside our differences. Also, why not...?"
+ ostrowiec.2.a:0 "...to each according to his ability"
+
+ ostrowiec.3.t:0 "Away With the Monster"
+ ostrowiec.3.desc:0 "Andrzej was a soldier serving in the "Reunfication and Commonwealth" army for several months. He experienced many traumatic experiences such as the loss of his friends. He couldn't believe the cruelty of war, being glorified beforehand by Kaczyński and his colleagues. "Thank God he's finally dead" - murmured to himself. He could now understand what the fighters during World War 2 felt.\n\nBut what he couldn't believe is that Zbigniew ZIobro actually succumbed to the Northern Counties. Through sheer determination and fanaticism the warlords were able to stop the attacks and even push themselves.\n\nNo one actually knew how this could take place but the man didn't think about it at all. He just had one thing on his mind:"
+ ostrowiec.3.a:0 ""Now we can celebrate" - whispered Andrzej"
+
+ ostrowiec.4.t:0 "Party Like it's Your Last Time"
+ ostrowiec.4.desc:0 "Today every citizen of the Commonwealth is gathering to celebrate the end of Ziobro's rule over Ostrowiec and the surrounding areas. The leaders of other warlords and their people will also join our party. During it there will be many attractions and food to taste. At the end of the day the fireworks will be launched as well and everyone will get along...\n\nAt least that was the plan. In reality the War had bankrupted our nation (and not only ours). With many institutions of our country in shambles and general chaos being present we were forced to celebrate in limited manner. And even then it didn't go as planned, as several buildings went on file for unknown yet reasons.\n\nWhatever happens now and in the near future it will decide the fate of our country. We must be careful with our decisions."
+ ostrowiec.4.a:0 "Now, what do we have here?"
+
+ # Zibro wygrywa w Santa Cruz #
+
+ ostrowiec_zibro.1.t:0 "The Impossible"
+ ostrowiec_zibro.1.desc:0 "Somehow, in some way, Ziobro's General Prosecutorship has conquered our nation and tried to establish control over it. Many people have been persecuted for "igniting subversive activities". Even more have lost all of their fortune in just days. And yet Kinga Wnuk and her acquaintances have managed to fly away from Zbigniew's radar. Be it by locking themselves in a bunker or something entirely different, it doesn't matter. What matters is that we're back and we're willing to cause hell for Him and his realm."
+ ostrowiec_zibro.1.a:0 "Sometimes, what you just need, is a bit of (bad) luck"
+
+ ostrowiec_zibro.2.t:0 "Salvation"
+ ostrowiec_zibro.2.desc:0 "Kinga Wnuk has recently given a speech on the damages done because of the war with the Ziobrites. Many people were present along with the leaders of other countries from the Holy Cross.\n - It pains me to say this but it is entirely possible that our voivodeship is doomed to collapse. If we don't work together then everyone living here might succumb to poverty and torture. That's why I am asking you to unite peacefully. Let us put aside our differences and reach for a united goal.\n\nAfter this announcement many leaders "agreed" with Kinga and proposed their own plans of economic rejuvenation and sociological reforms. But soon after all of these plans possibly failed because there were no mentions of them. But is it still possible to keep peace in the region?"
+ ostrowiec_zibro.2.a:0 "Considering the surroundings, I don't think so"
+
+ ostrowiec_zibro.3.t:0 "Grave News"
+ ostrowiec_zibro.3.desc:0 "As the majority of our cabinet predicted, the peace talks didn't succeed at all. Be it due to our weak position or terrible diplomatic strategy, one thing is clear - more blood will have to be spilt in order to bring democracy and freedom to other warlords. As much as our soldiers don't want to do this (due to them having seen enough bloodshed), we have to for the people still oppressed by neighbouring regimes."
+ ostrowiec_zibro.3.a:0 "Ah sh*t, here we go again"
+
+ ostrowiec_zibro.4.t:0 "Ziobro on the Run!"
+ ostrowiec_zibro.4.desc:0 "Despite all odds telling us that we were doomed to collapse we are the ones now collapsing Ziobrite realm. But here is the question that we were not so eager to answer back in our home. Because now that we are basically at the gates of Olkusz and the rest of Lesser Polish territory we could spare our soldiers the need to fight for the entire region. But if we let him go there is a slight chance that he will rebuild his strength and subjugate us for the rest of our lives. But if we commit to our fight with Zbigniew Ziobro too much, we might see the rest of Lesser Poland unite against our cause.\n\nWhat shall we do?"
+ ostrowiec_zibro.4.a:0 "There's no need to fully exterminate him. Let him go"
+ ostrowiec_zibro.4.b:0 "§REvery drop of our blood will go to the death of Ziobro!§!"
+ BGF_walka_z_malom_polskom_tt:0 "§RBy choosing this decision you agree to become a threat to the rest of Lesser Poland, effectively declaring war on it!§!"
+
+ ostrowiec_zibro.5.t:0 "[GetNewspaper]New Anti-Ziobrite War"
+ ostrowiec_zibro.5.desc:0 "" # Do zrobienia
+ ostrowiec_zibro.5.a:0 "They will lose - eventually"
+
+ ostrowiec_zibro.6.t:0 "[GetNewspaper]Ostrowiec Commonwealth Reunifies Holy Cross"
+ ostrowiec_zibro.6.desc:0 "" # Do zrobienia
+ ostrowiec_zibro.6.a:0 "Impressive. Now what?"
+
+ ostrowiec_zibro.7.t:0 "[GetNewspaper]Anti-Ziobrite War Spreads to Rest of Lesser Poland"
+ ostrowiec_zibro.7.desc:0 "" # Do zrobienia
+ ostrowiec_zibro.7.a:0 "Have they gone mad?"
+
+ # Rekonstrukcja
+
+ ostrowiec.5.t:0 "Civilian Unrest"
+ ostrowiec.5.desc:0 "Julia and her father were one of many victims of the Anti-Ziobrite Uprising. The aerial combat and bombardment have devastated Ostrowiec and neighbouring villages. With ever-increasing prices of products and the death of Maria - Julia's mother - the family had enough.\n\nThey organised a general strike with fellow workers and families alike in order to force the government to help with their woes. At first the strike didn't forward the process of contacting with [BGF.GetLeader]. But after a few days the leader visited Trójkąt Estate in order to negociate with the people. However their demands have proven to be way too difficult to implement. Nonetheless [BGF.GetLeader] gave in and now has to appease the populus."
+ ostrowiec.5.a:0 "If only it was so easy to please everyone..."
+
+ ostrowiec.6.t:0 "Andrzej's Mutiny"
+ ostrowiec.6.desc:0 "A few days ago a famous soldier by the name of Andrzej has escaped from our base in Denkówek and began to spread anti-government propaganda. In it he appealed to fellow conscripts to join his mutiny and coup [BGF.GetLeader]. His demands were clear - reform the military of face the consequences.\n\nAlthough the army is still loyal towards our cauase it will be a matter of time before we will need to deal with Andrzej. That's why we are now trying to modernise our armed forces - even if it strains our funds."
+ ostrowiec.6.a:0 "For the love of God, why are you doing this?!"
+
+ ostrowiec.7.t:0 "Parent's Fury"
+ ostrowiec.7.desc:0 "Not only have we inherited the mistakes of the previous regime (which are quite difficult to remove considering our circumstances) but also the education system. Under Law and Justice its ugly head was hidden behind a wall of effective propaganda. But when it collapsed under German tanks and internal instability the parents have burst in anger. And now they blame us for indoctrinating their children. Can you believe it?\n\nBut no matter. Now that we have free hands we can focus on probably the most important issue plaging our nation. It will be a long and grueling process, that is for sure."
+ ostrowiec.7.a:0 "Can't they give us some rest?"
+
+ ostrowiec.8.t:0 "The Experience"
+ ostrowiec.8.desc:0 "Igor was one of the people that didn't have the luxury of being able to use the Internet before Poland has fallen into chaos. But now thanks to generous donations from Wnuk's government he could start his adventure "abroad". He boot up his computer (which was also included in the package) and installed Firefox. Apparently it was one of the most secure browsers nowadays, according to his friends.\n\nBut once he loaded Twitter (now called X) he was dumbfounded. There were people such as Mateusz Morawieski fighting with Aleksandra Dulkiewicz for "betraying her country in its most vulnerable state", local people from his hometown in Ćmielów being racist towards Jews and those who just like him were confused about the whole anarchy on this platform.\n\n"Alright", said Igor to himself, "maybe other sites will be more civil". But no luck there as well. Reddit, Facebook, Wykop etc. were all filled with redheads and whatnot. No matter which place he visited his mother would always be insulted with profanities he didn't hear before. After some time se got bored and turned off the machine. He went out to play the new Witcher game that just came out with his friends."
+ ostrowiec.8.a:0 ""I think that's it for today...", thought Igor"
+
+ ostrowiec.9.t:0 "The Announcement"
+ ostrowiec.9.desc:0 ""Hello everyone. As you have certainly noticed, there have been some changes, so you have the right to expect explanations. So allow me to explain. No Polish citizen who finances the operation of public television has any obligation to listen to anyone's propaganda. Every Polish citizen who finances public media has the right to demand reliable, professional and honest information. That's why I'm offering you what I think is a fair deal. From tomorrow, Wiadomości will present you with a photograph of the world and of the day, with everything that it brings. A photograph, not a painting, because they are not the same. The painting in these studios has been painted for more than twelve years, using only carefully selected colors. And I assure you that this is coming to an end. Instead of propaganda soup, we would like to offer you clean water. Not because it is noble, but because it does not have any intrusive flavors. And I promise you that it starts now. There will be no Wiadomości today, but tomorrow we will provide you with a news program from Telewizja Polska in Ostrowiec Świętokrzyski, as always at 7:30 p.m. My name is Marek Czyż, and I cordially invite you."\n- Marek Czyż"
+ ostrowiec.9.a:0 "But will he keep the promise?"
+
+ ostrowiec.10.t:0 "Gone, But Not Forgotten"
+ ostrowiec.10.desc:0 ""Hello class. Today we will learn about the Polish Home Army.", started Milena - a history teacher in the Public Primary School no. 1 in Opatów. She knew that her job was already difficult considering the state of the system she was for so long used to. The material she had to go through didn't help as well. "As you know, it formed throughout the years after the beginning of World War 2. Its first form was present under the name of Union of Armed Struggle up until 1942."\n\nAfter this part came the hardest one - comparing its existence to Law and Justice as a fighting force against Donald Tusk. Before the Fall she was forced to spread this lie under the threat of being fired by her pro-PiS principal. But now that she died and was replaced by a apolitical candidate she could speak her mind out. "In your textbooks there is a mention that it was similiar to Law and Justice. But do you know what? It is a horrible lie made up by a vengeful old man from Żoliborz back in 2005." Then one of her students aksed "But how come? Why would they lie about this?" She wasn't quite prepared for this question but knew what to say.\n\n"You see, if you learned the TRUE history of Poland and the political landscape it was on recently, you wouldn't have to ask this. But I digress." Then Milena wrote on the whiteboard a motto which all her students would remember for the rest of their curriculum:"
+ ostrowiec.10.a:0 "Only traitors consider AK's existence comparable to PiS!"
+
+ ostrowiec.11.t:0 ""Back in My Days...""
+ ostrowiec.11.desc:0 "Jakub was a history enthusiast from a young age. Especially in liceum he began to partake in political discussions with his HiT teacher Dariusz Grabowski. But now that he disappeared without a trace his only source of intellectual evolvement were the meetings with former soldiers and humanitarian mercenaries. Today he had a chance to learn something new.\n\nPiotr Dasios, a politician-turned-soldier fought on the German-Polish front in 2027 and experienced the horrors of modern warfare. "When I arrived to the village of Węgierki (in Greater Poland) I was instructed to shoot any German present on my sight. Although the command staff didn't tell me whether I had to kill soldiers or civilians as well. But soon enough I found out the hard way."\n\nThen Piotr went on to describe the penalties he suffered when he spared the child of German origin which clearly didn't want to fight Poland. Jakub after that felt his soul leave his body briefly. He couldn't get the image of innocent people being murdered for just existing out of his head. Dasios saw this (as Jakub was sitting in the fron seat) and assured the young male that "this won't happen again... hopefully". This did little to comfort him, but gave him a false sense of hope..."
+ ostrowiec.11.a:0 ""Good thing we won't have to kill anyone... right?" - thought Jakub uncertainly"
+ BGF_or_do_we_tt:0 "§RJakub, don't lie to yourself, please...§!"
+
+ ostrowiec.12.t:0 "Technocracy on the Rise"
+ ostrowiec.12.desc:0 "As time goes on our nation slowly heals from the scars of Anti-Ziobrite Conflict. And that also means that many inventions and upgrades are flooding into our markets. For example we can now travel faster with a plane while also emitting way less carbon dioxide into the atmosphere. But that doesn't mean that all of them can be brought into life by us. After all we are still underdeveloped and any funds that could go into any sort of i.e. airport will basically be wasted. But even then some of the discoveries and improvekments are in Ostrowiec.\n\nEver since the invention of Bitcoin there was a dream that our country could stop paying in cash or coins and instead use transactions with our credit cards (or phones) only. But now we can do that - we are slowly transforming and allowing people to transfer cash into bank accounts. Another invention that came around was 6G - allowing for even faster transfer of files and greater uploading speed. As one of the only warlords in Poland we have acquired access to this technology. Which technically makes us the most advanced country in our region (and even the nation)."
+ ostrowiec.12.a:0 "I... wouldn't call Ostrowiec THAT developed. But I guess I can't deny these claims"
+
+ ostrowiec.13.t:0 "Polish OUN-UPA?"
+ ostrowiec.13.desc:0 "" # do zrobienia
+ ostrowiec.13.a:0 "Damn you Czarnek!"
+
+ ostrowiec.14.t:0 "A Calm Before the Storm"
+ ostrowiec.14.desc:0 "" # do zrobienia
+ ostrowiec.14.a:0 "Something terrible is brewing inside..."
+ 
+ # Przejęcie naszych somsiaduw #
+
+ ostrowiec_negociations.1.t:0 "Incoming Message From Ostrowiec"
+ ostrowiec_negociations.1.desc:0 "[BGF.GetLeader], the leader of [BGF.GetName], has messaged our government in order to negociate peaceful integration into their country. After failed region-wide unification talks they have tried their best not to send in their soldiers and instead compromise with their neighbours.  Shall we agree to the talks or try and protect our country from losing its independence?"
+ ostrowiec_negociations.1.a:0 "Sure, why not?"
+ ostrowiec_negociations.1.b:0 "Why should we?"
+
+ ostrowiec_negociations.2.t:0 "[NEG.GetName] is Willing to Negociate With Us"
+ ostrowiec_negociations.2.desc:0 "In a (slightly) surprising move from [NEG.GetName]'s leadership they have agreed to try and compromise on a treaty that will bring our nations together. [NEG.GetLeader] has even promised its people that "no blood will be spilt over our beautiful lands of Holy Cross". However there is still a chance that it will all go wrong..."
+ ostrowiec_negociations.2.a:0 "Let's not get ahead of ourselves just yet. We still have a lot more to do"
+
+ ostrowiec_negociations.3.t:0 "Expectedly, [NEG.GetName] Didn't Even Try to Talk With Us"
+ ostrowiec_negociations.3.desc:0 "As most of our general staff predicted, the nation of [NEG.GetName] did not even try to negociate with us. In fact they have denounced our attempts at peaceful integration as a "clear violation of their country's existence". Guess we will have to fight them, then."
+ ostrowiec_negociations.3.a:0 "Blood will have to be spilt - once more"
+
+ ostrowiec_negociations.4.t:0 "Diplomatic Strategy"
+ ostrowiec_negociations.4.desc:0 "Now that we can begin our talks with [NEG.GetLeader]'s country representatives, we must choose a strategy that we will follow. The first one is to use up a lot of political power that we have. This will guarantee (hopefully) that the other side will be willing to be annexed by us, but also cripple our possibility of reforming laws of our country. The second is a balance between usage and success. And finally we can also pray that [NEG.GetName] will agree to integrating with us on their own. Which one shall we choose?"
+ ostrowiec_negociations.4.a:0 "Put in a lot of our diplomatic power to ensure success in negociations"
+ ostrowiec_negociations.4.b:0 "Let us use moderate amounts of diplomatic power to sway in our direction further"
+ ostrowiec_negociations.4.b:0 "Use minimal diplomatic power and hope that they agree"
+
+ ostrowiec_negociations.5.t:0 "Final Talks"
+ ostrowiec_negociations.5.desc:0 "After countless meetings between [NEG.getLeader] and [BGF.GetLeader], the two sides came to the final unification talk in [NEG.capital.GetName]. In just 5 hours the talks were concluded. The debate during it was very turbulent but in the end we have decided that..."
+ ostrowiec_negociations.5.a:0 "...we shall join our brethren in Ostrowiec"
+ ostrowiec_negociations.5.b:0 "...they are not worthy of our independence!"
+
+ ostrowiec_negociations.6.t:0 "[NEG.GetName] is Joining Our Country!"
+ ostrowiec_negociations.6.desc:0 "Although we had worried that our negociations would not succeed, we had a sigh of relief after [BGF.GetLeader] came back from [NEG.capital.GetName]. Thanks to excellent diplomatic skills both from our and the opposite sides we managed to avoid a costly war between our nations. This is a great day to celebrate the joining of our brethren from [NEG.GetName]. May our internal relationship last forever."
+ ostrowiec_negociations.6.a:0 "Great news!"
+
+ ostrowiec_negociations.7.t:0 "[NEG.GetName] is Defiant!"
+ ostrowiec_negociations.7.desc:0 "Despite all of our attempts to peacefully unite with [NEG.GetName], [BGF.GetLeader] came back with horrible news. Apparently [NEG.GetLeader] has exclaimed to his cabinet that "the pseudo-liberals from Ostrowiec shall not interfere with our internal politics". As a result he cut any form of talks between our countries. This is a sad day to live in Ostrowiec as more of our people shall die for a united voivodeship."
+ ostrowiec_negociations.7.a:0 "At least we tried... Oh well"
+
+ # WAŁKA #
+
+ ostrowiec_power_struggles.1.t:0 "A Power Struggle Begins"
+ ostrowiec_power_struggles.1.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.1.a:0 "Here we go again"
+
+ ostrowiec_power_struggles.2.t:0 "Social-Democrats on Top!"
+ ostrowiec_power_struggles.2.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.2.a:0 "As expected"
+
+ ostrowiec_power_struggles.3.t:0 "Liberals on Top!"
+ ostrowiec_power_struggles.3.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.3.a:0 "A surprise to be sure, but a welcome one"
+
+ ostrowiec_power_struggles.4.t:0 "Free-Marketists on Top!"
+ ostrowiec_power_struggles.4.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.4.a:0 "Jarosław WHO?!"
+
+ ostrowiec_power_struggles.5.t:0 "Centrists on Top!"
+ ostrowiec_power_struggles.5.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.5.a:0 "Why does it feel like he's bound to be couped?"
+
+ ostrowiec_power_struggles.6.t:0 "No Clear Winner Found"
+ ostrowiec_power_struggles.6.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.6.a:0 "...Kinga Wnuk"
+ ostrowiec_power_struggles.6.b:0 "...Gabriel Kwietniak"
+ ostrowiec_power_struggles.6.c:0 "...Jarosław Górczyński"
+ ostrowiec_power_struggles.6.d:0 "...Oskar Rogowski"
+
+ # Kompromisy i podobne
+
+ ostrowiec_power_struggles.7.t:0 "A New-Found Ally"
+ ostrowiec_power_struggles.7.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.7.a:0 "Good, now we have less enemies"
+
+ ostrowiec_power_struggles.8.t:0 "No Progress Made"
+ ostrowiec_power_struggles.8.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.8.a:0 "A damn shame"
+
+ ostrowiec_power_struggles.9.t:0 "Progressives and Liberals - an Unlikely Alliance"
+ ostrowiec_power_struggles.9.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.9.a:0 "A student and his master - together again"
+
+ ostrowiec_power_struggles.10.t:0 "Progressives and Liberals - the Sworn Enemies"
+ ostrowiec_power_struggles.10.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.10.a:0 "Is Kinga still upset about him leaving Osrowiec?"
+
+ ostrowiec_power_struggles.11.t:0 ""Why are We Enemies?""
+ ostrowiec_power_struggles.11.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.11.a:0 "It's simple, really"
+
+ ostrowiec_power_struggles.12.t:0 "Friendship Ended With Kinga"
+ ostrowiec_power_struggles.12.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.12.a:0 "Now Oskar is my best friend" # Cap
+
+ ostrowiec_power_struggles.13.t:0 "Alone in a Struggle"
+ ostrowiec_power_struggles.13.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.13.a:0 "A minor setback - that's all"
+
+ ostrowiec_power_struggles.14.t:0 "Fate of Marijuana"
+ ostrowiec_power_struggles.14.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.14.a:0 "Why are we even discussing this?"
+
+ ostrowiec_power_struggles.15.t:0 "Home Alone"
+ ostrowiec_power_struggles.15.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.15.a:0 "Please no..."
+
+ ostrowiec_power_struggles.16.t:0 "United Against Violating the Rule of Law"
+ ostrowiec_power_struggles.16.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.16.a:0 "Let's just hope we don't make the same mistakes"
+
+ ostrowiec_power_struggles.17.t:0 "Against Mainstream Parties"
+ ostrowiec_power_struggles.17.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.17.a:0 "Uniqueness is our quality"
+
+ ostrowiec_power_struggles.18.t:0 "To Plow Socialism"
+ ostrowiec_power_struggles.18.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.18.a:0 "But will he succeed?"
+ BGF_sukces_ma_wiele_przeszkud_tt:0 "§YThere is a high chance that what we want to do will succeed, but it is not guaranteed.§! §CKeep that in mind.§!"
+
+ ostrowiec_power_struggles.19.t:0 "Love on Second Sight"
+ ostrowiec_power_struggles.19.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.19.a:0 "I'm not so sure about that... But go ahead"
+
+ # Zamach stanu
+
+ ostrowiec.15.t:0 "Incoming Message"
+ ostrowiec.15.desc:0 "" # Do zrobienia
+ ostrowiec.15.a:0 "Who would've thought that He would dare to coup his godson?"
+
+ ostrowiec_power_struggles.101.t:0 "Incoming Message"
+ ostrowiec_power_struggles.101.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.101.a:0 "Oh God... or is there even a God?"
+
+ ostrowiec_power_struggles.102.t:0 "Mensaje Entrante"
+ ostrowiec_power_struggles.102.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.102.a:0 "Why is it in Spanish, though?"
+
+ ostrowiec_power_struggles.103.t:0 "Incoming Message"
+ ostrowiec_power_struggles.103.desc:0 "" # Do zrobienia
+ ostrowiec_power_struggles.103.a:0 "BiolChem? Do I want to know who leads it?" # Nie
+
+ # Powrót do (względnej) normalki
+
+ ostrowiec.16.t:0 "Victory Over Centrists (And Others)"
+ ostrowiec.16.desc:0 "" # Do zrobienia
+ ostrowiec.16.a:0 "But how effective will it be?"
+
+ ostrowiec.17.t:0 "Liberalism is Back on the Menu"
+ ostrowiec.17.desc:0 "" # Do zrobienia
+ ostrowiec.17.a:0 ""Everyone wants to change Poland. But I would love someone to change the Poles first.""
+
+ ostrowiec.18.t:0 "The Assurances"
+ ostrowiec.18.desc:0 "" # Do zrobienia
+ ostrowiec.18.a:0 "He can talk all he want. But it's about how he ends his rule"
+
+ ostrowiec.19.t:0 "Love is War"
+ ostrowiec.19.desc:0 "" # Do zrobienia
+ ostrowiec.19.a:0 "Why are you two so paranoid?"
+
+ # SD
+
+ ostrowiec.20.t:0 "The Cost of Internal Conflicts"
+ ostrowiec.20.desc:0 "" # Do zrobienia
+ ostrowiec.20.a:0 "Holy sh*t, I didn't expect THIS to occur..."
+
+ ostrowiec.21.t:0 "Business And Management"
+ ostrowiec.21.desc:0 "" # Do zrobienia
+ ostrowiec.21.a:0 "I looove taxes and inflation..."
+
+ ostrowiec.22.t:0 "Love is (Indeed) War"
+ ostrowiec.22.desc:0 "" # Do zrobienia
+ ostrowiec.22.a:0 "Guess Bystroń was not that wrong after all"
+
+ ostrowiec.23.t:0 "Our Great Plans"
+ ostrowiec.23.desc:0 "" # Do zrobienia
+ ostrowiec.23.a:0 "Everything is possible"
+
+ ostrowiec.24.t:0 "Heart of Steel"
+ ostrowiec.24.desc:0 "" # Do zrobienia
+ ostrowiec.24.a:0 "Something is brewing"
+
+ ostrowiec.25.t:0 "The Few Cons"
+ ostrowiec.25.desc:0 "" # Do zrobienia
+ ostrowiec.25.a:0 "At least we can still do something"
+
+ ostrowiec.26.t:0 "No More Monopolies"
+ ostrowiec.26.desc:0 "" # Do zrobienia
+ ostrowiec.26.a:0 "Get the f*ck out of my office!"
+
+ ostrowiec.27.t:0 "Just Like the Simulations"
+ ostrowiec.27.desc:0 "" # Do zrobienia
+ ostrowiec.27.a:0 "Computer games can actually teach you something" # Zależnie
+
+ ostrowiec.28.t:0 "An Architect"
+ ostrowiec.28.desc:0 "" # Do zrobienia
+ ostrowiec.28.a:0 "Still better than being an engineer"
+
+ ostrowiec.29.t:0 "...And the Workforce"
+ ostrowiec.29.desc:0 "" # Do zrobienia
+ ostrowiec.29.a:0 "Their work conditions are still better than in Silesia"
+
+ ostrowiec.30.t:0 "Final Touches"
+ ostrowiec.30.desc:0 "" # Do zrobienia
+ ostrowiec.30.a:0 "It's not like there will be tourists in our voivodeship anyway"
+
+ ostrowiec.31.t:0 "It's a Masterpiece!"
+ ostrowiec.31.desc:0 "" # Do zrobienia
+ ostrowiec.31.a:0 "Great minds create wonderful things"
+
+ ostrowiec.32.t:0 "Defeatism Eradicated"
+ ostrowiec.32.desc:0 "" # Do zrobienia
+ ostrowiec.32.a:0 "We can't let them win over our hearts"
+
+ # Walka przeciwko konglomeratom
+
+ ostrowiec_konglomeraty.1.t:0 "A Meeting"
+ ostrowiec_konglomeraty.1.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.1.a:0 "So there is no other solution"
+
+ ostrowiec_konglomeraty.2.t:0 "It's Simple - Spanish or Vanish"
+ ostrowiec_konglomeraty.2.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.2.a:0 "¡Qué trabajadores ingratos!"
+
+ ostrowiec_konglomeraty.3.t:0 "Become a Patriot Today!"
+ ostrowiec_konglomeraty.3.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.3.a:0 "Polska dla Polaków - jeszcze jak!"
+
+ ostrowiec_konglomeraty.4.t:0 "CELSA is no More"
+ ostrowiec_konglomeraty.4.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.4.a:0 "Thank God for [BGF.GetLeader]"
+
+ ostrowiec_konglomeraty.5.t:0 "A New Era"
+ ostrowiec_konglomeraty.5.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.5.a:0 "Thus they have to be eliminated"
+
+ ostrowiec_konglomeraty.6.t:0 "There is No Third Way"
+ ostrowiec_konglomeraty.6.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.6.a:0 "There has never been"
+
+ ostrowiec_konglomeraty.7.t:0 "Under New Management"
+ ostrowiec_konglomeraty.7.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.7.a:0 "Oh?"
+
+ ostrowiec_konglomeraty.8.t:0 "We Can do Without Them"
+ ostrowiec_konglomeraty.8.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.8.a:0 "Good Riddance...?"
+
+ ostrowiec_konglomeraty.9.t:0 "Polish Starbucks - But Worse"
+ ostrowiec_konglomeraty.9.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.9.a:0 "Wonderful! We shall do it right away"
+
+ ostrowiec_konglomeraty.10.t:0 "Remember 1992"
+ ostrowiec_konglomeraty.10.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.10.a:0 "Who would have thought that hydrochloric acid was so effective?"
+
+ ostrowiec_konglomeraty.11.t:0 "Polypolies"
+ ostrowiec_konglomeraty.11.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.11.a:0 "Welcome to socialdemocracy" # Uff, oby ktoś tego nie wziął na serio...
+
+ ostrowiec_konglomeraty.12.t:0 "The Price for Freedom..."
+ ostrowiec_konglomeraty.12.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.12.a:0 "Blood will have to be spilt"
+
+ ostrowiec_konglomeraty.13.t:0 "The Corporats Protest!"
+ ostrowiec_konglomeraty.13.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.13.a:0 "And what do they have to say?"
+
+ ostrowiec_konglomeraty.14.t:0 "Major Strikes in Cities!"
+ ostrowiec_konglomeraty.14.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.14.a:0 "It's 2024 all over again" # Nawet wtedy doszło do protestu rolników (chociaż mniejszego, bo PiS pałował ich)
+
+ ostrowiec_konglomeraty.15.t:0 "A Sense of Normalcy"
+ ostrowiec_konglomeraty.15.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.15.a:0 "At least for a while..."
+
+ ostrowiec_konglomeraty.16.t:0 "The Bystronite Speech"
+ ostrowiec_konglomeraty.16.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.16.a:0 "Whatever, he is not in power"
+ BGF_masz_przechlapane_tt:0 "§RYou're walking a path of uncertainty. Be careful...§!"
+
+ ostrowiec_konglomeraty.17.t:0 "Our Attack on Conglomerates Failed"
+ ostrowiec_konglomeraty.17.desc:0 "" # Do zrobienia
+ ostrowiec_konglomeraty.17.a:0 "We'll get them later!"
+
+ ### Walka - wiadomości
+ unification.160.t:0 "[GetNewspaper]Kinga Wnuk Wins the Power Struggle"
+ unification.160.desc:0 "As many observers have expected, Kinga Wnuk has won the power struggle that began as a result of the collapse of the "United Government". In a radio address directed to the nation she expressed her gratitude to the civilians who voted for her and supported her side of the conflict. At the same time she announced new reforms which will "modernise Poland and turn it from a third-world country to a major ally of the West". However whether her plan will bring any fruits is still up for debate.\n\nIn the meantime the centrist branch of New Poland has declared secession and continues to fight against so-called "Kinga Wnuk's Madness". However with the little support from the population they don't expect to keep fighting on for long."
+ unification.160.a:0 "So nothing different, really" # Ostrowiec
+ unification.160.b:0 "Ostrowiec seems like an unstable place" # Inni
+
+ unification.158.t:0 "[GetNewspaper]Gabriel Kwietniak Wins the Power Struggle"
+ unification.158.desc:0 "In a somewhat surprising turn of events, Gabriel Kwietniak has won the power struggle that began as a result of the collapse of the "United Government". In a radio address directed to the nation he didn't hide his happiness and congratulated everyone who helped his party win the internal fight. And while he doesn't have a proper plan to bring back Ostrowiec to the times before the Fall, he assured his citizens that works will begin shortly. While many observers expected protests regarding this power change, the people seem more than content with the return of Civic Coalition. This is quite unexpected as Holy Cross is known to be one of the more conservative regions of Poland. However it's a great sign for everyone - for the people are ready for a wind of change."
+ unification.158.a:0 "Liberals back in the government? How unexpected!"
+ unification.158.b:0 "Could this mean a blessing?"
+
+ unification.159.t:0 "[GetNewspaper]Jarosław Górczyński Wins the Power Struggle"
+ unification.159.desc:0 "In a somewhat surprising turn of events, Jarosław Górczyński has won the power struggle that began as a result of the collapse of the "United Government". In a radio address directed to the nation he didn't hide his happiness and congratulated everyone who helped his party win the internal fight. And yet already people started to protest against this change of power. That's because this politician was involved in a scandal regarding bribes in order to gain support from the local elites. However it seems as if only Ostrowiec is content with him - for in other cities there are barricades being built and police is worried about how they should deal with protesters.\n\nWhatever this development brings, there will surely be chaos as well."
+ unification.159.a:0 "Of all people that could win - how come?"
+ unification.159.b:0 "Worrying..."
+
+ unification.163.t:0 "[GetNewspaper]Oskar Rogowski Wins the Power Struggle"
+ unification.163.desc:0 "Many people expected other politicians to win the power struggle which began as a result of the collapse of the "United Government". Some thought that maybe Kinga Wnuk would continue her rule, others that liberals would take power. But what no one even dared to think actually happened - Oskar Rogowski-Bystroń won said struggle and consolidated power.\n\nKnown for being deported to Saxony back in 2024 and made into an agent thanks to likes of Morawiecki and Kaczyński, his victory caused unease in Holy Cross society. But unlike other candidates, he promised the people that their voice will be finally heard and they could directly decide about the fate of their nation. Although many outsiders criticised this move, the civilians are more than content with this development.\n\nHowever the biggest threat to Bystronite government is not his reputation but radicalised parties. They are more than eager to kill him at best and torture entire groups for supporting him at worst. No one believes that in such environment Oskar Rogowski will manage to rule for more than a year. But he seems determined to keep going - no matter the cost."
+ unification.163.a:0 "It's been so long... Welcome back" # Ostrowiec
+ unification.163.b:0 "Why the hell did they let an agent rule their country?" # Polacy
+ unification.163.c:0 "We wish him good luck!" # Niepolacy
+
+ unification_alt.163.t:0 "[GetNewspaper]Paweł Rogowski Coups the Centrist Government"
+ unification_alt.163.desc:0 "Despite many troubles from the beginning, centrist branch of New Poland has managed to rule over 100 days in Holy Cross. And yet this term would come to a massive halt under the pressure of Law and Justice reformists. Yesterday they have couped said government and took control with few paramilitary forces. Its leader - Paweł Rogowski - declared the democratic regime 'dead'.\n\nAlready the purges began to take place and many people started to flee the country in fear of repressions which persecuted those who voted for Oskar Rogowski. This caused a massive refugee crisis in neighbouring countries and soured the relations with the new government. However Paweł seems unshaken by this development and even encourages those groups (and minorities) to leave Holy Cross.\n\nThe only hope for Poland is now snuffed out by darkness."
+ unification_alt.163.a:0 "Who knew family was as destructive as Germany?"
+ unification_alt.163.b:0 "Good for Holy Cross"
+ unification_alt.163.c:0 "Oh the tragedy!"
+
+ ### Jednoczenie
+ unification.157.t:0 "[GetNewspaper]The Ostrowiec Commonwealth Unifies Holy Cross Region"
+ unification.157.desc:0 "Today an unexpected contester to the reunification of one of the poorest regions in Poland has come on top. The Ostrowiec Commonwealth, lead by Kinga Wnuk, has sprung from an Anti-Ziobro Uprising as a bastion of democracy to the repressed people. Today, the leader of Holy Cross has announced the reunification of war-torn region in the capital of Kielce. Many people hope the new administration will take the people's well-being and opinions into consideration. But as time goes on many things could change by then..." # Oby mnie nie wyrzucili z liceum za to
+ unification.157.a:0 "An uneasy victory"
+ 
+ # Socjaldemokracja
+ unificationreg.157.t:0 "[GetNewspaper]The Holy Cross Commonwealth Reunifies Central Poland"
+ unificationreg.157.desc:0 "Today's news have both shocked and relieved the people of Central Poland, as their fate has been cemented (for the time being) under the rule of the newly-established Central Commonwealth. The leader of said country has announced that "Poland is one step closer to freedom". And yet there is still a breeze of uncertainty as many concerning reports have come from the nation beforehand.\n\nAccording to them, the Commonwealth has participated in mass executions of POWs and common prisoners. Every public school under Wnuk administration has been "reformed" to fit the standards of education - which are considered to be partially ideological. And finally, those who have performed poorly on maturas have seemingly vanished from existence.\n\nWhatever the truth may be, one thing is clear - everyone shall behave and learn everything they can. No matter the cost."
+ unificationreg.157.a:0 "And I thought Kinga was a great woman..."
+ 
+ unificationsupreg.157.t:0 "[GetNewspaper]"Declaration of the Second Union of Lublin""
+ unificationsupreg.157.desc:0 "As time went on the semi-secretive state of Central Commonwealth has conquered and consolidated its rule over most of Eastern and Central Poland. All of this was done for the sole reason of "liberating civillians and educating the young". And it looks like the war-machine will not stop until full reunification.\n\nBut recently Kinga Wnuk, the leader of Central Commonwealth, has announced the "Second Union of Lublin - but this time without Lithuania". It was supposed to be the reference to the first Union signed in 1569, effectively uniting Poland and Lithuania. But now it meant something else - the final step towards united Poland. And by that Wnuk meant "unconditional subjugation to our force".\n\nIndependent reports from Polish Commonwealth suggest that since the 2032 not much has changed in terms of treatment of foreign soldiers and prisoners. So to everyone living anywhere else outside the Commonwealth - prepare..."
+ unificationsupreg.157.a:0 "...for you shall not know what comes"
+ 
+ super.157.t:0 "[GetNewspaper]Progressivism Rules the Poles"
+ super.157.desc:0 "Much has changed since the initial collapse of Poland in 2027. No matter what ideology each person believes in, they can share one opinion - the "New Poland" is not what it used to be.\n\nUnder the new administration many reforms have passed. First and foremost schools and liceums have been thoroughly reconstructed. Now pupils have to learn much more - much to the horror of their parents. Secondly, everyone who commits a crime (or speaks against the governemt) can be sure that their days are numbered, for the atmosphere in prisons has become nigh unbearable. Numerous work camps (with cruel guards) have been constructed as well. Effectively limiting the freedom of people and speech...\n\n...or so it would seem. In reality people have been more than encouraged to share their voice about social problems by Kinga's colleagues. And the goverment seems as equally determined to fix these issues as its citizens (despite Wnuk's objections). Perhaps, once she retires, Poland will return to normalcy..."
+ super.157.a:0 "The two sides of a coin"
+
+ super.160.t:0 "[GetNewspaper]Progressivism in Poland?"
+ super.160.desc:0 "Much has changed since the initial collapse of Poland in 2027. No matter what ideology each person believes in, they can share one opinion - the "New Poland" is not what it used to be.\n\nUnder the new administration many reforms have passed. First and foremost schools and liceums have been thoroughly reconstructed. Now pupils have to learn much more - much to the horror of their parents. Secondly, everyone who commits a crime (or speaks against the governemt) can be sure that their days are numbered, for the atmosphere in prisons has become nigh unbearable. Numerous work camps (with cruel guards) have been constructed as well. Effectively limiting the freedom of people and speech...\n\nAnd unfortunately for the people, it seems that this status-quo will remain for longer than expected. Despite international objections, Kinga Wnuk continues on - for what would get her submission to the West? Absolutely nothing. Thus she considers her rule the only thing worth fighting for. Not the people."
+ super.160.a:0 "To the madness of the daring we chant a song" # Holee sheet!1 Is dat Tee-En-Oh refrense?!!?one?
+
+ super.166.t:0 "[GetNewspaper]Stanisław Konarski Reborn"
+ super.166.desc:0 "No f**king way!"
+ super.166.a:0 "Nothing is impossible, it seems"
+
+ # Liberalizm Polski dzięki memu koledze
+ 
+ unificationreg.158.t:0 "[GetNewspaper]The Holy Cross Republic Conquers Central Poland"
+ unificationreg.158.desc:0 "In a surprising turn of events the former Holy Cross commonwealth had been coup d'etat'd by a prominent figure in local politics - Gabriel Kwietniak. Tired of lawlessness and paranoid rule of Kinga Wnuk he took control of key government buildings and declared the rebirth of "Liberal Sentiment in Poland".\n\nBesides this event, the new Republic continued its expansion throrought Central Poland and began consolidating newly-acquired territories - not through force, but through dialogue and autonomy. This made a lot of people from other warlord states eager to emigrate to Central Polish Republic. Many spectators argue on how the government will deal with this issue, but one thing is certain - it will only get better from now on."
+ unificationreg.158.a:0 "The student overthrew his master - now what?"
+ 
+ unificationsupreg.158.t:0 "[GetNewspaper]The Central Polish Republic Reunites the East"
+ unificationsupreg.158.desc:0 "Progress and democracy - those are two words that perfectly describe Gabriel Kwietniak's regime. Recently it declared a "New and Better Polish State" after countless months of conquering and diplomatic negotiations. According to the prime minister new reforms will be implemented as soon as the new territories will be consolidated.\n\nHowever a new threat to this administration appeared - terrorism. The lands of Galicia and Lubelskie had different kinds of people - from ultranationalists to death squads. Because of this Kwietniak has to put considerable amount of government money in order to stop this element from spreading further. It will be a hard task, but once it is done, a new and better future awaits the Republic."
+ unificationsupreg.158.a:0 "It just keeps on getting better!"
+ 
+ super.158.t:0 "[GetNewspaper]Meet new Donald Tusk - this time from Ostrowiec"
+ super.158.desc:0 "When Poland had been invaded by the European Union (in order to destabilize Poland), it was Donald Tusk who gladly followed the orders of Ursula von der Leyen. He allowed settlement of the Germans in Pomerania and their domination. This also applied to other Eurokommissariat leaders.\n\nBut no longer shall this lie be spread! With Gabriel Kwietniak's victory in uniting Poland he can now begin the process of full defalsfication. From various documents found in Szczecin and Gdańsk he already began to find out the truth - Donald was not eager to collaborate with the EU. He did not send in the army to occupy his home country, but to liberate it. He was not a German agent, but a misunderstood politician.\nAll of these discoveries shocked the nation and made it furious. Yet Gabriel found a certain model in Tusk. Thus he proclaimed the return of "Tusk's Legacy". But he decided that it would be without EU's intervention whatsoever. Many people are ecstatic - for no one else shall decide the fate of Poles but them."
+ super.158.a:0 "A better future awaits"
+
+ # Liberalizm Polski, ale czemu śmierdzi korupcją?
+ 
+ unificationreg.159.t:0 "[GetNewspaper]The Holy Cross Republic Conquers Central Poland"
+ unificationreg.159.desc:0 "In a surprising turn of events the former Holy Cross commonwealth had been coup d'etat'd by a prominent figure in local politics - Jarosław Górczyński. Tired of lawlessness and paranoid rule of Kinga Wnuk he took control of key government buildings and declared the rebirth of "Liberal Sentiment in Poland". And yet something feels... off with this announcement.\n\nBack in 2023 this figure was involved in a massive corruption scandal after taking bribes worth 40 thousand złotys. And while he might have restored his image, many foreign leaders protested to the European Parliament regarding his new administration. They demand that he immediately resigns from his position as a president. But as long as they can do nothing to him, these threats fall to deaf ears.\n\nUnless?"
+ unificationreg.159.a:0 "Perhaps he deserves a second chance"
+ 
+ unificationsupreg.159.t:0 "[GetNewspaper]The Central Polish Republic Takes Control of the East"
+ unificationsupreg.159.desc:0 "Perhaps it is no surprise that a nation dedicated to restoring liberalism and democracy to Poland would win the race for eastern Polish lands. Yesterday the president of the Central Polish Republic, Jarosław Górczyński, has proclaimed the reunification complete and the beginning of a "New Crusade Against Kleptocrats and Whatnot". It almost seems ironic, doesn't it? A person known for being easily persuaded and bribed wants to end corruption once and for all.\n\nOr maybe it isn't. After all, the leader has begun sweeping reforms limiting the effects of corruption and curbing it astonishingly. Perhaps, Jarosław Górczyński has learned his lesson and wants to fix his past errors. Regardless of this, the other warlords must prepare for the onslaught that is slowly coming to them."
+ unificationsupreg.159.a:0 "Money money is very funny"
+ 
+ super.159.t:0 "[GetNewspaper]No Corruption in Poland?"
+ super.159.desc:0 "It almost seems unbelievable.\n\nA nation known for being one of the most corrupt in Central Europe had seemingly vaporised its problem into nothingness. Everyone behaves correctly and doesn't get bribed at all. The penalties are harsh though, which would explain some of the reasons it is an almost crime-free state as well. Alcoholism is gone too. What happened? What magic helped in shaping this new Poland?\n\nOr maybe it's all just a myth and nothing changed at all? After all, no reliable news are coming from this new state - according to many independent sources. Already, Amnesty International denounced actions made by the government (which it does not recognise) and demanded that the true statistics come out. Unlike before, §CEuropean Union won't wait an eternity for an answer.§! The question now is not if the EU invades new Poland - but when..."
+ super.159.a:0 "Old habits die hard - just like history"
+
+ # My name is Little Nas, Little Na-ah-sbol
+ 
+ unificationreg.161.t:0 "[GetNewspaper]A Change in Course?"
+ unificationreg.161.desc:0 "Many people considered the country controlled by Kinga Wnuk to be unstable from the very beginning. They justified their opinions with the fact that the power vacuum could be easily triggered the moment Holy Cross' leader died. An as she was killed that just happened. But what none even dared to claim could happen actually took place.\n\nA clique consisting of National Bolsheviks under the leadership of Marcel Olejarczyk took power in an infant nation, proclaiming a "renewed crusade against the traitors of Poland". Many international observers, although shocked by the news coming from Kielce, pointed out the lack of industrial capacity and people of Central Poland. By this logic the only way the country could realistically win the war was if they boasted a large army. However that is pretty much impossible - at least on paper. Dare one of many factors to be on Marcel's side, Poland would be guaranteed to suffer under NazBol ideology."
+ unificationreg.161.a:0 "No longer an ironic Nazi Stalinist"
+
+ unificationsupreg.161.t:0 "[GetNewspaper]National Bolshevik Menace"
+ unificationsupreg.161.desc:0 "Today Marcel Olejarczyk has proclaimed a rival government of Poland in a war-torn city of Cracow. Known for his National Bolshevik practices, he somehow managed to conquer his way through Galicia and Lubelskie voivodeship. Of course many people have suffered because of this - not excluding the citizens of said country. Raping, mass-shootings and discrimination are a common view whilst travelling (or living) in [BGF.GetName]. Those who somehow didn't get touched by these still have to bother with poverty and increasing criminality, as well as terrorism from freedom-figthing forces in territories controlled by said state.\n\nAlmost everyone looking in horror at what takes place in the shadow country can agree that the future of Poland is bleak. And God knows what will happen when they unite it fully."
+ unificationsupreg.161.a:0 "How come?"
+
+ super.161.t:0 "[GetNewspaper]From Irony to Bloodshed We March on Unbothered"
+ super.161.desc:0 ""Marcel, ty k**wa idioto, cóżeś narobił z Polska?! Patrz jak ona jest zniszczona. A ty się śmiejesz z tego. Śmiejesz się z tego, bo co? Bo nie zostałeś dotknięty przez biedotę i przestępczość? No oczywiście, że k**wa nie, bo jesteś wodzem! Możesz robić co chcesz, więc co z tego, że inni cierpią? Ja nie mogę powoli...\n\nSam fakt, że dobrowolnie tego dokonałeś (z Twoimi współpracownikami) oraz zniszczyłeś Polskę 'bo tak' mnie obrzydza. Tak się znieważyłeś, a nadal udajesz siebie za kogoś wartego szacunku. Tym bardziej przez Polaków, którzy muszą teraz cierpieć gwałty i nie wiadomo co jeszcze. Tylko dlatego, że zabito Ci rodzinę.\n\nChociaż wiesz, nie dziwi mnie to. Adolf Hitler podobnie postąpił po śmierci swojej matki, gydż bardzo ją kochał. Ale z drugiej strony co Ci da wyniszczenie Polski? Radość? Chwałę (raczej nie)? Szacunek? No ja sie Ciebie pytam o te rzeczy, a Ty stoisz cicho. Czemu?!"\n- Oskar Rogowski" # If you don't speak Polish, use Google Translate to understand the context
+ super.161.a:0 "Sorry, I don't speak Central European"
+
+ # ***** *** (i Kościół)
+
+ unificationreg.162.t:0 "[GetNewspaper]The War Against Religion"
+ unificationreg.162.desc:0 "Many people considered the country controlled by Kinga Wnuk to be unstable from the very beginning. They justified their opinions with the fact that the power vacuum could be easily triggered the moment Holy Cross' leader died. An as she was killed that just happened. But what none even dared to claim could happen actually took place.\n\nA (now) significant party of so-called "Atheofascists" under the leadership of Łukasz Stolarek took power in a relatively new state, proclaiming a "War Against Religion and every aspect of it". Sure to cause controversy, the Vatican immediately cut diplomatic ties with the nation, commenting on its brutal nature against religious groups (and women). However the Church didn't act the same when the Nazis took control of parts of Upper Silesia, which sparked protests against Catholic Domain.\n\nWhatever may happen as a result from actions taken by Stolarek, one thing is clear - they won't be positive."
+ unificationreg.162.a:0 "Thirty years ago that would seem impossible - but look at it now!"
+
+ unificationsupreg.162.t:0 "[GetNewspaper]Atheism Spreads Further"
+ unificationsupreg.162.desc:0 "As Poland is slowly unifying and recovering from a fall back in 2027, a concerning development is taking place in Central and Eastern Polish territories. That's because a radical anti-clerical warlord has gathered enough strength to unite these lands. Lead by Łukasz Stolarek, this state is strongly sided against any form of belief in a god. Anyone who even dares to practice their religious beliefs will be sure to regret it (especially women).\n\nRecently its leader proclaimed a rival government which plans to move into Silesia and Greater Poland in order to use the local resources and manpower to push further and finally realise his plan - an atheist Polish nation. However he can be sure that this development won't be easy to achieve as other warlords are already preparing to fight back - fiercer than if it were any other contester.\n\nProtests have also come out of Vatican, as the religious minorities and Christians alike are being repressed. But this note probably won't change anything."
+ unificationsupreg.162.a:0 "Too bad it's taken to extreme"
+
+ super.162.t:0 "[GetNewspaper]No More Christianity!"
+ super.162.desc:0 "Approximately 50 years ago Poland has come out of shackles of communism - free to do anything they want. One of the main reforms they implemented was tolerance of other religions and especially catholic belief - which was considered as the only thing keeping Poles united. But nowadays this is no longer present thanks to the likes of Łukasz Stolarek and his colleagues who despise religion with their hearts.\n\nAnd I think that is better.\n\nDifferent beliefs have caused massive wars which costed numerous human lifes. Because of disagreements between religious figures and leaders alike nations were torn apart and antagonised depending on which side they chose. But now this is no longer a concern in Poland! Now Poland is one of the richest nations when it comes to intelligence per capita and tolerance. Something which it lacked for all these years and centuries.\n\nAnyone who disagrees with my point of view is just ignorant. I mean - do you really think the pope wanted to be "the good guy"? Of course not! And why should he...?"
+ super.162.a:0 "Who wrote this? Why are they praising him?"
+
+ # Kaczor Paweł
+
+ unificationreg.163.t:0 "[GetNewspaper]The Holy Cross Republic Conquers Central Poland"
+ unificationreg.163.desc:0 "The main reason Ostrowiec Commonwealth revolted against Zbigniew Ziobro was his brutal reign and his connections to the party which caused massive suffering for everyone involved. They have tried to prevent the rise to power for the politicians supporting Law and Justice. And yet we have come to a full circle now... As the citizen of Radom and the representative of Polonia living in the US Paweł Rogowski, known for his pro-PiS views, took power over the young nation.\n\nIn his speech directed mostly to liberals and social-democrats he announced the "internal cleansing" of government and the "return to the better days - the ones pre-fall". Although he denounced Morawiecki's administration for its ineffectiveness, he didn't make any comment regarding their crimes they have committed. This made many observers sceptical to his electoral program - the reform and increased role of citizens in the life of the government. They have deduced that this could be interpreted in various ways. Which should make us wonder about the honesty of Paweł."
+ unificationreg.163.a:0 "The more things change, the more things stay the same"
+
+ unificationsupreg.163.t:0 "[GetNewspaper]The Central Polish Republic Steals the East"
+ unificationsupreg.163.desc:0 ""Steals" may be an overstatement, but when you look into how the new contender rules over its land and wages war against other warlords, this metaphore is not that far from reality.\n\nPaweł Rogowski, in a radio announcement to his country's population, has declared a "reunification governemnt in order to bring Law and Justice to other parts of Poland". He also assured sceptics that have just become citizens that his intentions are "different" from his predecessors. This call has been criticised by many as too vague and open for interpretation. But considering what PiS did, it doesn't really seem that strange compared to the action the new government performed.\n\nThe main source of income for the new state has been... robbing their own citizens. By implementing way too many taxes the citizens had to give up their entire life savings in order to live slightly better than their neighbours. But even then the standards of living here can be compared to the Balkans or Eastern Europe. However the propaganda used by Rogowski has manipulated its people into believing that they indeed live better than anyone else."
+ unificationsupreg.163.a:0 "I fail to see why that would be a great idea"
+
+ super.163.t:0 "[GetNewspaper]Radical Law and Justice? Is It Even Possible?"
+ super.163.desc:0 ""My dear citizens of Poland. We have achieved what perhaps not even our grandfathers thought of. We have brought back the true ideals Poland should follow for the rest of its existence. That means that our catholic identity and conservative values will be entrenched even further into our consciousness. Those who do not want that to happen - I can give you a pretty fair offer. In exchange for leaving us alone, you will get to travel around the world (with no option of returning back to Poland). Everyone else - I welcome you into a new reality. The one in which you can do whatever you want - if we say so, of course. The one in which no one lives in poverty - comparable to North Korea. The one in which personal freedoms are present - the ones truly necessary of course.\n\nBut be prepared! There are still enemies who want to undermine our progress and prosperity. These are mainly Civic Coalition, New Poland and those who believe in general we are too radical. Tehy MUST be purged, for there is no other way they can integrate into our society! I believe in you, dear sons of Poland."\n- Paweł Rogowski"
+ super.163.a:0 "God damn..."
+
+ # Komuchy (krótkie opisy są tu celowo)
+
+ unificationreg.164.t:0 "[GetNewspaper]The Holy Cross People's Republic Conquers Central Poland"
+ unificationreg.164.desc:0 "Komafiozo Filip Wójcik zastał Polskę drewnianą, a zostawił ograbioną."
+ unificationreg.164.a:0 "Could it be that we learned nothing?"
+
+ unificationsupreg.164.t:0 "[GetNewspaper]The Central Polish People's Republic Retakes Eastern Territories"
+ unificationsupreg.164.desc:0 "Nasz Towarzysz-Komafiozo Filip Wójcik tak chce dla nas dobrze, że zabiera nam córki i żony, a potem oddaje uszczęśliwione. Chwała jemu!\n\n\n\n\n\n\n\n\n\n\n(tylko dlaczego teraz Grażyna chce rozwieść się ze mną :( )"
+ unificationsupreg.164.a:0 "Some people just don't get it"
+
+ super.164.t:0 "[GetNewspaper]Imminent Collapse of Poland - Again"
+ super.164.desc:0 "Dzięki Bogu za Komafioza Filipa Wójcika! Dzięki niemu żyje się nam lepiej, a nasze rodziny nigdy nie były aż tak zjednoczone na każdym poziomie.\n\n\n\n\n\n\nAle zaraz... Dlaczego ta propaganda szerzy się po całej Polsce? Przecież nasze życie nigdy nie było takie bezsensowne, a rodziny zjednoczyły się tylko dlatego, że boją się mafii kunowskiej. Czy to oznacza, że- *gushot*"
+ super.164.a:0 "I knew this. I tried to tell you this so many times. And yet you didn't listen!"
+
+ # Celsa (krótkie opisy są tu celowo)
+
+ unificationreg.165.t:0 "[GetNewspaper]The Conglomerate of CELSA Unifies Central Poland"
+ unificationreg.165.desc:0 "¿Polonia para los polacos? Probablemente más bien Polonia para los españoles, ¿no?" # Poland for Poles? More like Poland for the Spanish, is it not?
+ unificationreg.165.a:0 "It's simple - Spanish or vanish"
+
+ unificationsupreg.165.t:0 "[GetNewspaper]CELSA Takes Over Eastern Poland"
+ unificationsupreg.165.desc:0 "A veces siento que estoy viviendo en un sueño enfermizo." # Sometimes I think I live in a sick dream
+ unificationsupreg.165.a:0 "What about Polish language? Is it less important than Spanish?"
+
+ super.165.t:0 "[GetNewspaper]Habla español o..."
+ super.165.desc:0 ""En primer lugar, ¿por qué la mayoría de las empresas no pueden trabajar los domingos cuando, por ejemplo, CELSA tiene permiso para hacerlo? En segundo lugar, ¿por qué los conglomerados quieren más dinero si ya tienen suficiente? Además, ¿cuándo se convirtió Polonia en un país más capitalista que Estados Unidos?"\n- Oscar Pablo Cuerno-Monería" # $LOADING_TIP_119$
+ super.165.a:0 "¡Para Nueva Polonia!"
+
+ # Kunic
+
+ unificationreg.167.t:0 "[GetNewspaper]Biolchemists Take Control Over Holy Cross"
+ unificationreg.167.desc:0 "Ach ten BiolChem. Powoduje same problemy zamiast ich naprawiać."
+ unificationreg.167.a:0 "The horror! The absolute horror!"
+
+ unificationsupreg.167.t:0 "[GetNewspaper]Biolchemist Ideology Spreads to Eastern Poland"
+ unificationsupreg.167.desc:0 "BiolChem gorszy od nazizmu - change my mind"
+ unificationsupreg.167.a:0 "Soon there will be no Poland to unite... May God help us"
+
+ super.167.t:0 "Epilogue"
+ super.167.desc:0 ""It is a cold afternoon. Our reporters from Brest arrived yesterday to Bielsk Podlaski in order to check the local population centre. Here we haven't seen yet any signs of live, except for some wolves and stray animals roaming the empty streets of said city. In fact we haven't seen anyone since we crossed the border. From what we have heard from the refugees flocking to Belarus the new government is an Orwellian-style Exterminatory Region which plans to kill every single human being that speaks Polish (for no known yet reason).\n\nW-wait a second? Is that... a human being? It can't be, how could have he survived the purge? And yet there is something that suggests otherwise. His mere life spared probably to torment his for the rest of his life. Let us approach him, shall we?\n\n- Um... hello? Who are you? Are you okay? ... I-is everyone alright?\n- GET AWAY FROM ME! YOU DON'T UNDERSTAND WHAT I AM GOING THROUGH!\n- Oh.. Ok-okay then. Can you at least tell us what happened? ...""
+ super.167.a:0 ""Where is my family?! Where are my friends?! WHAT HAVE THESE BASTARDS DONE TO MY COUNTRY?!!", screams desperately the last remaining citizen"
+ 
+ # Teścik
+
+ kam_test.1.t:0 "Welcome to White Space"
+ kam_test.1.desc:0 "You've been here for as long as you can remember...\n\n\n\n\nAnyways, what do you want to do?"
+ kam_test.1.a:0 "I'm a Lil' Nas(bolejarczyk)"
+ kam_test.1.b:0 "I'm not a Lil' Nas(bol), turn me into one"
+ kam_test.1.c:0 "I'm a Lil' Nas(bol), but I'm kinda bored of being one..."
+ kam_test.1.d:0 "Wait a second, I'm not controlling Ostrowiec! (bruh moment)"
+ kam_test.1.e:0 "Mom pick me up I'm scared"
+
+ kam_test_warning_nazbol:0 "§RKeep in mind that you will be able to take this decision only ONCE. Be careful with this power... or else you'll regret it!§!\n"
+ kam_test_told_ya:0 "§4You should've listened, idiot.§!"
+ 
+ # Opis i tytuł będą takie same (chyba, że chodzi o koniec gry lub coś poważniejszego)
+ kam_test.2.a:0 "It's simple - Spanish or vanish"
+ kam_test.2.b:0 "I want to be seen (a. k. a. be Polish)!"
+ kam_test.2.c:0 "It's simple - Spanish or vanish (not corporatist edition)"
+ kam_test.2.d:0 "$kam_test.1.e$"
+ kam_test.2.e:0 "$kam_test.1.d$"
+
+ kam_test.3.a:0 "Kinga Wnuk i upadek jej władzy w Polsce (NP - Bystroń comes out on top)"
+ kam_test.3.b:0 "To samo, co na górze, ale nostalgia (basically ractionaries take power)"
+ kam_test.3.c:0 "$kam_test.1.d$"
+ kam_test.3.d:0 "$kam_test.1.e$"
+
+ # Santa Cruz - do zrobienia (treść i eventy)
+ #swietokrzyskie_capital.1.t:0 "Kielce Taken"
+ #swietokrzyskie_capital.1.desc:0 "We are now based as fook man! (Unless you consider Kielce as a big nowhere - which it is)."
+ #swietokrzyskie_capital.1.a:0 "Give everyone one last chance."
+
+ #SWK_ultimatum_tt:0 "§YWe shall send ultimatums to other warlords - submit or fight§!"
+
+ #swietokrzyskie_ultimatum.1.t:0 "[SWK.GetName] Demands Annexation!"
+ #swietokrzyskie_ultimatum.1.desc:0 "We can't get simpler with the messgae - either we get annexed or we go to war. What do you do?"
+ #swietokrzyskie_ultimatum.1.a:0 "We are submissive, just like Czech Women..." # Heinz - nezapomnane momenty~
+ #swietokrzyskie_ultimatum.1.b:0 "We are resillient, just like Russians!" # We can drop from the 4th floor (5th if you're English) and still survive!
+
+ #SWK_ultimatum_poddanie_tt:0 "§RThis will end the game for you§!"
+ #SWK_ultimatum_walka_tt:0 "§RThis will lead to war with [SWK.GetName]§!"
+
+ ##National Spirits##
+ # Nienormalne
+ BGF_radicals_debuff:0 "Debuffing Northern Counties"
+
+ BGF_radicals_debuff_desc:0 "By the way it's all Tusk's fault"
+ # Normalne
+ BGF_wara_ziobro:0 "United We Stand"
+ BGF_a_long_road_ahead_3:0 "A Long Road Ahead"
+ BGF_a_long_road_ahead_2:0 "Further Progress"
+ BGF_a_long_road_ahead:0 "Nearing the End"
+ BGF_computer_in_every_house_idea:0 "Computer in Every House"
+ BGF_tv_in_every_house_idea:0 "TV in Every House"
+ BGF_AK_heritage:0 "Home Army Heritage"
+ BGF_NATO_heritage:0 "NATO Heritage"
+ BGF_technology_our_future:0 "A Blooming Technocracy"
+ BGF_polak_historyk:0 "No More Falls - Only Unifications"
+
+ BGF_wara_ziobro_desc:0 "Never before have we stood so united against a grave threat that is General Prosecutorship. Although this will hamper our ability to rule over our country, the bonuses in combat shall remedy it."
+ BGF_a_long_road_ahead_3_desc:0 "Due to countless casualties and broken infrastructure our country is in a sorry state. We must repair everything and modernise every aspect of our lives. It is the only way to progress further (and outmaneuver our enemies)."
+ BGF_a_long_road_ahead_2_desc:0 "Thanks to previous reforms we were able to revamp some of the neglected institutions of our country. However we are far from over. There are still people who are affected by the Uprising and we can't just ignore them. Thus there is still more to do."
+ BGF_a_long_road_ahead_desc:0 "Due to our quick and swift actions the nation is slowly healing from the wounds of War. And yet there is still more to do. Thankfully it is by now easy to do as through previous reforms we improved our bureaucracy and now have more factories to use for this."
+ BGF_computer_in_every_house_idea_desc:0 "Despite our hardships and the condition we found ourselves in, we managed to fulfill one of our promises - Computer in Every House. Now everyone has access to many forms of entertainment and information...\n\nThat is, if they have Internet, of course."
+ BGF_tv_in_every_house_idea_desc:0 "Despite our hardships and the condition we found ourselves in, we managed to fulfill one of our promises - Television in Every House. Now everyone can access the same information and this, in return, will cause less conflicts in general...\n\nWait, does that count as propaganda?" # Jeszcze jak!
+ BGF_AK_heritage_desc:0 "The Home Army, although failed at liberating Poland, gave an example on how every man and woman should act when they are under the threat of extinction. It also applies to our occupied territories - the future citizens will learn (either way) that they should obey us."
+ BGF_NATO_heritage_desc:0 "NATO may not have lived up to its name and goal (liberation of countries), but the tactics it used to achieve its missions definitely did. Nowadays our armies look up to George W. Bush and the way he slaughtered Iraqis just because of WMDs "present" in their country."
+ BGF_technology_our_future_desc:0 "As Konrad Łebek once said during an interview in Bodzechów - "If we want to ensure our superiority against our neighbours, we must develop, trade with foreign nations and invent things ourselves". With these points mentioned we began a slow but effective transition from a third-world country to a technocracy of sorts. Of course that costs us some of our civilian factories, but what did you expect from the need of evolving? Technology won't be making itself, would it?"
+ BGF_polak_historyk_desc:0 "Our citizens have suffered under many regimes and wouldn't like to relive those memories. That's why they have dedicated their lives to unifying their country further instead of deepening differences between its regions. However the attention it gained is... less than ideal."
+ # Walka o władzę
+ BGF_power_struggle_idea:0 "The Power Struggle!"
+ BGF_power_struggle_idea_horrible:0 "The Power Struggle"
+ BGF_power_struggle_idea_bad:0 "The Power Struggle?"
+ BGF_power_struggle_idea_normal:0 "The Normal Power Struggle"
+ BGF_power_struggle_idea_lite:0 "The Peaceful Struggle"
+ BGF_remove_competition_idea:0 "Get Rid of the Centrist Threat"
+ BGF_cut_social_spendings_idea:0 "Cut Social Spendings"
+ BGF_regulated_markets:0 "Regulated Markets"
+
+ BGF_power_struggle_idea_desc:0 "§RIt has begun...§! The internal war in order to gather enough support to get rid of political opponents. There are four possible candidates (or more if we count radicals) - centrists, lead by Oskar Rogowski; social-democrats with Kinga Wnuk as its representative; liberals under the leadership of Garbiel Kwietniak and finally the Unthinkable Candidate. All of them are partially tearing up our country, which makes it less stable and more prone to radicalisation. We must stop this process before it gets too bad."
+ BGF_power_struggle_idea_horrible_desc:0 "Some time has passed. The situation in our country has somewhat stabilised but is it still far from the ideal point. Radical ideologies are still popping out left and right. The struggle is still ongoing and the people are also divided. Whatever this brings us in the long run is still in question. But we can all agree that it solely depends on who takes power in the end."
+ BGF_power_struggle_idea_bad_desc:0 "Thanks to swift actions taken by all sides of the struggle the spreading of radical ideologies have been contained. But that doesn't mean that we are doing any better. Sure, there are less fights and the different candidates are trying their best to keep the facade of normalcy. But it is still clear that they are ready to catch eachother's throats and rip them away from themselves. We must pray that this madness ends soon."
+ BGF_power_struggle_idea_normal_desc:0 "No one can deny the fact that our government is more stable than before. But it is still far from what most of us want. There are still posters that encourage the voters to jeopardise the elections in favor of one side. There are still arguments in our families regarding which candidate each member will choose. But thankfully it is way more peaceful than before the Fall. Perhaps soon enough we won't notice the consequences of the Power Struggle."
+ BGF_power_struggle_idea_lite_desc:0 "Finally, after some time, the effects of the Power Struggle are barely noticeable in our daily lives. The electoral posters are no longer attacking other parites and just encourage people to take part in ordinary elections. It seems that, as the time progressed, everyone got over the hype of the internal fights and just want to see their country together. And that's what we want to see!"
+ BGF_remove_competition_idea_desc:0 "Although Kinga Wnuk and Oskar Rogowski had known each other before, their stance on social issues and the way of governing have proven themselves to cause a schism in the 'New Poland' party. Thus we have to make sure that at least some of our friends realise how stupid the centrists are and how they want to reshape our Poland. It may be a dirty play, but considering the circumstances - it is the only way (maybe)."
+ BGF_cut_social_spendings_idea_desc:0 ""If you want to rule a country, you have to be ruthless." This rule of thumb has proven useful in recent times as we started cutting state pensions such as 500+ in order to recover some of our economy. Sure, this will upset our people at first, but they will be thankful (hopefully) in the future that we managed to heal our finances."
+ BGF_regulated_markets_desc:0 "In a surprising turn of events the two sides that were heavily opposed to each other have found a uniting factor (besides hatred towards Kwietniak and Wnuk) - fate of free markets. They have agreed that they are way too monopolistic and have to be regulated heavily. Although that doesn't make Freemarketists very free, its leader - Jarosław Górczyński - understands that people are already suffering under Żabkas and Biedronkas. Thus with Oskar Rogowski he implemented a law that restricts consumers from being abused and lied to.\n\nBut for some reason the people despise this. Hmm, I wonder why?"
+ # Powrót do (względnej) normalności (nie mają opisów)
+ BGF_SD_status_quo:0 "Status-Quo of New Poland - Which Path Shall We Follow?"
+ BGF_lib_status_quo:0 "Anti-Liberal Sentiment in Holy Cross - How Should We Deal With It?"
+ BGF_free_status_quo:0 "Fate of the Free Markets - What Products Shall They Sell?"
+ BGF_centre_status_quo:0 "Threat of Law and Justice Coup - Godfather's Revenge?"
+ BGF_refugees_idea:0 "Refugees!"
+ BGF_little_technocracy_idea:0 "Little Technocracy"
+ BGF_plagued_with_defeatism:0 "A Nation of Defeatism"
+ BGF_polak_patriota:0 "Enlist For Your Country!"
+ BGF_major_corpo_strike:0 "Corporate Strike! - Major"
+ BGF_minor_corpo_strike:0 "Corporate Strike!"
+ BGF_better_industry_idea:0 "Better Industrial Capability"
+ BGF_plagued_with_corporats:0 "Corporate Influences"
+ BGF_plagued_with_corporats_2:0 "Corporate Influences"
+ BGF_plagued_with_corporats_3:0 "Corporate Influences"
+ BGF_sprawna_armia:0 "A Prime Army"
+
+ BGF_refugees_idea_desc:0 "Ever since Law and Justice came to power in the Holy Cross region there has been a massive influx of refugees fleeing from an oppressive regime. While we have tried our best to handle them, the sheer numbers of them have nearly paralysed [ROOT.GetName]. We must wither the storm and pray that it won't cause more troubles in the future..."
+ BGF_little_technocracy_idea_desc:0 "A nation which does not develop is not worthy of existence. That's why we must improve ourselves all the time. If our enemies were to EVEN surpass us at any point we would be doomed (unless we would have more men in the field). Of course even with this advantage something still could go wrong. But by inventing new ways of combat we can limit these effects."
+ BGF_plagued_with_defeatism_desc:0 "We may have united the whole voivodeship under our heel. Heck, we became a shining beacon of democracy in the middle of chaos! But even then there are things we just can't escape - one of them is defeatism. Due to amount of casualties taken by all of the sides of the conflict some of our soldiers have started to degrade in their performance and others started to avoid conscription. While we don't blame them we must "force" them to stop this act. Otherwise we will definitely fall before long. And then what?"
+ BGF_polak_patriota_desc:0 "We didn't win the struggle for uniting our voivodeship by just talking to others. We had to show that we know what we're fighting for and that this cause is worth its prize. That's why in our society developed a sort-of patriotic duty of enlisting into the army. Although the equivalent number of Poles living here became defeatist, their voice is no longer as important as the patriotic one."
+ BGF_major_corpo_strike_desc:0 "Due to the actions taken by our government the corporations have begun a massive strike in our biggest cities as a protest. Although this is a temporary setback it hampered our country' ability to produce anything. We'll just have to wait it out..."
+ BGF_minor_corpo_strike_desc:0 "Due to the actions taken by our government the corporations have begun a strike in some of our cities as a protest. Although this is a temporary setback it somewhat hampered our country' ability to produce anything. We'll just have to wait it out..."
+ BGF_better_industry_idea_desc:0 "As a part of "Economic Rejuvenation" program started by Edyta Jakubczyk our workers and constructors began massive efforts to bring back our nation from backwaters, so that we can compete with more industrialised North. That is a temporary process but it is necessary for creating groundworks for eventual war economy."
+ BGF_plagued_with_corporats_desc:0 "A result of neglect and way too much trust put into corporations. Our markets have basically been monopolised which make them uncompetitive on a grand scale. If we are to solve this problem we must be prepared - these companies have gathered enough power to oppose us. Trying to limit their influence would definitely cause utter chaos and useless bloodshed."
+ BGF_plagued_with_corporats_2_desc:0 "Now that we began our process of decartelisation we can notice the fruits of our hard labour. More and more small businesses are opening up and the conglomerates are forced (either by us or economic turbulences) to close their shops and factories. With grants given for the former, we can be sure that our markets will compete again."
+ BGF_plagued_with_corporats_3_desc:0 "We are slowly nearing the end. The power of cartels and whatnot is minimal by now. With just one swift blow we will be able to rid ourselves of those pathetic corporations. They will no longer plague our Kowalskis and Nowaks. They will be more confident in starting businesses (also thanks to our courses on managements of firms)."
+ BGF_sprawna_armia_desc:0 "We don't like boasting at all about our army size and professionalism. After all, this information could be used by some to take advantage over us. But we feel obliged to say that our forces are state-of-the-art combatants who are ready to fight for their nation. Especially after improving our infrastructure, they are also very great at moving at lighting speeds!"
+
+ ##Companies##
+ nowa_era_ostrowiec:0 "Nowa Era - Ostrowiec"
+ wsip_ostrowiec:0 "School and Pedagogical Publications (WSiP) - Ostrowiec"
+ fundacja_promyk:0 "Charity Organisation "Promyk""
+
+ BGF_conglomerates_are_poof:0 "We have rid ourselves of conglomerates!"
+ # Rodzaje
+ school_textbooks_producer:0 "School Textbooks Producer"
+ charity_organisation:0 "Charity Organisation"
+
+ ##Other/Misc.##
+ ## BoP
+ BGF_power_balance:0 "Fighting With Conglomerates"
+ BGF_conglomerate_side:0 "Conglomerates in Ostrowiec"
+ BGF_government_side:0 "Ostrowiec Government"
+ BGF_balance_of_power_category:0 "Ostrowiec Power Balance"
+
+ # LEWICA
+ BGF_conglomerate_low_control_range:0 "Weak Conglomerate Control"
+ BGF_conglomerate_medium_control_range:0 "Conglomerate Control"
+ BGF_conglomerate_high_control_range:0 "Dominant Conglomerate Power"
+ BGF_conglomerate_total_control_range:0 "Conglomerate Domination"
+
+ # Based
+ BGF_middle_ground_range:0 "No Dominant Group"
+
+ # KONFA
+ BGF_government_low_control_range:0 "Weak Government Control"
+ BGF_government_medium_control_range:0 "Government Control"
+ BGF_government_high_control_range:0 "Dominant Government Power"
+ BGF_government_total_control_range:0 "Government Domination"

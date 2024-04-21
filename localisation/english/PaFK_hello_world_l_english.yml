@@ -1,0 +1,18 @@
+﻿l_english:
+
+ PaF_OPENING_SCREEN_BUTTON_TEXT_BGF: "For Konarski's legacy!"
+ PaF_OPENING_SCREEN_BUTTON_TEXT_SND: "No more Rightist menace!"
+
+ ## Country Info
+
+ COUNTRY_TITLE_BGF:0 "§C==Ostrowiec Commonwealth==§!\nFor your freedom and ours!\n\n\n[GetCoA]"
+ COUNTRY_INFO_BGF: "\n\n\n\n\n\n\n\n\n§CCapital:§! Ostrowiec Świętokrzyski\n§CPopulation:§! 109,710\n§CCurrency: §!Polish złoty\n§COfficial Languages:§! Polish\n§CForm of Government:§! Progressive Democracy\n§CReligion:§! Secularism\n§CEthnic Groups:§! 91% Poles 5% Ukrainians 3% Others\n\n§YObjective: Reform Poland and its People, or Die Trying§!"
+ COUNTRY_TITLE_SND:0 "§C==Republic of Sandomierz==§!\nA place where Holy Cross begins!\n\n\n[GetCoA]"
+ COUNTRY_INFO_SND: "\n\n\n\n\n\n\n\n\n§CCapital:§! Sandomierz\n§CPopulation:§! 92,260\n§CCurrency: §!Polish złoty\n§COfficial Languages:§! Polish\n§CForm of Government:§! Parliamentary Republic\n§CReligion:§! Catholicism\n§CEthnic Groups:§! 89% Poles 6% Ukrainians 4% Others\n\n§YObjective: Destroy United Right or Embrace its Elements§!"
+
+ ## Mod Features
+ MOD_INFO_TEXT:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n§CCredits (for the original PaF):§!\n\n§CMain devs:§! Herder, Exmit, Hnesz, Kano, Kaszyn, Khandov, korbik, Kudłaty, Nargton, Ofiara_WG, SneakyBeakySpy, Wyshyn, Yemven\n\n§CDevelopers and contributors:§! AnonAnon, AreDryan, bombowiecstr, Glamak, Ksiądz Weneg, Lolo, MałopolskiTaboret, Meridian, ThePlayerPL, SpamvPuszce, Szeszele, SternuTarantoga, Yannick, Woj_2000, Wójt with an Axe\n\n§CFormer devs:§! AfunnyDoge, Archivek, Arno, Batrix2070, El Nieznany, Falang, Fanter, Frudo, Glowie-chan, Guy with Rogatywka, HHomme, KMT_1928, Kalinowski, Kefirer, Krumtum, Macias23, Majeff, Manta, Max200012, Natt Falkenhausen, OldBloxx, Paranormal, Platon, Polo, Rend, Schab, Sonnenmensch, Spykli, Staszeq, Sztachelak, Villonic, ZerdNerd, ajairy, batonzfrancji, el-wódo, grzybnia, guślarz, misiekfid, nonsense, ochroniarz, quétrab, tetsA\n\n\n§CCredits (for Trouble in Kamienna:§!\n\n§CMain dev(s):§! BGF2000\n\n§CDevelopers and contributors (a.k.a. suggestors):§! FleMaS_UK\n\n\n\n§CFormer devs:§! None (just yet)\n\n§CPeople who bug-tested and sent reports:§! Polish Partizan (thank you all in advance :) )\n\nAs \"Trouble in Kamienna\" develops there will be more credits for the people who partook in developing it."
+
+## COAT OF ARMS ICON  
+  coa_BGF:0 "\n£coa_BGF\n\n\n\n\n"  
+  coa_SND:0 "\n£coa_SND\n\n\n\n\n"  

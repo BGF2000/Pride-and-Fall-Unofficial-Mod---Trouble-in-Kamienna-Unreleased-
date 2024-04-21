@@ -1,0 +1,66 @@
+﻿l_english:
+ custom_diff_strong_north_holy_cross: "Strengthen Northern Counties"
+ RULE_OPTION_PAFK_RANDOM: "Random"
+ 
+ ## PaFK ##
+ PAFK_RULE_GROUP_MISC: "Trouble in Kamienna - Miscellanious Paths"
+ # Klifosław
+ KEL_OMORI: "OMORI in Poland?"
+ RULE_OPTION_PAFK_NO: "No Way!"
+ RULE_OPTION_KEL_PATH_BLOCKED_DESC: ""After all, why should we allow foreigners rule our country? We already have Donald Tusk, there is no need for Americans to tell us how to govern!"\n\n- Lena Dryjas"
+ RULE_OPTION_PAFK_YES: "Maybe?"
+ RULE_OPTION_KEL_PATH_ALLOWED_DESC: ""Look at them! They are so cute! They surely won't do any harm to any creature!"\n\n- Max from Austria"
+
+ ## OSTROWIEC ##
+ RULE_GROUP_BGF: "Ostrowiec - Country Paths"
+ # Path of the country
+ BGF_PATH_BEHAVIOR: "Ostrowiec - End Goal"
+ RULE_OPTION_BGF_SD: "§1Social Democracy§! - §GGovernment Coup§!"
+ RULE_OPTION_BGF_SD_DESC: "Despite the hardships of the Commonwealth, it managed to maintain its fundamental goal - spreading direct democracy to other regions of Poland. With the help of dissatisfaction within the upper ranks of the government with Wnuk's §Rpower-hungry ideas§! and majority in the voting, the leader was forced to resign and a true path to Swiss-esque system can begin fully. However whether it succeeds is another topic - not covered in this modification."
+ RULE_OPTION_BGF_WNUK: "§1Social Democracy§! - §RKinga's Hegemony§!"
+ RULE_OPTION_BGF_WNUK_DESC: "Despite what other people have wanted for a very long time (and believed would happen), Kinga Wnuk has §Rdominated§! Polish political landscape and became de-facto another dictator in Central-Eastern Europe. Of course, people have a higher life expectancy and better education, but what no one can deny is that §RLaw and Justice are not present in this Poland§!."
+ RULE_OPTION_BGF_LIBERAL: "§7Liberal Poland§! - Now And Forever"
+ RULE_OPTION_BGF_LIBERAL_DESC: "Through clever political maneuvering and sweeping reforms Gabriel Kwietniak has §7fully liberalised and democratised§! Poland. Not only that, he made it one of the most important countries in European politics and a key partner with the §BEuropean Union§!. However they can be sure that this nation won't join it anytime soon..."
+ RULE_OPTION_BGF_CBA: "Short-lived §5Oligarchy§!"
+ RULE_OPTION_BGF_CBA_DESC: "In a surprising turn of events the former politician Jarosław Górczyński, who was involved in a bribing scandal, has come out on top and established a republic of §5kleptocrats§! and §5oligarchs§!, mimicking early Russian Federation. Due to this factor, the §BEuropean Union§! seems more than eager to invade Poland for a second time. However what will come out of it is a question no one can answer with confidence."
+ RULE_OPTION_BGF_KACZOR: "Repressive §BFourth Republic§!"
+ RULE_OPTION_BGF_KACZOR_DESC: "Oh the irony of the situation...\n\nHatred towards anything that was even remotely related to Law and Justice was what fueled the Northern Revolt and then Ostrowiec Commonwealth. And yet, due to godfather's §Rcoup§! on a §9centrist§! government, we have come full circle. Is almost seems as if nothing has changed... for the better. Now you cannot criticise §BPaweł Rogowski§! and his fellows. Any opposition to repressions or similiar will be answered with even more brutality. Truly a tragedy..."
+ RULE_OPTION_BGF_ATEIZM: "§6Nationalist Coup§! - §LAtheist Menace§!"
+ RULE_OPTION_BGF_ATEIZM_DESC: "If you had to name one person who was so dissatisfied with religion they wanted to declare war on it, who would it be? The answer would probably be Łukasz Stolarek and his Anti-Religion Crusaders. Thanks to them winning the war for unification they got to implement their plan of atheisation of Poland - with largely successful results. However the price this nation had to pay for the separation of state and church was humongous, to say the least. §RDon't trust me? Find out yourself...§!"
+ RULE_OPTION_BGF_NAZBOL: "§6Nationalist Coup§! - §0Nazism and Bolshevism?§!"
+ RULE_OPTION_BGF_NAZBOL_DESC: "§0"Hatred is the most humane feeling one can experience. But God forbid them experience it the second time..."§!\n\nThose words said by Pavel Batov perfectly represent the Wódz leading a new Poland. A nation full of hatred towards Germany, Austria and Russia. Its leader being no different from Adolf Hitler. The civilians experiencing hell on Earth... What else can you imagine, really?"
+ RULE_OPTION_BGF_CELSA: "§4Spanish Poland?§!"
+ RULE_OPTION_BGF_CELSA_DESC: "¿En qué estás pensando? ¡Ponte a trabajar y golpea mientras el hierro está caliente!"
+ RULE_OPTION_BGF_NLO: "§6Dear Nostalgists...§!"
+ RULE_OPTION_BGF_NLO_DESC: "Nostalgia is a powerful weapon. It can either motivate us to do as good as our ancestors or create a cult of something minor, like someone's life. And that's the theory Dominika Mruk decided to implement into reality. Her nostalgist stance on almost everything and care-free nature have resulted in an odd amalgamation of longing and happiness. It's peculiar, but it works! What else do you need really?"
+ RULE_OPTION_BGF_MAFIA: "§RVictory of Kunów Mafia§!"
+ RULE_OPTION_BGF_MAFIA_DESC: "Whether Filip Wójcik had gone insane or actually started believing that Kunów should have its own mafia, we may actually never know. But the fact is that §RKunów Mafia§! has taken power over the entire Poland. And it seems that the times of Law and Justice are back - just under new management straight from Italy. The people will be terrorized for sure - but (un)fortunately for them this new state §Rwill definitely not survive more than a year.§! As the bureaucracy basically doesn't exist and no way of governing besides stealing from its people does either.\n\nIt seems like ignorance is truly bliss - but only for beneficiaries."
+ RULE_OPTION_BGF_DOOM: "§gDoom is Eternal...§!"
+ RULE_OPTION_BGF_DOOM_DESC: "§gPoland does not need to belong to Poles only. Poland does not need to belong to anyone, really. That's why Poles need to disappear...§!\n\n§RONE WAY OR ANOTHER§!\n\n"
+
+
+ RULE_OPTION_BGF_PATH_RANDOM_DESC: "A peculiar country of Ostrowiec Commonwealth has been born through force - having been put to its limits by Zbigniew Ziobro. With equally unstable political landscape, which can be compared to weather changes in Poland, its future - if secured - is in the hands of one person only. §RKinga Wnuk...§!\n\nAnd yet more than her actions matter outside elements such as dissatisfaction of her rule and §0military successes in important conflicts§!. Whatever happens there will take the toll on the entire nation."
+
+ # Research priorities
+ BGF_KNOWLEDGE_PRIORITIES: "Ostrowiec - Priorities"
+ RULE_OPTION_BGF_TECH: "§CLittle Technocracy in Central Europe§!"
+ RULE_OPTION_BGF_TECH_DESC: ""Without technological superiority we will just be swept under the rug by Western Europe and America. If we ever want to catch-up to them, we must develop our nation to become a so-called §C'Little Technocracy'§!".\n\nThese words spoken by Konrad Łebek may not prove much on themselves but when you look into history of Poland it isn't far-fetched. Poles have already proven themselves to be §Gexcellent inventors and scientists all around the world§! (even if some countries don't want to agree with us). So why not expand that concept into Poland proper? Sure, there will be more §Rnoticeable differences§! in intelligence but what §Rcan you do with idiots?§!\n\n§RRequires:§!\nOstrowiec - End Goal in §1Social Democracy - Any Victory§!\n\n§YOR§!\n\n§7Liberal Poland§! - Now And Forever"
+ RULE_OPTION_BGF_HISTORY: "§GPut Focus on History§!"
+ RULE_OPTION_BGF_HISTORY_DESC: "History is not only important for not repeating the same mistakes made by our ancestors. It is also a tool for shaping our national identity. And in times like these §Cit just makes sense.§! After all, is a nation without history and culture even a nation to begin with?\n\nThus it is of upmost importance to focus on subject like history, arts and music and national language. §RWhile this will hamper our ability to improve our army in technological matters§! (and advance technogically in general), our citizens won't fight against themselves and soldiers will be more willing to fight for our cause. Isn't it wonderful?"
+ RULE_OPTION_BGF_SPAM: "§RInstill Soviet Rhetorics§!"
+ RULE_OPTION_BGF_SPAM_DESC: "As many times have proven the best strategy to winning any war is just putting up as many of your men as possible. Just look at Russia - it still exists despite many wars that it had partaken in. Thus the best strategy to reuniting our country is recruiting so many people that enemy armies will get overwhelmed by the sheer numbers of our men on the front.\n\n§RRequires:§!\nOstrowiec - End Goal in §RVictory of Kunów Mafia§!\n\n§YOR§!\n\nAny §GNationalist§! Path"
+
+
+ RULE_OPTION_BGF_KNOWLEDGE_RANDOM_DESC: "Our priorities regarding our armies and civilian structures have not yet developed as our existence is just mere months. But now that we are peace we can begin the process of instilling our beliefs into our actions. Some of them might be more radical than others, but once we change governments we might try them out."
+
+ # Our stance on EU
+ BGF_FOREIGN_POLICY: "Ostrowiec - Foreign Policy §C(EU)§!"
+ RULE_OPTION_BGF_WELCOMING: "§YOur "Friends" in Brussels§!"
+ RULE_OPTION_BGF_WELCOMING_DESC: "Despite what European Union has done on our lands and the fact that they have brought German settlers into Western Poland, there is still chance for us to make contact and become friends with this organisation. Well, friends is a big word here but at least we won't antagonise each other. However we must still keep distance between ourselves in order not to become another puppet of Brussels or Berlin. This will be difficult, but we believe in ourselves and our diplomats.\n\n§RRequires:§!\nOstrowiec - End Goal in §1Social Democracy§! - §GGovernment Coup§!\n\n§YOR§!\n\n§7Liberal Poland§! - Now And Forever"
+ RULE_OPTION_BGF_NEUTRAL: "Upkeep Our Neutrality"
+ RULE_OPTION_BGF_NEUTRAL_DESC: "" # To Do
+ RULE_OPTION_BGF_HOSTILE: "Revanchism in The 21st Century"
+ RULE_OPTION_BGF_HOSTILE_DESC: "" # To Do
+
+
+ RULE_OPTION_BGF_RELATIONS_RANDOM_DESC: "" # To Do

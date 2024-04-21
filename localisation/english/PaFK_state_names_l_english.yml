@@ -1,0 +1,2271 @@
+﻿l_english:
+ STATE_1_SPA: "Ariesa"
+ STATE_2_SPA: "Martierra"
+ STATE_3_SPA: "Scania"
+ STATE_4_SPA: "Istmo de Curlandia"
+ STATE_5_SPA: "Samogitia"
+ STATE_6_SPA: "Difamare"
+ STATE_7_SPA: "Utiana"
+ STATE_8_SPA: "Polotia"
+ STATE_9_SPA: "Castora"
+ STATE_10_SPA: "Aullido"
+ STATE_11_SPA: "Boringia"
+ STATE_12_SPA: "Campo de Maria"
+ STATE_13_SPA: "Siletia"
+ STATE_14_SPA: "Barcanos"
+ STATE_15_SPA: "Nueva Mansión Gédaniano"
+ STATE_16_SPA: "Luna"
+ STATE_17_SPA: "Campo de Lollia"
+ STATE_18_SPA: "Cauna"
+ STATE_19_SPA: "Cornurus"
+ STATE_20_SPA: "Pucia"
+ STATE_21_SPA: "Vientosa"
+ STATE_22_SPA: "Bocina"
+ STATE_23_SPA: "El Hombro Costero"
+ STATE_24_SPA: "Homer"
+ STATE_25_SPA: "Atrás"
+ STATE_26_SPA: "Santa Movera"
+ STATE_27_SPA: "Acampar Americana"
+ STATE_28_SPA: "Particula"
+ STATE_29_SPA: "Veneno"
+ STATE_30_SPA: "Arenque y Sala"
+ STATE_31_SPA: "Sienna"
+ STATE_32_SPA: "Alitia"
+ STATE_33_SPA: "Famana"
+ STATE_34_SPA: "Ciudad Costa"
+ STATE_35_SPA: "Polo"
+ STATE_36_SPA: "Cartusia"
+ STATE_37_SPA: "Ciudad de Felipe"
+ STATE_38_SPA: "Entidad"
+ STATE_39_SPA: "Gédania"
+ STATE_40_SPA: "Branevia"
+ STATE_41_SPA: "Sierra Banco"
+ STATE_42_SPA: "Bartia"
+ STATE_43_SPA: "Pomerania Occidental"
+ STATE_44_SPA: "Mismo Coser"
+ STATE_45_SPA: "Polanovia"
+ STATE_46_SPA: "Desnudo Rascaría"
+ STATE_47_SPA: "Felipenada"
+ STATE_48_SPA: "Cerrar de Rey"
+ STATE_49_SPA: "Pastar Arco"
+ STATE_50_SPA: "Somnoliento"
+ STATE_51_SPA: "Ciudad Devanada"
+ STATE_52_SPA: "Abejañas"
+ STATE_53_SPA: "Camisania"
+ STATE_54_SPA: "Boca de Cerdo"
+ STATE_56_SPA: "Elbinga"
+ STATE_57_SPA: "Levemente"
+ STATE_58_SPA: "Hórneta"
+ STATE_59_SPA: "Hombro Varmiano"
+ STATE_60_SPA: "Amenaza"
+ STATE_61_SPA: "Cuellas"
+ STATE_62_SPA: "Castilla Huesa"
+ STATE_63_SPA: "Garda Blanca"
+ STATE_64_SPA: "Pequeño Pavimento"
+ STATE_65_SPA: "Chevia"
+ STATE_66_SPA: "Manos"
+ STATE_67_SPA: "Calambre"
+ STATE_68_SPA: "Piedra Pomerania"
+ STATE_69_SPA: "Olstínca"
+ STATE_70_SPA: "Veluña"
+ STATE_71_SPA: "Limerosa"
+ STATE_72_SPA: "Obispo"
+ STATE_73_SPA: "Estróda"
+ STATE_74_SPA: "Negros"
+ STATE_75_SPA: "Elque"
+ STATE_76_SPA: "Clípadas"
+ STATE_77_SPA: "Borrasca"
+ STATE_78_SPA: "Mundalla"
+ STATE_79_SPA: "Marogia"
+ STATE_80_SPA: "Agustín"
+ STATE_81_SPA: "Escuche"
+ STATE_82_SPA: "Sedinaña"
+ STATE_83_SPA: "Bosquezar"
+ STATE_84_SPA: "Pícaro"
+ STATE_85_SPA: "Denada"
+ STATE_86_SPA: "Tierra de Lanco"
+ STATE_87_SPA: "Cuicen"
+ STATE_88_SPA: "Afeitana"
+ STATE_89_SPA: "Aldea Generosia"
+ STATE_90_SPA: "Las Caras"
+ STATE_91_SPA: "Holstin"
+ STATE_92_SPA: "Grallevo"
+ STATE_93_SPA: "Címana"
+ STATE_94_SPA: "Roblena de Pendiente Blanco"
+ STATE_95_SPA: "Castilla de Escriba"
+ STATE_96_SPA: "Ciruela"
+ STATE_97_SPA: "Paraíso"
+ STATE_98_SPA: "Sorteos Pomeranios"
+ STATE_99_SPA: "Mundo"
+ STATE_100_SPA: "Tucholes"
+ STATE_101_SPA: "Borolína de Este"
+ STATE_102_SPA: "Brilla"
+ STATE_103_SPA: "Monquís"
+ STATE_104_SPA: "Buitre Colmena"
+ STATE_105_SPA: "Sedina Occidental"
+ STATE_106_SPA: "Linda"
+ STATE_107_SPA: "Stargárdia"
+ STATE_108_SPA: "Adulara"
+ STATE_109_SPA: "Sajonia Abaja"
+ STATE_110_SPA: "Interceder"
+ STATE_111_SPA: "Río de Oro"
+ STATE_112_SPA: "Agradable Ciudad" # Nueva Linda
+ STATE_113_SPA: "Nidíza"
+ STATE_114_SPA: "Sedina del Sur"
+ STATE_115_SPA: "Grande Cobar"
+ STATE_116_SPA: "Rueda"
+ STATE_117_SPA: "Rató en Mazovia"
+ STATE_118_SPA: "Luchara"
+ STATE_119_SPA: "Vilna"
+ STATE_120_SPA: "Seda"
+ STATE_121_SPA: "Manzana Báltica"
+ STATE_122_SPA: "Cuello"
+ STATE_123_SPA: "Pendiente Gris"
+ STATE_124_SPA: "Lodo Blanco"
+
+ #STATE_125: "Lidzbark"
+ STATE_125_SPA: "Linapolis Varmia"
+
+ #STATE_126: "Chełmno"
+ STATE_126_SPA: "Culm"
+
+ #STATE_127: "Choszczno"
+ STATE_127_SPA: "Hoscno"
+
+ #STATE_128: "Koronowo"
+ STATE_128_SPA: "Corona Mariae"
+
+ #STATE_129: "Wąbrzeżno"
+ STATE_129_SPA: "Friedecum"
+
+ #STATE_130: "Wyrzysk"
+ STATE_130_SPA: "Wiriscum"
+
+ #STATE_131: "Przasnysz"
+ STATE_131_SPA: "Prasnisia"
+
+ #STATE_132: "Nowogród"
+ STATE_132_SPA: "Novogradum"
+
+ #STATE_133: "Pyrzyce"
+ STATE_133_SPA: "Piriseum"
+
+ #STATE_134: "Brodnica"
+ STATE_134_SPA: "Stratburgum Borussiae"
+
+ #STATE_135: "Piła"
+ STATE_135_SPA: "Serra"
+
+ #STATE_136: "Nakło nad Notecią"
+ STATE_136_SPA: "Castrum Nakel"
+
+ #STATE_137: "Knyszyn"
+ STATE_137_SPA: "Cnissin"
+
+ #STATE_138: "Łomża"
+ STATE_138_SPA: "Cervesopolis"
+
+ #STATE_139: "Mława"
+ STATE_139_SPA: "Mlavia"
+
+ #STATE_140: "Chełmża"
+ STATE_140_SPA: "Losa"
+
+ #STATE_141: "Dąbrowa Chełmińska"
+ STATE_141_SPA: "Querquetia Culmensis"
+
+ #STATE_142: "Zambrów"
+ STATE_142_SPA: "Zambrovia"
+
+ #STATE_143: "Białystok-Zachód"
+ STATE_143_SPA: "Albacliva Occidentalis"
+
+ #STATE_144: "Działdowo"
+ STATE_144_SPA: "Saldava"
+
+ STATE_145_SPA: "Herreros Pomeranios"
+
+ #STATE_146: "Rypin"
+ STATE_146_SPA: "Ripin"
+
+ #STATE_147: "Żuromin"
+ STATE_147_SPA: "Zeromina"
+
+ #STATE_148: "Bydgoszcz-Śródmieście"
+ STATE_148_SPA: "Bidgostia"
+
+ #STATE_149: "Wysokie Mazowieckie"
+ STATE_149_SPA: "Mazoviensis Superior"
+
+ #STATE_150: "Bydgoszcz-Czyżkówko"
+ STATE_150_SPA: "Spinopolis"
+
+ #STATE_151: "Ostrołęka"
+ STATE_151_SPA: "Acrimorum"
+
+ #STATE_152: "Golub-Dobrzyń"
+ STATE_152_SPA: "Golubia-Dobrinia"
+
+ #STATE_153: "Strzelce Krajeńskie"
+ STATE_153_SPA: "Paxipolis Transoderaniae"
+
+ #STATE_154: "Wilkowyje"
+ STATE_154_SPA: "Lupusululae"
+
+ #STATE_155: "Trzcianka"
+ STATE_155_SPA: "Cannulia"
+
+ #STATE_156: "Bieżuń"
+ STATE_156_SPA: "Biesunia"
+
+ #STATE_157: "Maków Mazowiecki"
+ STATE_157_SPA: "Papaverum Mazoviensis"
+
+ #STATE_158: "Myślibórz"
+ STATE_158_SPA: "Soldinum"
+
+ #STATE_159: "Szubin"
+ STATE_159_SPA: "Subin"
+
+ #STATE_160: "Ciechanów"
+ STATE_160_SPA: "Techanovia"
+
+ #STATE_161: "Chodzież"
+ STATE_161_SPA: "Chodess"
+
+ #STATE_162: "Wagrowiec"
+ STATE_162_SPA: "Durove"
+
+ #STATE_163: "Czernikowo"
+ STATE_163_SPA: "Chernikovia"
+
+ #STATE_164: "Czarnków"
+ STATE_164_SPA: "Charnkov"
+
+ #STATE_165: "Toruń"
+ STATE_165_SPA: "Thorunia"
+
+ #STATE_166: "Żnin"
+ STATE_166_SPA: "Znena"
+
+ #STATE_167: "Wielka Nieszawka"
+ STATE_167_SPA: "Nesavia Major"
+
+ #STATE_168: "Hajnówka"
+ STATE_168_SPA: "Haynovca"
+
+ #STATE_169: "Ostrów Mazowiecka"
+ STATE_169_SPA: "Ostrovia Mazoviensis"
+
+ #STATE_170: "Lipno"
+ STATE_170_SPA: "Tilium"
+
+ #STATE_171: "Gniewkowo"
+ STATE_171_SPA: "Gnevkovia"
+
+ #STATE_172: "Barcin"
+ STATE_172_SPA: "Bartin"
+
+ #STATE_173: "Sierpc"
+ STATE_173_SPA: "Serpecia"
+
+ STATE_174_SPA: "Blanquenado de Bajoprendas"
+ 
+ #STATE_175: "Kłodawa"
+ STATE_175_SPA: "Clodavia"
+
+ #STATE_176: "Aleksandrów Kujawski"
+ STATE_176_SPA: "Alexandria Cuiaviensis"
+
+ STATE_177_SPA: "Tresteña"
+
+ #STATE_178: "Rogoźno"
+ STATE_178_SPA: "Rogasenia"
+
+ #STATE_179: "Raciąż"
+ STATE_179_SPA: "Ratienz"
+
+ #STATE_180: "Wyszków"
+ STATE_180_SPA: "Viscovia"
+
+ #STATE_181: "Janikowo"
+ STATE_181_SPA: "Ioannesia Minor"
+
+ #STATE_182: "Mogilno"
+ STATE_182_SPA: "Gravisia"
+
+ #STATE_183: "Gorzów Wielkopolski"
+ STATE_183_SPA: "Landsbergum"
+
+ #STATE_184: "Wronki"
+ STATE_184_SPA: "Vronca"
+
+ #STATE_185: "Santok"
+ STATE_185_SPA: "Santocum"
+
+ #STATE_186: "Pułtusk"
+ STATE_186_SPA: "Pultuscum"
+
+ #STATE_187: "Deszczno"
+ STATE_187_SPA: "Pluvium"
+
+ #STATE_188: "Sieraków"
+ STATE_188_SPA: "Sircovia"
+
+ #STATE_189: "Ząbki"
+ STATE_189_SPA: "Dentes"
+
+ #STATE_190: "Zawarcie"
+ STATE_190_SPA: "Transvarta"
+
+ #STATE_191: "Kowal"
+ STATE_191_SPA: "Faber"
+
+ #STATE_192: "Nowy Duninów"
+ STATE_192_SPA: "Nova Duninovia"
+
+ #STATE_193: "Szamotuły"
+ STATE_193_SPA: "Samotulea"
+
+ #STATE_194: "Siemiatycze"
+ STATE_194_SPA: "Sematicia"
+
+ #STATE_195: "Kłecko"
+ STATE_195_SPA: "Cletca"
+
+ #STATE_196: "Fabianki"
+ STATE_196_SPA: "Fabianopolis"
+
+ #STATE_197: "Płońsk"
+ STATE_197_SPA: "Plonscum"
+
+ #STATE_198: "Włocławek"
+ STATE_198_SPA: "Vladislavia"
+
+ STATE_199_SPA: "Halcónia Bajoprendasa"
+ 
+ #STATE_200: "Radziejów"
+ STATE_200_SPA: "Iulioburgum"
+
+ #STATE_201: "Węgrów"
+ STATE_201_SPA: "Ungarium"
+
+ #STATE_202: "Międzychód"
+ STATE_202_SPA: "Pirum"
+
+ #STATE_203: "Kosów Lacki"
+ STATE_203_SPA: "Cosovia Lechina"
+
+ #STATE_204: "Sulęcin"
+ STATE_204_SPA: "Sulentin"
+
+ #STATE_205: "Międzyrzecz"
+ STATE_205_SPA: "Mederecensis"
+
+ #STATE_206: "Oborniki"
+ STATE_206_SPA: "Sterquilinia"
+
+ #STATE_207: "Murowana Goślina"
+ STATE_207_SPA: "Magna Goslina"
+
+ #STATE_208: "Skwierzyna"
+ STATE_208_SPA: "Skvissina"
+
+ #STATE_209: "Słubice"
+ STATE_209_SPA: "Francofortum Orientalis"
+
+ #STATE_210: "Nasielsk"
+ STATE_210_SPA: "Nosselia"
+
+ #STATE_211: "Marki"
+ STATE_211_SPA: "Marcii"
+
+ #STATE_212: "Rokietnica"
+ STATE_212_SPA: "Rocitnica"
+
+ #STATE_213: "Gąbin"
+ STATE_213_SPA: "Gabin"
+
+ #STATE_214: "Nowy Dwór Mazowiecki"
+ STATE_214_SPA: "Nova Aula Mazoviensis"
+
+ #STATE_215: "Wołomin"
+ STATE_215_SPA: "Volumin"
+
+ #STATE_216: "Serock"
+ STATE_216_SPA: "Seroccum"
+
+ #STATE_217: "Słupca"
+ STATE_217_SPA: "Slupcia"
+
+ #STATE_218: "Nowy Tomyśl"
+ STATE_218_SPA: "Novum Tomislum"
+
+ #STATE_219: "Golina"
+ STATE_219_SPA: "Galli"
+
+ #STATE_220: "Poznań-Oldtown"
+ STATE_220_SPA: "Posnania"
+
+ #STATE_221: "Svaneke"
+ STATE_221_SPA: "Svaneke"
+
+ #STATE_222: "Gostynin"
+ STATE_222_SPA: "Gostininum"
+
+ #STATE_223: "Legionowo"
+ STATE_223_SPA: "Legionarium"
+
+ #STATE_224: "Polesie Radioecological Reserve"
+ STATE_224_SPA: "Polessia Radialis et Subsidium Ecologicum "
+
+ #STATE_225: "Nowe Miasto"
+ STATE_225_SPA: "Novapolis"
+
+ #STATE_226: "Kotuń"
+ STATE_226_SPA: "Cotun"
+
+ #STATE_227: "Świebodzin"
+ STATE_227_SPA: "Suebodinum"
+
+ #STATE_228: "Kampinos"
+ STATE_228_SPA: "Capinoss"
+
+ #STATE_229: "Mozyrz"
+ STATE_229_SPA: "Moserum"
+
+ #STATE_230: "Września"
+ STATE_230_SPA: "Septembrum"
+
+ #STATE_231: "Łosice"
+ STATE_231_SPA: "Aliae"
+
+ #STATE_232: "Kłodawa"
+ STATE_232_SPA: "Clodavia"
+
+ #STATE_233: "Mińsk Mazowiecki"
+ STATE_233_SPA: "Minscum Mazoviensis"
+
+ #STATE_234: "Grodno"
+ STATE_234_SPA: "Grodna"
+
+ STATE_235_SPA: "Bajoprendas Blancas"
+
+ #STATE_236: "Kutno"
+ STATE_236_SPA: "Cutna"
+
+ #STATE_237: "Sochaczew"
+ STATE_237_SPA: "Sochatevia"
+
+ STATE_238_SPA: "Membrana"
+
+ #STATE_239: "Białołęka"
+ STATE_239_SPA: "Albumpratia"
+
+ STATE_240_SPA: "Miércoles Grandes"
+ STATE_241_SPA: "Entre los Ríos de Bajoprendas"
+ STATE_242_SPA: "Ursus"
+
+ #STATE_243: "Wołyń"
+ STATE_243_SPA: "Lodomeria"
+
+ #STATE_244: "Grodzisk Wielkopolski"
+ STATE_244_SPA: "Castra Poloniae Maioris"
+
+ #STATE_245: "Rakoniewice"
+ STATE_245_SPA: "Raconia"
+
+ #STATE_246: "Słuck"
+ STATE_246_SPA: "Sluca"
+
+ #STATE_247: "Fyn"
+ STATE_247_SPA: "Fionia"
+
+ #STATE_248: "Śmigiel"
+ STATE_248_SPA: "Smigelia"
+
+ STATE_249_SPA: "Sajonia y Añaldeter" # Miało być Añal, ale to by było zbyt śmieszne dla osób grających w HoIa - nie mają poczucia humoru
+
+ #STATE_250: "Brześć"
+ STATE_250_SPA: "Bressicia"
+
+ #STATE_251: "Sulechów"
+ STATE_251_SPA: "Femmopontum"
+
+ #STATE_252: "Otwock"
+ STATE_252_SPA: "Otvosco"
+
+ #STATE_253: "Kościan"
+ STATE_253_SPA: "Costian"
+
+ #STATE_254: "Siedlce"
+ STATE_254_SPA: "Sedletie"
+
+ #STATE_255: "Rychwał"
+ STATE_255_SPA: "Divesylvania"
+
+ #STATE_256: "Konin"
+ STATE_256_SPA: "Equestria"
+
+ #STATE_257: "Śrem"
+ STATE_257_SPA: "Zremia"
+
+ #STATE_258: "Łęczyca"
+ STATE_258_SPA: "Lonsitia"
+
+ #STATE_259: "Zagorów"
+ STATE_259_SPA: "Transmontum"
+
+ #STATE_260: "Koło"
+ STATE_260_SPA: "Rota"
+
+ #STATE_261: "Pruszków"
+ STATE_261_SPA: "Pruscovia"
+
+ #STATE_262: "Grodzisk Mazowiecki"
+ STATE_262_SPA: "Castra Mazoviensis"
+
+ #STATE_263: "Miłosław"
+ STATE_263_SPA: "Miloslavia"
+
+ #STATE_264: "Wolsztyn"
+ STATE_264_SPA: "Volstin"
+
+ #STATE_265: "Thuringen"
+ STATE_265_SPA: "Thuringia"
+
+ #STATE_266: "Turek"
+ STATE_266_SPA: "Urusul"
+
+ #STATE_267: "Gubin"
+ STATE_267_SPA: "Gubena"
+
+ STATE_268_SPA: "Mucharena"
+
+ #STATE_269: "Skierniewice"
+ STATE_269_SPA: "Scernevicum"
+
+ #STATE_270: "Żyrardów"
+ STATE_270_SPA: "Girardovia"
+
+ #STATE_271: "Jarocin"
+ STATE_271_SPA: "Iarotin"
+
+ #STATE_272: "Łowicz"
+ STATE_272_SPA: "Lovitium"
+
+ #STATE_273: "Krosno Odrzańskie"
+ STATE_273_SPA: "Crosna"
+
+ #STATE_274: "Borek Wielkopolski"
+ STATE_274_SPA: "Sylvania Maiora Polonia"
+
+ STATE_275_SPA: "Viernes"
+
+ #STATE_276: "Nowogród Bobrzanski"
+ STATE_276_SPA: "Novogardia Bobrensis"
+
+ STATE_277_SPA: "Bajoprendas Blancas"
+
+ #STATE_278: "Łuków"
+ STATE_278_SPA: "Lucovia"
+
+ #STATE_279: "Polissia"
+ STATE_279_SPA: "Polessia"
+
+ #STATE_280: "Chocz"
+ STATE_280_SPA: "Plesovia Superior"
+
+ #STATE_281: "Mecklenburg"
+ STATE_281_SPA: "Megapolis et Pomerania Citerior"
+
+ #STATE_282: "Winnogrodzkie Nowe Miasto"
+ STATE_282_SPA: "Nova Prasia Elysiorum"
+
+ #STATE_283: "Poddębice"
+ STATE_283_SPA: "Vandalopontus"
+
+ #STATE_284: "Garwolin"
+ STATE_284_SPA: "Garvolin"
+
+ #STATE_285: "Pleszew"
+ STATE_285_SPA: "Plesovia"
+
+ #STATE_286: "Stawiszyn"
+ STATE_286_SPA: "Stavissin"
+
+ #STATE_287: "Wschowa"
+ STATE_287_SPA: "Vescova"
+
+ #STATE_288: "Głowno"
+ STATE_288_SPA: "Glovna"
+
+ #STATE_289: "Ozorków"
+ STATE_289_SPA: "Osorcovia"
+
+ STATE_290_SPA: "Radiña de Bajoprendas"
+
+ #STATE_291: "Włoszakowice"
+ STATE_291_SPA: "Zlavosovici"
+
+ #STATE_292: "Gostyń"
+ STATE_292_SPA: "Gostina"
+
+ #STATE_293: "Żary"
+ STATE_293_SPA: "Sara"
+
+ #STATE_294: "Grójec"
+ STATE_294_SPA: "Civitas Mazoviensis"
+
+ #STATE_295: "Nowa Sól"
+ STATE_295_SPA: "Nova Sal"
+
+ #STATE_296: "Brzeziny"
+ STATE_296_SPA: "Betulanum"
+
+ #STATE_297: "Lubsko"
+ STATE_297_SPA: "Semria"
+
+ #STATE_298: "Krotoszyn"
+ STATE_298_SPA: "Crotosino"
+
+ #STATE_299: "Leszno"
+ STATE_299_SPA: "Lessna Polonorum"
+
+ #STATE_300: "Rawa Mazowiecka"
+ STATE_300_SPA: "Rava Mazoviensis"
+
+ #STATE_301: "Kozienice"
+ STATE_301_SPA: "Cosinitia"
+
+ #STATE_302: "Łódź-Śródmieście"
+ STATE_302_SPA: "Navis-Centrum"
+
+ #STATE_303: "Nowosolna"
+ STATE_303_SPA: "Nova Salsa"
+
+ #STATE_304: "Włodawa"
+ STATE_304_SPA: "Vlodavia"
+
+ #STATE_305: "Warta"
+ STATE_305_SPA: "Varta"
+
+ #STATE_306: "Parczew"
+ STATE_306_SPA: "Partevium"
+
+ #STATE_307: "Molodechno"
+ STATE_307_SPA: "Molodechno"
+
+ #STATE_308: "Szprotawa"
+ STATE_308_SPA: "Sprottavia"
+
+ #STATE_309: "Pabianice"
+ STATE_309_SPA: "Fabiania"
+
+ #STATE_310: "Ryki"
+ STATE_310_SPA: "Ricii"
+
+ #STATE_311: "Ostrów Wielkopolski"
+ STATE_311_SPA: "Ostrovia"
+ 
+ STATE_312_SPA: "Montaña"
+
+ #STATE_313: "Żagań"
+ STATE_313_SPA: "Sagnum"
+
+ STATE_314_SPA: "Calisia"
+ 
+ #STATE_315: "Koluszki"
+ STATE_315_SPA: "Colussca"
+
+ #STATE_316: "Głogów"
+ STATE_316_SPA: "Glogovia"
+
+ #STATE_317: "Łask"
+ STATE_317_SPA: "Lascium"
+
+ #STATE_318: "Zduńska Wola"
+ STATE_318_SPA: "Figula Libera"
+
+ #STATE_319: "Ujazd"
+ STATE_319_SPA: "Circuitium"
+
+ #STATE_320: "Rawicz"
+ STATE_320_SPA: "Ravitium"
+
+ #STATE_321: "Sieradz"
+ STATE_321_SPA: "Siradia"
+
+ #STATE_322: "Ostrów Lubelski"
+ STATE_322_SPA: "Ostrovia Lublinensis"
+
+ STATE_323_SPA: "Costas Blancas"
+ 
+ #STATE_324: "Wąsosz"
+ STATE_324_SPA: "Chrysopolis"
+
+ STATE_325_SPA: "Poloñíños"
+ 
+ #STATE_326: "Lubartów"
+ STATE_326_SPA: "Lubartovia"
+
+ #STATE_327: "Minsk"
+ STATE_327_SPA: "Minsk"
+
+ #STATE_328: "Wolbórz"
+ STATE_328_SPA: "Volborium"
+
+ #STATE_329: "Lubin"
+ STATE_329_SPA: "Lubinum"
+
+ #STATE_330: "Puławy"
+ STATE_330_SPA: "Pullavia"
+
+ STATE_331_SPA: "Secó"
+
+ #STATE_332: "Przytyk"
+ STATE_332_SPA: "Priticum"
+
+ #STATE_333: "Opoczno"
+ STATE_333_SPA: "Opotna"
+
+ #STATE_334: "Żmigród"
+ STATE_334_SPA: "Draconis Mons"
+
+ #STATE_335: "Odolanów"
+ STATE_335_SPA: "Constantia"
+
+ #STATE_336: "Osiecznica"
+ STATE_336_SPA: "Vilicus"
+
+ #STATE_337_SPA: "Esteresovia"
+ STATE_338_SPA: "Milicía"
+
+ #STATE_339: "Bolesławiec"
+ STATE_339_SPA: "Boleslavia"
+
+ #STATE_340: "Tomaszów Mazowiecki"
+ STATE_340_SPA: "Thomasovia Masoviensis"
+
+ #STATE_341: "Bełchatów"
+ STATE_341_SPA: "Carbonium"
+
+ #STATE_342: "Mikstat"
+ STATE_342_SPA: "Culexopolis"
+
+ #STATE_343: "Wołów"
+ STATE_343_SPA: "Wolavia"
+
+ #STATE_344: "Trzebnica"
+ STATE_344_SPA: "Trebnitia"
+
+ #STATE_345: "Zgorzelec"
+ STATE_345_SPA: "Villa Goreliz"
+
+ STATE_346_SPA: "Seguidor de los Reyes"
+ 
+ #STATE_347: "Nałęczów"
+ STATE_347_SPA: "Nalentovia"
+
+ STATE_348_SPA: "Radonia"
+
+ #STATE_349: "Rejowiec"
+ STATE_349_SPA: "Reiopolis"
+
+ #STATE_350: "Bychawa"
+ STATE_350_SPA: "Bichavia"
+
+ STATE_351_SPA: "Obosqueña"
+
+ #STATE_352: "Wieruszów"
+ STATE_352_SPA: "Arsonium"
+
+ STATE_353_SPA: "Pablo de Tribunal"
+
+ #STATE_354: "Dorohusk"
+ STATE_354_SPA: "Dorohuscia"
+
+ #STATE_355: "Łęczna"
+ STATE_355_SPA: "Lentinia"
+
+ STATE_356_SPA: "Polvoché"
+ STATE_357_SPA: "Muchos Asentamientos"
+ 
+ #STATE_358: "Zelów"
+ STATE_358_SPA: "Selovia"
+
+ #STATE_359: "Kępno"
+ STATE_359_SPA: "Campno"
+
+ STATE_360_SPA: "Punzónes"
+
+ #STATE_361: "Trójrzecze"
+ STATE_361_SPA: "Triaflumina"
+
+ #STATE_362: "Końskie"
+ STATE_362_SPA: "Equestria"
+
+ #STATE_363: "Lublin Zachodni"
+ STATE_363_SPA: "Lublinum Occidentalis"
+ 
+ STATE_364_SPA: "Arena"
+
+ #STATE_365: "Opole Lubelskie"
+ STATE_365_SPA: "Oppolia Lublinensis"
+
+ STATE_366_SPA: "Tierra Limera"
+ STATE_367_SPA: "Hocico Dorado"
+
+ #STATE_368: "Działoszyn"
+ STATE_368_SPA: "Delosinium"
+
+ STATE_369_SPA: "Larga Tormenta"
+ STATE_370_SPA: "Radoña"
+ STATE_371_SPA: "Miércoles Silesiano"
+
+ #STATE_372: "Lubań"
+ STATE_372_SPA: "Lauba Lusatorum"
+
+ STATE_373_SPA: "Leónolia Silesiana"
+
+ #STATE_374: "Mirsk"
+ STATE_374_SPA: "Queis"
+
+ #STATE_375: "Wrocław-Wielka Wyspa"
+ STATE_375_SPA: "Budorgis-Magna Insula"
+
+ #STATE_376: "Wrocław-Psie Pole"
+ STATE_376_SPA: "Budorgis-Canis Agri"
+
+ #STATE_377: "Starachowice"
+ STATE_377_SPA: "Starachovia"
+
+ STATE_378_SPA: "Queja-Piedra"
+
+ #STATE_379: "Przedbórz"
+ STATE_379_SPA: "Pridboria"
+
+ #STATE_380: "Namysłów"
+ STATE_380_SPA: "Namislavia"
+
+ #STATE_381: "Jawor"
+ STATE_381_SPA: "Sycomoros"
+
+ #STATE_382: "Krasnystaw"
+ STATE_382_SPA: "Rubrostagnum"
+
+ #STATE_383: "Kluczbork"
+ STATE_383_SPA: "Crucisopolis"
+
+ #STATE_384: "Izbica"
+ STATE_384_SPA: "Isbica"
+
+ STATE_385_SPA: "Libertad"
+ STATE_386_SPA: "Destilería Sliesiana"
+ STATE_387_SPA: "Anglos Breslavianos"
+ STATE_388_SPA: "Breslavia-Olbina"
+ STATE_389_SPA: "Abada"
+ STATE_390_SPA: "Fresbosques"
+ STATE_391_SPA: "Rojo Castillo"
+ STATE_392_SPA: "Ostrovia de Santa Cruz"
+ STATE_393_SPA: "Contares"
+ STATE_394_SPA: "Horneando"
+ STATE_395_SPA: "Chirridón"
+ STATE_396_SPA: "Araña"
+ STATE_397_SPA: "Perfora"
+
+ #STATE_398: "Włoszczowa"
+ STATE_398_SPA: "Vlostovia"
+
+ #STATE_399: "Oława"
+ STATE_399_SPA: "Olavia"
+
+ #STATE_400: "Mykanów"
+ STATE_400_SPA: "Micanovia"
+
+ STATE_401_SPA: "Claro Vaso"
+ STATE_402_SPA: "Borde"
+
+ #STATE_403: "Zwierzyniec"
+ STATE_403_SPA: "Animalium"
+
+ #STATE_404: "Ozimek"
+ STATE_404_SPA: "Panevia Minor"
+
+ #STATE_405: "Karlove Vary"
+ STATE_405_SPA: "Carolus Hastilia"
+
+ #STATE_406: "Janów Lubelski"
+ STATE_406_SPA: "Ioannesia Lublinensis"
+
+ #STATE_407: "Karpacz"
+ STATE_407_SPA: "Carpatium"
+
+ #STATE_408: "Kamienna Góra"
+ STATE_408_SPA: "Lapimontium"
+
+ #STATE_409: "Strzelin"
+ STATE_409_SPA: "Strelinum"
+
+ #STATE_410: "Grodków"
+ STATE_410_SPA: "Grotcovia"
+
+ #STATE_411: "Biłgoraj"
+ STATE_411_SPA: "Alba Goraium"
+
+ #STATE_412: "Koniecpol"
+ STATE_412_SPA: "Finis Ager"
+
+ #STATE_413: "Szczebrzeszyn"
+ STATE_413_SPA: "Scebresinum"
+
+ #STATE_414: "Boguszów-Gorce"
+ STATE_414_SPA: "Deopolis"
+
+ STATE_415_SPA: "Lusacia"
+ STATE_416_SPA: "Santiago de Colmillos"
+ STATE_417_SPA: "Cava Tierra"
+
+ #STATE_418: "Częstochowa-Północ"
+ STATE_418_SPA: "Czanstochova Borealis"
+
+ STATE_419_SPA: "Arrendamiento"
+ 
+ #STATE_420: "Sędziszów"
+ STATE_420_SPA: "Atriopolis"
+
+ #STATE_421: "Lubliniec"
+ STATE_421_SPA: "Lobin"
+
+ #STATE_422: "Podillia"
+ STATE_422_SPA: "Podolia"
+
+ #STATE_423: "Blachownia"
+ STATE_423_SPA: "Laminum"
+
+ STATE_424_SPA: "Casamiento"
+
+ #STATE_425: "Dobrzeń Wielki"
+ STATE_425_SPA: "Bona Magna"
+
+ #STATE_426: "Tomaszów Lubelski"
+ STATE_426_SPA: "Thomasovia Lublinensis"
+
+ #STATE_427: "Niemodlin"
+ STATE_427_SPA: "Falcomons"
+
+ #STATE_428: "Opole"
+ STATE_428_SPA: "Oppolia"
+
+ #STATE_429: "Tarnobrzeg"
+ STATE_429_SPA: "Spinorum"
+
+ #STATE_430: "Stalowa Wola"
+ STATE_430_SPA: "Chalybs Voluntas"
+
+ #STATE_431: "Ząbkowice Śląskie"
+ STATE_431_SPA: "Francolapis"
+
+ #STATE_432: "Szczekociny"
+ STATE_432_SPA: "Scecotina"
+
+ #STATE_433: "Staszów"
+ STATE_433_SPA: "Stasovia"
+
+ #STATE_434: "Nowa Ruda"
+ STATE_434_SPA: "Nova Mineralis"
+
+ #STATE_435: "Strzelce Opolskie"
+ STATE_435_SPA: "Venatores Magna"
+
+ #STATE_436: "Żarki"
+ STATE_436_SPA: "Caloriferrum"
+
+ #STATE_437: "Hradec Kralove"
+ STATE_437_SPA: "Hradec Kralove"
+
+ #STATE_438: "Pilica"
+ STATE_438_SPA: "Pilitia"
+
+ #STATE_439: "Paczków"
+ STATE_439_SPA: "Paccagium"
+
+ #STATE_440: "Koziegłowy"
+ STATE_440_SPA: "Capricaputis"
+
+ STATE_441_SPA: "Pellizco"
+
+ #STATE_442: "Ulanów"
+ STATE_442_SPA: "Ulanovia"
+
+ STATE_443_SPA: "Busco"
+ STATE_444_SPA: "Bohemia"
+
+ #STATE_445: "Tarnowskie Góry"
+ STATE_445_SPA: "Montes Tarnovicenses"
+
+ #STATE_446: "Korfantów"
+ STATE_446_SPA: "Corcyra"
+
+ #STATE_447: "Nisko"
+ STATE_447_SPA: "Nisko"
+
+ STATE_448_SPA: "Calvaria"
+ STATE_449_SPA: "Prudnicía"
+ STATE_450_SPA: "Fingrifo"
+
+ #STATE_451: "Pyskowice"
+ STATE_451_SPA: "Pasqua"
+
+ #STATE_452: "Bystrzyca Kłodzka"
+ STATE_452_SPA: "Bistritia Glacensis"
+
+ #STATE_453: "Będzin"
+ STATE_453_SPA: "Bendin"
+
+ #STATE_454: "Miechów"
+ STATE_454_SPA: "Mechovia"
+
+ STATE_455_SPA: "Moler"
+ STATE_456_SPA: "Matraz"
+
+ #STATE_457: "Lubaczów"
+ STATE_457_SPA: "Lubatovia"
+
+ #STATE_458: "České Slezsko"
+ STATE_458_SPA: "Czech Silesia"
+
+ #STATE_459: "Olkusz"
+ STATE_459_SPA: "Ilcus"
+
+ #STATE_460: "Dąbrowa Górnicza"
+ STATE_460_SPA: "Dabrovia"
+
+ #STATE_461: "Leżajsk"
+ STATE_461_SPA: "Lendiania"
+
+ STATE_462_SPA: "Moravia del Norte"
+
+ #STATE_463: "Reńska Wieś"
+ STATE_463_SPA: "Villa Rynensis"
+
+ #STATE_464: "Piekary Śląskie"
+ STATE_464_SPA: "Pecaria Silesianis"
+
+ STATE_465_SPA: "Galicía"
+
+ #STATE_466: "Bytom"
+ STATE_466_SPA: "Bethania"
+
+ #STATE_467: "Kędzierzyn-Koźle"
+ STATE_467_SPA: "Candersino-Cosla"
+
+ #STATE_468: "Sokołów Małopolski"
+ STATE_468_SPA: "Falconia Minoris"
+
+ STATE_469_SPA: "Casimeria Grande"
+
+ #STATE_470: "Zabrze"
+ STATE_470_SPA: "Sadbre"
+
+ #STATE_471: "Gliwice"
+ STATE_471_SPA: "Glivitium"
+
+ #STATE_472: "Dąbrowa Tarnowska"
+ STATE_472_SPA: "Dabrovia Tarnovicenses"
+
+ #STATE_473: "Sieniawa"
+ STATE_473_SPA: "Senavia"
+
+ #STATE_474: "Siemianowice Śląskie"
+ STATE_474_SPA: "Simeonopolis"
+
+ #STATE_475: "Chorzów"
+ STATE_475_SPA: "Chorovia"
+
+ #STATE_476: "Ruda Śląska"
+ STATE_476_SPA: "Magna Mineralis"
+
+ #STATE_477: "Proszowice"
+ STATE_477_SPA: "Prosovitia"
+
+ #STATE_478: "Głubczyce"
+ STATE_478_SPA: "Leobschucium"
+
+ #STATE_479: "Świętochłowice"
+ STATE_479_SPA: "Sanctuarium"
+
+ #STATE_480: "Sławków"
+ STATE_480_SPA: "Slavcovia"
+
+ #STATE_481: "West Sosnowiec"
+ STATE_481_SPA: "Pinusa Occidentalis"
+
+ #STATE_482: "Słomniki"
+ STATE_482_SPA: "Slomnicii"
+
+ #STATE_483: "Katowice"
+ STATE_483_SPA: "Catovicia"
+
+ #STATE_484: "Łańcut"
+ STATE_484_SPA: "Landishuta"
+
+ #STATE_485: "Radymno"
+ STATE_485_SPA: "Radimnum"
+
+ #STATE_486: "Mysłowice"
+ STATE_486_SPA: "Mislovia"
+
+ #STATE_487: "Jaworzno"
+ STATE_487_SPA: "Sycomorum"
+
+ #STATE_488: "Kuźnia Raciborska"
+ STATE_488_SPA: "Fornax"
+
+ #STATE_489: "Przeworsk"
+ STATE_489_SPA: "Prevorscum"
+
+ #STATE_490: "Mikołów"
+ STATE_490_SPA: "Nicolaopolis"
+
+ #STATE_491: "Żabno"
+ STATE_491_SPA: "Ranapolis"
+
+ #STATE_492: "Tuchów"
+ STATE_492_SPA: "Tuchovia"
+
+ #STATE_493: "Chrzanów"
+ STATE_493_SPA: "Crenovia"
+
+ #STATE_494: "Ropczyce"
+ STATE_494_SPA: "Roptitia"
+
+ #STATE_495: "Brzesko"
+ STATE_495_SPA: "Brescum"
+
+ #STATE_496: "Czerwionka-Leszczyny"
+ STATE_496_SPA: "Rubrumcorylus"
+
+ #STATE_497: "Racibórz"
+ STATE_497_SPA: "Ratiboria"
+
+ #STATE_498: "Dębica"
+ STATE_498_SPA: "Dambicia"
+
+ #STATE_499: "Jarosław"
+ STATE_499_SPA: "Iaroslavia"
+
+ #STATE_500: "Rybnik"
+ STATE_500_SPA: "Ribnicum"
+
+ #STATE_501: "Tychy"
+ STATE_501_SPA: "Tissenia"
+
+ #STATE_502: "Lędziny"
+ STATE_502_SPA: "Lensin"
+
+ #STATE_503: "Wawrzeńczyce"
+ STATE_503_SPA: "Laurentiopolis"
+
+ #STATE_504: "Rydułtowy"
+ STATE_504_SPA: "Rudolphi Villa"
+
+ #STATE_505: "Bochnia"
+ STATE_505_SPA: "Salismontus"
+
+ STATE_506_SPA: "Cracovia-Pueblo Viejo"
+ STATE_507_SPA: "Resovia"
+ 
+ #STATE_508: "Wieliczka"
+ STATE_508_SPA: "Magnum Sal"
+
+ #STATE_509: "Pszczyna"
+ STATE_509_SPA: "Plesna"
+
+ #STATE_510: "Wodzisław Śląski"
+ STATE_510_SPA: "Vladislavia"
+
+ #STATE_511: "Żory"
+ STATE_511_SPA: "Sora"
+
+ #STATE_512: "Tarnów"
+ STATE_512_SPA: "Tarnovia"
+
+ #STATE_513: "Oświęcim"
+ STATE_513_SPA: "Osvecimia"
+
+ #STATE_514: "Kraków-Podgórze"
+ STATE_514_SPA: "Cracovia-Submontium"
+
+ STATE_515_SPA: "Defevicio"
+
+ #STATE_516: "Jastrzębie-Zdrój"
+ STATE_516_SPA: "Accipitres"
+
+ #STATE_517: "Przemyśl"
+ STATE_517_SPA: "Premislia"
+
+ #STATE_518: "Strzyżów"
+ STATE_518_SPA: "Stryzhiv"
+
+ #STATE_519: "Skawina"
+ STATE_519_SPA: "Scavina"
+
+ #STATE_520: "Medyka"
+ STATE_520_SPA: "Medicum"
+
+ #STATE_521: "Czechowice-Dziedzice"
+ STATE_521_SPA: "Bohemica-Heredes"
+
+ #STATE_522: "Cieszyn"
+ STATE_522_SPA: "Tessin"
+
+ #STATE_523: "Myślenice"
+ STATE_523_SPA: "Mislenitia"
+
+ #STATE_524: "Jasło"
+ STATE_524_SPA: "Iesla"
+
+ #STATE_525: "Bielsko-Biała"
+ STATE_525_SPA: "Alba Albiensis"
+
+ #STATE_526: "Brzozów"
+ STATE_526_SPA: "Bresovia"
+
+ #STATE_527: "Iwonicz-Zdrój"
+ STATE_527_SPA: "Ivonitia"
+
+ #STATE_528: "Limanowa"
+ STATE_528_SPA: "Salmonella Superior"
+
+ #STATE_529: "Sucha Beskidzka"
+ STATE_529_SPA: "Sucha"
+
+ #STATE_530: "Żywiec"
+ STATE_530_SPA: "Saubusia"
+
+ #STATE_531: "Nowy Sącz"
+ STATE_531_SPA: "Nova Sandecia"
+
+ #STATE_532: "Stary Sącz"
+ STATE_532_SPA: "Sandecia"
+
+ STATE_533_SPA: "Lindoso"
+
+ #STATE_534: "Szczyrk"
+ STATE_534_SPA: "Scircia"
+
+ #STATE_535: "Krosno"
+ STATE_535_SPA: "Crosna"
+
+ #STATE_536: "Ustrzyki Dolne"
+ STATE_536_SPA: "Ustrica Inferior"
+
+ STATE_537_SPA: "Leónolia"
+
+ #STATE_538: "Sanok"
+ STATE_538_SPA: "Sanocum"
+
+ #STATE_539: "Nowy Targ"
+ STATE_539_SPA: "Novum Forum"
+
+ STATE_540_SPA: "Castillo de Preso"
+
+ #STATE_541: "Lesko"
+ STATE_541_SPA: "Lescum"
+
+ #STATE_542: "Baligród"
+ STATE_542_SPA: "Balopolis"
+
+ STATE_543_SPA: "Moravia del Sur"
+ STATE_544_SPA: "Eslovaquia de Medio-Oeste"
+ STATE_545_SPA: "Monterrey"
+ STATE_546_SPA: "Eslovaquia de Este"
+
+ #STATE_547: "Bieszczady"
+ STATE_547_SPA: "Bastarnice Alpes"
+
+ #STATE_548: "Bayern"
+ STATE_548_SPA: "Bavaria"
+
+ STATE_549_SPA: "Austria"
+ STATE_550_SPA: "Praga"
+ STATE_551_SPA: "Borolína de Oeste"
+ STATE_552_SPA: "Pilsenia"
+
+ #STATE_553: "Pivnichna Bukovyna"
+ STATE_553_SPA: "Bukovina Septentrionalis"
+
+ #STATE_554: "Bessarabia"
+ STATE_554_SPA: "Moldavia"
+
+ #STATE_555: "Karpatska Ukrayina"
+ STATE_555_SPA: "Carpatho-Ukraine"
+
+ #STATE_556: "Brandenburg"
+ STATE_556_SPA: "Brandenburg"
+
+ #STATE_557: "Bielany"
+ STATE_557_SPA: "Albania"
+
+ #STATE_558: "Wilanów"
+ STATE_558_SPA: "Villa Nova"
+
+ #STATE_559: "Wawer"
+ STATE_559_SPA: "Centauria"
+
+ STATE_560_SPA: "Confín"
+
+ #STATE_561: "Rembertów"
+ STATE_561_SPA: "Rembertopolis"
+
+ #STATE_562: "Targówek"
+ STATE_562_SPA: "Marcetulum"
+
+ #STATE_563: "Ursynów"
+ STATE_563_SPA: "Ursinae"
+
+ #STATE_564: "Bemowo"
+ STATE_564_SPA: "Bemopolis"
+ 
+ #STATE_565: "Warszawa-Midtown"
+ STATE_565_SPA: "Varsovia-Centrum"
+
+ #STATE_566: "Ochota"
+ STATE_566_SPA: "Desiderium"
+
+ #STATE_567: "Żoliborz"
+ STATE_567_SPA: "Pulchralitore"
+
+ STATE_568_SPA: "Esplendor" # Włochy
+
+ #STATE_569: "Kraków-Dębniki"
+ STATE_569_SPA: "Quercia"
+
+ #STATE_570: "Bieżanów-Prokocim"
+ STATE_570_SPA: "Besanovia-Procotin"
+
+ #STATE_571: "Bronowice"
+ STATE_571_SPA: "Brunopolis"
+
+ #STATE_572: "Zwierzyniec"
+ STATE_572_SPA: "Sverincia"
+
+ STATE_573_SPA: "Nueva Herrería"
+
+ #STATE_574: "Krzesławice"
+ STATE_574_SPA: "Creslavici"
+
+ #STATE_575: "Czyżyny"
+ STATE_575_SPA: "Cirino"
+
+ #STATE_576: "Łódź-Nowe Bałuty"
+ STATE_576_SPA: "Teophilopolis"
+
+ #STATE_577: "Łódź-South Widzew"
+ STATE_577_SPA: "Videvia Australis"
+
+ #STATE_578: "Łódź-Ruda"
+ STATE_578_SPA: "Mineralis Navalis"
+
+ #STATE_579: "Łódź-Polesie"
+ STATE_579_SPA: "Polessia Navalis"
+
+ STATE_580_SPA: "ZONA"
+ 
+ #STATE_581: "Poznań-Głuszyna"
+ STATE_581_SPA: "Glusinia"
+
+ #STATE_582: "Poznań-Wilda"
+ STATE_582_SPA: "Vilda"
+
+ STATE_583_SPA: "Posadina"
+
+ #STATE_584: "Poznań-Strzeszyn"
+ STATE_584_SPA: "Stresin Magna"
+
+ #STATE_585: "Poznań-Piątkowo"
+ STATE_585_SPA: "Veneropolis"
+
+ #STATE_586: "Poznań-Os.Warszawskie"
+ STATE_586_SPA: "Melita"
+
+ #STATE_587: "Poznań-Rataje"
+ STATE_587_SPA: "Rataia"
+
+ #STATE_588: "Záolží"
+ STATE_588_SPA: "Transelsa"
+
+ #STATE_589: "Czeladź"
+ STATE_589_SPA: "Celadia"
+
+ #STATE_590: "Knurów"
+ STATE_590_SPA: "Cnurovia"
+
+ #STATE_591: "Kłobuck"
+ STATE_591_SPA: "Chlobusco"
+
+ #STATE_592: "Jasna Góra"
+ STATE_592_SPA: "Clarus Mons"
+
+ #STATE_593: "Alwernia"
+ STATE_593_SPA: "Alvernia"
+
+ #STATE_594: "Kalwaria Zebrzydowska"
+ STATE_594_SPA: "Calvaria"
+
+ #STATE_595: "Szczawnica"
+ STATE_595_SPA: "Rumexum"
+
+ #STATE_596: "Dobczyce"
+ STATE_596_SPA: "Dobsitia"
+
+ #STATE_597: "Niepołomice"
+ STATE_597_SPA: "Nepolomitia"
+ 
+ #STATE_598: "Krzeszowice"
+ STATE_598_SPA: "Cresovitium"
+ 
+ #STATE_599: "Skała"
+ STATE_599_SPA: "Magna Schala"
+
+ #STATE_600: "Krynica-Zdrój"
+ STATE_600_SPA: "Crinica"
+
+ #STATE_601: "Dynów"
+ STATE_601_SPA: "Dinovia"
+
+ #STATE_602: "Olesno"
+ STATE_602_SPA: "Rosenberga"
+
+ #STATE_603: "Nysa"
+ STATE_603_SPA: "Nica"
+ 
+ #STATE_604: "Kłodzko"
+ STATE_604_SPA: "Glacium"
+
+ #STATE_605: "Świebodzice"
+ STATE_605_SPA: "Freiberga"
+
+ #STATE_606: "Siechnice"
+ STATE_606_SPA: "Secenice"
+
+ #STATE_607: "Wrocław-Fabryczna"
+ STATE_607_SPA: "Budorgis Mechanica"
+
+ #STATE_608: "Wrocław-Śródmieście"
+ STATE_608_SPA: "Budorgis-Media Urbe"
+
+ #STATE_609: "Zielona Góra"
+ STATE_609_SPA: "Prasia Elysiorum"
+
+ #STATE_610: "Kargowa"
+ STATE_610_SPA: "Cargovia"
+
+ #STATE_611: "Kożuchów"
+ STATE_611_SPA: "Eleutheropolis"
+
+ #STATE_612: "Zbąszynek"
+ STATE_612_SPA: "Sbansinum"
+
+ #STATE_613: "Kostrzyn nad Odrą"
+ STATE_613_SPA: "Costrinum"
+
+ STATE_614_SPA: "Berolína"
+ STATE_615_SPA: "Cediña"
+ STATE_616_SPA: "Sedina del Norte"
+ STATE_617_SPA: "Margen Derecho de Sedina"
+
+ #STATE_618: "Uznam"
+ STATE_618_SPA: "Insula Solis"
+
+ #STATE_619: "Warszów"
+ STATE_619_SPA: "Varsov"
+
+ #STATE_620: "Rewal"
+ STATE_620_SPA: "Revalia"
+
+ #STATE_621: "Kołobrzeg"
+ STATE_621_SPA: "Cholberga"
+
+ #STATE_622: "Mielno"
+ STATE_622_SPA: "Mollnia"
+
+ #STATE_623: "Darłowo"
+ STATE_623_SPA: "Rugsylvania"
+
+ #STATE_624: "Ustka"
+ STATE_624_SPA: "Stolpe Ostium"
+
+ #STATE_625: "Łeba"
+ STATE_625_SPA: "Leba"
+
+ #STATE_626: "Rumia"
+ STATE_626_SPA: "Romia"
+
+ STATE_627_SPA: "Sajona"
+ STATE_628_SPA: "Montaña de Halcón"
+ STATE_629_SPA: "Gédania Viejo"
+ STATE_630_SPA: "Gédania Espinillana"
+ STATE_631_SPA: "Talcemique"
+
+ #STATE_632: "Frombork"
+ STATE_632_SPA: "Castrum Dominae Nostrae"
+
+ #STATE_633: "Suwałki"
+ STATE_633_SPA: "Suvalca"
+
+ #STATE_634: "Sokółka"
+ STATE_634_SPA: "Falculum"
+
+ #STATE_635: "Brańsk"
+ STATE_635_SPA: "Branscum"
+
+ #STATE_636: "Tykocin"
+ STATE_636_SPA: "Tykocien"
+
+ #STATE_637: "Choroszcz"
+ STATE_637_SPA: "Limbus"
+
+ #STATE_638: "Zabłudów"
+ STATE_638_SPA: "Transbludovia"
+
+ #STATE_639: "Michałowo"
+ STATE_639_SPA: "Michaelopolis"
+
+ #STATE_640: "Wasilków"
+ STATE_640_SPA: "Basilopolis"
+
+ #STATE_641: "Supraśl"
+ STATE_641_SPA: "Supraslia"
+
+ #STATE_642: "Płock"
+ STATE_642_SPA: "Plocensia"
+
+ #STATE_643: "Wyszogród"
+ STATE_643_SPA: "Altum Castrum"
+
+ #STATE_644: "Łomianki"
+ STATE_644_SPA: "Lomianca"
+
+ #STATE_645: "Ożarów Mazowiecki"
+ STATE_645_SPA: "Osarovia Masoviensis"
+
+ #STATE_646: "Raszyn"
+ STATE_646_SPA: "Rasin"
+
+ #STATE_647: "Nadarzyn"
+ STATE_647_SPA: "Nadarin"
+
+ #STATE_648: "Radzymin"
+ STATE_648_SPA: "Radimin"
+
+ #STATE_649: "Tłuszcz"
+ STATE_649_SPA: "Pinguis"
+
+ #STATE_650: "Sulejówek"
+ STATE_650_SPA: "Sulevia"
+
+ #STATE_651: "Warka"
+ STATE_651_SPA: "Varca"
+
+ #STATE_652: "Gołębiów"
+ STATE_652_SPA: "Columbia"
+
+ #STATE_653: "Skaryszew"
+ STATE_653_SPA: "Scarisevi"
+
+ #STATE_654: "Pionki"
+ STATE_654_SPA: "Pionca"
+
+ #STATE_655: "Łaskarzew"
+ STATE_655_SPA: "Lascarevia"
+
+ #STATE_656: "Mordy"
+ STATE_656_SPA: "Mordi"
+
+ #STATE_657: "Łochów"
+ STATE_657_SPA: "Lochovia"
+
+ #STATE_658: "Wólka"
+ STATE_658_SPA: "Volca"
+
+ #STATE_659: "Stoczek Łukowski"
+ STATE_659_SPA: "Sebastopolis"
+
+ #STATE_660: "Janowiec"
+ STATE_660_SPA: "Sirocomla"
+
+ #STATE_661: "Świdnik"
+ STATE_661_SPA: "Svidnic"
+
+ #STATE_662: "Lublin Wschodni"
+ STATE_662_SPA: "Lublinum Orientalis"
+
+ #STATE_663: "Głusk"
+ STATE_663_SPA: "Dominopolis"
+
+ #STATE_664: "Bełżyce"
+ STATE_664_SPA: "Belsitia"
+
+ #STATE_665: "Niemce"
+ STATE_665_SPA: "Germanos"
+
+ #STATE_666: "Hel"
+ STATE_666_SPA: "Helium"
+ 
+ #STATE_667: "Annopol"
+ STATE_667_SPA: "Annopolis"
+
+ #STATE_668: "Józefów"
+ STATE_668_SPA: "Iosephopolis"
+
+ #STATE_669: "Chełm"
+ STATE_669_SPA: "Holmia"
+
+ STATE_670_SPA: "Sandomiería"
+ STATE_671_SPA: "Volará Maleza"
+
+ #STATE_672: "Ożarów"
+ STATE_672_SPA: "Osarovia Sanctum Crucis"
+
+ #STATE_673: "Wąchock"
+ STATE_673_SPA: "Vunccocia"
+
+ #STATE_674: "Jędrzejów"
+ STATE_674_SPA: "Andreopolis"
+
+ #STATE_675: "Małogoszcz"
+ STATE_675_SPA: "Gostia Inferior"
+
+ STATE_676_SPA: "Voluntades"
+ STATE_677_SPA: "Brinca"
+ STATE_678_SPA: "Lejoses"
+ STATE_679_SPA: "Incentivo"
+ 
+ #STATE_680: "Złoczew"
+ STATE_680_SPA: "Zlotevum"
+
+ STATE_681_SPA: "Ellana"
+ 
+ #STATE_682: "Żychlin"
+ STATE_682_SPA: "Sichlinum"
+
+ #STATE_683: "Tuszyn"
+ STATE_683_SPA: "Tusinum"
+
+ #STATE_684: "Rzgów"
+ STATE_684_SPA: "Segovum"
+
+ #STATE_685: "Konstantynów Łódzki"
+ STATE_685_SPA: "Constantinopolis Navis"
+
+ #STATE_686: "Aleksandrów Łódzki"
+ STATE_686_SPA: "Alexandria Navis"
+
+ #STATE_687: "Zgierz"
+ STATE_687_SPA: "Segerium"
+
+ #STATE_688: "Opatówek"
+ STATE_688_SPA: "Abbasinum"
+
+ #STATE_689: "Gniezno"
+ STATE_689_SPA: "Gnesna"
+
+ #STATE_690: "Witkowo"
+ STATE_690_SPA: "Vitcovia"
+
+ #STATE_691: "Rydzyna"
+ STATE_691_SPA: "Ridinum"
+
+ #STATE_692: "Opalenica"
+ STATE_692_SPA: "Opalenitia"
+
+ #STATE_693: "Gołańcz"
+ STATE_693_SPA: "Golantia"
+
+ #STATE_694: "Luboń"
+ STATE_694_SPA: "Lubonia"
+
+ #STATE_695: "Puszczykowo"
+ STATE_695_SPA: "Postiucova"
+
+ #STATE_696: "Stęszew"
+ STATE_696_SPA: "Stossevium"
+
+ #STATE_697: "Mosina"
+ STATE_697_SPA: "Mosina"
+
+ #STATE_698: "Kórnik"
+ STATE_698_SPA: "Provent"
+
+ #STATE_699: "Swarzędz"
+ STATE_699_SPA: "Svarendia"
+
+ #STATE_700: "Pobiedziska"
+ STATE_700_SPA: "Pobodis"
+
+ #STATE_701: "Inowrocław"
+ STATE_701_SPA: "Budorgis Iuvenis"
+
+ #STATE_702: "Ciechocinek"
+ STATE_702_SPA: "Ciechocinek"
+
+ #STATE_703: "Brześć Kujawski"
+ STATE_703_SPA: "Bressicia Cuiaviensis"
+
+ #STATE_704: "Lubraniec"
+ STATE_704_SPA: "Lubrantium"
+
+ #STATE_705: "Solec Kujawski"
+ STATE_705_SPA: "Salis Cuiaviensis"
+
+ #STATE_706: "Bydgoszcz-Łęgnowo"
+ STATE_706_SPA: "Legnovio"
+
+ #STATE_707: "Bydgoszcz-Fordon"
+ STATE_707_SPA: "Fordon"
+
+ #STATE_708: "Bydgoszcz-Szwederowo"
+ STATE_708_SPA: "Sveciopolis"
+ 
+ #STATE_709: "Sopot"
+ STATE_709_SPA: "Sopotum"
+
+ #STATE_710: "Oksywie"
+ STATE_710_SPA: "Oxivia"
+
+ #STATE_711: "Chylonia"
+ STATE_711_SPA: "Chilonia"
+
+ STATE_712_SPA: "Resaca"
+
+ #STATE_713: "Chwarzno-Wiczlino"
+ STATE_713_SPA: "Hvarnum-Viclinum"
+
+ #STATE_714: "Wyżyny"
+ STATE_714_SPA: "Montana"
+
+ #STATE_715: "Niziny"
+ STATE_715_SPA: "Orunia"
+
+ #STATE_716: "Oliwa"
+ STATE_716_SPA: "Olivarum"
+
+ #STATE_717: "Wrzeszcz"
+ STATE_717_SPA: "Langofordum"
+
+ #STATE_718: "Wesoła"
+ STATE_718_SPA: "Vesola"
+
+ #STATE_719: "Wola"
+ STATE_719_SPA: "Vola"
+
+ #STATE_720: "Mokotów"
+ STATE_720_SPA: "Meamons"
+
+ #STATE_721: "Kraków-Swoszowice"
+ STATE_721_SPA: "Svosovicum"
+
+ #STATE_722: "Kraków-Podgórze Duchackie"
+ STATE_722_SPA: "Spiritus Mons"
+
+ #STATE_723: "Kraków-Łagiewniki"
+ STATE_723_SPA: "Lagevnicum"
+
+ #STATE_724: "Kraków-Prądnik Biały"
+ STATE_724_SPA: "Prutnic Alba"
+
+ #STATE_725: "East Legnica"
+ STATE_725_SPA: "Lugidunum Orientalis"
+
+ STATE_726_SPA: "Muelle"
+ 
+ #STATE_727: "West Legnica"
+ STATE_727_SPA: "Lugidunum Occidentalis"
+
+ #STATE_728: "Jelenia Góra"
+ STATE_728_SPA: "Cervimontium"
+
+ #STATE_729: "Chojnów"
+ STATE_729_SPA: "Hanovia"
+
+ #STATE_730: "Siewierz"
+ STATE_730_SPA: "Severia"
+
+ #STATE_731: "Mierzęcice"
+ STATE_731_SPA: "Mirentitia"
+
+ #STATE_732: "Wojkowice"
+ STATE_732_SPA: "Voicovica"
+
+ #STATE_733: "Ciężkowice"
+ STATE_733_SPA: "Cecouici"
+
+ #STATE_734: "Byczyna"
+ STATE_734_SPA: "Bitinia"
+
+ #STATE_735: "DG-Reden"
+ STATE_735_SPA: "Redenum"
+
+ #STATE_736: "Strzemieszyce"
+ STATE_736_SPA: "Strmiesicia"
+
+ #STATE_737: "Katowice Steelworks"
+ STATE_737_SPA: "Mechanicus Majoris"
+
+ #STATE_738: "Myszków"
+ STATE_738_SPA: "Miscovia"
+
+ #STATE_739: "Zawiercie"
+ STATE_739_SPA: "Transvartia"
+
+ #STATE_740: "Ogrodzieniec"
+ STATE_740_SPA: "Castra Iurassicum"
+
+ #STATE_741: "Łazy"
+ STATE_741_SPA: "Lasium"
+
+ #STATE_742: "Radzionków"
+ STATE_742_SPA: "Raduncovia"
+
+ #STATE_743: "Miasteczko Śląskie"
+ STATE_743_SPA: "Silesicum Oppidum"
+
+ #STATE_744: "Zbrosławicy"
+ STATE_744_SPA: "Sbroslavia"
+
+ #STATE_745: "Woźniki"
+ STATE_745_SPA: "Vosnicum"
+
+ #STATE_746: "Krzepice"
+ STATE_746_SPA: "Crippic"
+
+ #STATE_747: "Ustroń"
+ STATE_747_SPA: "Ustrinum"
+
+ #STATE_748: "Wisła"
+ STATE_748_SPA: "Vistula"
+
+ #STATE_749: "Skoczów"
+ STATE_749_SPA: "Saltuum"
+
+ #STATE_750: "Jozefów"
+ STATE_750_SPA: "Iosephopolis Masoviensis"
+
+ #STATE_751: "Celestynów"
+ STATE_751_SPA: "Coelestia"
+
+ #STATE_752: "Karczew"
+ STATE_752_SPA: "Carcev"
+
+ #STATE_753: "Konstancin-Jeziorna"
+ STATE_753_SPA: "Constantia Lacus"
+
+ #STATE_754: "Góra Kalwaria"
+ STATE_754_SPA: "Mons Calvariae"
+ 
+ #STATE_755: "Tarczyn"
+ STATE_755_SPA: "Tarcinum"
+ 
+ #STATE_756: "Lesznowola"
+ STATE_756_SPA: "Lessna Mazoviensis"
+
+ #STATE_757: "Łódź-Radogoszcz"
+ STATE_757_SPA: "Rethra"
+
+ #STATE_758: "Łódź-North Widzew"
+ STATE_758_SPA: "Videvia Borealis"
+
+ #STATE_759: "Łódź-Chojny"
+ STATE_759_SPA: "Navis Superior"
+
+ #STATE_760: "Ożarowice"
+ STATE_760_SPA: "Sendec"
+
+ #STATE_761: "Southern Mysłowice"
+ STATE_761_SPA: "Mislovia Australis"
+
+ #STATE_762: "Bieruń"
+ STATE_762_SPA: "Berunia"
+
+ #STATE_763: "Katowice-Szopienice"
+ STATE_763_SPA: "Chopinica"
+
+ #STATE_764: "Katowice-Giszowiec"
+ STATE_764_SPA: "Gisovicia"
+
+ #STATE_765: "Katowice-Murcki"
+ STATE_765_SPA: "Murcia"
+
+ #STATE_766: "Katowice-Piotrowice"
+ STATE_766_SPA: "Petrapolis"
+
+ #STATE_767: "Katowice-Ligota-Brynów"
+ STATE_767_SPA: "Ligotia Brinovia"
+
+ #STATE_768: "Katowice-Tysiąclecia"
+ STATE_768_SPA: "Regio Millenialis"
+
+ #STATE_769: "Psary"
+ STATE_769_SPA: "Canis Majoris"
+
+ #STATE_770: "Kraków-Krowodrza"
+ STATE_770_SPA: "Crovodria"
+
+ #STATE_771: "Kraków-Prądnik Czerwony"
+ STATE_771_SPA: "Prutnic Rubrum"
+
+ #STATE_772: "Kraków-Mistrzejowice"
+ STATE_772_SPA: "Cracovia Dominus"
+
+ #STATE_773: "Kraków-Bieńczyce"
+ STATE_773_SPA: "Cracovia Benedictus"
+
+ #STATE_774: "Kraków-Grzegórzki"
+ STATE_774_SPA: "Cracovia Gregorianis"
+
+ #STATE_775: "DG-Tricity"
+ STATE_775_SPA: "Tripolis"
+
+ #STATE_776: "DG-Ząbkowice-Łęknice"
+ STATE_776_SPA: "Sombcovicium"
+
+ #STATE_777: "DG-Gołonóg"
+ STATE_777_SPA: "Nudumcrus"
+
+ #STATE_778: "Żywiec Beskids"
+ STATE_778_SPA: "Beskidia Siviencis"
+
+ #STATE_779: "Eastern Żywiec"
+ STATE_779_SPA: "Siviec Orientalis"
+
+ #STATE_780: "Western Żywiec"
+ STATE_780_SPA: "Siviec Occidentalis"
+
+ #STATE_781: "Beskid Mały"
+ STATE_781_SPA: "Bescidia Inferior"
+
+ #STATE_782: "Wilamowice"
+ STATE_782_SPA: "Vilamovice Nova"
+
+ STATE_783_SPA: "Llasenica"
+
+ #STATE_784: "Zebrzydowice"
+ STATE_784_SPA: "Villa Sifridi"
+
+ #STATE_785: "Strumień"
+ STATE_785_SPA: "Amnis"
+
+ #STATE_786: "Pawłowice"
+ STATE_786_SPA: "Paulopolis"
+
+ #STATE_787: "Miedźna"
+ STATE_787_SPA: "Melopolis"
+
+ #STATE_788: "Łaziska Górne"
+ STATE_788_SPA: "Lasisca Superiori"
+
+ #STATE_789: "Orzesze"
+ STATE_789_SPA: "Oresia"
+
+ #STATE_790: "Radlin"
+ STATE_790_SPA: "Radlinum"
+
+ #STATE_791: "Lubomia"
+ STATE_791_SPA: "Lubomia"
+
+ #STATE_792: "Pietrowice"
+ STATE_792_SPA: "Petrapolis Silesiae"
+
+ #STATE_793: "Krzanowice"
+ STATE_793_SPA: "Cranovicium"
+
+ #STATE_794: "Sośnicowice"
+ STATE_794_SPA: "Pineapolis"
+
+ #STATE_795: "Toszek"
+ STATE_795_SPA: "Toscum"
+
+ #STATE_796: "Lubsza"
+ STATE_796_SPA: "Lubis"
+
+ #STATE_797: "Zaodrze"
+ STATE_797_SPA: "Oppolia Transoderaniae"
+
+ #STATE_798: "East Sosnowiec"
+ STATE_798_SPA: "Pinusa Orientalis"
+
+ #STATE_799: "Kęty"
+ STATE_799_SPA: "Canthi"
+
+ #STATE_800: "Zator"
+ STATE_800_SPA: "Satoria"
+
+ #STATE_801: "Andrychów"
+ STATE_801_SPA: "Andrichovia"
+ 
+ #STATE_802: "Otmuchów"
+ STATE_802_SPA: "Otmuchovia"
+
+ STATE_803_SPA: "Ricodía"
+ 
+ #STATE_804: "Nowogrodziec"
+ STATE_804_SPA: "Nova Castra Silesiae"
+ 
+ #STATE_805: "Ślęża"
+ STATE_805_SPA: "Silensi"
+ 
+ #STATE_806: "Oborniki Śląskie"
+ STATE_806_SPA: "Sterquilinia Silesiae"
+ 
+ #STATE_807: "Dubiecko"
+ STATE_807_SPA: "Dubetscum"
+ 
+ #STATE_808: "Pruchnik"
+ STATE_808_SPA: "Poronicum"
+ 
+ #STATE_809: "Kańczuga"
+ STATE_809_SPA: "Cantiuga"
+ 
+ #STATE_810: "Zagórz"
+ STATE_810_SPA: "Transmontania"
+ 
+ #STATE_811: "Nowy Żmigród"
+ STATE_811_SPA: "Nova Draconis"
+ 
+ #STATE_812: "Pilzno"
+ STATE_812_SPA: "Pilsna"
+ 
+ #STATE_813: "Sędziszów Małopolski"
+ STATE_813_SPA: "Atriopolis Antecarpaticus"
+ 
+ #STATE_814: "Nowa Dęba"
+ STATE_814_SPA: "Nova Querca"
+ 
+ #STATE_815: "Zaklików"
+ STATE_815_SPA: "Saclicovia"
+ 
+ #STATE_816: "Boguchwała"
+ STATE_816_SPA: "Laus Deo"
+ 
+ #STATE_817: "Głogów Małopolski"
+ STATE_817_SPA: "Glogovia Minoris"
+ 
+ #STATE_818: "Maków Podhalański"
+ STATE_818_SPA: "Papaverium"
+
+ #STATE_819: "Rabka-Zdrój"
+ STATE_819_SPA: "Rabca"
+
+ #STATE_820: "Mszana Dolna"
+ STATE_820_SPA: "Mechanica Inferior"
+
+ #STATE_821: "Grybów"
+ STATE_821_SPA: "Gribovia"
+
+ #STATE_822: "Wojnicz"
+ STATE_822_SPA: "Guerrera"
+
+ #STATE_823: "Czchów"
+ STATE_823_SPA: "Alba Ecclesia"
+ 
+ #STATE_824: "Nowy Wiśnicz"
+ STATE_824_SPA: "Nova Cerasus"
+ 
+ #STATE_825: "Bukowno"
+ STATE_825_SPA: "Fagusum"
+ 
+ #STATE_826: "Wolbrom"
+ STATE_826_SPA: "Voluramus"
+ 
+ #STATE_827: "Drohiczyn"
+ STATE_827_SPA: "Drogitinum"
+ 
+ #STATE_828: "Mielnik"
+ STATE_828_SPA: "Melnicum"
+ 
+ #STATE_829: "Kleszczele"
+ STATE_829_SPA: "Ixodidis"
+ 
+ #STATE_830: "Białowieża"
+ STATE_830_SPA: "Albaturris"
+ 
+ #STATE_831: "Ciechanowiec"
+ STATE_831_SPA: "Techanovetes"
+ 
+ #STATE_832: "Goniądz"
+ STATE_832_SPA: "Gonindium"
+ 
+ #STATE_833: "Suchowola"
+ STATE_833_SPA: "Sucovola"
+ 
+ #STATE_834: "Suraż"
+ STATE_834_SPA: "Surasia"
+ 
+ #STATE_835: "Zielonka"
+ STATE_835_SPA: "Viridium"
+ 
+ #STATE_836: "Mrozy"
+ STATE_836_SPA: "Gelatium"
+ 
+ #STATE_837: "Kałuszyn"
+ STATE_837_SPA: "Calusinum"
+ 
+ #STATE_838: "Czerwin"
+ STATE_838_SPA: "Rubrum Mazoviensis"
+
+ #STATE_839: "Różan"
+ STATE_839_SPA: "Urbs Rosariensis"
+
+ STATE_840_SPA: "Horelia"
+ 
+ #STATE_841: "Glinojeck"
+ STATE_841_SPA: "Argillum"
+
+ #STATE_842: "Zawkrze"
+ STATE_842_SPA: "Transvcria"
+
+ #STATE_843: "Nowe Miasto nad Wartą"
+ STATE_843_SPA: "Nova Civitas Vartensis"
+ 
+ #STATE_844: "Białystok-Południe"
+ STATE_844_SPA: "Albacliva Australis"
+ 
+ #STATE_845: "Białystok-Wschód"
+ STATE_845_SPA: "Albacliva Orientalis"
+
+ STATE_846_SPA: "Calisia Occidentala"
+ 
+ #STATE_847: "Toruń-Lewobrzeże"
+ STATE_847_SPA: "Thorunia Sinistra"
+ 
+ #STATE_848: "Kamieńsk"
+ STATE_848_SPA: "Lapisum"
+ 
+ #STATE_849: "Krośniewice"
+ STATE_849_SPA: "Crosnevites"
+ 
+ #STATE_850: "Lipce Reymontowskie"
+ STATE_850_SPA: "Iulis Reimontensis"
+ 
+ #STATE_851: "Nowe Skalmierzyce"
+ STATE_851_SPA: "Nova Scarbimirites"
+ 
+ #STATE_852: "Kruszwica"
+ STATE_852_SPA: "Crusvicia"
+ 
+ #STATE_853: "Nowe"
+ STATE_853_SPA: "Novum"
+ 
+ #STATE_854: "Morąg"
+ STATE_854_SPA: "Moringia"
+
+ STATE_855_SPA: "Escama Medida"
+ STATE_856_SPA: "Estúpido"
+ STATE_857_SPA: "Rompe"
+ STATE_858_SPA: "Abejorra"
+ STATE_859_SPA: "Ciudad Martas"
+ STATE_860_SPA: "Dias Secos"
+ STATE_861_SPA: "Alegría"
+ STATE_862_SPA: "Secemin"
+ STATE_863_SPA: "Santiago de Pistola"
+ 
+ #STATE_864: "Miedziana Góra"
+ STATE_864_SPA: "Cuprum Mons"
+ 
+ #STATE_865: "Nowa Słupia"
+ STATE_865_SPA: "Novaslupia"
+ 
+ #STATE_866: "Jelcz-Laskowice"
+ STATE_866_SPA: "Ialche-Lascovicii"
+ 
+ #STATE_867: "Falsterbo"
+ STATE_867_SPA: "Falsterbo"
+ 
+ #STATE_868: "Miastko"
+ STATE_868_SPA: "Civitulus"
+ 
+ #STATE_869: "Częstochowa-Zawodzie"
+ STATE_869_SPA: "Czanstochova Transmarium"
+ 
+ #STATE_870: "Częstochowa-Południe"
+ STATE_870_SPA: "Czanstochova Australis"
+ 
+ #STATE_871: "Chociwel"
+ STATE_871_SPA: "Hocivelia"
+ 
+ #STATE_872: "Złocieniec"
+ STATE_872_SPA: "Falconum"
+ 
+ #STATE_873: "Borne Sulinowo"
+ STATE_873_SPA: "Borna Magna"
+
+ #STATE_874: "Nowogard"
+ STATE_874_SPA: "Novapolis Pomeraniae"
+
+ #STATE_875: "Węgorzewo"
+ STATE_875_SPA: "Anguillopolis"
+
+ #STATE_876: "Wielbark"
+ STATE_876_SPA: "Vilmontum"
+
+ STATE_877_SPA: "Buena Ciudad"
+
+ #STATE_878: "Święta Siekierka"
+ STATE_878_SPA: "Sanctum"
+
+ #STATE_879: "Ludwikowo"
+ STATE_879_SPA: "Ludovicum"
+
+ STATE_880_SPA: "Lanco Prusiano"
+
+ #STATE_881: "Frydląd"
+ STATE_881_SPA: "Terra Pacificus"
+
+ #STATE_882: "Tapiawa"
+ STATE_882_SPA: "Tapiava"
+
+ #STATE_883: "Romnowo"
+ STATE_883_SPA: "Romuva"
+
+ #STATE_884: "Koronowo"
+ STATE_884_SPA: "Coronopolis"
+
+ #STATE_885: "Buda"
+ STATE_885_SPA: "Clarus"
+
+ #STATE_886: "Palmniki"
+ STATE_886_SPA: "Sucinopolis"
+
+ #STATE_887: "Labiawa"
+ STATE_887_SPA: "Transylvania"
+
+ #STATE_888: "Łoździenie"
+ STATE_888_SPA: "Corylus"
+
+ #STATE_889: "Ragneta"
+ STATE_889_SPA: "Ragneta"
+
+ #STATE_890: "Jędrzychowo"
+ STATE_890_SPA: "Slavonia"
+
+ #STATE_891: "Stołupiany"
+ STATE_891_SPA: "Nesterovium"
+
+ #STATE_892: "Gąbin"
+ STATE_892_SPA: "Gumbinia"
+
+ #STATE_893: "Darkiejmy"
+ STATE_893_SPA: "Darkemis"
+
+ STATE_894_SPA: "Asentamiento Loco"
+ STATE_895_SPA: "Castilla de Agustín"
+ STATE_897_SPA: "Porto Gédaniano"
+ STATE_898_SPA: "Multitudes"
+ STATE_899_SPA: "Vadeas"
+ STATE_903_SPA: "Minas de Carbónica"
+ STATE_904_SPA: "Testigo"
+ STATE_905_SPA: "Cúrateminto"
+ STATE_906_SPA: "Campesino Alumno"
+ STATE_907_SPA: "Bidgoscia-Membrana"

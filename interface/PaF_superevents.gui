@@ -1,0 +1,660 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "Super_Event_Window"
+		size = { width = 800 height = 500 }
+		position = { x= 0 y= 0 }
+		Orientation = center
+		Origo = center
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType =  "GFX_blank_background"
+		}
+		iconType = {
+			name ="ATM_wiech_super_image"
+			spriteType = "GFX_SE_ATM_Wiech"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="ATM_berlin_super_image"
+			spriteType = "GFX_SE_ATM_Berlin"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="BBW_postsmog_super_image"
+			spriteType = "GFX_SE_BBW_Postsmog"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="ATM_rozjebane_super_image"
+			spriteType = "GFX_SE_ATM_Rozjebane"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="MNI_galla_super_image"
+			spriteType = "GFX_SE_MNI_Galla"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="MNI_merkel_super_image"
+			spriteType = "GFX_SE_MNI_Merkel"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="OPO_ojczyzna_super_image"
+			spriteType = "GFX_SE_OPO_Ojczyzna"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="GNI_piast_super_image"
+			spriteType = "GFX_SE_GNI_Piast"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="CAL_augustus_super_image"
+			spriteType = "GFX_SE_CAL_Augustus"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="CAL_populares_super_image"
+			spriteType = "GFX_SE_CAL_Populares"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="FEL_sarmatia_super_image"
+			spriteType = "GFX_SE_FEL_Sarmatia"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="EKW_tusklib_super_image"
+			spriteType = "GFX_SE_EKW_TuskLib"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="EKW_furdeutschland_super_image"
+			spriteType = "GFX_SE_EKW_FurDeutschland"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="EKW_slonceperu_super_image"
+			spriteType = "GFX_SE_EKW_SloncePeru"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="JOM_harald_super_image"
+			spriteType = "GFX_SE_JOM_Harald"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="JOM_halfdan_super_image"
+			spriteType = "GFX_SE_JOM_Halfdan"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="OWS_wosp_super_image"
+			spriteType = "GFX_SE_OWS_WOSP"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="KOR_korsarz_super_image"
+			spriteType = "GFX_SE_KOR_Korsarz"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="INO_polak_super_image"
+			spriteType = "GFX_SE_INO_Polak"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="PIL_rzeznia_super_image"
+			spriteType = "GFX_SE_PIL_Rzeznia"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="ARK_exodus_super_image"
+			spriteType = "GFX_SE_ARK_Exodus"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="BBW_karbonizacja_super_image"
+			spriteType = "GFX_SE_BBW_Karbonizacja"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="BBW_roksi_super_image"
+			spriteType = "GFX_SE_BBW_Roksi"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="DGR_nazbol_super_image"
+			spriteType = "GFX_SE_DGR_Nazbol"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="DGR_rasta_super_image"
+			spriteType = "GFX_SE_DGR_Rasta"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="EK_collapse_super_image"
+			spriteType = "GFX_SE_EK_Collapse"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="KRS_kwiatki_super_image"
+			spriteType = "GFX_SE_KRS_Kwiatki"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="KRS_rutkowski_super_image"
+			spriteType = "GFX_SE_KRS_Rutkowski"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="KRS_pavulon_super_image"
+			spriteType = "GFX_SE_KRS_Pavulon"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="SAP_insane_super_image"
+			spriteType = "GFX_SE_SAP_Insane"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="SAP_sane_super_image"
+			spriteType = "GFX_SE_SAP_Sane"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="SAP_carlistas_super_image"
+			spriteType = "GFX_SE_SAP_Carlistas"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="WML_hoiownia_super_image"
+			spriteType = "GFX_SE_WML_Hoiownia"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="WML_dialog_super_image"
+			spriteType = "GFX_SE_WML_Dialog"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="ZHP_zhp_super_image"
+			spriteType = "GFX_SE_ZHP_ZHP"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="ZHP_zhr_super_image"
+			spriteType = "GFX_SE_ZHP_ZHR"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="ZHP_zawisza_super_image"
+			spriteType = "GFX_SE_ZHP_Zawisza"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="ZYD_widzew_super_image"
+			spriteType = "GFX_SE_ZYD_Widzew"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="ZYD_urban_super_image"
+			spriteType = "GFX_SE_ZYD_Urban"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="ZYD_lks_super_image"
+			spriteType = "GFX_SE_ZYD_LKS"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="ZERO_super_image"
+			spriteType = "GFX_SE_ZERO"
+			
+			alwaystransparent = yes
+		}
+	iconType = {
+		name = "RUS_army_super_image"
+		spriteType = "GFX_SE_RUS_Army"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "RUS_cw_super_image"
+		spriteType = "GFX_SE_RUS_CW"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "RUS_czeczen_super_image"
+		spriteType ="GFX_SE_RUS_Czeczen"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	iconType = {
+		name = "RUS_dugin_super_image"
+		spriteType ="GFX_SE_RUS_Dugin"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "RUS_fsb_super_image"
+		spriteType ="GFX_SE_RUS_FSB"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "RUS_medvedev_super_image"
+		spriteType ="GFX_SE_RUS_Medvedev"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	iconType = {
+		name = "RUS_nawalny_super_image"
+		spriteType ="GFX_SE_RUS_Nawalny"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "RUS_zsrr_super_image"
+		spriteType ="GFX_SE_RUS_ZSRR"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	
+	
+	iconType = {
+		name = "BRZ_buzzer_super_image"
+		spriteType ="GFX_SE_BRZ_Buzzer"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	iconType = {
+		name = "BRZ_kuba_super_image"
+		spriteType ="GFX_SE_BRZ_Kuba"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BRZ_lewy_super_image"
+		spriteType ="GFX_SE_BRZ_Lewy"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
+	
+	iconType = {
+		name = "CCH_paulins_super_image"
+		spriteType ="GFX_SE_CCH_Paulins"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	iconType = {
+		name = "CCH_joannites_super_image"
+		spriteType ="GFX_SE_CCH_Joannites"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "CCH_masons_super_image"
+		spriteType ="GFX_SE_CCH_Masons"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "KAT_budka_super_image"
+		spriteType ="GFX_SE_KAT_Budka"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	iconType = {
+		name = "KAT_senior_super_image"
+		spriteType ="GFX_SE_KAT_Senior"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "KAT_junior_super_image"
+		spriteType ="GFX_SE_KAT_Junior"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
+	
+	iconType = {
+		name = "WOD_bekier_super_image"
+		spriteType ="GFX_SE_WOD_Bekier"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	iconType = {
+		name = "WOD_szczery_super_image"
+		spriteType ="GFX_SE_WOD_Szczery"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "WOD_ragnarok_super_image"
+		spriteType ="GFX_SE_WOD_Ragnarok"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
+	
+	iconType = {
+		name = "JSW_jsw_super_image"
+		spriteType ="GFX_SE_JSW_JSW"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "JSW_nszz_super_image"
+		spriteType ="GFX_SE_JSW_NSZZ"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	
+	iconType = {
+		name = "BSK_bgolec_super_image"
+		spriteType ="GFX_SE_BSK_BGolec"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BSK_bpierdolec_super_image"
+		spriteType ="GFX_SE_BSK_BPierdolec"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
+	
+	iconType = {
+		name = "CIE_malysz_super_image"
+		spriteType ="GFX_SE_CIE_Malysz"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}		
+	
+	iconType = {
+		name = "DGR_zprr_super_image"
+		spriteType ="GFX_SE_DGR_ZPRR"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
+	
+	iconType = {
+		name = "SOS_wcz_good_super_image"
+		spriteType ="GFX_SE_SOS_WCZ_Good"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "SOS_wcz_prl_super_image"
+		spriteType ="GFX_SE_SOS_WCZ_PRL"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}		
+	
+	iconType = {
+		name = "JAW_antifa_super_image"
+		spriteType ="GFX_SE_JAW_Antifa"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
+	
+	iconType = {
+		name = "GLI_rajch_super_image"
+		spriteType ="GFX_SE_GLI_Rajch"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "GLI_murzinytancujom_super_image"
+		spriteType ="GFX_SE_GLI_Murzinytancujom"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}		
+		
+	iconType = {
+		name = "CHO_ras_super_image"
+		spriteType ="GFX_SE_CHO_RAS"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
+	
+	iconType = {
+		name = "LEH_sanjaj_super_image"
+		spriteType = "GFX_SE_LEH_Sanjaj"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	
+	iconType = {
+		name = "LCH_bieszk_super_image"
+		spriteType = "GFX_SE_LCH_Bieszk"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "WAN_wandale_super_image"
+		spriteType = "GFX_SE_WAN_Wandale"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	
+	iconType = {
+		name = "OPO_cookies_super_image"
+		spriteType = "GFX_SE_OPO_Cookies"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BEL_kartoszki_super_image"
+		spriteType = "GFX_SE_BEL_Kartoszki"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
+		
+	iconType = {
+		name = "BEL_lukaszenka_super_image"
+		spriteType = "GFX_SE_BEL_Lukaszenka"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
+
+	iconType = {
+		name = "BOM_major_super_image"
+		spriteType = "GFX_SE_BOM_Major"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}	
+	
+	iconType = {
+		name = "KON_knur_super_image"
+		spriteType = "GFX_SE_KON_Knur"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "LMZ_piwo_super_image"
+		spriteType = "GFX_SE_LMZ_Piwo"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "JAS_serce_super_image"
+		spriteType = "GFX_SE_JAS_Serce"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	iconType = {
+		name = "JAS_sendecki_super_image"
+		spriteType = "GFX_SE_JAS_Sendecki"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+	iconType = {
+		name = "JAS_poreba_super_image"
+		spriteType = "GFX_SE_JAS_Poreba"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BBW_atom_super_image"
+		spriteType = "GFX_SE_BBW_Atom"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "WAN_siwa_super_image"
+		spriteType = "GFX_SE_WAN_Siwa"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BGF_progresywizm_super_image"
+		spriteType = "GFX_SE_BGF_SD"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BGF_liberalizm_super_image"
+		spriteType = "GFX_SE_BGF_KO"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BGF_oligarchia_super_image"
+		spriteType = "GFX_SE_BGF_CBA"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BGF_kaczyzm_super_image"
+		spriteType = "GFX_SE_BGF_PiS"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BGF_wnuk_super_image"
+		spriteType = "GFX_SE_BGF_Wnuk"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BGF_mafia_super_image"
+		spriteType = "GFX_SE_BGF_Mafia"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BGF_celsa_super_image"
+		spriteType = "GFX_SE_BGF_CELSA"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BGF_konarski_super_image"
+		spriteType = "GFX_SE_BGF_Konarski"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BGF_doom_super_image"
+		spriteType = "GFX_SE_BGF_Doom"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BGF_ateizm_super_image"
+		spriteType = "GFX_SE_BGF_Ateizm"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "BGF_nazbol_super_image"
+		spriteType = "GFX_SE_BGF_NazBol"
+		position = { x = 0 y = 0 }
+		alwaystransparent = yes
+	}
+		
+		buttonType = {
+            name = "Super_Event_Close"
+            position = { x = 765 y = 0 }
+            quadTextureSprite ="GFX_closebutton"
+            clicksound = click_scroll
+        }
+	}
+}

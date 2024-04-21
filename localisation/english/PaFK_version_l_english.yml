@@ -1,0 +1,5 @@
+﻿l_english:
+ # Format - PaF-TiK vMajorVersion.ContentUpdate.PatchNumber - Content Update Name
+ pafk_current_version:0 "PaF-TiK v0.1.2c - §yThe Guy From Ostrowiec§!"
+ # Format - Date of most recent update - Hotfix Or Patch Contents
+ pafk_current_version_date:0 "§YApril 20th, 2024 -§! §yThe Guy From Ostrowiec (Santa Cruz Beta 0.1.2c)§!"

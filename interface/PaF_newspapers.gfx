@@ -1,0 +1,110 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_news_generic"
+		texturefile = "gfx/interface/newspapers/news_generic.dds"
+		legacy_lazy_load = no
+	}
+	
+	###SAP###
+	spriteType = {
+		name = "GFX_news_SAP"
+		texturefile = "gfx/interface/newspapers/news_SAP.dds"
+		legacy_lazy_load = no
+	}	
+	
+	###ZYD###
+	spriteType = {
+		name = "GFX_news_ZYD"
+		texturefile = "gfx/interface/newspapers/news_ZYD.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_ZYD2"
+		texturefile = "gfx/interface/newspapers/news_ZYD2.dds"
+		legacy_lazy_load = no
+	}
+
+	###ZHP###
+	spriteType = {
+		name = "GFX_news_ZHP"
+		texturefile = "gfx/interface/newspapers/news_ZHP.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_ZHP2"
+		texturefile = "gfx/interface/newspapers/news_ZHP2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_ZHP3"
+		texturefile = "gfx/interface/newspapers/news_ZHP3.dds"
+		legacy_lazy_load = no
+	}	
+	spriteType = {
+		name = "GFX_news_ZHP4"
+		texturefile = "gfx/interface/newspapers/news_ZHP4.dds"
+		legacy_lazy_load = no
+	}
+	
+
+	###POZ###
+	spriteType = {
+		name = "GFX_news_POZ"
+		texturefile = "gfx/interface/newspapers/news_POZ.dds"
+		legacy_lazy_load = no
+	}
+
+	###WML###
+	spriteType = {
+		name = "GFX_news_WML"
+		texturefile = "gfx/interface/newspapers/news_WML.dds"
+		legacy_lazy_load = no
+	}
+
+	###BBW###
+	spriteType = {
+		name = "GFX_news_BBW"
+		texturefile = "gfx/interface/newspapers/news_BBW.dds"
+		legacy_lazy_load = no
+	}
+
+	###ATM###
+	spriteType = {
+		name = "GFX_news_ATM"
+		texturefile = "gfx/interface/newspapers/news_ATM.dds"
+		legacy_lazy_load = no
+	}	
+
+	
+	###KRS###
+	spriteType = {
+		name = "GFX_news_KRS"
+		texturefile = "gfx/interface/newspapers/news_KRS.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_KRS2"
+		texturefile = "gfx/interface/newspapers/news_KRS2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_KRS3"
+		texturefile = "gfx/interface/newspapers/news_KRS3.dds"
+		legacy_lazy_load = no
+	}
+
+	###SYJ###
+	spriteType = {
+		name = "GFX_news_SYJ"
+		texturefile = "gfx/interface/newspapers/news_SYJ.dds"
+		legacy_lazy_load = no
+	}
+
+	###BGF###
+	spriteType = {
+		name = "GFX_news_BGF"
+		texturefile = "gfx/interface/newspapers/news_BGF.dds"
+		legacy_lazy_load = no
+	}
+}

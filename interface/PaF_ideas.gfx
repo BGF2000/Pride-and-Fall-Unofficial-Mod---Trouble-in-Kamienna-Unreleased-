@@ -1,0 +1,1954 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_importing_energy"
+		texturefile = "gfx/interface/ideas/importing_energy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_podlasie_tribe_idea"
+		texturefile = "gfx/interface/ideas/podlasie_tribe_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_INT_first_intercounty"
+		texturefile = "gfx/interface/ideas/INT_first_intercounty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_INT_strangerland"
+		texturefile = "gfx/interface/ideas/INT_strangerland.png"
+	}
+	spriteType = {
+		name = "GFX_building_restrictions"
+		texturefile = "gfx/interface/ideas/building_restrictions.dds"
+	}
+	spriteType = {
+		name = "GFX_low_emissions"
+		texturefile = "gfx/interface/ideas/low_emissions.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_random_enlistment"
+		texturefile = "gfx/interface/ideas/pobor2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_system_enlistment"
+		texturefile = "gfx/interface/ideas/pobor3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_expanded_conscription"
+		texturefile = "gfx/interface/ideas/pobor4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ubiquitous_military_service"
+		texturefile = "gfx/interface/ideas/pobor5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_total_mobilisation"
+		texturefile = "gfx/interface/ideas/pobor6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_army_with_a_state"
+		texturefile = "gfx/interface/ideas/pobor7.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_none"
+		texturefile = "gfx/interface/ideas/trade1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_minimal"
+		texturefile = "gfx/interface/ideas/trade2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_regulated"
+		texturefile = "gfx/interface/ideas/trade3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_promoted"
+		texturefile = "gfx/interface/ideas/trade4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_free"
+		texturefile = "gfx/interface/ideas/trade5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_two_party_system"
+		texturefile = "gfx/interface/ideas/parties_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_regime_council"
+		texturefile = "gfx/interface/ideas/parties_6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_one_state_one_religion"
+		texturefile = "gfx/interface/ideas/religia1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_state_religion"
+		texturefile = "gfx/interface/ideas/religia2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_one_religion_favoured"
+		texturefile = "gfx/interface/ideas/religia3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_partial_secularism"
+		texturefile = "gfx/interface/ideas/religia4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_full_secularism"
+		texturefile = "gfx/interface/ideas/religia5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_atheism_encouraged"
+		texturefile = "gfx/interface/ideas/religia6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_state_atheism"
+		texturefile = "gfx/interface/ideas/religia7.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_gods_no_masters"
+		texturefile = "gfx/interface/ideas/religia8.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_women_men_nation"
+		texturefile = "gfx/interface/ideas/women_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_women_traditional_roles"
+		texturefile = "gfx/interface/ideas/women_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_women_working_women"
+		texturefile = "gfx/interface/ideas/women_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_women_gender_equality"
+		texturefile = "gfx/interface/ideas/women_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_women_feminism_policy"
+		texturefile = "gfx/interface/ideas/women_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lgbt_illegal_punished"
+		texturefile = "gfx/interface/ideas/lgbt_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lgbt_illegal_tolerated"
+		texturefile = "gfx/interface/ideas/lgbt_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lgbt_limited_laws"
+		texturefile = "gfx/interface/ideas/lgbt_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lgbt_equal_laws"
+		texturefile = "gfx/interface/ideas/lgbt_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lgbt_encouraged"
+		texturefile = "gfx/interface/ideas/lgbt_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_minorities_ethnic_purity"
+		texturefile = "gfx/interface/ideas/minorities_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_minorities_system_oppresion"
+		texturefile = "gfx/interface/ideas/minorities_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_minorities_hidden_oppresion"
+		texturefile = "gfx/interface/ideas/minorities_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_minorities_equal_rights"
+		texturefile = "gfx/interface/ideas/minorities_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_minorities_multiculturalism"
+		texturefile = "gfx/interface/ideas/minorities_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_taxes_none"
+		texturefile = "gfx/interface/ideas/taxes_0.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_taxes_minimal"
+		texturefile = "gfx/interface/ideas/taxes_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_taxes_low"
+		texturefile = "gfx/interface/ideas/taxes_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_taxes_medium"
+		texturefile = "gfx/interface/ideas/taxes_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_taxes_high"
+		texturefile = "gfx/interface/ideas/taxes_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_taxes_inhuman"
+		texturefile = "gfx/interface/ideas/taxes_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_drugs_government"
+		texturefile = "gfx/interface/ideas/drugs_6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_drugs_illegal_unenforced"
+		texturefile = "gfx/interface/ideas/drugs_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_drugs_all_penalised"
+		texturefile = "gfx/interface/ideas/drugs_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_drugs_harsh_penalised"
+		texturefile = "gfx/interface/ideas/drugs_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_drugs_decriminalised"
+		texturefile = "gfx/interface/ideas/drugs_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_drugs_allowed"
+		texturefile = "gfx/interface/ideas/drugs_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_anarchy"
+		texturefile = "gfx/interface/ideas/economy_anarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_agrarism"
+		texturefile = "gfx/interface/ideas/economy_agrarism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_monopolism"
+		texturefile = "gfx/interface/ideas/economy_monopolism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_criminal"
+		texturefile = "gfx/interface/ideas/economy_criminal.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_economy_laissez_faire"
+		texturefile = "gfx/interface/ideas/economy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_primal_economy"
+		texturefile = "gfx/interface/ideas/economy_primal.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_swarm_economy"
+		texturefile = "gfx/interface/ideas/economy_swarm.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_economy_feudalism"
+		texturefile = "gfx/interface/ideas/economy_feudal.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_economy_regulated_capitalism"
+		texturefile = "gfx/interface/ideas/economy_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_authoritarian_capitalism"
+		texturefile = "gfx/interface/ideas/economy_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_social_market"
+		texturefile = "gfx/interface/ideas/economy_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_corporationism"
+		texturefile = "gfx/interface/ideas/economy_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_militarism"
+		texturefile = "gfx/interface/ideas/economy_6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_solidarism"
+		texturefile = "gfx/interface/ideas/economy_7.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_workers_management"
+		texturefile = "gfx/interface/ideas/economy_8.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_central_planning"
+		texturefile = "gfx/interface/ideas/economy_9.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_subsidies"
+		texturefile = "gfx/interface/ideas/subsidies_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_civil_industry_subsidies"
+		texturefile = "gfx/interface/ideas/subsidies_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_military_industry_subsidies"
+		texturefile = "gfx/interface/ideas/subsidies_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_basic_income"
+		texturefile = "gfx/interface/ideas/subsidies_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_absolute_censorship"
+		texturefile = "gfx/interface/ideas/press_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_state_press"
+		texturefile = "gfx/interface/ideas/press_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_autocensorship"
+		texturefile = "gfx/interface/ideas/press_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_absolute_freedom"
+		texturefile = "gfx/interface/ideas/press_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_party"
+		texturefile = "gfx/interface/ideas/parties_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_monoparty"
+		texturefile = "gfx/interface/ideas/parties_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_controlled_opposition"
+		texturefile = "gfx/interface/ideas/parties_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_multiparty"
+		texturefile = "gfx/interface/ideas/parties_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_witch_doctors"
+		texturefile = "gfx/interface/ideas/health_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_private_healthcare"
+		texturefile = "gfx/interface/ideas/health_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_partial_refundation"
+		texturefile = "gfx/interface/ideas/health_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_public_healthcare"
+		texturefile = "gfx/interface/ideas/health_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_improvised_security"
+		texturefile = "gfx/interface/ideas/security_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_basic_security"
+		texturefile = "gfx/interface/ideas/security_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_advanced_security"
+		texturefile = "gfx/interface/ideas/security_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_direct_security"
+		texturefile = "gfx/interface/ideas/security_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_extreme_security"
+		texturefile = "gfx/interface/ideas/security_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_training_battle"
+		texturefile = "gfx/interface/ideas/training1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_training_basic"
+		texturefile = "gfx/interface/ideas/training2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_training_veterans"
+		texturefile = "gfx/interface/ideas/training3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_training_western_instructors"
+		texturefile = "gfx/interface/ideas/training4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_training_russian_instructors"
+		texturefile = "gfx/interface/ideas/training5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_training_professional"
+		texturefile = "gfx/interface/ideas/training6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_officer_random"
+		texturefile = "gfx/interface/ideas/officer1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_officer_clerks"
+		texturefile = "gfx/interface/ideas/officer2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_officer_mercenaries"
+		texturefile = "gfx/interface/ideas/officer3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_officer_leftovers"
+		texturefile = "gfx/interface/ideas/officer4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_officer_schools"
+		texturefile = "gfx/interface/ideas/officer5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_officer_academies"
+		texturefile = "gfx/interface/ideas/officer6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WOD_europa_ante_portas"
+		texturefile = "gfx/interface/ideas/WOD/WOD_europa_ante_portas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WOD_legacy_of_honor"
+		texturefile = "gfx/interface/ideas/WOD/WOD_legacy_of_honor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DGR_red_heritage"
+		texturefile = "gfx/interface/ideas/DGR/DGR_red_heritage.png"
+	}
+	spriteType = {
+		name = "GFX_idea_DGR_industrial_heart1"
+		texturefile = "gfx/interface/ideas/DGR/DGR_industrial_heart1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_NAC_legacy_of_the_nsz"
+		texturefile = "gfx/interface/ideas/NAC/NAC_legacy_of_the_nsz.png"
+	}
+	spriteType = {
+		name = "GFX_idea_NAC_on_euroliberal_land"
+		texturefile = "gfx/interface/ideas/NAC/NAC_on_euroliberal_land.png"
+	}
+	spriteType = {
+		name = "GFX_idea_NAC_uncertain_triumvirate"
+		texturefile = "gfx/interface/ideas/NAC/NAC_uncertain_triumvirate.png"
+	}
+	spriteType = {
+		name = "GFX_idea_WRT_resistance_of_polish_people"
+		texturefile = "gfx/interface/ideas/WRT/WRT_resistance_of_polish_people.png"
+	}
+	spriteType = {
+		name = "GFX_idea_WRT_fall_of_eurocomissariats"
+		texturefile = "gfx/interface/ideas/WRT/WRT_fall_of_eurocomissariats.png"
+	}
+	spriteType = {
+		name = "GFX_idea_WRT_small_german_colony"
+		texturefile = "gfx/interface/ideas/WRT/WRT_small_german_colony.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_maria_II_reactor"
+		texturefile = "gfx/interface/ideas/ATM/ATM_maria_II_reactor.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_diverting_resources_idea"
+		texturefile = "gfx/interface/ideas/ATM/ATM_diverting_resources_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_zeppelin_in_the_atomic_age_idea"
+		texturefile = "gfx/interface/ideas/ATM/ATM_zeppelin_in_the_atomic_age_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_consortium_supplies"
+		texturefile = "gfx/interface/ideas/ATM/ATM_consortium_supplies.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_belchatow_failed"
+		texturefile = "gfx/interface/ideas/ATM/ATM_belchatow_failed.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_pacification"
+		texturefile = "gfx/interface/ideas/ATM/ATM_pacification.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_civilian_usage"
+		texturefile = "gfx/interface/ideas/ATM/ATM_civilian_usage.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_oze_idea"
+		texturefile = "gfx/interface/ideas/ATM/ATM_oze_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_revitalizing_countryside"
+		texturefile = "gfx/interface/ideas/ATM/ATM_revitalizing_countryside.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_climate_agency"
+		texturefile = "gfx/interface/ideas/ATM/ATM_climate_agency.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_pentomic_army"
+		texturefile = "gfx/interface/ideas/ATM/ATM_pentomic_army.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_reduction_plan"
+		texturefile = "gfx/interface/ideas/ATM/ATM_reduction_plan.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_gadomski_plan"
+		texturefile = "gfx/interface/ideas/ATM/ATM_gadomski_plan.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_atomic_science"
+		texturefile = "gfx/interface/ideas/ATM/ATM_atomic_science.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_bulwark_deadly"
+		texturefile = "gfx/interface/ideas/ATM/ATM_bulwark_deadly.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_bulwark_safe"
+		texturefile = "gfx/interface/ideas/ATM/ATM_bulwark_safe.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_bulwark"
+		texturefile = "gfx/interface/ideas/ATM/ATM_bulwark.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_rad_eaters"
+		texturefile = "gfx/interface/ideas/ATM/ATM_rad_eaters.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_captain_planet"
+		texturefile = "gfx/interface/ideas/ATM/ATM_captain_planet.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_fear_of_the_atom"
+		texturefile = "gfx/interface/ideas/ATM/ATM_fear_of_the_atom.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_indoctrinated_society"
+		texturefile = "gfx/interface/ideas/ATM/ATM_indoctrinated_society.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_ravaged_countryside"
+		texturefile = "gfx/interface/ideas/ATM/ATM_ravaged_countryside.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_overextended_army"
+		texturefile = "gfx/interface/ideas/ATM/ATM_overextended_army.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_eco_org_idea"
+		texturefile = "gfx/interface/ideas/ATM/ATM_eco_org_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_eco_org_idea2"
+		texturefile = "gfx/interface/ideas/ATM/ATM_eco_org_idea2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_eco_org_idea3"
+		texturefile = "gfx/interface/ideas/ATM/ATM_eco_org_idea3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_eco_org_idea4"
+		texturefile = "gfx/interface/ideas/ATM/ATM_eco_org_idea4.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_eco_org_idea5"
+		texturefile = "gfx/interface/ideas/ATM/ATM_eco_org_idea5.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ATM_cleansing_ranks"
+		texturefile = "gfx/interface/ideas/ATM/ATM_cleansing_ranks.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_balutyt"
+		texturefile = "gfx/interface/ideas/BBW/BBW_balutyt.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_baluty_wall"
+		texturefile = "gfx/interface/ideas/BBW/BBW_baluty_wall.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_permament_12h_work_week"
+		texturefile = "gfx/interface/ideas/BBW/BBW_permament_12h_work_week.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_new_coal_policy"
+		texturefile = "gfx/interface/ideas/BBW/BBW_new_coal_policy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_shifting_industry"
+		texturefile = "gfx/interface/ideas/BBW/BBW_shifting_industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_12h_work_week"
+		texturefile = "gfx/interface/ideas/BBW/BBW_12h_work_week.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_eat_artificial_beef_leave_potatoes"
+		texturefile = "gfx/interface/ideas/BBW/BBW_eat_artificial_beef_leave_potatoes.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_city_adjustments"
+		texturefile = "gfx/interface/ideas/BBW/BBW_city_adjustments.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_future_tanks"
+		texturefile = "gfx/interface/ideas/BBW/BBW_future_tanks.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_future_tanks_hard"
+		texturefile = "gfx/interface/ideas/BBW/BBW_future_tanks_hard.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_future_tanks_koala"
+		texturefile = "gfx/interface/ideas/BBW/BBW_future_tanks_koala.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_blessed_by_saint_barbara"
+		texturefile = "gfx/interface/ideas/BBW/BBW_blessed_by_saint_barbara.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_armored_waltz"
+		texturefile = "gfx/interface/ideas/BBW/BBW_armored_waltz.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_one_man_tank_of_progress"
+		texturefile = "gfx/interface/ideas/BBW/BBW_one_man_tank_of_progress.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_power_armor"
+		texturefile = "gfx/interface/ideas/BBW/BBW_power_armor.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_press_freedom_institute"
+		texturefile = "gfx/interface/ideas/BBW/BBW_press_freedom_institute.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_climatology_institute"
+		texturefile = "gfx/interface/ideas/BBW/BBW_climatology_institute.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_korean_potatoes"
+		texturefile = "gfx/interface/ideas/BBW/BBW_korean_potatoes.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_cuban_cigars"
+		texturefile = "gfx/interface/ideas/BBW/BBW_cuban_cigars.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_brotherhood_u"
+		texturefile = "gfx/interface/ideas/BBW/BBW_brotherhood_u.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_one_truth"
+		texturefile = "gfx/interface/ideas/BBW/BBW_one_truth.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_first_contact_forces"
+		texturefile = "gfx/interface/ideas/BBW/BBW_first_contact_forces.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_regionalisation_of_brotherhood"
+		texturefile = "gfx/interface/ideas/BBW/BBW_regionalisation_of_brotherhood.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_even_angry"
+		texturefile = "gfx/interface/ideas/BBW/BBW_even_angry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_most_obedient"
+		texturefile = "gfx/interface/ideas/BBW/BBW_most_obedient.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_chokedout_economy"
+		texturefile = "gfx/interface/ideas/BBW/BBW_chokedout_economy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_falling_economy"
+		texturefile = "gfx/interface/ideas/BBW/BBW_falling_economy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_reviving_economy"
+		texturefile = "gfx/interface/ideas/BBW/BBW_reviving_economy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_reformed_army"
+		texturefile = "gfx/interface/ideas/BBW/BBW_reformed_army.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_resettlement_efforts"
+		texturefile = "gfx/interface/ideas/BBW/BBW_resettlement_efforts.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_maximized_processing"
+		texturefile = "gfx/interface/ideas/BBW/BBW_maximized_processing.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_greenisation_of_brotherhood"
+		texturefile = "gfx/interface/ideas/BBW/BBW_greenisation_of_brotherhood.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_terror_of_the_skies"
+		texturefile = "gfx/interface/ideas/BBW/BBW_terror_of_the_skies.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_future_tanks_fast"
+		texturefile = "gfx/interface/ideas/BBW/BBW_future_tanks_fast.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_BBW_life_in_plastic_is_fantastic"
+		texturefile = "gfx/interface/ideas/BBW/BBW_full_plastic_production.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_reduced_diet"
+		texturefile = "gfx/interface/ideas/BBW/BBW_reduced_diet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_reduced_diet2"
+		texturefile = "gfx/interface/ideas/BBW/BBW_reduced_diet2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_more_steam"
+		texturefile = "gfx/interface/ideas/BBW/BBW_more_steam.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_blackout"
+		texturefile = "gfx/interface/ideas/BBW/BBW_blackout.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_smog"
+		texturefile = "gfx/interface/ideas/BBW/BBW_smog.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_street_anger"
+		texturefile = "gfx/interface/ideas/BBW/BBW_street_anger.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_street_anger2"
+		texturefile = "gfx/interface/ideas/BBW/BBW_street_anger2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_street_anger3"
+		texturefile = "gfx/interface/ideas/BBW/BBW_street_anger3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_carbon_fever"
+		texturefile = "gfx/interface/ideas/BBW/BBW_carbon_fever.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_carbon_fever2"
+		texturefile = "gfx/interface/ideas/BBW/BBW_carbon_fever2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_carbon_fever3"
+		texturefile = "gfx/interface/ideas/BBW/BBW_carbon_fever3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_green_counter_revolution"
+		texturefile = "gfx/interface/ideas/BBW/BBW_green_counter_revolution.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_resource_extraction_focus"
+		texturefile = "gfx/interface/ideas/BBW/BBW_resource_extraction_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_infrastructure_focus"
+		texturefile = "gfx/interface/ideas/BBW/BBW_infrastructure_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_industrial_focus"
+		texturefile = "gfx/interface/ideas/BBW/BBW_industrial_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_military_factories_focus"
+		texturefile = "gfx/interface/ideas/BBW/BBW_military_factories_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_industrial_capabilities"
+		texturefile = "gfx/interface/ideas/BBW/BBW_industrial_capabilities.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_industrial_capabilities2"
+		texturefile = "gfx/interface/ideas/BBW/BBW_industrial_capabilities2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_industrial_capabilities3"
+		texturefile = "gfx/interface/ideas/BBW/BBW_industrial_capabilities3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_industrial_capabilities4"
+		texturefile = "gfx/interface/ideas/BBW/BBW_industrial_capabilities4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_industrial_capabilities5"
+		texturefile = "gfx/interface/ideas/BBW/BBW_industrial_capabilities5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_small_coal_plants"
+		texturefile = "gfx/interface/ideas/BBW/BBW_small_coal_plants.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_eat_beef_leave_potatoes"
+		texturefile = "gfx/interface/ideas/BBW/BBW_eat_beef_leave_potatoes.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_carbonari"
+		texturefile = "gfx/interface/ideas/BBW/BBW_karboniarze_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_BPP"
+		texturefile = "gfx/interface/ideas/SAP/SAP_BPP.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_zhp_partizans"
+		texturefile = "gfx/interface/ideas/SAP/SAP_zhp_partizans.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_skrzydlewska_communalised"
+		texturefile = "gfx/interface/ideas/SAP/SAP_skrzydlewska_communalised.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_skrzydlewska_underground"
+		texturefile = "gfx/interface/ideas/SAP/SAP_skrzydlewska_underground.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_syndykacka_moneta"
+		texturefile = "gfx/interface/ideas/SAP/SAP_syndykacka_moneta.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_komenda_opryskanych"
+		texturefile = "gfx/interface/ideas/SAP/SAP_komenda_opryskanych.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_szkola_wilka2"
+		texturefile = "gfx/interface/ideas/SAP/SAP_szkola_wilka2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_szkola_wilka"
+		texturefile = "gfx/interface/ideas/SAP/SAP_szkola_wilka.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SAP_wkurwiony_zakon"
+		texturefile = "gfx/interface/ideas/SAP/SAP_wkurwiony_zakon.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SAP_wkurwione_wiewiory"
+		texturefile = "gfx/interface/ideas/SAP/SAP_wkurwione_wiewiory.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_army_of_bartyzel"
+		texturefile = "gfx/interface/ideas/SAP/SAP_army_of_bartyzel.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SAP_feudal_extortion"
+		texturefile = "gfx/interface/ideas/SAP/SAP_feudal_extortion.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SAP_confused_population"
+		texturefile = "gfx/interface/ideas/SAP/SAP_confused_population.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SAP_divided_supporters"
+		texturefile = "gfx/interface/ideas/SAP/SAP_divided_supporters.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_ravaged_country"
+		texturefile = "gfx/interface/ideas/SAP/SAP_ravaged_country.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_order_przywileju"
+		texturefile = "gfx/interface/ideas/SAP/SAP_order_przywileju.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SAP_syndykat_przywileju"
+		texturefile = "gfx/interface/ideas/SAP/SAP_syndykat_przywileju.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAP_ksiazeca_mieta"
+		texturefile = "gfx/interface/ideas/SAP/SAP_ksiazeca_mieta.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_human_experiments"
+		texturefile = "gfx/interface/ideas/KRS/KRS_human_experiments.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_bandits_bought_out"
+		texturefile = "gfx/interface/ideas/KRS/KRS_bandits_bought_out.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_bandits_in_work_camps"
+		texturefile = "gfx/interface/ideas/KRS/KRS_bandits_in_work_camps.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_economic_stagnation"
+		texturefile = "gfx/interface/ideas/KRS/KRS_economic_stagnation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_tulip_farms"
+		texturefile = "gfx/interface/ideas/KRS/KRS_tulip_farms.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_megaproject_wip"
+		texturefile = "gfx/interface/ideas/KRS/KRS_megaproject_wip.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_diverted_assets"
+		texturefile = "gfx/interface/ideas/KRS/KRS_diverted_assets.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_speedway_bikes"
+		texturefile = "gfx/interface/ideas/KRS/KRS_speedway_bikes.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_consortium_policy"
+		texturefile = "gfx/interface/ideas/KRS/KRS_consortium_policy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_consortium_material_reliance"
+		texturefile = "gfx/interface/ideas/WML/WML_consortium_material_reliance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_armed_banditry"
+		texturefile = "gfx/interface/ideas/KRS/KRS_armed_banditry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_human_terrors"
+		texturefile = "gfx/interface/ideas/KRS/KRS_human_terrors.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_boneless"
+		texturefile = "gfx/interface/ideas/KRS/KRS_boneless.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_j22"
+		texturefile = "gfx/interface/ideas/KRS/KRS_j22.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_lack_of_legitimacy"
+		texturefile = "gfx/interface/ideas/KRS/KRS_lack_of_legitimacy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_pawulon"
+		texturefile = "gfx/interface/ideas/KRS/KRS_pawulon.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KRS_corrupt_hospitals"
+		texturefile = "gfx/interface/ideas/KRS/KRS_corrupt_hospitals.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_wave_of_kidnappings"
+		texturefile = "gfx/interface/ideas/KRS/KRS_wave_of_kidnappings.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_civil_servants_as_soldiers"
+		texturefile = "gfx/interface/ideas/KRS/KRS_civil_servants_as_soldiers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_civil_servants_as_paramedics"
+		texturefile = "gfx/interface/ideas/KRS/KRS_civil_servants_as_soldiers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_seryjny_samobojca"
+		texturefile = "gfx/interface/ideas/KRS/KRS_seryjny_samobojca.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KRS_civil_servants_as_managers"
+		texturefile = "gfx/interface/ideas/KRS/KRS_civil_servants_as_soldiers.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KRS_lab3"
+		texturefile = "gfx/interface/ideas/KRS/KRS_lab3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KRS_60"
+		texturefile = "gfx/interface/ideas/KRS/KRS_60.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KRS_institute"
+		texturefile = "gfx/interface/ideas/KRS/KRS_institute.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KRS_chinskie_leki"
+		texturefile = "gfx/interface/ideas/KRS/KRS_chinskie_leki.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_ZYD_mobile_ark"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_mobile_ark.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZYD_minority_rule"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_minority_rule.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_gray_lily_auxillaries"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_gray_lily_auxillaries.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_gray_lily_trainees"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_gray_lily_trainees.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_gray_lily_partisans"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_gray_lily_partisans.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_mandatory_scout_service"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_mandatory_scout_service.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_idealist_economy"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_idealist_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_conservatist_economy"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_conservatist_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_podzial_rang"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_podzial_rang.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_pomysl_armii_wolontariuszy"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_pomysl_armii_wolontariuszy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_szara_lilijka"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_szara_lilijka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZHP_legacja_partyzany"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_legacja_partyzany.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_POZ_divided_city"
+		texturefile = "gfx/interface/ideas/POZ/POZ_divided_city.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZIE_looming_famine"
+		texturefile = "gfx/interface/ideas/ZIE/ZIE_looming_famine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RZE_patodeveloperka"
+		texturefile = "gfx/interface/ideas/RZE/RZE_patodeveloperka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_zsp_niewiadow"
+		texturefile = "gfx/interface/ideas/ATM/zsp_niewiadow.png"
+	}
+	spriteType = {
+		name = "GFX_idea_toya"
+		texturefile = "gfx/interface/ideas/ATM/toya.png"
+	}
+	spriteType = {
+		name = "GFX_idea_columbus_energy"
+		texturefile = "gfx/interface/ideas/ATM/columbus_energy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_centrum_badan_jadrowych"
+		texturefile = "gfx/interface/ideas/ATM/centrum.png"
+	}
+	spriteType = {
+		name = "GFX_idea_wzl_1"
+		texturefile = "gfx/interface/ideas/ATM/wzl1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_prexer"
+		texturefile = "gfx/interface/ideas/ATM/prexer.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_kombinat_cytadela"
+		texturefile = "gfx/interface/ideas/BBW/BBW_cytadela.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_borg_automotive"
+		texturefile = "gfx/interface/ideas/BBW/BBW_borg.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ec_belchatow"
+		texturefile = "gfx/interface/ideas/BBW/BBW_ec_belchatow.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aflofarm"
+		texturefile = "gfx/interface/ideas/BBW/BBW_aflofarm.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fortuna_tymienice"
+		texturefile = "gfx/interface/ideas/BBW/BBW_fortuna.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wielton_zhp"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_wielton.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_stalex_zhp"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_stalex.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_betard_zhp"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_betard.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fameg_zhp"
+		texturefile = "gfx/interface/ideas/ZHP/ZHP_fameg.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_gilette_lodz"
+		texturefile = "gfx/interface/ideas/WML/WML_gilette.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bosch_lodz"
+		texturefile = "gfx/interface/ideas/WML/WML_bsh.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dell_widzew"
+		texturefile = "gfx/interface/ideas/WML/WML_dell.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_atlas_lodz"
+		texturefile = "gfx/interface/ideas/WML/WML_atlas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_abb_transformatory"
+		texturefile = "gfx/interface/ideas/WML/WML_abb.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rutkowski_krs"
+		texturefile = "gfx/interface/ideas/KRS/rutkowski_krs.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_expom_krs"
+		texturefile = "gfx/interface/ideas/KRS/expom_krs.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lzg_krs"
+		texturefile = "gfx/interface/ideas/KRS/lzg_krs.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_skrzydlewska_krs"
+		texturefile = "gfx/interface/ideas/KRS/skrzydlewska_krs.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mabion_krs"
+		texturefile = "gfx/interface/ideas/KRS/mabion_krs.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_milfex_krs"
+		texturefile = "gfx/interface/ideas/KRS/milfex_krs.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_borga_krs"
+		texturefile = "gfx/interface/ideas/KRS/borga_krs.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_azm_kutno_krs"
+		texturefile = "gfx/interface/ideas/KRS/azm_kutno_krs.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_zamet_sap"
+		texturefile = "gfx/interface/ideas/SAP/zamet_sap.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ferrox_sap"
+		texturefile = "gfx/interface/ideas/SAP/ferrox_sap.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_maspex_sap"
+		texturefile = "gfx/interface/ideas/SAP/maspex_sap.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pudzian_sap"
+		texturefile = "gfx/interface/ideas/SAP/pudzian_sap.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_asfalt_sap"
+		texturefile = "gfx/interface/ideas/SAP/asfalt_sap.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_gerlach_drzewica"
+		texturefile = "gfx/interface/ideas/ZYD/gerlach_drzewica.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wistom_tomaszow"
+		texturefile = "gfx/interface/ideas/ZYD/wistom_tomaszow.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_boshoku_tomaszow"
+		texturefile = "gfx/interface/ideas/ZYD/boshoku_tomaszow.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_chipita_tomaszow"
+		texturefile = "gfx/interface/ideas/ZYD/chipita_tomaszow.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fmg_pioma"
+		texturefile = "gfx/interface/ideas/ZYD/fmg_pioma.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ceramika_paradyz"
+		texturefile = "gfx/interface/ideas/ZYD/ceramika_paradyz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ukrainian_siege"
+		texturefile = "gfx/interface/ideas/RZE/RZE_ukrainian_siege.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_flower_of_bohemio_nippon"
+		texturefile = "gfx/interface/ideas/CZE/CZE_flower_of_bohemio_nippon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_weaponised_pavulon"
+		texturefile = "gfx/interface/ideas/KRS/weaponised_pavulon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZYD_pitch_failures"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_pitch_failures.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZYD_eleven_falashas"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_eleven_falashas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZYD_i_znow_bijatyka"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_bijatyka.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_ZYD_armia_dawida"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_armia_dawida.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZYD_armia_urbana"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_armia_urbana.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZYD_ekonomia_kibucowska"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_ekonomia_kibucowska.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZYD_ekonomia_urbana"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_ekonomia_urbana.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZYD_eleven_praca"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_eleven_praca.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZYD_LKS"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_LKS.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZYD_unfinished_collectivization"
+		texturefile = "gfx/interface/ideas/ZYD/ZYD_unfinished_collectivization.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_BBW_smol_biznes"
+		texturefile = "gfx/interface/ideas/BBW/BBW_smol_biznes.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBW_soldiers_future"
+		texturefile = "gfx/interface/ideas/BBW/BBW_soldiers_future.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRZ_legacy_of_pzpn"
+		texturefile = "gfx/interface/ideas/BRZ/BRZ_legacy_of_pzpn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRZ_nothings_wrong_poles"
+		texturefile = "gfx/interface/ideas/BRZ/BRZ_nothings_wrong_poles.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRZ_bandit_hooligans"
+		texturefile = "gfx/interface/ideas/BRZ/BRZ_bandit_hooligans.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRZ_erg_klobuck"
+		texturefile = "gfx/interface/ideas/BRZ/BRZ_erg_klobuck.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_BRZ_lewiatan"
+		texturefile = "gfx/interface/ideas/BRZ/BRZ_lewiatan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRZ_kojnia"
+		texturefile = "gfx/interface/ideas/BRZ/BRZ_kojnia.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_BRZ_minova_arnall"
+		texturefile = "gfx/interface/ideas/BRZ/BRZ_minova_arnall.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRZ_maskpol"
+		texturefile = "gfx/interface/ideas/BRZ/BRZ_maskpol.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHO_los_kurczakos"
+		texturefile = "gfx/interface/ideas/CHO/CHO_los_kurczakos.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHO_huta_batory"
+		texturefile = "gfx/interface/ideas/CHO/CHO_huta_batory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHO_konstal"
+		texturefile = "gfx/interface/ideas/CHO/CHO_konstal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHO_park_slaski"
+		texturefile = "gfx/interface/ideas/CHO/CHO_park_slaski.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHO_rosomak"
+		texturefile = "gfx/interface/ideas/CHO/CHO_rosomak.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RAS_bytom"
+		texturefile = "gfx/interface/ideas/RAS/RAS_bytom.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RAS_as_bytom"
+		texturefile = "gfx/interface/ideas/RAS/RAS_as_bytom.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RAS_conbelts"
+		texturefile = "gfx/interface/ideas/RAS/RAS_conbelts.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RAS_adler"
+		texturefile = "gfx/interface/ideas/RAS/RAS_adler.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUD_nikpol"
+		texturefile = "gfx/interface/ideas/RUD/RUD_nikpol.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUD_zekon"
+		texturefile = "gfx/interface/ideas/RUD/RUD_zekon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUD_huta_pokoj"
+		texturefile = "gfx/interface/ideas/RUD/RUD_huta_pokoj.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUD_huta_florian"
+		texturefile = "gfx/interface/ideas/RUD/RUD_huta_florian.png"
+	}
+	spriteType = {
+		name = "GFX_idea_TRC_db_cargo"
+		texturefile = "gfx/interface/ideas/TRC/TRC_db_cargo.png"
+	}
+	spriteType = {
+		name = "GFX_idea_TRC_huta_zabrze"
+		texturefile = "gfx/interface/ideas/TRC/TRC_huta_zabrze.png"
+	}
+	spriteType = {
+		name = "GFX_idea_TRC_metalsolution"
+		texturefile = "gfx/interface/ideas/TRC/TRC_metalsolution.png"
+	}
+	spriteType = {
+		name = "GFX_idea_TRC_elzab"
+		texturefile = "gfx/interface/ideas/TRC/TRC_elzab.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FER_hemarpol"
+		texturefile = "gfx/interface/ideas/FER/FER_hemarpol.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FER_huta_cynku"
+		texturefile = "gfx/interface/ideas/FER/FER_huta_cynku.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FER_zamet"
+		texturefile = "gfx/interface/ideas/FER/FER_zamet.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FER_chemet"
+		texturefile = "gfx/interface/ideas/FER/FER_chemet.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GLI_logistyka"
+		texturefile = "gfx/interface/ideas/GLI/GLI_logistyka.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GLI_avantor"
+		texturefile = "gfx/interface/ideas/GLI/GLI_avantor.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_GLI_flytronic"
+		texturefile = "gfx/interface/ideas/GLI/GLI_flytronic.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GLI_gzut"
+		texturefile = "gfx/interface/ideas/GLI/GLI_gzut.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GLI_bumar"
+		texturefile = "gfx/interface/ideas/GLI/GLI_bumar.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GLI_obrum"
+		texturefile = "gfx/interface/ideas/GLI/GLI_obrum.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_GLI_stellantis"
+		texturefile = "gfx/interface/ideas/GLI/GLI_stellantis.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JSW_it"
+		texturefile = "gfx/interface/ideas/JSW/JSW_it.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_JSW_kolej"
+		texturefile = "gfx/interface/ideas/JSW/JSW_kolej.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JSW_ochrona"
+		texturefile = "gfx/interface/ideas/JSW/JSW_ochrona.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JSW_logistics"
+		texturefile = "gfx/interface/ideas/JSW/JSW_logistics.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JSW_remont"
+		texturefile = "gfx/interface/ideas/JSW/JSW_remont.png"
+	}
+		spriteType = {
+		name = "GFX_idea_WOD_cobex"
+		texturefile = "gfx/interface/ideas/WOD/WOD_cobex.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_WOD_kolzam"
+		texturefile = "gfx/interface/ideas/WOD/WOD_kolzam.png"
+	}
+	spriteType = {
+		name = "GFX_idea_WOD_mieszko"
+		texturefile = "gfx/interface/ideas/WOD/WOD_mieszko.png"
+	}
+	spriteType = {
+		name = "GFX_idea_WOD_rafako"
+		texturefile = "gfx/interface/ideas/WOD/WOD_rafako.png"
+	}
+	spriteType = {
+		name = "GFX_idea_WOD_rafamet"
+		texturefile = "gfx/interface/ideas/WOD/WOD_rafamet.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_ASG_elwo"
+		texturefile = "gfx/interface/ideas/ASG/ASG_elwo.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ASG_funghi"
+		texturefile = "gfx/interface/ideas/ASG/ASG_funghi.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_ASG_militaria"
+		texturefile = "gfx/interface/ideas/ASG/ASG_militaria.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CCH_jasna_gora"
+		texturefile = "gfx/interface/ideas/CCH/CCH_jasna_gora.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_CCH_xkom"
+		texturefile = "gfx/interface/ideas/CCH/CCH_xkom.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CCH_huta_czestochowa"
+		texturefile = "gfx/interface/ideas/CCH/CCH_huta_czestochowa.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_CCH_wulkan"
+		texturefile = "gfx/interface/ideas/CCH/CCH_wulkan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CCH_budpol"
+		texturefile = "gfx/interface/ideas/CCH/CCH_budpol.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CCH_synod_menace"
+		texturefile = "gfx/interface/ideas/CCH/CCH_synod_menace.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KAM_alone_and_weak"
+		texturefile = "gfx/interface/ideas/KAM/KAM_alone_and_weak.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_JWK_miwo"
+		texturefile = "gfx/interface/ideas/JWK/JWK_miwo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JWK_lentex"
+		texturefile = "gfx/interface/ideas/JWK/JWK_lentex.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_JWK_ethosenergy"
+		texturefile = "gfx/interface/ideas/JWK/JWK_ethosenergy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nitro_erg"
+		texturefile = "gfx/interface/ideas/JWK/nitro_erg.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_JUR_mystal"
+		texturefile = "gfx/interface/ideas/ZAW/ZAW_mystal.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZAW_swiatowit"
+		texturefile = "gfx/interface/ideas/ZAW/ZAW_swiatowit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZAW_huta_zawiercie"
+		texturefile = "gfx/interface/ideas/ZAW/ZAW_huta_zawiercie.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZAW_jurajska"
+		texturefile = "gfx/interface/ideas/ZAW/ZAW_jurajska.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_ZAW_huta_szkla"
+		texturefile = "gfx/interface/ideas/ZAW/ZAW_huta_szkla.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZAW_aluron"
+		texturefile = "gfx/interface/ideas/ZAW/ZAW_aluron.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KAT_tauron"
+		texturefile = "gfx/interface/ideas/KAT/KAT_tauron.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KAT_huta_ferrum"
+		texturefile = "gfx/interface/ideas/KAT/KAT_huta_ferrum.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_KAT_tyskie"
+		texturefile = "gfx/interface/ideas/KAT/KAT_tyskie.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KAT_montana"
+		texturefile = "gfx/interface/ideas/KAT/KAT_montana.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KAT_binary_helix"
+		texturefile = "gfx/interface/ideas/KAT/KAT_binary_helix.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KAT_spartaqs"
+		texturefile = "gfx/interface/ideas/KAT/KAT_spartaqs.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_JAW_chinatown"
+		texturefile = "gfx/interface/ideas/JAW/JAW_chinatown.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_JAW_electromobility"
+		texturefile = "gfx/interface/ideas/JAW/JAW_electromobility.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAW_fawent"
+		texturefile = "gfx/interface/ideas/JAW/JAW_fawent.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAW_garbarnia"
+		texturefile = "gfx/interface/ideas/JAW/JAW_garbarnia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAW_icb_pharma"
+		texturefile = "gfx/interface/ideas/JAW/JAW_icb_pharma.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOS_bedzin_przewody"
+		texturefile = "gfx/interface/ideas/SOS/SOS_bedzin_przewody.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOS_huta_cedler"
+		texturefile = "gfx/interface/ideas/SOS/SOS_cedler.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_SOS_energia_fakop"
+		texturefile = "gfx/interface/ideas/SOS/SOS_energia_fakop.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOS_prefabet"
+		texturefile = "gfx/interface/ideas/SOS/SOS_prefabet.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOS_magneti_marelli"
+		texturefile = "gfx/interface/ideas/SOS/SOS_magneti_marelli.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOS_mieso_silesia"
+		texturefile = "gfx/interface/ideas/SOS/SOS_mieso_silesia.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_DGR_koksownia"
+		texturefile = "gfx/interface/ideas/DGR/DGR_koksownia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DGR_euroterminal"
+		texturefile = "gfx/interface/ideas/DGR/DGR_euroterminal.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_DGR_mr_hamburger"
+		texturefile = "gfx/interface/ideas/DGR/DGR_mr_hamburger.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DGR_dzafar"
+		texturefile = "gfx/interface/ideas/DGR/DGR_dzafar.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DGR_huta_katowice"
+		texturefile = "gfx/interface/ideas/DGR/DGR_huta_katowice.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DGR_huta_bankowa"
+		texturefile = "gfx/interface/ideas/DGR/DGR_huta_bankowa.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_DGR_damel"
+		texturefile = "gfx/interface/ideas/DGR/DGR_damel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DGR_brembo"
+		texturefile = "gfx/interface/ideas/DGR/DGR_brembo.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_CAL_ager_publicus"
+		texturefile = "gfx/interface/ideas/CAL/CAL_ager_publicus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAL_civic_army"
+		texturefile = "gfx/interface/ideas/CAL/CAL_civic_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAL_civic_faith"
+		texturefile = "gfx/interface/ideas/CAL/CAL_civic_faith.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_FEL_easing_up"
+		texturefile = "gfx/interface/ideas/FEL/FEL_easing_up.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FEL_golden_liberty"
+		texturefile = "gfx/interface/ideas/FEL/FEL_golden_liberty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GNI_spirit_of_the_casimir_the_restorer"
+		texturefile = "gfx/interface/ideas/GNI/GNI_spirit_of_the_casimir_the_restorer.png"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_last_stand"
+		texturefile = "gfx/interface/ideas/POZ/POZ_last_stand.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_anti_religious_fervor"
+		texturefile = "gfx/interface/ideas/POZ/POZ_anti_religious_fervor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_incompetent_administration"
+		texturefile = "gfx/interface/ideas/POZ/POZ_incompetent_administration.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_POZ_remonty"
+		texturefile = "gfx/interface/ideas/POZ/POZ_remonty.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_POZ_unpopular_mayor"
+		texturefile = "gfx/interface/ideas/POZ/POZ_unpopular_mayor.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_EK_disfunctional_military"
+		texturefile = "gfx/interface/ideas/EKW/EK_disfunctional_military.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SYJ_palucki_demon"
+		texturefile = "gfx/interface/ideas/SYJ/SYJ_palucki_demon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_duchy_food_reliance"
+		texturefile = "gfx/interface/ideas/WML/WML_duchy_food_reliance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_brotherhood_energy_reliance"
+		texturefile = "gfx/interface/ideas/WML/WML_brotherhood_energy_reliance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_anti_dialog_debuff"
+		texturefile = "gfx/interface/ideas/WML/WML_anti_dialog_debuff.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_dialog_lodz_bractwo"
+		texturefile = "gfx/interface/ideas/WML/WML_dialog_lodz_bractwo.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_WML_dialog_lodz_harcerze"
+		texturefile = "gfx/interface/ideas/WML/WML_dialog_lodz_harcerze.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_dialog_lodz_sapek"
+		texturefile = "gfx/interface/ideas/WML/WML_dialog_lodz_sapek.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_WML_dialog_lodz_triumwirat"
+		texturefile = "gfx/interface/ideas/WML/WML_dialog_lodz_triumwirat.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_WML_dialog_lodz_zydzew"
+		texturefile = "gfx/interface/ideas/WML/WML_dialog_lodz_zydzew.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_dialog_lodz_holownia"
+		texturefile = "gfx/interface/ideas/WML/WML_dialog_lodz_holownia.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_WML_dialog_scaling_civ_1"
+		texturefile = "gfx/interface/ideas/WML/WML_dialog_scaling_civ_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_dialog_unscaling_civ_1"
+		texturefile = "gfx/interface/ideas/WML/WML_dialog_unscaling_civ_1.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_WML_dialog_scaling_mil_1"
+		texturefile = "gfx/interface/ideas/WML/WML_dialog_scaling_mil_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_dialog_unscaling_mil_1"
+		texturefile = "gfx/interface/ideas/WML/WML_dialog_unscaling_mil_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_lodz_foral"
+		texturefile = "gfx/interface/ideas/WML/WML_lodz_foral.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_lodz_victory"
+		texturefile = "gfx/interface/ideas/WML/WML_lodz_victory.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_WML_three_problems"
+		texturefile = "gfx/interface/ideas/WML/WML_three_problems.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_wspolpraca_ekonomiczna"
+		texturefile = "gfx/interface/ideas/WML/WML_wspolpraca_ekonomiczna.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_fragile_denial_of_reality"
+		texturefile = "gfx/interface/ideas/WML/WML_fragile_denial_of_reality.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_baluty_radiation"
+		texturefile = "gfx/interface/ideas/WML/WML_baluty_radiation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_den_of_decadence"
+		texturefile = "gfx/interface/ideas/WML/WML_den_of_decadence.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WML_sphere_of_dialogue"
+		texturefile = "gfx/interface/ideas/WML/WML_sphere_of_dialogue.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KGH_low_scientists_influence"
+		texturefile = "gfx/interface/ideas/KGH/KGH_low_science.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KGH_medium_scientists_influence"
+		texturefile = "gfx/interface/ideas/KGH/KGH_mid_science.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KGH_high_scientists_influence"
+		texturefile = "gfx/interface/ideas/KGH/KGH_high_science.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RYB_anglers_peace_of_mind"
+		texturefile = "gfx/interface/ideas/KGH/RYB_anglers_peace_of_mind.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_nelkor_pol"
+		texturefile = "gfx/interface/ideas/POL/POL_nelkor.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_altcom_pol"
+		texturefile = "gfx/interface/ideas/POL/POL_altcom.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_elektro-lux_pol"
+		texturefile = "gfx/interface/ideas/POL/POL_elektro-lux.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_stacja_pol"
+		texturefile = "gfx/interface/ideas/POL/POL_stacja.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_zlomlux_pol"
+		texturefile = "gfx/interface/ideas/POL/POL_zlom_lux.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_formula_zdrowie_sas"
+		texturefile = "gfx/interface/ideas/SAS/SAS_formula_zdrowia.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_inwestpol_monter_sas"
+		texturefile = "gfx/interface/ideas/SAS/SAS_inwestpol-monter.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_sigma_max_sas"
+		texturefile = "gfx/interface/ideas/SAS/SAS_sigma.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_orl_paliwo"
+		texturefile = "gfx/interface/ideas/ORL/ORL_orlen_paliwa.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_orl_transport"
+		texturefile = "gfx/interface/ideas/ORL/ORL_orlen_transport.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_orl_asfalt"
+		texturefile = "gfx/interface/ideas/ORL/ORL_orlen_asfalt.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_orl_projekt"
+		texturefile = "gfx/interface/ideas/ORL/ORL_orlen_projekt.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_orl_ochrona"
+		texturefile = "gfx/interface/ideas/ORL/ORL_orlen_ochrona.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_abb_transformatory"
+		texturefile = "gfx/interface/ideas/SAS/SAS_abb.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_kross_sas"
+		texturefile = "gfx/interface/ideas/SAS/SAS_kross.png"
+	}
+		spriteType = {
+		name = "GFX_idea_pfeifer_sas"
+		texturefile = "gfx/interface/ideas/SAS/SAS_pfeifer_langen.png"
+	}
+		spriteType = {
+		name = "GFX_idea_ciechan_sas"
+		texturefile = "gfx/interface/ideas/SAS/SAS_ciechan.png"
+	}
+		spriteType = {
+		name = "GFX_idea_pge_debe_pol"
+		texturefile = "gfx/interface/ideas/POL/POL_pge.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KIE_exbud"
+		textureFile = "gfx/interface/ideas/KIE/KIE_exbud.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KIE_spolem"
+		textureFile = "gfx/interface/ideas/KIE/KIE_spolem.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KIE_kolporter"
+		textureFile = "gfx/interface/ideas/KIE/KIE_kolporter.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KIE_4eco"
+		textureFile = "gfx/interface/ideas/KIE/KIE_4eco.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KIE_promatik"
+		textureFile = "gfx/interface/ideas/KIE/KIE_promatik.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KIE_SHL"
+		textureFile = "gfx/interface/ideas/KIE/KIE_SHL.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KIE_victorinox"
+		textureFile = "gfx/interface/ideas/KIE/KIE_victorinox.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_observer_country"
+		textureFile = "gfx/interface/ideas/generic/Observer_State.dds"
+	}
+	spriteType = { # Poniższe idee będą mieć inne ikony... o ile nauczę się sztuki artystycznej HoIa
+		name = "GFX_idea_BGF_wara_ziobro"
+		textureFile = "gfx/interface/ideas/ATM/ATM_bulwark.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_a_long_road_ahead_pic"
+		textureFile = "gfx/interface/ideas/BGF/BGF_droga.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_computer_in_every_house_pic"
+		textureFile = "gfx/interface/ideas/BGF/BGF_komputry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_tv_in_every_house_pic"
+		textureFile = "gfx/interface/ideas/BGF/BGF_dyskontowe_tvp3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_AK_heritage_pic"
+		textureFile = "gfx/interface/ideas/BGF/BGF_antypis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_NATO_heritage_pic"
+		textureFile = "gfx/interface/ideas/BGF/BGF_otan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_technology_our_future_pic"
+		textureFile = "gfx/interface/ideas/BGF/BGF_tomikej.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_polak_historyk_pic"
+		textureFile = "gfx/interface/ideas/BGF/BGF_antypo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_power_struggle_idea_pic"
+		textureFile = "gfx/interface/ideas/BGF/goal_generic_forceful_treaty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_remove_competition_idea_pic"
+		textureFile = "gfx/interface/ideas/BGF/BGF_popis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_cut_social_spendings_idea_pic"
+		textureFile = "gfx/interface/ideas/BGF/idea_generic_economic_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_regulated_markets_pic"
+		textureFile = "gfx/interface/ideas/BGF/idea_generic_flexible_foreign_policy2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_status_quo"
+		textureFile = "gfx/interface/ideas/BGF/goal_unknown.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_plagued_with_corporats_pic"
+		textureFile = "gfx/interface/ideas/BGF/BGF_oranje_jonasch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_plagued_with_defeatism_pic"
+		textureFile = "gfx/interface/ideas/BGF/goal_generic_attack_allies.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_better_industry_pic"
+		textureFile = "gfx/interface/ideas/BGF/idea_generic_acquire_tanks.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BGF_sprawna_armia_pic"
+		textureFile = "gfx/interface/ideas/BGF/goal_generic_army_artillery2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nowa_era_ostrowiec"
+		texturefile = "gfx/interface/ideas/BGF/BGF_nowa_era.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wsip_ostrowiec"
+		texturefile = "gfx/interface/ideas/BGF/BGF_wsip.dds"
+	}
+}

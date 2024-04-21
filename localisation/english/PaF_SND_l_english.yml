@@ -1,0 +1,56 @@
+﻿l_english:
+ ##Characters##
+ POLITICS_SIENKIEWICZ_DESC:0 "A grandson of a Nobel Prize winner, Bartłomiej Sienkiewicz couldn't ask for a better heritage. Having such roots definitely would help him find a better job. And yet his alignment to Civic Coalition would result in his inevitable downfall after 2023 elections. Because of this he had to seek protection in Sandomierz - a city open for any KO politicians (besides larger cities and Western Poland) looking for an asylum of sorts.\n\nDuring his stay Bartłomiej Sienkiewicz radicalised due to ever-so authoritarian reforms passed by Law and Justice. He couldn't believe such things were taking place in his dear country. 'Of all places, why Poland?', he thought every night before falling asleep. But as long as the government controlled every aspect of the civilian life and judiciary system, he could do little to change the situation.\n\nUntil the Anti-Ziobro Uprising. When Ostrowiec's position seemed to be ailing he declared that the new "Reunification Government" and General Prosecutorship were illegitimate. But after Starachowice rose up as well he had to accept the fact that infightings would only benefit the overlords in Kielce. And so he willingly applied for the short-term alliance with the other warlords.\n\nBut now that he de-facto controls the lands previously owned by Mateusz Morawiecki's administration, he can begin his plans of de-PiS-ification of his realm. These incluse radical reforms and show-trials for the politicians sympathising with the conservative party. And while many criticised his actions (including Helsinki Foundation for Human Rights), he keeps on going - for letting United Right to exist is to danger the mere existence of Free Poland.\n\nThere is no other right rhetoric."
+
+ POLITICS_POLAK_APOSTOL_DESC:0 "Father Mateusz... Why does it seem like it's wrong? He is literally leading Sandomierz and neighbouring lands. Sure, the leader's true identity is unknown... But even then there wouldn't be as much scepticism as now. What is going on?\n\nMateusz Żmigrodzki was a fictional character in the serial "Ojciec Mateusz" played by Artur Żmijewski. He was also a former missionary to Belarus who returned to Sandomierz. So by this analysis one could come to a conclusion that said fictional character would not exist in real life. But what if...?\n\nOr maybe I'm thinking too much about it. Surely HE (Artur) would not lie to citizens of Sandomierz about his person. Surely in these trying times HE would not trick anyone and try to help some... But wait a second. HE already helps anyone in need! The people of this city actually believe in his existence! So how come this feels wrong? Well...\n\nI guess not everything has to have an answer. It just is and no further questions shall be asked."
+
+ POLITICS_ZIARNO_DESC:0 ""
+
+ POLITICS_OPATUW_DESC:0 ""
+
+ POLITICS_ZDRAJCA_DESC:0 "No one knows who this fellow actually is (except for some from Ćmielów and Ostrowiec). No one understands his madness and plans of conquering Poland while instilling Naruto-esque culture into minds of Poles. He only calls himself Marcel-Tobi (or MT for short) which adds further into confusion.\n\nHowever it wasn't like this a few years ago. Young Marcel, despite not being as bright as any of his enemies in the government, fared way better. Of course that didn't apply to his personal life as he frequently argued with his parents and had to contend with harsh punishments. But except this part, he didn't have a tragic life.\n\nSo how did he turn the way he did?\n\nJust before Poland collapsed under the weight of panzers he got into an accident resulting in partial brain damage. Although he could still perform tasks normal people would his perception of reality severely distorted. As a result he started believing that he lived in a Naruto world - an anime wonderland full of dangers and ninjas. Already Marcel has begun plans for transformation of Poland into said place.\n\nLet's hope that this won't result in any potential injuries which will scar the nation forever..."
+
+ POLITICS_RADZIO_DESC:0 "One day an unknown figure now known as Radosław II the Healthy came to the lands upon southern Vistula. His presence was followed by many unique encounterings all over Sandomierz. The angels came down from the sky, the plants grew even faster, the people were happier. All thanks to the likes of one man.\n\nPossibly coming from Ostrowiec Świętokrzyski he told everyone that his dynasty of Przemyślids survived, despite objections from the historians. After he saw the carnage built after the Fall, he had enough and returned to his rightful lands of the Old Basin. There he announced his plans of reconquering the entirity of Poland and Czechia.\n\nHowever his claims of being a legitimate ruler came into question as his appearence was nohing short of suspicious. Being mostly compared to Radosław Jagodziński - a soon-to-become sportsman - due to his physical abilities, he is disrespected throughout the entire nation. However whether his "LARP" will prove to be convincing in the end is anyone's guess."
+
+ ruthless_liberal:0 "Ruthless Liberal\n\n§g$ruthless_liberal_tt$§!\n"
+ ruthless_liberal_tt:0 "Heavily opposed to Law and Justice, Bartłomiej Sienkiewicz will do §RANYTHING§! to get rid of the influences of the United Right's mess. Of course these reforms are unpopular with the people (as per society that has been indoctrinated), but he believes that he is the right on in this argument."
+ humanitarian_priest:0 "§1Humanitarian Priest§!\n\n§g$humanitarian_priest_tt$§!\n"
+ humanitarian_priest_tt:0 "According to Father Mateusz the best way to win over people's hearts is not to indoctrinate them or lie to them. But rather trying your best to defend them and give them resources necessary to make their lives better. That's why he supports non-governmental organisations protecting the rights of civilians and social market opposed to capitalism."
+ man_behind_the_slaughter:0 "Naruto's "Representative" in Poland"
+ ##National Spirits##
+ ##First Tree##
+ ##Events##
+ 
+ # Bartłomiej
+ unification.168.t:0 "[GetNewspaper]The Republic of Sandomierz Unifies Holy Cross!"
+ unification.168.desc:0 "" # Do zrobienia
+ unification.168.a:0 "Now is the time for radical reforms"
+
+ # Teodor
+ unification.169.t:0 "[GetNewspaper]The Republic of Truth Unifies Holy Cross!"
+ unification.169.desc:0 "" # Do zrobienia
+ unification.169.a:0 "Will there be any awards for this stunt?"
+
+ # Grzegorz
+ unification.170.t:0 "[GetNewspaper]The Exiles Return to Opatów"
+ unification.170.desc:0 "" # Do zrobienia
+ unification.170.a:0 "Their prayers were answered"
+
+ # Marcel
+ unification.171.t:0 "[GetNewspaper]Another Shogunate in Poland"
+ unification.171.desc:0 "" # Do zrobienia
+ unification.171.a:0 "May the power of sprinting save us!"
+
+ # Marcel
+ unification.172.t:0 "[GetNewspaper]The Kingdom Returns!"
+ unification.172.desc:0 "" # Do zrobienia
+ unification.172.a:0 "Still better than a blood-thirsty dictator, I suppose"
+
+ # Mateusz
+ unification.124.t:0 "[GetNewspaper]The Apostles of Christ Unify Holy Cross!"
+ unification.124.desc:0 "In war-torn Poland symbols have a newfound power, whether they be objects, concepts, or... people. The sleepy town of Sandomierz holds one such example, but perhaps it’s one more powerful than all the rest. On an unassuming day, people gathered on the Town Square to witness something inconceivable - the city’s beloved icon, Father Mateusz, live in the flesh. Uniting the people with a message of catholic humanitarianism, he peacefully assumed power within Sandomierz. From there, he spread his message of harmony and freedom to communities within the region, eventually culminating in the entire voivodeship declaring their loyalty to the preacher. The real identity of the leader remains a mystery, with multiple rumors circulating regarding his true intentions, but perhaps miracles really do happen and this is not merely an actor, but the actual character come to life."
+ unification.124.a:0 "The Lord blesses his flock"
+
+ ##Decisions##
+
+ #CHUJ12 (idź się j*bnij, ktokolwiek to napisał)

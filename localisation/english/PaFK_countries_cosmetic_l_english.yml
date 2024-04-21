@@ -1,0 +1,181 @@
+﻿l_english:
+ ### Będzie OSTRO, WIĘC zapnij pasy ###
+ BGF_postpolonism: "Pacification Region 'Kamienna'"
+ BGF_postpolonism_DEF: "Region Pacyfikacyjny 'Kamienna'"
+ BGF_postpolonism_ADJ: "Kamienna"
+
+ BGF_autocracy: "Ostrovecká Republika"
+ BGF_autocracy_DEF: "Republika Ostrowiecka"
+ BGF_autocracy_ADJ: "Ostrovec"
+
+ BGF_neonationalism: "Atheist State of Ostrowiec"
+ BGF_neonationalism_DEF: "Państwo Ateistyczne Ostrowca Świętokrzyskiego"
+ BGF_neonationalism_ADJ: "Ostrowiec" 
+
+ BGF_corporativism: "Conglomerate CELSA" # CELSA przejmuje władzę
+ BGF_corporativism_DEF: "Konglomerat CELSA"
+ BGF_corporativism_ADJ: "CELSA" 
+
+ BGF_paternal_conservatism: "Third Ostrowiec Republic"
+ BGF_paternal_conservatism_DEF: "III Rzeczposplita Polska w Ostrowcu Świętokrzyskim"
+ BGF_paternal_conservatism_ADJ: "Ostrowiec" 
+
+ BGF_marxism_cranism: "People's Republic of Ostrowiec"
+ BGF_marxism_cranism_DEF: "Republika Ludowa Ostrowca Świętokrzyskiego"
+ BGF_marxism_cranism_ADJ: "Ostrowiec"
+
+ BGF_socialdemocrature: "Ostrowiec Commonwealth"
+ BGF_socialdemocrature_DEF: "Tymczasowy Rząd Zjednoczenia Województwa Świętokrzyskiego"
+ BGF_socialdemocrature_ADJ: "Ostrowiec"
+
+ BGF_freemarketism: "Republic of Ostrowiec"
+ BGF_freemarketism_DEF: "Tymczasowy Rząd Zjednoczenia Województwa Świętokrzyskiego"
+ BGF_freemarketism_ADJ: "Ostrowiec"
+
+ BGF_euroliberalism: "Republic of Ostrowiec"
+ BGF_euroliberalism_DEF: "Tymczasowy Rząd Zjednoczenia Województwa Świętokrzyskiego"
+ BGF_euroliberalism_ADJ: "Ostrowiec"
+
+ BGF_voivodeship_socialdemocrature: "Holy Cross Commonwealth" # Całotrochę
+ BGF_voivodeship_socialdemocrature_DEF: "Rzeczpospolita Świętokrzyska"
+ BGF_voivodeship_socialdemocrature_ADJ: "Holy Cross"
+
+ BGF_voivodeship_euroliberalism: "Republic of Holy Cross" # Średnie
+ BGF_voivodeship_euroliberalism_DEF: "Republika Świętokrzyska"
+ BGF_voivodeship_euroliberalism_ADJ: "Holy Cross"
+
+ BGF_voivodeship_freemarketism: "Republic of Holy Cross" # Zależy od punktu widzenia, szczerze
+ BGF_voivodeship_freemarketism_DEF: "Republika Świętokrzyska"
+ BGF_voivodeship_freemarketism_ADJ: "Holy Cross"
+
+ BGF_voivodeship_paternal_conservatism: "New Republic of Holy Cross" # Centrum?
+ BGF_voivodeship_paternal_conservatism_DEF: "Nowa Rrzeczpospolita Świętokrzyska"
+ BGF_voivodeship_paternal_conservatism_ADJ: "Holy Cross"
+
+ BGF_voivodeship_neonationalism: "Atheist State of Unholy Cross" # Źle
+ BGF_voivodeship_neonationalism_DEF: "Nieświętokrzyskie Państwo Ateistyczne"
+ BGF_voivodeship_neonationalism_ADJ: "Unholy Cross"
+
+ BGF_voivodeship_postpolonism: "Pacification Region 'Bald Mountain'" # BARDZO Źle
+ BGF_voivodeship_postpolonism_DEF: "Region Pacyfikacyjny 'Łysa Góra'"
+ BGF_voivodeship_postpolonism_ADJ: "Upland"
+
+ BGF_voivodeship_marxism_cranism: "People's Republic of Northern Lesser Poland" # Komuna
+ BGF_voivodeship_marxism_cranism_DEF: "Północno-Małopolska Republika Ludowa"
+ BGF_voivodeship_marxism_cranism_ADJ: "Northern Lesser Polish"
+
+ BGF_wnuk_regional: "Central Commonwealth" # Całotrochę
+ BGF_wnuk_regional_DEF: "Wspólnota Środkowopolska"
+ BGF_wnuk_regional_ADJ: "Central Polish"
+
+ BGF_tusk_regional: "Republic of Central Poland" # Średnie
+ BGF_tusk_regional_DEF: "Republika Środkowopolska"
+ BGF_tusk_regional_ADJ: "Central Polish"
+
+ BGF_cba_regional: "Republic of Central Poland" # Zależy od punktu widzenia, szczerze
+ BGF_cba_regional_DEF: "Republika Środkowopolska"
+ BGF_cba_regional_ADJ: "Central Polish"
+
+ BGF_kaczor_regional: "New Republic of Poland" # Centrum?
+ BGF_kaczor_regional_DEF: "Nowa Rzeczpospolita"
+ BGF_kaczor_regional_ADJ: "Central Polish"
+
+ BGF_stolarek_regional: "Atheist State of Central Poland" # Źle
+ BGF_stolarek_regional_DEF: "Nieświęte Państwo Środkowopolskie"
+ BGF_stolarek_regional_ADJ: "Central Polish"
+
+ BGF_nazbol_regional: "National Polish State" # Źle [PREMIUM]
+ BGF_nazbol_regional_DEF: "Narodowe Pańtswo Polskie"
+ BGF_nazbol_regional_ADJ: "Central Polish"
+
+ BGF_celsa_regional: "Conglomerate CELSA" # CELSA przejmuje władzę
+ BGF_celsa_regional_DEF: "Konglomerat CELSA"
+ BGF_celsa_regional_ADJ: "CELSA" 
+
+ BGF_doom_regional: "Pacification Region 'Centre'" # BARDZO Źle
+ BGF_doom_regional_DEF: "Region Pacyfikacyjny 'Centrum'"
+ BGF_doom_regional_ADJ: "Central"
+
+ BGF_komuna_regional: "People's Republic of Central Poland" # Komuna
+ BGF_komuna_regional_DEF: "Środkowopolska Republika Ludowa"
+ BGF_komuna_regional_ADJ: "Central Polish"
+
+ BGF_wnuk_supregional: "Polish Commonwealth" # Całotrochę
+ BGF_wnuk_supregional_DEF: "Wspólnota Polska"
+ BGF_wnuk_supregional_ADJ: "Polish"
+
+ BGF_tusk_supregional: "Republic of Poland" # Średnie
+ BGF_tusk_supregional_DEF: "Republika Polska"
+ BGF_tusk_supregional_ADJ: "Polish"
+
+ BGF_cba_supregional: "Republic of Poland" # Zależy od punktu widzenia, szczerze
+ BGF_cba_supregional_DEF: "Republika Polska"
+ BGF_cba_supregional_ADJ: "Polish"
+
+ BGF_kaczor_supregional: "New Republic of Poland" # Centrum?
+ BGF_kaczor_supregional_DEF: "Nowa Rzeczpospolita"
+ BGF_kaczor_supregional_ADJ: "Polish"
+
+ BGF_stolarek_supregional: "Atheist State of Poland" # Źle
+ BGF_stolarek_supregional_DEF: "Nieświęta Polska"
+ BGF_stolarek_supregional_ADJ: "Polish"
+
+ BGF_nazbol_supregional: "Greater Polish State" # Źle [PREMIUM]
+ BGF_nazbol_supregional_DEF: "Wielkie Państwo Polskie"
+ BGF_nazbol_supregional_ADJ: "Polish"
+
+ BGF_celsa_supregional: "Conglomerate CELSA" # CELSA przejmuje władzę
+ BGF_celsa_supregional_DEF: "Konglomerat CELSA"
+ BGF_celsa_supregional_ADJ: "CELSA" 
+
+ BGF_doom_supregional: "Pacification Region 'Vistula'" # BARDZO Źle
+ BGF_doom_supregional_DEF: "Region Pacyfikacyjny 'Wisła'"
+ BGF_doom_supregional_ADJ: "Vistulan"
+
+ BGF_komuna_supregional: "People's Republic of Poland" # Komuna
+ BGF_komuna_supregional_DEF: "Polska Republika Ludowa"
+ BGF_komuna_supregional_ADJ: "Polish"
+
+ BGF_sd_final: "Polish Commonwealth" # Za wolność waszą i naszą
+ BGF_sd_final_DEF: "Wspólnota Polska"
+ BGF_sd_final_ADJ: "Polish"
+
+ BGF_polska_kraj_trudna_final: "Polish Commonwealth" # Całotrochę - lecz ludzie k**wy
+ BGF_polska_kraj_trudna_final_DEF: "Wspólnota Polska"
+ BGF_polska_kraj_trudna_final_ADJ: "Polish"
+
+ BGF_tusk_final: "Republic of Poland" # Mogło być lepiej, ale nadal dobrze
+ BGF_tusk_final_DEF: "Republika Polska"
+ BGF_tusk_final_ADJ: "Polish"
+
+ BGF_cba_final: "Republic of Poland" # Oby tym razem nie było CBA
+ BGF_cba_final_DEF: "Republika Polska"
+ BGF_cba_final_ADJ: "Polish"
+
+ BGF_kaczor_final: "Fourth Polish Republic" # Nie centrum, a PiS 2.0
+ BGF_kaczor_final_DEF: "IV Rzeczpospolita Polska"
+ BGF_kaczor_final_ADJ: "Polish"
+
+ BGF_stolarek_final: "Atheist State of Poland" # O ile nie jestes wierzącym, to raczej nie będzie się żyło źle tobie
+ BGF_stolarek_final_DEF: "Nieświęta Polska"
+ BGF_stolarek_final_ADJ: "Polish"
+
+ BGF_nazbol_final: "Greater Polish Reich" # Nazitsu
+ BGF_nazbol_final_DEF: "Wielka Rzesza Polska"
+ BGF_nazbol_final_ADJ: "Polish"
+
+ BGF_doom_final: "\[NO MAN'S LAND\]" # [BŁĄD: KRAJ 'POLSKA' NIE ISTNIEJE]
+ BGF_doom_final_DEF: "\[ZIEMIA NICZYJA\]"
+ BGF_doom_final_ADJ: "\[NONE\]"
+
+ BGF_komuna_final: "People's Republic of Poland" # Może tym razem komuna będzie lepsza?
+ BGF_komuna_final_DEF: "Polska Republika Ludowa"
+ BGF_komuna_final_ADJ: "Polish"
+
+ BGF_celsa_final: "CELSA Corporatocracy" # CELSA to miłość, CELSA to życie, CELSA to huta w Ostrowcu
+ BGF_celsa_final_DEF: "Korporatokracja CELSA"
+ BGF_celsa_final_ADJ: "CELSA" 
+
+ BGF_final_nlo_dominacja: "Konarski's Domain" # DOMI I PSZYGODA Z NJEPÓBLICZNYM LJICEŁUM OGULNOKSZTAUCĄCYM W OSTROFCU ŚFIĘTOKSZYSKIM
+ BGF_final_nlo_dominacja_DEF: "Dominium Konarskiego"
+ BGF_final_nlo_dominacja_ADJ: "Konarski"

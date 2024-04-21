@@ -1,0 +1,42 @@
+﻿l_english:
+ TITLE_BGF: "Prime Minister"
+ TITLE_BGF_PKT: "Supreme Director"
+ TITLE_BGF_CENTRALA: "State Representative"
+ TITLE_BGF_MG: "Všeobecný"
+ TITLE_BGF_JAREK: "Regionalist President"
+ TITLE_BGF_STOLAREK: "Atheist Crusader"
+ TITLE_BGF_KOMUCH: "Comafiaist"
+ TITLE_BGF_MRKEL: "Wódz"
+ TITLE_BGF_CELSA: "Company Directorship"
+ TITLE_BGF_DOOM: "Governorate"
+
+ GOVERNMENT_BGF_INITIAL: "Reunification Government"
+ GOVERNMENT_BGF_VOI: "Progressive Democratic State"
+ GOVERNMENT_BGF_PKT: "Supreme Dictatorship"
+ GOVERNMENT_BGF_CENTRALA: "Centrist Direct Democracy"
+ GOVERNMENT_BGF_MG: "Mountain Republic"
+ GOVERNMENT_BGF_NLO: "Supreme Principalship"
+ GOVERNMENT_BGF_KWIAT: "Federal Republic"
+ GOVERNMENT_BGF_JAREK: "Federal Oligarchy"
+ GOVERNMENT_BGF_DONALD: "Fourth Republic"
+ GOVERNMENT_BGF_STOLAREK: "Atheofascist Crusader State"
+ GOVERNMENT_BGF_KOMUCH: "Comafiaist State"
+ GOVERNMENT_BGF_MRKEL: "National Bolshevik State"
+ GOVERNMENT_BGF_CELSA: "State of Steelworks"
+ GOVERNMENT_BGF_DOOM: "Exterminatory District"
+ 
+ TITLE_MAZ: "Scoutmaster"
+ TITLE_MAZ_KO: "Social Activist"
+
+ GOVERNMENT_MAZ: "Army Uprising"
+ GOVERNMENT_MAZ_KO: "Temporary Government"
+
+ TITLE_SND_ZIARNO: "Criminalist"
+ TITLE_SND_EXILE: "Exiled Mayor"
+ TITLE_SND_MT: "The Man Behind the Mask"
+ TITLE_SND_DUCHY: "Royal Prince"
+
+ GOVERNMENT_SND_ZIARNO: "State of Criminality"
+ GOVERNMENT_SND_EXILE: "Christian Republic"
+ GOVERNMENT_SND_MT: "Anime Fanstate" # Mieliśmy fanów, mamy fanpage oraz fan remaki, a niedługo będą fanstaty
+ GOVERNMENT_SND_DUCHY: "Medieval Duchy"

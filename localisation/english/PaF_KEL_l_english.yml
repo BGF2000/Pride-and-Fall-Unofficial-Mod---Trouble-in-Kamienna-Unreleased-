@@ -1,0 +1,40 @@
+﻿l_english:
+ ##Characters##
+ POLITICS_KEL_DESC:0 "A person dedicated to spreading Orange Joe cult, also known as the "Burgers on my mind" guy. His only life purpose is to either drink said juice or eat burgers. He also likes to spend his time playing basketball or being with his friends in general (although the latter has been limited due to actions taken by Aubrey in order to stop him from spreading terror to Polish lands). The locals call him "Klifosław Gądecki" for unknown reasons. Besides this he has gained enormous attention from OMORI community due to his vibrant character and thanks to several large Youtubers recording this game such as Merg or ManlyBadassHero. And yet his only love is Orange Joe - which might be justified with the fact that no girl ever tried to date him (yet).\n\nIn recent years he has garnered huge cult around him not only in America, but now Poland as well. His future seems bleak nonetheless because of Hero and Aubrey who try to stop his aggressive rule."
+
+ POLITICS_HERO_DESC:0 "The guy who is mostly known for being the representation of 1% of the OMORI community - a charismatic, egalitarian and loveable character that every girl tries to date (but to no avail). His popularity skyrocketed in Europe after his speech convincing Poles to resist Kel's aggresive spreading of Orange Joe cult. A graduate of Harvard University, USA, is one of the most intelligent people in America who likes history (especially of music), geopolitics and despises biology. Just like Kel, he became known thanks to the likes of Youtubers such as the guy from Austria and the knife-wielding badass from America. He is also called "The Rizzer" and "Hieronim Gądecki" by Poles.\n\nHis only love of his life was Mari (Maria Sulejówka) who died an unfortunate death partially from the hands of her younger brother - Sunny and the plant used in vegetables - Basil. Due to this traumatic experience he became overprotective and limited the size of the army. Who knows if he even conquers the rest of Poland."
+
+ POLITICS_AUBERSKO_DESC:0 "" # Do zrobienia
+
+ POLITICS_STAIRS_DESC:0 "" # Do zrobienia
+
+ foreigner:0 "Foreigner\n\n§g$foreigner_tt$§!\n"
+ foreigner_tt:0 "As a person coming from an entirely different continent, this leader has trouble communicating with his citizens. As a result subversive activities are a common sighting in this country. He must integrate into Polish society before being able to be trusted by its inhabitants."
+ orange_joe_enthusiast:0 "§9Orange Joe Enthusiast§!\n\n§g$orange_joe_enthusiast_tt$§!\n"
+ orange_joe_enthusiast_tt:0 "Ever since his birth Kel had been drinking Orange Joe - for breakfast, dinner and lunch. Some have considered it an addiction (rightfully so), but Kel doesn't listen to them. He considers it the best thing invented and may possibly drug his soldiers with it in order to boost their performance in battle. Also, increased births."
+ compassionate_pacifist:0 "Compassionate Pacifist\n\n§g$compassionate_pacifist_tt$§!\n"
+ compassionate_pacifist_tt:0 "Although Hero did not serve in the army, he considers war as an useless endeavour with its only goal to fill in the pockets of the leaders. Unfortunately for him, the Polish reality is harsh and requires constant brother-wars in order to continue further. This makes it harder for his clique to fight, and in return advance as well."
+ overprotective:0 "Overprotective Leader (and Boyfriend)\n\n§R$overprotective_tt$§!\n"
+ overprotective_tt:0 "If you know, you know." # Stairs moment
+ orange_joe_despiser:0 "Anti-Orange Joe Establisher"
+ scarred_sister:0 "Scarred Sister\n\n§R$overprotective_tt$§!\n"
+
+ ##National Spirits##
+ ##First Tree##
+ ##Events##
+
+ unification.121.t:0 "[GetNewspaper]Waffen-$$$$ Unifies Holy Cross!"
+ unification.121.desc:0 "Few expected a collapse of Ziobro regime. Even fewer expected that after said collapse, Kelthuz would emerge victorious over other competitors. 'Most hated libertarian bard of Poland' has successfully led an alliance of anarcho-capitalists, pagan fanatics and nihilist against all forms of leftism, christianity and altruism.\n One of his first actions after seizing the control of voivodeship was plundering the Holy Trinity Abbey and selling the Holy Cross relic to raise funds for his army.\n The whole Poland frowns their faces with disgust for this blasphemous action and also because the Steel Commander broadcasted a promise to fornicate with other warlords' mothers after he defeats them."
+ unification.121.a:0 "SALUTH"
+
+ # Deweloperskie
+ kam_test.4.a:0 "Support Klifosław (Kel) from OMORIUSZ"
+ kam_test.4.b:0 "Support Hieronim (Hero) from OMORIUSZ"
+ kam_test.4.c:0 "Wait a second, I'm not controlling Busko-Zdrój! (bruh moment)"
+ kam_test.4.d:0 "$kam_test.1.e$"
+
+ kam_test.5.a:0 "Maria Sulejówka jest Polką! (Make Mari into a leader - but why?)"
+ kam_test.5.b:0 "Wait a second, I'm not controlling Busko-Zdrój! (bruh moment)"
+ kam_test.5.c:0 "$kam_test.1.e$"
+
+##Decisions##

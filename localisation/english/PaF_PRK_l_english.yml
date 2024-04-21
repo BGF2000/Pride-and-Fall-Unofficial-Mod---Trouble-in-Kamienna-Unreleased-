@@ -1,0 +1,87 @@
+﻿l_english:
+##Characters##
+POLITICS_ZBIGNIEW_ZIOBRO_DESC:0 "Zbigniew Ziobro could, perhaps, claim he is both the Law and the Justice. Although pursuing a legal career, his thirst for power predisposed him to participate in politics of an ever greater scale. His ambition and cunning made him one of the leading figures of the ruling camp – a political capital that he eagerly drew upon amidst the direst crisis. \n\nOnce rebellions sprung up in the south of Poland, Ziobro was sent out to crush them. It might have been a ploy to drive him away from the capital and dispatch him, as his forces were hardly suited for combat. Regardless of that, Ziobro was too smart to let himself be thrown out of the game he played for the last 20 years. He managed his army carefully enough to secure a large chunk of Poland for himself. Having granted some appanages to his most loyal vassals, he turned out to rooting dissent in his domain. This hasn’t been going well so far. \n\nWhile no one would deny his talents, it seems that people just won’t give Ziobro due respect, and this seems to be a trait of his personality prevalent at least since he’s been famously equated to a zero by Leszek Miller. While he’s a solid contender for reunification and holds some legitimacy, only the staunchest legalists could stomach supporting him out of conviction. As for now, the claim for IV Republic laid by Ziobro rests on force alone, and it is quite likely that overdosing this measure will end it. Time will tell, if Ziobro manages to hold fast and prove that he’s worth much more than most would think."
+## First Tree ##
+##Events##
+ziobro.1.t:0 "[GetNewspaper]Ziobro Reunifies the Holy Cross Voivodeship"
+ziobro.1.desc:0 "Dark shadows loom over the Holy Cross Mountains as the Prosecutorship's authorities in Kielce have proclaimed they are in full control over the entire voivodeship once again. Amidst heavy fighting, Ziobro's forces entered Starachowice and Sandomierz, overwhelming both the Combinate and Republic's militias, and thus bringing an end to all so-called liberal dissension. \n\nAs purges are conducted in recaptured counties, rumors are coming in that relocation of forces to the northern front, as well as heavy casualties sustained during combat, have brought yet another wave of unrest, this time both among the population and armed forces of the Prosecutorship. It is expected that both rebellious cities will serve as examples to those unwilling to submit to Ziobro's will."
+ziobro.1.a:0 "You might think you mean something more..."
+
+ziobro.2.t:0 "[GetNewspaper]Ziobro Fails to Subjugate the Northern Counties"
+ziobro.2.desc:0 "Uplifting news come from Kielce as the city falls into chaos following Starachowice and Sandomierz’s successful defiance of the Prosecutor's authority. As Ziobro's forces lay shattered, his grip over the whole region has dramatically loosened. Unrest seems to be spiraling out of control and there are rumors emerging about paramilitaries' commanders refusing to follow further orders. \n\nIt is widely believed that Ziobro has little to no control over the whole situation and will try anything to save his sorry ass."
+ziobro.2.a:0 "The clock's hand goes backwards."
+
+ziobro.3.t:0 "[GetNewspaper]Holy Cross Moutains Uprising"
+ziobro.3.desc:0 "Despite Ziobro's best efforts, the unrest in his lands has proved too large to be contained. Nationalist paramilitaries have seceded from his forces and opened fire on those sent in to negotiate. Communists and socialists took control over Starachowice, and there are rumors of libertarian militias setting up in the south. In Sandomierz, a popular uprising has elected a priest to lead and protect the city. And, well, whatever the hell has appeared in the southwest, even we would not wish for Ziobro to meet them. \n\nDespite the radical differences between them, the rebels do not attack each other, as they are largely focused on fighting a common enemy - at least for now. Ziobro was last seen running to Lesser Poland to establish a safe operational base there; if he acts quick, he might stamp out the rebels before they overrun his domain completely."
+ziobro.3.a:0 "The Prosecutor, prosecuted."
+
+ziobro.4.t:0 "[GetNewspaper]Holy Cross Mountains Uprising"
+ziobro.4.desc:0 "Ziobro’s realm has been shattered to pieces as both paramilitaries and the population reject his authority en masse following a humiliating defeat while trying to subjugate the Northern Counties of the voivodeship. \nNationalist paramilitaries have seceded from Ziobro's forces and taken control over northwestern parts of the voivodeship. Communists and socialists took control over Starachowice, and there are rumors of libertarian militias overtaking the south. In Sandomierz, a popular uprising has overthrown Sienkiewicz and elected Fr. Mateusz Żmigrodzki as the protector of the city. And, well... whoever has appeared in the southwest, even we would not wish for Ziobro to meet him. \nFor now, the rebels haven’t been attacking each other, as they are largely focused on fighting a common enemy. Ziobro was last seen running to Lesser Poland to establish a safe operational base there; given the strength of the uprising, it is quite likely he'll have to stay there for a bit longer than he initially expected."
+ziobro.4.a:0 "Less than Zero..."
+
+ziobro.5.t:0 "The People's Guard Rebels!"
+ziobro.5.desc:0 "Concerning news have arrived from the city of Skarżysko-Kamienna as it has fallen into the hands of the so-called People's Guard. Lead by [NRA.GetLeader], this new statelet plans on spreading Stalinist ideals and doctrine all throughout Holy Cross and even Poland itself. Our staff has already planned on eliminating this threat immediately as the movement is still mostly uncoordinated. However whether this is the only threat lurking behind us is still up for debate."
+ziobro.5.a:0 "Stalin lives forevermore!"
+ziobro.5.b:0 "Those damn communists..."
+
+ziobro.6.t:0 "The Holy Cross Society Joins in!"
+ziobro.6.desc:0 "Despite what many of our staff thought, the region of Końskie has also broken away from our rule. As the local leader [NSZ.GetLeader] announced his plans of fighting against us, our army has been effectively paralyzed as now we can't eliminate the People's Guard as much as we wanted. Now not only do we have to bother with leftist revolutions, but now also a nationalist one."
+ziobro.6.a:0 "For Catholicism!"
+ziobro.6.b:0 "I guess not only leftists are our enemy"
+
+ziobro.7.t:0 "Zbigniew Stonoga Has Begun Guerilla Warfare!"
+ziobro.7.desc:0 "Probably one of the least surprising news to arrive to our capital. Zbigniew Stonoga, along with the Eight Stars Movement, has organised a guerilla warfare in the city of Jędrzejów which spread into neighbouring counties. Of course we have expected the actions such as these. But the sheer force of them have basically stumped our force which was planned to counter the two revolutions in the northern part of Holy Cross."
+ziobro.7.a:0 "Ziobro, ty k**wo jeb*na! Front Zero Cie dojeb*e!"
+ziobro.7.b:0 "We'll find him... eventually"
+
+ziobro.8.t:0 "Kelthuz... Rebels?"
+ziobro.8.desc:0 "Despite our assurances towards capitalists somehow some of them still struggled to believe our propaganda. And one of such people was... Kelthuz? Well, it's not that surprising when one considers his carrier and the songs he released all throughout his time before the Fall. It seems as if the anarchy actually caused Kelthuz to believe in his own nonsense. Whatever will come out of this is sure to cause high uproar in the Northern Counties as well..."
+ziobro.8.a:0 "It was winter, a harsh time... but now it's spring!"
+ziobro.8.b:0 "WHO?!"
+
+ziobro.9.t:0 "Dominik Tarczyński Assumes Control of Kielce"
+ziobro.9.desc:0 "As a security measure against ever-so deteriorating situation in the General Prosecutorship, Dominik Tarczyński has declared that Kielce will become a fortress against the "perverted warlords wanting to destroy the true Poland". However whether Zbigniew Ziobro actually agreed to this proposal is still up to question. But for now the state is unable to counter such turn of events."
+ziobro.9.a:0 "Kielce is not yet lost!"
+ziobro.9.b:0 "But why?"
+
+ziobro.10.t:0 "Bukowno Stays For Ourselves!"
+ziobro.10.desc:0 "We may have lost everything in the Holy Cross voivodeship. But at least we get to keep some of our lands in Lesser Poland intact. Recently our army has declared victory over the warlord trying to contest our control over Bukowno. In a televised address to the nation Zbigniew Ziobro thanked the soldiers for their righteous duty.\n\nYes, we may have lost much land. But we won't lose even more... right?"
+ziobro.10.a:0 "At least some good news?"
+
+ziobro.11.t:0 "Bukowno is Lost... For Now"
+ziobro.11.desc:0 "We may have lost everything in the Holy Cross voivodeship. But now we are even smaller due to our loss of Bukowno to the warlords in Zagłębie. A few days ago our army tried to annex Bukowno and neighbouring territories. Of course that didn't go unanswered and we got absolutely humililated. Due to this loss more and more people are organising protests - to our mismay of course."
+ziobro.11.a:0 "The hell is Ziobro doing?!"
+
+ziobro.12.t:0 "Status Quo of Bukowno"
+ziobro.12.desc:0 "We may have tried to annex Bukowno and the neighbouring areas. But despite our clear orders from Olkusz our soldiers refused to continue their operations and instead allowed the enemy to retake these territories. Of course Zbigniew Ziobro was not amused after hearing these news and ordered the rebelliants to be shot live on television. But whether this will improve our morale is questionable at least."
+ziobro.12.a:0 "Does that mean unrest or...?"
+
+ziobro.13.t:0 "The Combine Syndicates Rebel (Again)"
+ziobro.13.desc:0 "We may have retaken the territories of Ostrowiec, Starachowice and Sandomierz. And yet these gains have proven to be a curse worse than death. Not only are we left without an operable army, but also the ideologically-different warlords seem more than eager to cooperate against us. One of these is the Combined Sydicates of Starachowice. Of course we captured their leadership but the ideals perhaps entrenched in the Starachowickite minds."
+ziobro.13.a:0 "Syndicalism is back from dead!"
+ziobro.13.b:0 "If only Kelthuz remained..."
+
+ziobro.14.t:0 "The Apostle is Real"
+ziobro.14.desc:0 "Everything is to be expected in this chaotic period of Polish history. But what perhaps no one in the region expected The Apostle to be real. While his true identity is unknown, we know that he garnered already enough cult to take control over Sandomierz (which he claims is his hometown). For this he uses bicycles and anti-establishment propaganda to earn the hearts of the average populus. And it seems that this tactic has brought fruits already."
+ziobro.14.a:0 "Our only salvation!"
+ziobro.14.b:0 "Nonsense, that's all"
+
+ziobro.15.t:0 "To Już Jest Koniec... Nie Ma Już Nic..."
+ziobro.15.desc:0 "It's over. Zbigniew Ziobro actually thought he could create a little serfdom in the region full of unrest and hatred towards Sovereign Poland. But guess what, dear Prosecutor? You can't! There are things which are just impossible to achieve - no matter how much you try. Yes, there might be a universe where that doesn't happen, but the reality is different.\n\nLook at your little realm - collapsing and rotten. The only way to save it is to destroy the old foundation and create a new one in a place more stable than any other."
+ziobro.15.a:0 "To Lesser Poland!"
+
+ziobro.16.t:0 "List of Releasable Countries"
+ziobro.16.desc:0 "1. Waffen-$$$$ - Kelthuz (Libertarian-Zionic-Slavic-Nihilist Edgism)\n2. Holy Cross Society - Robert Bąkiewicz (Nationalist Preppers State)\n3. Festung Kielce - Dominik Tarczyński (Kielce My Beloved)\n4. People's Guard - Ludmiła Dobrzyniecka (Communist Partisans)\n5. Front Zero - Zbigniew Stonoga (FUCK THE PIS, ZIOBRO WE WAR YOU, WE WILL KILL EVERY PIS-MAN)\n\nDuring gameplay, there will occur some narrative events describing mentioned factions, where You will have an option to select them as destinated faction (or remain as Supreme Prosecutorship)"
+ziobro.16.a:0 "Clock goes back..."
+
+ziobro.17.t:0 "She's Back!"
+ziobro.17.desc:0 "Horrible news have arrived from the old capital of Temporary Government Of Holy Cross Reunification. Despite the reports from the city of Ostrowiec, it seems that Kinga Wnuk is healthy and alive with more eagerness to stamp us down. This has come as a shock around the whole region as no one expected this to happen at all. And yet she - with her colleagues and students - proved otherwise. Now we can only expect worse to happen to us as a result."
+ziobro.17.a:0 "We didn't say any last words, b*tch!"
+ziobro.17.b:0 "She's fu*king back?! How on earth?!"
+
+unification.62.t:0 "[GetNewspaper]The General Prosecutorship seizes Northern Lesser Poland!"
+unification.62.desc:0 "The sheer volume of anti-Ziobro revolts didn't seem to indicate he could stand his ground in the Holy Cross region. So, he turned his eyes onto Kraków, and conquered it. During a controlled press conference at Wawel Castle, Zbigniew Ziobro has stated his forces are in control of most of the voivodeship, sans Tatras. This fact has been accentuated by another wave of refugees fleeing from repressions following a march of the Prosecutorship's forces. \n\nHaving learned his lesson, Ziobro won't likely relent when it comes to his style of government. Many have characterized the resurgent regime as 'dystopian' and 'Orwellian', although some have pointed out it might be one of the saner options in the Polish Anarchy. One thing is certain for now: Ziobro is a serious contender, and it's better not to get on his bad side."
+unification.62.a:0 "This time they're not kidding around."
+
+##Decisions##
+zero_withdraws:0 "General Prosecutorship has withdrawn from Holy Cross"
