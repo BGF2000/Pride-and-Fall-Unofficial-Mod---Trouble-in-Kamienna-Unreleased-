@@ -1,0 +1,167 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            if = {
+                limit = {
+                    BGF = {
+                        is_ai = yes
+                        OR = {
+                            has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_ATEIZM }
+		    			    has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_NAZBOL }
+		    			    has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_DOOM }
+                        }
+                    }
+                }
+                #BGF = { add_ideas = BGF_radicals_debuff }
+                BGF = { delete_unit = {} }
+                SND = { delete_unit = {} } # Sorki, chłopaki, ale i tak nie zmienicie swej drogi (na razie)
+                STA = { delete_unit = {} }
+            }
+        }
+    }
+    on_weekly_BGF = {
+        effect = {
+            # Misje a-la rywalizacja
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            has_active_mission = BGF_socialdems_are_up_to_sth
+                            has_active_mission = BGF_liberals_are_up_to_sth
+                            has_active_mission = BGF_free_markets_are_up_to_sth
+                            has_active_mission = BGF_centrists_are_up_to_sth
+                        }
+                    }
+                    OR = {
+                        has_country_flag = BGF_supports_SD
+                        has_country_flag = BGF_supports_liberals
+                        has_country_flag = BGF_supports_free_market
+                        has_country_flag = BGF_supports_centrist_party
+                    }
+                }
+                random_list = {
+                    25 = {
+                        if = {
+                            limit = {
+                                NOT = { has_country_flag = BGF_supports_SD has_country_flag = BGF_befriended_socialdems }
+                                OR = {
+                                    NOT = { has_country_flag = BGF_najpierw_czekaj_niecierpliwcu_sd }
+                                    has_country_flag = {
+				                        flag = BGF_najpierw_czekaj_niecierpliwcu_sd
+				                        days > 98
+			                        }
+                                }
+                            }
+                            clr_country_flag = BGF_najpierw_czekaj_niecierpliwcu_sd
+                            set_country_flag = BGF_najpierw_czekaj_niecierpliwcu_sd
+                            activate_mission = BGF_socialdems_are_up_to_sth
+                        }
+                    }
+                    25 = {
+                        if = {
+                            limit = {
+                                NOT = { has_country_flag = BGF_supports_liberals has_country_flag = BGF_befriended_liberals }
+                                OR = {
+                                    NOT = { has_country_flag = BGF_najpierw_czekaj_niecierpliwcu_lib }
+                                    has_country_flag = {
+				                        flag = BGF_najpierw_czekaj_niecierpliwcu_lib
+				                        days > 98
+			                        }
+                                }
+                            }
+                            clr_country_flag = BGF_najpierw_czekaj_niecierpliwcu_lib
+                            set_country_flag = BGF_najpierw_czekaj_niecierpliwcu_lib
+                            activate_mission = BGF_liberals_are_up_to_sth
+                        }
+                    }
+                    25 = {
+                        if = {
+                            limit = {
+                                NOT = { has_country_flag = BGF_supports_free_market }
+                                NOT = { has_completed_focus = BGF_centrism_to_go }
+                                OR = {
+                                    NOT = { has_country_flag = BGF_najpierw_czekaj_niecierpliwcu_fm }
+                                    has_country_flag = {
+				                        flag = BGF_najpierw_czekaj_niecierpliwcu_fm
+				                        days > 98
+			                        }
+                                }
+                            }
+                            clr_country_flag = BGF_najpierw_czekaj_niecierpliwcu_fm
+                            set_country_flag = BGF_najpierw_czekaj_niecierpliwcu_fm
+                            activate_mission = BGF_free_markets_are_up_to_sth
+                        }
+                    }
+                    25 = {
+                        if = {
+                            limit = {
+                                NOT = { has_country_flag = BGF_supports_centrist_party }
+                                NOT = { has_completed_focus = BGF_free_market_to_go }
+                                OR = {
+                                    NOT = { has_country_flag = BGF_najpierw_czekaj_niecierpliwcu_cen }
+                                    has_country_flag = {
+				                        flag = BGF_najpierw_czekaj_niecierpliwcu_cen
+				                        days > 98
+			                        }
+                                }
+                            }
+                            clr_country_flag = BGF_najpierw_czekaj_niecierpliwcu_cen
+                            set_country_flag = BGF_najpierw_czekaj_niecierpliwcu_cen
+                            activate_mission = BGF_centrists_are_up_to_sth
+                        }
+                    }
+                }
+            }
+            # Zamach stanu chwila
+            if = {
+                limit = {
+                    has_country_flag = BGF_mamy_przejebane
+                    OR = {
+                        has_game_rule = { rule = BGF_PATH_BEHAVIOR option = RANDOM }
+                        has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_WHOLESOME }
+                        has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_UNWHOLESOME }
+                        has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_LIBERAL }
+                        has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_CBA }
+                        has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_KACZOR }
+                    }
+                }
+                random_list = {
+                    90 = {} # Nie ma coup d'etat
+                    5 = { # Ateizm/Nazbol
+                        country_event = { ostrowiec_power_struggles.101 }
+                    }
+                    #5 = { # CELSA
+                    #    country_event = { ostrowiec_power_struggles.102 }
+                    #}
+                    5 = { # Bardzo źle (doom)
+                        country_event = { ostrowiec_power_struggles.103 }
+                    }
+                }
+            }
+            else_if = {
+                limit = {
+                    has_country_flag = BGF_mamy_przejebane
+                    OR = {
+                        has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_ATEIZM }
+                        has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_NAZBOL }
+                    }
+                }
+                country_event = { ostrowiec_power_struggles.101 }
+            }
+            #else_if = {
+            #    limit = {
+            #        has_country_flag = BGF_mamy_przejebane
+            #        has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_CELSA }
+            #    }
+            #    country_event = { ostrowiec_power_struggles.102 }
+            #}
+            else_if = {
+                limit = {
+                    has_country_flag = BGF_mamy_przejebane
+                    has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_DOOM }
+                }
+                country_event = { ostrowiec_power_struggles.103 }
+            }
+        }
+    }
+}

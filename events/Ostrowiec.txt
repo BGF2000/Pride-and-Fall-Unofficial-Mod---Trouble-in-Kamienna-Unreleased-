@@ -1,0 +1,2153 @@
+add_namespace = ostrowiec
+add_namespace = ostrowiec_zibro
+add_namespace = ostrowiec_negociations
+add_namespace = ostrowiec_power_struggles
+add_namespace = ostrowiec_konglomeraty
+
+#####################
+######ostrowiec######
+#####################
+### Powstanie przeciwko Ziobru ###
+country_event = {
+	id = ostrowiec.1 # Kontekst geopolityczny
+	title = ostrowiec.1.t
+	desc = ostrowiec.1.desc
+	picture = GFX_event_ostrowiec.1
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = ostrowiec.1.a
+	}
+}
+
+country_event = {
+	id = ostrowiec.2 # Kooperacja najważniejsza racja
+	title = ostrowiec.2.t
+	desc = ostrowiec.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = ostrowiec.2.a
+        diplomatic_relation = { country = STA relation = non_aggression_pact }
+        diplomatic_relation = { country = SND relation = non_aggression_pact }
+	}
+}
+
+country_event = {
+	id = ostrowiec.3 # Ziobro spi**dala do siebie
+	title = ostrowiec.3.t
+	desc = ostrowiec.3.desc
+	picture = GFX_event_ostrowiec.3
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = ostrowiec.3.a
+        add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = ostrowiec.4 # Świętujemy fakt, że Ziobro zaraz upadnie z jego watażką
+	title = ostrowiec.4.t
+	desc = ostrowiec.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = ostrowiec.4.a
+        add_political_power = 75
+	}
+}
+
+### Rekonstrukcja ###
+country_event = { # Cywile zawiedzeni (hmm, ciekawe czemu)
+	id = ostrowiec.5
+	title = ostrowiec.5.t
+	desc = ostrowiec.5.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.5.a
+	}
+}
+
+country_event = { # Wojsko niezadowolone (lepiej zrobić coś z tym)
+	id = ostrowiec.6
+	title = ostrowiec.6.t
+	desc = ostrowiec.6.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.6.a
+	}
+}
+
+country_event = { # Rodzice wściekli (kogo obchodziło upolitycznienie szkoły w 2024?)
+	id = ostrowiec.7
+	title = ostrowiec.7.t
+	desc = ostrowiec.7.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.7.a
+	}
+}
+
+country_event = { # Więcej krzemu dla Ojczyzny!
+	id = ostrowiec.8
+	title = ostrowiec.8.t
+	desc = ostrowiec.8.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.8.a
+		add_ideas = BGF_computer_in_every_house_idea
+	}
+}
+
+country_event = { # Komu przeszkadza publiczna propaganda?
+	id = ostrowiec.9
+	title = ostrowiec.9.t
+	desc = ostrowiec.9.desc
+	picture = GFX_event_ostrowiec.9
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.9.a
+		add_ideas = BGF_tv_in_every_house_idea
+	}
+}
+
+country_event = { # AK i jej skutki społeczne
+	id = ostrowiec.10
+	title = ostrowiec.10.t
+	desc = ostrowiec.10.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.10.a
+		add_ideas = BGF_AK_heritage
+	}
+}
+
+country_event = { # NATO i jej niekompetentność
+	id = ostrowiec.11
+	title = ostrowiec.11.t
+	desc = ostrowiec.11.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.11.a
+		custom_effect_tooltip = BGF_or_do_we_tt
+		add_ideas = BGF_NATO_heritage
+	}
+}
+
+country_event = { # Technologia rozmiecie naszych wrogów (lub jakoś tak)
+	id = ostrowiec.12
+	title = ostrowiec.12.t
+	desc = ostrowiec.12.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.12.a
+		add_ideas = BGF_technology_our_future
+	}
+}
+
+country_event = { # Historia o żołnierzach wyklętych i jak popełniali zbrodnie przeciwko ludności cywilnej
+	id = ostrowiec.13
+	title = ostrowiec.13.t
+	desc = ostrowiec.13.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.13.a # WOW, to zmotywowało mnie do bycia Polakiem-historykiem!
+		add_ideas = BGF_polak_historyk
+	}
+}
+
+country_event = { # Nareszcie jedni - ale co teraz?
+	id = ostrowiec.14
+	title = ostrowiec.14.t
+	desc = ostrowiec.14.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.14.a # Nadchodzi problem...
+		country_event = { id = ostrowiec_power_struggles.1 days = 7 }
+	}
+}
+
+country_event = { # "Agent" niemiecki zzamachowany
+	id = ostrowiec.15
+	title = ostrowiec.15.t
+	desc = ostrowiec.15.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.15.a # Nadchodzi problem...
+		set_politics = {
+			ruling_party = paternal_conservatism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_stability = 0.3
+		#complete_national_focus = BGF_Rogowitz_uber_alles
+		hidden_effect = {
+    	    every_country = {
+				news_event = { id = unification_alt.163 days = 1 }
+			}
+    	}
+	}
+}
+
+country_event = { # SD gurom
+	id = ostrowiec.16
+	title = ostrowiec.16.t
+	desc = ostrowiec.16.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.16.a
+	}
+}
+
+country_event = { # KO gurom
+	id = ostrowiec.17
+	title = ostrowiec.17.t
+	desc = ostrowiec.17.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.17.a
+	}
+}
+
+country_event = { # KO gurom?
+	id = ostrowiec.18
+	title = ostrowiec.18.t
+	desc = ostrowiec.18.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.18.a
+	}
+}
+
+country_event = { # NP gurom
+	id = ostrowiec.19
+	title = ostrowiec.19.t
+	desc = ostrowiec.19.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.19.a
+	}
+}
+
+### Socjaldemokraci ###
+country_event = { # Co nam dało zwycięstwo?
+	id = ostrowiec.20
+	title = ostrowiec.20.t
+	desc = ostrowiec.20.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.20.a
+		add_ideas = BGF_SD_status_quo
+	}
+}
+
+country_event = { # Kwestie ekonomii
+	id = ostrowiec.21
+	title = ostrowiec.21.t
+	desc = ostrowiec.21.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.21.a
+	}
+}
+
+country_event = { # Kwestie armii
+	id = ostrowiec.22
+	title = ostrowiec.22.t
+	desc = ostrowiec.22.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.22.a
+	}
+}
+
+country_event = { # Nasze koleje rozwijają się
+	id = ostrowiec.23
+	title = ostrowiec.23.t
+	desc = ostrowiec.23.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.23.a
+		country_event = { id = ostrowiec.27 days = 7 }
+	}
+}
+
+country_event = { # CELSA gurom
+	id = ostrowiec.24
+	title = ostrowiec.24.t
+	desc = ostrowiec.24.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.24.a
+	}
+}
+
+country_event = { # Just found out capitalism exists :C
+	id = ostrowiec.25
+	title = ostrowiec.25.t
+	desc = ostrowiec.25.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.25.a
+	}
+}
+
+country_event = { # Spokój duszy bez kapitalizmu
+	id = ostrowiec.26
+	title = ostrowiec.26.t
+	desc = ostrowiec.26.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.26.a
+	}
+}
+
+country_event = { # Nasze koleje rozwijają się (cz. 2)
+	id = ostrowiec.27
+	title = ostrowiec.27.t
+	desc = ostrowiec.27.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.27.a
+		country_event = { id = ostrowiec.28 days = 14 }
+	}
+}
+
+country_event = { # Nasze koleje rozwijają się (cz. 3)
+	id = ostrowiec.28
+	title = ostrowiec.28.t
+	desc = ostrowiec.28.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.28.a
+		country_event = { id = ostrowiec.29 days = 14 }
+	}
+}
+
+country_event = { # Nasze koleje rozwijają się (cz. 4)
+	id = ostrowiec.29
+	title = ostrowiec.29.t
+	desc = ostrowiec.29.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.29.a
+		country_event = { id = ostrowiec.30 days = 21 }
+	}
+}
+
+country_event = { # Nasze koleje rozwijają się (Przedfinał)
+	id = ostrowiec.30
+	title = ostrowiec.30.t
+	desc = ostrowiec.30.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.30.a
+		country_event = { id = ostrowiec.31 days = 21 }
+	}
+}
+
+country_event = { # Nasze koleje rozwijają się (Finał)
+	id = ostrowiec.31
+	title = ostrowiec.31.t
+	desc = ostrowiec.31.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.31.a
+		add_stability = 0.05
+	}
+}
+
+country_event = { # Nigdy więcej poddawania się
+	id = ostrowiec.32
+	title = ostrowiec.32.t
+	desc = ostrowiec.32.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec.32.a
+	}
+}
+
+###########################
+######ostrowiec_zibro######
+###########################
+# Drugie powstanie przeciwko Ziobru
+country_event = {
+	id = ostrowiec_zibro.1 # Jakim cudem my upadliśmy?
+	title = ostrowiec_zibro.1.t
+	desc = ostrowiec_zibro.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = ostrowiec_zibro.1.a
+        add_stability = -0.2
+        add_war_support = -0.15
+	}
+}
+
+country_event = {
+	id = ostrowiec_zibro.2 # Nigdy więcej wojny (przeciwko Zeru)
+	title = ostrowiec_zibro.2.t
+	desc = ostrowiec_zibro.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = ostrowiec_zibro.2.a
+        add_stability = 0.05
+		country_event = { id = ostrowiec_zibro.3 days = 7 }
+	}
+}
+
+country_event = {
+	id = ostrowiec_zibro.3 # Kto by pomyślał, że próba zjednoczenia regionu bardzo zróżnicowanego pokojowo nie powiedzie się
+	title = ostrowiec_zibro.3.t
+	desc = ostrowiec_zibro.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = ostrowiec_zibro.3.a
+        custom_effect_tooltip = BGF_zibro_tt
+		load_focus_tree = wspolnota_post_uprising_focus
+		complete_national_focus = BGF_celebrations_in_ostrowiec
+		complete_national_focus = BGF_now_for_the_real_work
+		set_country_flag = BGF_open_negociations
+	}
+}
+
+country_event = {
+	id = ostrowiec_zibro.4 # Ziobro upada pod wpływem naszej wielgaśnej armii (lub komend)
+	title = ostrowiec_zibro.4.t
+	desc = ostrowiec_zibro.4.desc
+
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			OR = {
+				PRK = { 
+					num_of_controlled_states < 6
+				}
+				PRK = {
+					surrender_progress > 0.7
+				}
+			}
+			has_global_flag = krusada_przeciwko_idiocie
+		}
+	}
+
+    option = {
+		name = ostrowiec_zibro.4.a # Darujmy mu...
+		PRK_withdrawal_harsh = yes
+		clr_global_flag = krusada_przeciwko_idiocie
+		set_global_flag = wygrana_antyziobrowska
+		hidden_effect = {
+			every_country = {
+				news_event = { id = ostrowiec_zibro.5 }
+			}
+		}
+	}
+
+	option = {
+		name = ostrowiec_zibro.4.b # Idziemy dalej, wy j*bane nieroby!
+		add_war_support = -0.1
+		add_stability = -0.1
+		custom_effect_tooltip = BGF_walka_z_malom_polskom_tt
+		set_global_flag = malompolska_w_akcji
+		hidden_effect = {
+			if = {
+				limit = {
+					TRN = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = TRN
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					WDW = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = WDW
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					KRK = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = KRK
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					NHT = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = NHT
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					OSW = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = OSW
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					SKW = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = SKW
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					UMN = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = UMN
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					BOH = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = BOH
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					KRA = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = KRA
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					WND = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = WND
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					BRK = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = BRK
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					UJG = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = UJG
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					AGH = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = AGH
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					HAB = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = HAB
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					HOR = { country_exists = yes }
+				}
+				declare_war_on = {
+					target = HOR
+					type = annex_everything
+				}
+			}
+		}
+	}
+}
+
+news_event = { # Wnuk-Ziobro wojna
+	id = ostrowiec_zibro.5
+	title = ostrowiec_zibro.5.t
+	desc = ostrowiec_zibro.5.desc
+	picture = GFX_news_event_ziobro_revolt
+	major = yes
+
+	fire_only_once = yes
+	trigger = {
+		has_global_flag = krusada_przeciwko_idiocie
+	}
+
+	option = {
+		name = ostrowiec_zibro.5.a
+	}
+}
+
+news_event = { # Koniec walk
+	id = ostrowiec_zibro.6
+	title = ostrowiec_zibro.6.t
+	desc = ostrowiec_zibro.6.desc
+	picture = GFX_news_event_unification157
+	major = yes
+
+	fire_only_once = yes
+	trigger = {
+		has_global_flag = wygrana_antyziobrowska
+	}
+	
+	immediate = {
+		hidden_effect = {
+			clr_global_flag = wygrana_antyziobrowska
+		}
+	}
+
+	option = {
+		name = ostrowiec_zibro.6.a
+	}
+}
+
+news_event = { # Ziobro jeszcze w walce (oraz reszta Małompolski)
+	id = ostrowiec_zibro.7
+	title = ostrowiec_zibro.7.t
+	desc = ostrowiec_zibro.7.desc
+	picture = GFX_news_event_ziobro_win
+	major = yes
+
+	fire_only_once = yes
+	trigger = {
+		has_global_flag = malompolska_w_akcji
+	}
+	
+	immediate = {
+		hidden_effect = {
+			clr_global_flag = malompolska_w_akcji
+		}
+	}
+
+	option = {
+		name = ostrowiec_zibro.7.a
+	}
+}
+
+##################################
+######ostrowiec_negociations######
+##################################
+country_event = {
+	id = ostrowiec_negociations.1 # Negocjować z Kingą Wnuk?
+	title = ostrowiec_negociations.1.t
+	desc = ostrowiec_negociations.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			THIS = {
+				set_country_flag = BGF_negociating_country
+			}
+		}
+	}
+
+    option = {
+		name = ostrowiec_negociations.1.a # Czemu nie?
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = -15
+				has_opinion = {
+					target = BGF
+					value < 35
+				}
+			}
+			modifier = {
+				add = 25
+				has_non_aggression_pact_with = BGF
+			}
+			modifier = {
+				add = 10
+				is_ideologically_compatible_with_BGF_dem = yes # Na początku jesteśmy demokratyczni
+			}
+		}
+        add_stability = 0.05
+		BGF = { country_event = { id = ostrowiec_negociations.2 days = 2 } }
+	}
+
+	option = {
+		name = ostrowiec_negociations.1.b # Nie ma mowy!
+		ai_chance = {
+			base = 25
+			modifier = {
+				add = 15
+				has_opinion = {
+					target = BGF
+					value < 10
+				}
+			}
+			modifier = {
+				add = 10
+				NOT = { is_ideologically_compatible_with_BGF_dem = yes }
+			}
+		}
+        add_war_support = 0.05
+		BGF = { country_event = { id = ostrowiec_negociations.3 days = 2 } }
+	}
+}
+
+country_event = {
+	id = ostrowiec_negociations.2 # Chce z nami negocjować
+	title = ostrowiec_negociations.2.t
+	desc = ostrowiec_negociations.2.desc
+
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: Event ostrowiec_negociations.2 gościu chce negocjacji"
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = ostrowiec_negociations.2.a # Jej!
+		add_opinion_modifier = {
+			target = NEG
+			modifier = BGF_began_negociations
+		}
+		add_opinion_modifier = {
+			target = NEG
+			modifier = BGF_began_negociations_trade
+		}
+		country_event = { id = ostrowiec_negociations.4 days = 1 }
+	}
+}
+
+country_event = {
+	id = ostrowiec_negociations.3 # Nie chce z nami negocjować
+	title = ostrowiec_negociations.3.t
+	desc = ostrowiec_negociations.3.desc
+
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: Event ostrowiec_negociations.3 gościu nie chce negocjacji"
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = ostrowiec_negociations.3.a # Trudno - czas zabić moich ludzi
+		add_opinion_modifier = {
+			target = NEG
+			modifier = BGF_refused_negociations
+		}
+		declare_war_on = {
+			target = NEG
+			type = annex_everything
+		}
+		hidden_effect = {
+			NEG = {
+				clr_country_flag = BGF_negociating_country
+			}
+		}
+	}
+}
+
+country_event = {
+	id = ostrowiec_negociations.4 # Kompromisy
+	title = ostrowiec_negociations.4.t
+	desc = ostrowiec_negociations.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = ostrowiec_negociations.4.a # Dużo (więcej SP, lecz więcej korzyści)
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = -10
+				has_political_power < 100
+			}
+			modifier = {
+				add = 35
+				has_political_power > 100
+			}
+		}
+        add_political_power = -100
+		set_global_flag = BGF_ogromna_szansa
+		NEG = { country_event = { id = ostrowiec_negociations.5 } }
+	}
+
+	option = {
+		name = ostrowiec_negociations.4.b # Średnio (równowaga SP i korzyści)
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = -10
+				has_political_power < 50
+			}
+			modifier = {
+				add = 15
+				has_political_power > 50
+			}
+		}
+        add_political_power = -50
+		set_global_flag = BGF_srednia_szansa
+		NEG = { country_event = { id = ostrowiec_negociations.5 } }
+	}
+
+	option = {
+		name = ostrowiec_negociations.4.c # Dużo (mniej SP, lecz mniej korzyści)
+		ai_chance = {
+			base = 10
+		}
+        add_political_power = -25
+		set_global_flag = BGF_mala_szansa
+		NEG = { country_event = { id = ostrowiec_negociations.5 } }
+	}
+}
+
+country_event = {
+	id = ostrowiec_negociations.5 # Dołączyć czy nie dołączyć?
+	title = ostrowiec_negociations.5.t
+	desc = ostrowiec_negociations.5.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			random_list = {
+				10 = { set_variable = { SWK_randomowa_szansa_na_zgode = 0 } }
+				10 = { set_variable = { SWK_randomowa_szansa_na_zgode = 1 } }
+				10 = { set_variable = { SWK_randomowa_szansa_na_zgode = 2 } }
+				10 = { set_variable = { SWK_randomowa_szansa_na_zgode = 3 } }
+				10 = { set_variable = { SWK_randomowa_szansa_na_zgode = 4 } }
+				10 = { set_variable = { SWK_randomowa_szansa_na_zgode = 5 } }
+				10 = { set_variable = { SWK_randomowa_szansa_na_zgode = 6 } }
+				10 = { set_variable = { SWK_randomowa_szansa_na_zgode = 7 } }
+				10 = { set_variable = { SWK_randomowa_szansa_na_zgode = 8 } }
+				10 = { set_variable = { SWK_randomowa_szansa_na_zgode = 9 } }
+			}
+		}
+	}
+
+    option = {
+		name = ostrowiec_negociations.5.a # Tak (dobre zakończenie dla Ostrowca)
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				has_global_flag = BGF_mala_szansa
+			}
+			modifier = {
+				add = 25
+				has_global_flag = BGF_srednia_szansa
+			}
+			modifier = {
+				add = 50
+				has_global_flag = BGF_ogromna_szansa
+			}
+		}
+		BGF = { country_event = { id = ostrowiec_negociations.6 days = 3 } }
+	}
+
+	option = {
+		name = ostrowiec_negociations.5.b # Nie (wojenka nas czeka)
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 5
+				check_variable = { SWK_randomowa_szansa_na_zgode = 0 compare = greater_than_or_equals }
+			}
+			modifier = {
+				add = 5
+				check_variable = { SWK_randomowa_szansa_na_zgode = 1 compare = greater_than_or_equals }
+			}
+			modifier = {
+				add = 5
+				check_variable = { SWK_randomowa_szansa_na_zgode = 2 compare = greater_than_or_equals }
+			}
+			modifier = {
+				add = 5
+				check_variable = { SWK_randomowa_szansa_na_zgode = 3 compare = greater_than_or_equals }
+			}
+			modifier = {
+				add = 5
+				check_variable = { SWK_randomowa_szansa_na_zgode = 4 compare = greater_than_or_equals }
+			}
+			modifier = {
+				add = 5
+				check_variable = { SWK_randomowa_szansa_na_zgode = 5 compare = greater_than_or_equals }
+			}
+			modifier = {
+				add = 5
+				check_variable = { SWK_randomowa_szansa_na_zgode = 6 compare = greater_than_or_equals }
+			}
+			modifier = {
+				add = 5
+				check_variable = { SWK_randomowa_szansa_na_zgode = 7 compare = greater_than_or_equals }
+			}
+			modifier = {
+				add = 5
+				check_variable = { SWK_randomowa_szansa_na_zgode = 8 compare = greater_than_or_equals }
+			}
+			modifier = {
+				add = 5
+				check_variable = { SWK_randomowa_szansa_na_zgode = 9 compare = greater_than_or_equals }
+			}
+		}
+		BGF = { country_event = { id = ostrowiec_negociations.7 days = 3 } }
+	}
+}
+
+country_event = {
+	id = ostrowiec_negociations.6 # Dołącza do nas
+	title = ostrowiec_negociations.6.t
+	desc = ostrowiec_negociations.6.desc
+
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: Event ostrowiec_negociations.6 gościu dołącza do Ostrowca"
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = ostrowiec_negociations.6.a # Czas świętować
+		annex_country = {
+			target = NEG
+			transfer_troops = yes
+		}
+		add_stability = 0.05
+		hidden_effect = {
+			NEG = {
+				clr_country_flag = BGF_negociating_country
+			}
+		}
+	}
+}
+
+country_event = {
+	id = ostrowiec_negociations.7 # Nie dołącza do nas
+	title = ostrowiec_negociations.7.t
+	desc = ostrowiec_negociations.7.desc
+
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: Event ostrowiec_negociations.7 gościu zamierza wojować z Ostrowcem"
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = ostrowiec_negociations.7.a # Trudno - czas zabić moich ludzi
+		declare_war_on = {
+			target = NEG
+			type = annex_everything
+		}
+		hidden_effect = {
+			NEG = {
+				clr_country_flag = BGF_negociating_country
+			}
+		}
+	}
+}
+
+#####################################
+######ostrowiec_power_struggles######
+#####################################
+
+country_event = { # Zaczyna się walka o władzę
+	id = ostrowiec_power_struggles.1
+	title = ostrowiec_power_struggles.1.t
+	desc = ostrowiec_power_struggles.1.desc
+
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: Event ostrowiec_power_struggles.1 zaczyna się chaosik"
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.1.a
+		custom_effect_tooltip = BGF_power_struggle_tt
+		hidden_effect = { # Wszystkie poniższe zmienne powinny mieć sumę równą 100!
+			set_variable = {
+				var = socialdemocrature_support # KEENGA WNÓK
+				value = 50 # Początkowa wartość (bo tak)
+			}
+			set_variable = {
+				var = liberalism_support # GABRIEL KWIETNIAK
+				value = 27
+			}
+			set_variable = {
+				var = freemarketism_support # NIENAWIDZICIEL CBA
+				value = 13
+			}
+			set_variable = {
+				var = holownite_support # Rząd Hołownicki (od Szymona Hołownii) - ale kto tą partią kieruje?
+				value = 10
+			}
+			activate_mission = BGF_choose_something_god_damnit
+		}
+		if = {
+			limit = {
+				has_completed_focus = BGF_hooray_zibro
+			}
+			set_country_flag = BGF_mamy_przejebane # I to jak (pozwala na radykalną ścieżkę państwa)
+		}
+		else = {
+			set_country_flag = BGF_mamy_bardzo_zle
+		}
+	}
+}
+
+country_event = { # Socjaldemokracja górą
+	id = ostrowiec_power_struggles.2
+	title = ostrowiec_power_struggles.2.t
+	desc = ostrowiec_power_struggles.2.desc
+
+	immediate = {
+		hidden_effect = {
+			set_country_flag = BGF_radykalizm_gurom
+			clr_country_flag = BGF_supports_centrist_party
+			clr_country_flag = BGF_supports_free_market
+			clr_country_flag = BGF_supports_liberals
+			clr_country_flag = BGF_supports_SD
+			clr_country_flag = BGF_mamy_przejebane
+			clr_country_flag = BGF_mamy_bardzo_zle
+			clr_country_flag = BGF_lesser_costs
+			set_country_flag = BGF_no_more_power_struggle
+			remove_ideas = BGF_remove_competition_idea
+			remove_ideas = BGF_cut_social_spendings_idea
+			remove_ideas = BGF_regulated_markets
+			hidden_effect = {
+				every_country = {
+					news_event = { id = unification.160 days = 1 }
+				}
+            }
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.2.a
+		remove_ideas = BGF_power_struggle_idea
+		remove_ideas = BGF_power_struggle_idea_lite
+		remove_ideas = BGF_power_struggle_idea_normal
+		remove_ideas = BGF_power_struggle_idea_bad
+		remove_ideas = BGF_power_struggle_idea_horrible
+		set_politics = {
+			ruling_party = socialdemocrature
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_popularities = {
+			paternal_conservatism = 12
+			socialdemocrature = 63
+			euroliberalism = 24
+			freemarketism = 1
+		}
+		load_focus_tree = wspolnota_voi_democrats_focus
+		complete_national_focus = BGF_SD_uber_alles
+	}
+}
+
+country_event = { # Liberalizm górą
+	id = ostrowiec_power_struggles.3
+	title = ostrowiec_power_struggles.3.t
+	desc = ostrowiec_power_struggles.3.desc
+
+	immediate = {
+		hidden_effect = {
+			set_country_flag = BGF_radykalizm_gurom
+			clr_country_flag = BGF_supports_centrist_party
+			clr_country_flag = BGF_supports_free_market
+			clr_country_flag = BGF_supports_liberals
+			clr_country_flag = BGF_supports_SD
+			clr_country_flag = BGF_mamy_przejebane
+			clr_country_flag = BGF_mamy_bardzo_zle
+			clr_country_flag = BGF_lesser_costs
+			set_country_flag = BGF_no_more_power_struggle
+			remove_ideas = BGF_remove_competition_idea
+			remove_ideas = BGF_cut_social_spendings_idea
+			remove_ideas = BGF_regulated_markets
+			hidden_effect = {
+                every_country = {
+					news_event = { id = unification.158 days = 1 }
+				}
+            }
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.3.a
+		remove_ideas = BGF_power_struggle_idea
+		remove_ideas = BGF_power_struggle_idea_lite
+		remove_ideas = BGF_power_struggle_idea_normal
+		remove_ideas = BGF_power_struggle_idea_bad
+		remove_ideas = BGF_power_struggle_idea_horrible
+		set_politics = {
+			ruling_party = euroliberalism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_popularities = {
+			paternal_conservatism = 10
+			socialdemocrature = 32
+			euroliberalism = 38
+			freemarketism = 14
+			reactionary = 6
+		}
+		load_focus_tree = wspolnota_voi_democrats_focus
+		complete_national_focus = BGF_KO_uber_alles
+	}
+}
+
+country_event = { # Wolny rynek górą
+	id = ostrowiec_power_struggles.4
+	title = ostrowiec_power_struggles.4.t
+	desc = ostrowiec_power_struggles.4.desc
+
+	immediate = {
+		hidden_effect = {
+			set_country_flag = BGF_radykalizm_gurom
+			clr_country_flag = BGF_supports_centrist_party
+			clr_country_flag = BGF_supports_free_market
+			clr_country_flag = BGF_supports_liberals
+			clr_country_flag = BGF_supports_SD
+			clr_country_flag = BGF_mamy_przejebane
+			clr_country_flag = BGF_mamy_bardzo_zle
+			clr_country_flag = BGF_lesser_costs
+			set_country_flag = BGF_no_more_power_struggle
+			remove_ideas = BGF_remove_competition_idea
+			remove_ideas = BGF_cut_social_spendings_idea
+			remove_ideas = BGF_regulated_markets
+			hidden_effect = {
+                every_country = {
+					news_event = { id = unification.159 days = 1 }
+				}
+            }
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.4.a
+		remove_ideas = BGF_power_struggle_idea
+		remove_ideas = BGF_power_struggle_idea_lite
+		remove_ideas = BGF_power_struggle_idea_normal
+		remove_ideas = BGF_power_struggle_idea_bad
+		remove_ideas = BGF_power_struggle_idea_horrible
+		set_politics = {
+			ruling_party = freemarketism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_popularities = {
+			paternal_conservatism = 10
+			socialdemocrature = 14
+			euroliberalism = 31
+			freemarketism = 40
+			autocracy = 5
+		}
+		load_focus_tree = wspolnota_voi_democrats_focus
+		complete_national_focus = BGF_KO_uber_alles_gura
+	}
+}
+
+country_event = { # Centryzm górą
+	id = ostrowiec_power_struggles.5
+	title = ostrowiec_power_struggles.5.t
+	desc = ostrowiec_power_struggles.5.desc
+
+	immediate = {
+		hidden_effect = {
+			set_country_flag = BGF_radykalizm_gurom
+			clr_country_flag = BGF_supports_centrist_party
+			clr_country_flag = BGF_supports_free_market
+			clr_country_flag = BGF_supports_liberals
+			clr_country_flag = BGF_supports_SD
+			clr_country_flag = BGF_mamy_przejebane
+			clr_country_flag = BGF_mamy_bardzo_zle
+			clr_country_flag = BGF_lesser_costs
+			set_country_flag = BGF_no_more_power_struggle
+			remove_ideas = BGF_remove_competition_idea
+			remove_ideas = BGF_cut_social_spendings_idea
+			remove_ideas = BGF_regulated_markets
+			hidden_effect = {
+                every_country = {
+					news_event = { id = unification.163 days = 1 }
+				}
+            }
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.5.a
+		remove_ideas = BGF_power_struggle_idea
+		remove_ideas = BGF_power_struggle_idea_lite
+		remove_ideas = BGF_power_struggle_idea_normal
+		remove_ideas = BGF_power_struggle_idea_bad
+		remove_ideas = BGF_power_struggle_idea_horrible
+		set_politics = {
+			ruling_party = socialdemocrature
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_party_name = { ideology = socialdemocrature long_name = BGF_socialdemocrature_party_centre_long name = BGF_socialdemocrature_party_centre }
+		add_country_leader_role = {
+			character = BGF2000 # Aaaa! Więc tym jest ten gościu co grał w Bonk.io i nazwał się po nim! (Ale czemu nazwał tag po sobie? Czy jest tak pyszny, czy co?)
+			promote_leader = yes
+			country_leader={
+				desc = "POLITICS_BGF_DESC"
+				ideology = socialdemocrature_centrist_democracy_subtype
+				traits = { artificial_foreigners_stigma hidden_autism renaissance_man }
+				expire="1.1.1.1"
+				id=-1
+			}
+		}
+		set_popularities = {
+			paternal_conservatism = 37
+			socialdemocrature = 24
+			euroliberalism = 22
+			freemarketism = 2
+			autocracy = 15
+		}
+		load_focus_tree = wspolnota_voi_democrats_focus
+		complete_national_focus = BGF_Roenig_uber_alles
+		hidden_effect = {
+			country_event = { id = ostrowiec.15 days = 104 }
+    	}
+	}
+}
+
+country_event = { # Nikt nie wygrał - można wybrać jakąkolwiek partię
+	id = ostrowiec_power_struggles.6
+	title = ostrowiec_power_struggles.6.t
+	desc = ostrowiec_power_struggles.6.desc
+
+	immediate = {
+		hidden_effect = {
+			add_stability = -0.3
+			set_popularities = {
+				socialdemocrature = 25
+				euroliberalism = 25
+				freemarketism = 25
+				paternal_conservatism = 25
+			}
+			clr_country_flag = BGF_supports_centrist_party
+			clr_country_flag = BGF_supports_free_market
+			clr_country_flag = BGF_supports_liberals
+			clr_country_flag = BGF_supports_SD
+			clr_country_flag = BGF_mamy_przejebane
+			clr_country_flag = BGF_mamy_bardzo_zle
+			clr_country_flag = BGF_lesser_costs
+			set_country_flag = BGF_no_more_power_struggle
+			remove_ideas = BGF_remove_competition_idea
+			remove_ideas = BGF_cut_social_spendings_idea
+			remove_ideas = BGF_regulated_markets
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.6.a
+		trigger = {
+			check_variable = {
+				var = socialdemocrature_support
+				value = 15
+				compare = greater_than_or_equals
+			}
+		}
+		remove_ideas = BGF_power_struggle_idea
+		remove_ideas = BGF_power_struggle_idea_lite
+		remove_ideas = BGF_power_struggle_idea_normal
+		remove_ideas = BGF_power_struggle_idea_bad
+		remove_ideas = BGF_power_struggle_idea_horrible
+		set_politics = {
+			ruling_party = socialdemocrature
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		load_focus_tree = wspolnota_voi_democrats_focus
+		complete_national_focus = BGF_SD_uber_alles
+		hidden_effect = {
+    	    every_country = {
+				news_event = { id = unification.160 days = 1 }
+			}
+    	}
+	}
+	option = {
+		name = ostrowiec_power_struggles.6.b
+		trigger = {
+			check_variable = {
+				var = liberalism_support
+				value = 15
+				compare = greater_than_or_equals
+			}
+		}
+		remove_ideas = BGF_power_struggle_idea
+		remove_ideas = BGF_power_struggle_idea_lite
+		remove_ideas = BGF_power_struggle_idea_normal
+		remove_ideas = BGF_power_struggle_idea_bad
+		remove_ideas = BGF_power_struggle_idea_horrible
+		set_politics = {
+			ruling_party = euroliberalism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		load_focus_tree = wspolnota_voi_democrats_focus
+		complete_national_focus = BGF_KO_uber_alles
+		hidden_effect = {
+    	    every_country = {
+				news_event = { id = unification.158 days = 1 }
+			}
+    	}
+	}
+	option = {
+		name = ostrowiec_power_struggles.6.c
+		trigger = {
+			check_variable = {
+				var = freemarketism_support
+				value = 15
+				compare = greater_than_or_equals
+			}
+		}
+		remove_ideas = BGF_power_struggle_idea
+		remove_ideas = BGF_power_struggle_idea_lite
+		remove_ideas = BGF_power_struggle_idea_normal
+		remove_ideas = BGF_power_struggle_idea_bad
+		remove_ideas = BGF_power_struggle_idea_horrible
+		set_politics = {
+			ruling_party = euroliberalism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		load_focus_tree = wspolnota_voi_democrats_focus
+		complete_national_focus = BGF_KO_uber_alles_gura
+		hidden_effect = {
+    	    every_country = {
+				news_event = { id = unification.159 days = 1 }
+			}
+    	}
+	}
+	option = {
+		name = ostrowiec_power_struggles.6.d
+		trigger = {
+			check_variable = {
+				var = holownite_support
+				value = 15
+				compare = greater_than_or_equals
+			}
+		}
+		remove_ideas = BGF_power_struggle_idea
+		remove_ideas = BGF_power_struggle_idea_lite
+		remove_ideas = BGF_power_struggle_idea_normal
+		remove_ideas = BGF_power_struggle_idea_bad
+		remove_ideas = BGF_power_struggle_idea_horrible
+		set_politics = {
+			ruling_party = socialdemocrature
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_party_name = { ideology = socialdemocrature long_name = BGF_socialdemocrature_party_centre_long name = BGF_socialdemocrature_party_centre }
+		add_country_leader_role = {
+			character = BGF2000
+			promote_leader = yes
+			country_leader={
+				desc = "POLITICS_BGF_DESC"
+				ideology = socialdemocrature_centrist_democracy_subtype
+				traits = { artificial_foreigners_stigma hidden_autism matgeo }
+				expire="1.1.1.1"
+				id=-1
+			}
+		}
+		load_focus_tree = wspolnota_voi_democrats_focus
+		complete_national_focus = BGF_Roenig_uber_alles
+		hidden_effect = {
+    	    every_country = {
+				news_event = { id = unification.163 days = 1 }
+			}
+			country_event = { id = ostrowiec.15 days = 25 }
+    	}
+	}
+}
+
+country_event = { # Liberalsi - Razem
+	id = ostrowiec_power_struggles.7
+	title = ostrowiec_power_struggles.7.t
+	desc = ostrowiec_power_struggles.7.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.7.a
+		set_country_flag = BGF_befriended_liberals
+	}
+}
+
+country_event = { # Liberalsi - Oddzielnie
+	id = ostrowiec_power_struggles.8
+	title = ostrowiec_power_struggles.8.t
+	desc = ostrowiec_power_struggles.8.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.8.a
+		set_country_flag = BGF_antagonised_liberals
+	}
+}
+
+country_event = { # Socjale - Razem
+	id = ostrowiec_power_struggles.9
+	title = ostrowiec_power_struggles.9.t
+	desc = ostrowiec_power_struggles.9.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.9.a
+		set_country_flag = BGF_befriended_socialdems
+	}
+}
+
+country_event = { # Socjale - Oddzielnie
+	id = ostrowiec_power_struggles.10
+	title = ostrowiec_power_struggles.10.t
+	desc = ostrowiec_power_struggles.10.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.10.a
+		set_country_flag = BGF_antagonised_socialdems
+	}
+}
+
+country_event = { # Socjale - Centryści źli
+	id = ostrowiec_power_struggles.11
+	title = ostrowiec_power_struggles.11.t
+	desc = ostrowiec_power_struggles.11.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.11.a
+	}
+}
+
+country_event = { # Socjale i liberalsi - Nie będzie przyjaźni :C
+	id = ostrowiec_power_struggles.12
+	title = ostrowiec_power_struggles.12.t
+	desc = ostrowiec_power_struggles.12.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.12.a
+		add_stability = -0.05
+	}
+}
+
+country_event = { # Socjale - Sami swoi
+	id = ostrowiec_power_struggles.13
+	title = ostrowiec_power_struggles.13.t
+	desc = ostrowiec_power_struggles.13.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.13.a
+	}
+}
+
+country_event = { # Liberalsi - Konopie na każdą kieszeń
+	id = ostrowiec_power_struggles.14
+	title = ostrowiec_power_struggles.14.t
+	desc = ostrowiec_power_struggles.14.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.14.a
+		add_ideas = drugs_allowed
+	}
+}
+
+country_event = { # Liberalsi - Sami swoi
+	id = ostrowiec_power_struggles.15
+	title = ostrowiec_power_struggles.15.t
+	desc = ostrowiec_power_struggles.15.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.15.a
+	}
+}
+
+country_event = { # Socjale i liberalsi - JEEEST!
+	id = ostrowiec_power_struggles.16
+	title = ostrowiec_power_struggles.16.t
+	desc = ostrowiec_power_struggles.16.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.16.a
+	}
+}
+
+country_event = { # Wolnościowcy i centryści - Ci dwoje sa gorsi od wszystkich (nie licząc Cyganów)
+	id = ostrowiec_power_struggles.17
+	title = ostrowiec_power_struggles.17.t
+	desc = ostrowiec_power_struggles.17.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.17.a
+	}
+}
+
+country_event = { # Wolnościowcy - Dajesz, Kelthuz!
+	id = ostrowiec_power_struggles.18
+	title = ostrowiec_power_struggles.18.t
+	desc = ostrowiec_power_struggles.18.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.18.a
+		custom_effect_tooltip = BGF_sukces_ma_wiele_przeszkud_tt
+		hidden_effect = {
+			random_list = {
+				65 = { BGF_support_free_effect = yes }
+				34 = { BGF_slash_free_effect = yes }
+				1 = {
+					set_variable = {
+						var = socialdemocrature_support
+						value = 0
+					}
+					set_variable = {
+						var = liberalism_support
+						value = 0
+					}
+					set_variable = {
+						var = freemarketism_support
+						value = 100
+					}
+					set_variable = {
+						var = holownite_support
+						value = 0
+					}
+					set_country_flag = BGF_kel_to_gigaczad
+					country_event = { id = ostrowiec_power_struggles.4 days = 1 }
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Centryści - Dajesz, Domi!
+	id = ostrowiec_power_struggles.19
+	title = ostrowiec_power_struggles.19.t
+	desc = ostrowiec_power_struggles.19.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.19.a
+		custom_effect_tooltip = BGF_sukces_ma_wiele_przeszkud_tt
+		hidden_effect = {
+			random_list = {
+				65 = { BGF_support_centre_effect = yes }
+				34 = { BGF_slash_centre_effect = yes }
+				1 = {
+					set_variable = {
+						var = socialdemocrature_support
+						value = 0
+					}
+					set_variable = {
+						var = liberalism_support
+						value = 0
+					}
+					set_variable = {
+						var = freemarketism_support
+						value = 0
+					}
+					set_variable = {
+						var = holownite_support
+						value = 100
+					}
+					set_country_flag = BGF_kel_to_gigaczad
+					country_event = { id = ostrowiec_power_struggles.5 days = 1 }
+				}
+			}
+		}
+	}
+}
+
+### Zamachy stanu ###
+country_event = { # Ateizm/Nazbol
+	id = ostrowiec_power_struggles.101
+	title = ostrowiec_power_struggles.101.t
+	desc = ostrowiec_power_struggles.101.desc
+
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: Event ostrowiec_power_struggles.101 Naziole dokonują zamchu stanu"
+			set_country_flag = BGF_radykalizm_gurom
+			clr_country_flag = BGF_supports_centrist_party
+			clr_country_flag = BGF_supports_free_market
+			clr_country_flag = BGF_supports_liberals
+			clr_country_flag = BGF_supports_SD
+			clr_country_flag = BGF_mamy_przejebane
+			clr_country_flag = BGF_mamy_bardzo_zle
+			clr_country_flag = BGF_lesser_costs
+			set_country_flag = BGF_no_more_power_struggle
+			remove_ideas = BGF_power_struggle_idea
+			remove_ideas = BGF_power_struggle_idea_lite
+			remove_ideas = BGF_power_struggle_idea_normal
+			remove_ideas = BGF_power_struggle_idea_bad
+			remove_ideas = BGF_power_struggle_idea_horrible
+			remove_ideas = BGF_remove_competition_idea
+			remove_ideas = BGF_cut_social_spendings_idea
+			remove_ideas = BGF_regulated_markets
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.101.a
+		remove_ideas = BGF_power_struggle_idea
+		set_politics = {
+			ruling_party = neonationalism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_popularities = {
+			neonationalism = 24
+			socialdemocrature = 32
+			autocracy = 11
+			freemarketism = 19
+			euroliberalism = 14
+		}
+	}
+}
+
+country_event = { # CELSA
+	id = ostrowiec_power_struggles.102
+	title = ostrowiec_power_struggles.102.t
+	desc = ostrowiec_power_struggles.102.desc
+
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: Event ostrowiec_power_struggles.102 CELSA gana lucha por el poder"
+			set_country_flag = BGF_radykalizm_gurom
+			set_country_flag = spanish_or_vanish
+			clr_country_flag = BGF_supports_free_market
+			clr_country_flag = BGF_supports_liberals
+			clr_country_flag = BGF_supports_SD
+			clr_country_flag = BGF_mamy_przejebane
+			clr_country_flag = BGF_mamy_bardzo_zle
+			clr_country_flag = BGF_lesser_costs
+			set_country_flag = BGF_no_more_power_struggle
+			remove_ideas = BGF_power_struggle_idea
+			remove_ideas = BGF_power_struggle_idea_lite
+			remove_ideas = BGF_power_struggle_idea_normal
+			remove_ideas = BGF_power_struggle_idea_bad
+			remove_ideas = BGF_power_struggle_idea_horrible
+			remove_ideas = BGF_remove_competition_idea
+			remove_ideas = BGF_cut_social_spendings_idea
+			remove_ideas = BGF_regulated_markets
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.102.a
+		set_politics = {
+			ruling_party = corporativism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_popularities = {
+			corporativism = 38
+			neonationalism = 24
+			freemarketism = 30
+			euroliberalism = 8
+		}
+	}
+}
+
+country_event = { # BiolChem
+	id = ostrowiec_power_struggles.103
+	title = ostrowiec_power_struggles.103.t
+	desc = ostrowiec_power_struggles.103.desc
+
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: Event ostrowiec_power_struggles.103 Człowieku, cóżeś ty narobił?!"
+			set_country_flag = BGF_radykalizm_gurom
+			clr_country_flag = BGF_supports_centrist_party
+			clr_country_flag = BGF_supports_free_market
+			clr_country_flag = BGF_supports_liberals
+			clr_country_flag = BGF_supports_SD
+			clr_country_flag = BGF_mamy_przejebane
+			clr_country_flag = BGF_mamy_bardzo_zle
+			clr_country_flag = BGF_lesser_costs
+			set_country_flag = BGF_no_more_power_struggle
+			remove_ideas = BGF_power_struggle_idea
+			remove_ideas = BGF_power_struggle_idea_lite
+			remove_ideas = BGF_power_struggle_idea_normal
+			remove_ideas = BGF_power_struggle_idea_bad
+			remove_ideas = BGF_power_struggle_idea_horrible
+			remove_ideas = BGF_remove_competition_idea
+			remove_ideas = BGF_cut_social_spendings_idea
+			remove_ideas = BGF_regulated_markets
+		}
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_power_struggles.103.a
+		set_politics = {
+			ruling_party = postpolonism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_popularities = {
+			postpolonism = 10
+			socialdemocrature = 10
+			euroliberalism = 10
+			freemarketism = 10
+			paternal_conservatism = 10
+			autocracy = 10
+			neonationalism = 10
+			marxism_cranism = 10
+			squattism = 10
+			reactionary = 10
+		}
+	}
+}
+
+##################################
+######ostrowiec_konglomeraty######
+##################################
+### Działania z CELSĄ ###
+country_event = {
+	id = ostrowiec_konglomeraty.1
+	title = ostrowiec_konglomeraty.1.t
+	desc = ostrowiec_konglomeraty.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.1.a
+		add_to_variable = {
+			var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+			value = 1
+            tooltip = BGF_lepszy_progres_tt
+		}
+	}
+}
+
+country_event = {
+	id = ostrowiec_konglomeraty.2
+	title = ostrowiec_konglomeraty.2.t
+	desc = ostrowiec_konglomeraty.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.2.a
+		add_to_variable = {
+			var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+			value = 1
+            tooltip = BGF_lepszy_progres_tt
+		}
+	}
+}
+
+country_event = {
+	id = ostrowiec_konglomeraty.3
+	title = ostrowiec_konglomeraty.3.t
+	desc = ostrowiec_konglomeraty.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.3.a
+		add_to_variable = {
+			var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+			value = 1
+            tooltip = BGF_lepszy_progres_tt
+		}
+	}
+}
+
+country_event = {
+	id = ostrowiec_konglomeraty.4
+	title = ostrowiec_konglomeraty.4.t
+	desc = ostrowiec_konglomeraty.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.4.a
+		set_variable = {
+			var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+			value = 0
+		}
+		clr_country_flag = BGF_dealing_with_tselssa
+		BGF_smash_corpos = yes
+	}
+}
+
+### Wymiotowanie na odległość Nowej Ery ###
+country_event = {
+	id = ostrowiec_konglomeraty.5
+	title = ostrowiec_konglomeraty.5.t
+	desc = ostrowiec_konglomeraty.5.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.5.a
+		add_to_variable = {
+			var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+			value = 1
+            tooltip = BGF_lepszy_progres_tt
+		}
+	}
+}
+
+country_event = {
+	id = ostrowiec_konglomeraty.6
+	title = ostrowiec_konglomeraty.6.t
+	desc = ostrowiec_konglomeraty.6.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.6.a
+		add_to_variable = {
+			var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+			value = 1
+            tooltip = BGF_lepszy_progres_tt
+		}
+	}
+}
+
+country_event = {
+	id = ostrowiec_konglomeraty.7
+	title = ostrowiec_konglomeraty.7.t
+	desc = ostrowiec_konglomeraty.7.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.7.a
+		add_to_variable = {
+			var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+			value = 1
+            tooltip = BGF_lepszy_progres_tt
+		}
+	}
+}
+
+country_event = {
+	id = ostrowiec_konglomeraty.8
+	title = ostrowiec_konglomeraty.8.t
+	desc = ostrowiec_konglomeraty.8.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.8.a
+		set_variable = {
+			var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+			value = 0
+		}
+		clr_country_flag = BGF_dealing_with_neue_aera
+		BGF_smash_corpos = yes
+	}
+}
+
+### ******* Żabki ### (gwiazki oznaczają to samo słowo, co na fladze Ruchu Ośmiu Gwiazd)
+country_event = {
+	id = ostrowiec_konglomeraty.9
+	title = ostrowiec_konglomeraty.9.t
+	desc = ostrowiec_konglomeraty.9.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.9.a
+		add_to_variable = {
+			var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+			value = 1
+            tooltip = BGF_lepszy_progres_tt
+		}
+	}
+}
+
+country_event = {
+	id = ostrowiec_konglomeraty.10
+	title = ostrowiec_konglomeraty.10.t
+	desc = ostrowiec_konglomeraty.10.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.10.a
+		add_to_variable = {
+			var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+			value = 1
+            tooltip = BGF_lepszy_progres_tt
+		}
+	}
+}
+
+country_event = {
+	id = ostrowiec_konglomeraty.11
+	title = ostrowiec_konglomeraty.11.t
+	desc = ostrowiec_konglomeraty.11.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.11.a
+		add_to_variable = {
+			var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+			value = 1
+            tooltip = BGF_lepszy_progres_tt
+		}
+	}
+}
+
+country_event = {
+	id = ostrowiec_konglomeraty.12
+	title = ostrowiec_konglomeraty.12.t
+	desc = ostrowiec_konglomeraty.12.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.12.a
+		set_variable = {
+			var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+			value = 0
+		}
+		clr_country_flag = BGF_dealing_with_schappka
+		BGF_smash_corpos = yes
+	}
+}
+
+## Destabilizacja ##
+country_event = { # Zwykła
+	id = ostrowiec_konglomeraty.13
+	title = ostrowiec_konglomeraty.13.t
+	desc = ostrowiec_konglomeraty.13.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.13.a
+		add_timed_idea = {
+			idea = BGF_minor_corpo_strike
+			days = 75
+		}
+	}
+}
+
+country_event = { # (Nie)Zwykła
+	id = ostrowiec_konglomeraty.14
+	title = ostrowiec_konglomeraty.14.t
+	desc = ostrowiec_konglomeraty.14.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.14.a
+		add_timed_idea = {
+			idea = BGF_major_corpo_strike
+			days = 75
+		}
+	}
+}
+
+country_event = { # Powrót do normalności
+	id = ostrowiec_konglomeraty.15
+	title = ostrowiec_konglomeraty.15.t
+	desc = ostrowiec_konglomeraty.15.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.15.a
+		remove_ideas = BGF_major_corpo_strike
+		remove_ideas = BGF_minor_corpo_strike
+	}
+}
+
+country_event = { # Dyssatysfakcja w kręgach rządowych
+	id = ostrowiec_konglomeraty.16
+	title = ostrowiec_konglomeraty.16.t
+	desc = ostrowiec_konglomeraty.16.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.16.a
+		custom_effect_tooltip = BGF_masz_przechlapane_tt
+		set_country_flag = BGF_zamach_stanu_nieunikniony # Przyda się na końcu ścieżki 'NP - Wnuk'
+	}
+}
+
+country_event = { # Ni udauo sijeu
+	id = ostrowiec_konglomeraty.17
+	title = ostrowiec_konglomeraty.17.t
+	desc = ostrowiec_konglomeraty.17.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ostrowiec_konglomeraty.17.a
+		hidden_effect = {
+			random_list = {
+				80 = { set_country_flag = BGF_lessons_from_attacks }
+				20 = {}
+			}
+		}
+	}
+}

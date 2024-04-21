@@ -1,0 +1,1271 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_event_zydzew.2"
+		texturefile = "gfx/event_pictures/event_zydzew.2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_belchatow.46"
+		texturefile = "gfx/event_pictures/event_belchatow.46.dds"
+	}
+    spriteType = {
+		name = "GFX_event_zydzew.1"
+		texturefile = "gfx/event_pictures/event_zydzew.1.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_event_zydzew13"
+		texturefile = "gfx/event_pictures/event_zydzew13.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_event_WML.1"
+		texturefile = "gfx/event_pictures/event_WML.1.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_event_sapek.11"
+		texturefile = "gfx/event_pictures/event_sapek.11.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_belchatow.warzecha"
+		texturefile = "gfx/event_pictures/event_belchatow.warzecha.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_sapek_wiedzmin.1"
+		texturefile = "gfx/event_pictures/event_sapek_wiedzmin.1.dds"
+	}	
+
+		spriteType = {
+		name = "GFX_event_sapek.1"
+		texturefile = "gfx/event_pictures/event_sapek.1.dds"
+	}	
+	
+		spriteType = {
+		name = "GFX_event_sapek.3"
+		texturefile = "gfx/event_pictures/event_sapek.3.dds"
+	}	
+	
+		spriteType = {
+		name = "GFX_event_sapek.4"
+		texturefile = "gfx/event_pictures/event_sapek.4.dds"
+	}	
+	
+		spriteType = {
+		name = "GFX_event_sapek.5"
+		texturefile = "gfx/event_pictures/event_sapek.5.dds"
+	}	
+	
+		spriteType = {
+		name = "GFX_event_sapek.7"
+		texturefile = "gfx/event_pictures/event_sapek.7.dds"
+	}	
+	
+    spriteType = {
+		name = "GFX_event_belchatow24"
+		texturefile = "gfx/event_pictures/event_belchatow24.dds"
+	}	
+
+    spriteType = {
+		name = "GFX_event_belchatow20"
+		texturefile = "gfx/event_pictures/event_belchatow20.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_event_belchatow.2"
+		texturefile = "gfx/event_pictures/event_belchatow.2.dds"
+	}
+	
+    spriteType = {
+		name = "GFX_event_belchatow.1"
+		texturefile = "gfx/event_pictures/event_belchatow.1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_krosniewice.flag"
+		texturefile = "gfx/event_pictures/event_krosniewice.flag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.roxie"
+		texturefile = "gfx/event_pictures/event_belchatow.roxie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.16"
+		texturefile = "gfx/event_pictures/event_belchatow.16.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.17"
+		texturefile = "gfx/event_pictures/event_belchatow.17.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.13"
+		texturefile = "gfx/event_pictures/event_belchatow.13.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.14"
+		texturefile = "gfx/event_pictures/event_belchatow.14.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.52"
+		texturefile = "gfx/event_pictures/event_belchatow.52.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.87"
+		texturefile = "gfx/event_pictures/event_belchatow.87.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.50"
+		texturefile = "gfx/event_pictures/event_belchatow.50.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.atom"
+		texturefile = "gfx/event_pictures/event_belchatow.atom.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_grill"
+		texturefile = "gfx/event_pictures/event_grill.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_zolnierz_salutuje"
+		texturefile = "gfx/event_pictures/event_zolnierzsalutuje.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.barborka"
+		texturefile = "gfx/event_pictures/event_belchatow.barborka.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.5"
+		texturefile = "gfx/event_pictures/event_belchatow.5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.8"
+		texturefile = "gfx/event_pictures/event_belchatow.8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.11"
+		texturefile = "gfx/event_pictures/event_belchatow.11.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.12"
+		texturefile = "gfx/event_pictures/event_belchatow.12.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.kopalnia"
+		texturefile = "gfx/event_pictures/event_belchatow.kopalnia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.21"
+		texturefile = "gfx/event_pictures/event_belchatow.21.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.77"
+		texturefile = "gfx/event_pictures/event_belchatow.77.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_sarmacja_husaria"
+		texturefile = "gfx/event_pictures/event_sarmacja.husaria.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_belchatow.flag"
+		texturefile = "gfx/event_pictures/event_belchatow.flag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_kghm.1"
+		texturefile = "gfx/event_pictures/event_kghm.1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_news_event_atom"
+		texturefile = "gfx/event_pictures/news_event_atom.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_hod"
+		texturefile = "gfx/event_pictures/news_event_hod.dds"
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_news_event_kacap.2"
+		texturefile = "gfx/event_pictures/news_event_kacap.2.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_kacap.15"
+		texturefile = "gfx/event_pictures/news_event_kacap.15.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_kacap.7"
+		texturefile = "gfx/event_pictures/news_event_kacap.7.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_kacap.8"
+		texturefile = "gfx/event_pictures/news_event_kacap.8.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_kacap.9"
+		texturefile = "gfx/event_pictures/news_event_kacap.9.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_kacap.10"
+		texturefile = "gfx/event_pictures/news_event_kacap.10.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_kacap.11"
+		texturefile = "gfx/event_pictures/news_event_kacap.11.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_kacap.12"
+		texturefile = "gfx/event_pictures/news_event_kacap.12.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_kacap.13"
+		texturefile = "gfx/event_pictures/news_event_kacap.13.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_kacap.14"
+		texturefile = "gfx/event_pictures/news_event_kacap.14.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_news_event_kacap.16"
+		texturefile = "gfx/event_pictures/news_event_kacap.16.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_kacap.17"
+		texturefile = "gfx/event_pictures/news_event_kacap.17.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_kacap.18"
+		texturefile = "gfx/event_pictures/news_event_kacap.18.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_kacap.19"
+		texturefile = "gfx/event_pictures/news_event_kacap.19.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_kacap.20"
+		texturefile = "gfx/event_pictures/news_event_kacap.20.dds"
+	}	
+
+    spriteType = {
+		name = "GFX_event_belchatow.23"
+		texturefile = "gfx/event_pictures/event_belchatow.23.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_arka_exodus"
+		texturefile = "gfx/event_pictures/news_event_arka_exodus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_czarnek.1"
+		texturefile = "gfx/event_pictures/event_czarnek.1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_zuk.1"
+		texturefile = "gfx/event_pictures/event_zuk.1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_zuk.3"
+		texturefile = "gfx/event_pictures/news_event_zuk.3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_zuk.4"
+		texturefile = "gfx/event_pictures/news_event_zuk.4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_zuk.5"
+		texturefile = "gfx/event_pictures/news_event_zuk.5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_okamura1"
+		texturefile = "gfx/event_pictures/event_okamura1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_jaskowiak.1"
+		texturefile = "gfx/event_pictures/event_jaskowiak.1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_tou1"
+		texturefile = "gfx/event_pictures/event_tou1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_ostrowiec.1"
+		texturefile = "gfx/event_pictures/event_ostrowiec.1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_ostrowiec.3"
+		texturefile = "gfx/event_pictures/event_ostrowiec.3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_ostrowiec.9"
+		texturefile = "gfx/event_pictures/event_ostrowiec.9.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification1"
+		texturefile = "gfx/event_pictures/news_event_unification1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification2"
+		texturefile = "gfx/event_pictures/news_event_unification2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification3"
+		texturefile = "gfx/event_pictures/news_event_unification3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification4"
+		texturefile = "gfx/event_pictures/news_event_unification4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification5"
+		texturefile = "gfx/event_pictures/news_event_unification5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification6"
+		texturefile = "gfx/event_pictures/news_event_unification6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification7"
+		texturefile = "gfx/event_pictures/news_event_unification7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification8"
+		texturefile = "gfx/event_pictures/news_event_unification8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification9"
+		texturefile = "gfx/event_pictures/news_event_unification9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification10"
+		texturefile = "gfx/event_pictures/news_event_unification10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification11"
+		texturefile = "gfx/event_pictures/news_event_unification11.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification12"
+		texturefile = "gfx/event_pictures/news_event_unification12.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification13"
+		texturefile = "gfx/event_pictures/news_event_unification13.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification14"
+		texturefile = "gfx/event_pictures/news_event_unification14.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification15"
+		texturefile = "gfx/event_pictures/news_event_unification15.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification16"
+		texturefile = "gfx/event_pictures/news_event_unification16.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification17"
+		texturefile = "gfx/event_pictures/news_event_unification17.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification18"
+		texturefile = "gfx/event_pictures/news_event_unification18.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification19"
+		texturefile = "gfx/event_pictures/news_event_unification19.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification20"
+		texturefile = "gfx/event_pictures/news_event_unification20.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification21"
+		texturefile = "gfx/event_pictures/news_event_unification21.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification22"
+		texturefile = "gfx/event_pictures/news_event_unification22.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification23"
+		texturefile = "gfx/event_pictures/news_event_unification23.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification24"
+		texturefile = "gfx/event_pictures/news_event_unification24.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification25"
+		texturefile = "gfx/event_pictures/news_event_unification25.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification26"
+		texturefile = "gfx/event_pictures/news_event_unification26.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification27"
+		texturefile = "gfx/event_pictures/news_event_unification27.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification28"
+		texturefile = "gfx/event_pictures/news_event_unification28.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification29"
+		texturefile = "gfx/event_pictures/news_event_unification29.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification30"
+		texturefile = "gfx/event_pictures/news_event_unification30.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_news_event_unification31"
+		texturefile = "gfx/event_pictures/news_event_unification31.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification32"
+		texturefile = "gfx/event_pictures/news_event_unification32.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification33"
+		texturefile = "gfx/event_pictures/news_event_unification33.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification34"
+		texturefile = "gfx/event_pictures/news_event_unification34.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification35"
+		texturefile = "gfx/event_pictures/news_event_unification35.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification36"
+		texturefile = "gfx/event_pictures/news_event_unification36.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification37"
+		texturefile = "gfx/event_pictures/news_event_unification37.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification38"
+		texturefile = "gfx/event_pictures/news_event_unification38.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification39"
+		texturefile = "gfx/event_pictures/news_event_unification39.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification40"
+		texturefile = "gfx/event_pictures/news_event_unification40.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification41"
+		texturefile = "gfx/event_pictures/news_event_unification41.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification42"
+		texturefile = "gfx/event_pictures/news_event_unification42.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification43"
+		texturefile = "gfx/event_pictures/news_event_unification43.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification44"
+		texturefile = "gfx/event_pictures/news_event_unification44.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification45"
+		texturefile = "gfx/event_pictures/news_event_unification45.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification46"
+		texturefile = "gfx/event_pictures/news_event_unification46.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification47"
+		texturefile = "gfx/event_pictures/news_event_unification47.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification48"
+		texturefile = "gfx/event_pictures/news_event_unification48.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification49"
+		texturefile = "gfx/event_pictures/news_event_unification49.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification50"
+		texturefile = "gfx/event_pictures/news_event_unification50.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification51"
+		texturefile = "gfx/event_pictures/news_event_unification51.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification52"
+		texturefile = "gfx/event_pictures/news_event_unification52.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification53"
+		texturefile = "gfx/event_pictures/news_event_unification53.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification54"
+		texturefile = "gfx/event_pictures/news_event_unification54.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification55"
+		texturefile = "gfx/event_pictures/news_event_unification55.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification56"
+		texturefile = "gfx/event_pictures/news_event_unification56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification57"
+		texturefile = "gfx/event_pictures/news_event_unification57.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification58"
+		texturefile = "gfx/event_pictures/news_event_unification58.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification59"
+		texturefile = "gfx/event_pictures/news_event_unification59.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification60"
+		texturefile = "gfx/event_pictures/news_event_unification60.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification61"
+		texturefile = "gfx/event_pictures/news_event_unification61.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification62"
+		texturefile = "gfx/event_pictures/news_event_unification62.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification63"
+		texturefile = "gfx/event_pictures/news_event_unification63.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification64"
+		texturefile = "gfx/event_pictures/news_event_unification64.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification65"
+		texturefile = "gfx/event_pictures/news_event_unification65.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification66"
+		texturefile = "gfx/event_pictures/news_event_unification66.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification67"
+		texturefile = "gfx/event_pictures/news_event_unification67.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification68"
+		texturefile = "gfx/event_pictures/news_event_unification68.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification69"
+		texturefile = "gfx/event_pictures/news_event_unification69.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification70"
+		texturefile = "gfx/event_pictures/news_event_unification70.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification71"
+		texturefile = "gfx/event_pictures/news_event_unification71.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification72"
+		texturefile = "gfx/event_pictures/news_event_unification72.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification73"
+		texturefile = "gfx/event_pictures/news_event_unification73.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification74"
+		texturefile = "gfx/event_pictures/news_event_unification74.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_news_event_unification75"
+		texturefile = "gfx/event_pictures/news_event_unification75.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification76"
+		texturefile = "gfx/event_pictures/news_event_unification76.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification77"
+		texturefile = "gfx/event_pictures/news_event_unification77.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification78"
+		texturefile = "gfx/event_pictures/news_event_unification78.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification79"
+		texturefile = "gfx/event_pictures/news_event_unification79.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification80"
+		texturefile = "gfx/event_pictures/news_event_unification80.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification81"
+		texturefile = "gfx/event_pictures/news_event_unification81.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification82"
+		texturefile = "gfx/event_pictures/news_event_unification82.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification83"
+		texturefile = "gfx/event_pictures/news_event_unification83.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_news_event_unification84"
+		texturefile = "gfx/event_pictures/news_event_unification84.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification85"
+		texturefile = "gfx/event_pictures/news_event_unification85.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification86"
+		texturefile = "gfx/event_pictures/news_event_unification86.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification87"
+		texturefile = "gfx/event_pictures/news_event_unification87.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification88"
+		texturefile = "gfx/event_pictures/news_event_unification88.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification89"
+		texturefile = "gfx/event_pictures/news_event_unification89.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification90"
+		texturefile = "gfx/event_pictures/news_event_unification90.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification91"
+		texturefile = "gfx/event_pictures/news_event_unification91.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_unification92"
+		texturefile = "gfx/event_pictures/news_event_unification92.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification93"
+		texturefile = "gfx/event_pictures/news_event_unification93.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification94"
+		texturefile = "gfx/event_pictures/news_event_unification94.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification95"
+		texturefile = "gfx/event_pictures/news_event_unification95.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_unification96"
+		texturefile = "gfx/event_pictures/news_event_unification96.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_news_event_unification97"
+		texturefile = "gfx/event_pictures/news_event_unification97.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_news_event_unification98"
+		texturefile = "gfx/event_pictures/news_event_unification98.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification99"
+		texturefile = "gfx/event_pictures/news_event_unification99.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification100"
+		texturefile = "gfx/event_pictures/news_event_unification100.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification101"
+		texturefile = "gfx/event_pictures/news_event_unification101.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification102"
+		texturefile = "gfx/event_pictures/news_event_unification102.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification103"
+		texturefile = "gfx/event_pictures/news_event_unification103.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification104"
+		texturefile = "gfx/event_pictures/news_event_unification104.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification105"
+		texturefile = "gfx/event_pictures/news_event_unification105.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification106"
+		texturefile = "gfx/event_pictures/news_event_unification106.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification107"
+		texturefile = "gfx/event_pictures/news_event_unification107.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification108"
+		texturefile = "gfx/event_pictures/news_event_unification108.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification109"
+		texturefile = "gfx/event_pictures/news_event_unification109.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification110"
+		texturefile = "gfx/event_pictures/news_event_unification110.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification111"
+		texturefile = "gfx/event_pictures/news_event_unification111.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification112"
+		texturefile = "gfx/event_pictures/news_event_unification112.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification113"
+		texturefile = "gfx/event_pictures/news_event_unification113.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification114"
+		texturefile = "gfx/event_pictures/news_event_unification114.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification115"
+		texturefile = "gfx/event_pictures/news_event_unification115.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification116"
+		texturefile = "gfx/event_pictures/news_event_unification116.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification117"
+		texturefile = "gfx/event_pictures/news_event_unification117.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification118"
+		texturefile = "gfx/event_pictures/news_event_unification118.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification119"
+		texturefile = "gfx/event_pictures/news_event_unification119.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification120"
+		texturefile = "gfx/event_pictures/news_event_unification120.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification121"
+		texturefile = "gfx/event_pictures/news_event_unification121.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification122"
+		texturefile = "gfx/event_pictures/news_event_unification122.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification123"
+		texturefile = "gfx/event_pictures/news_event_unification123.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification124"
+		texturefile = "gfx/event_pictures/news_event_unification124.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification125"
+		texturefile = "gfx/event_pictures/news_event_unification125.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification126"
+		texturefile = "gfx/event_pictures/news_event_unification126.dds"
+	}
+
+    spriteType = {
+		name = "GFX_news_event_unification127"
+		texturefile = "gfx/event_pictures/news_event_unification127.dds"
+	}
+
+    spriteType = {
+		name = "GFX_news_event_unification128"
+		texturefile = "gfx/event_pictures/news_event_unification128.dds"
+	}
+
+    spriteType = {
+		name = "GFX_news_event_unification129"
+		texturefile = "gfx/event_pictures/news_event_unification129.dds"
+	}
+
+    spriteType = {
+		name = "GFX_news_event_unification130"
+		texturefile = "gfx/event_pictures/news_event_unification130.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_unification131"
+		texturefile = "gfx/event_pictures/news_event_unification131.dds"
+	}
+	
+    spriteType = {
+		name = "GFX_news_event_unification132"
+		texturefile = "gfx/event_pictures/news_event_unification132.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification133"
+		texturefile = "gfx/event_pictures/news_event_unification133.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification134"
+		texturefile = "gfx/event_pictures/news_event_unification134.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification135"
+		texturefile = "gfx/event_pictures/news_event_unification135.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification136"
+		texturefile = "gfx/event_pictures/news_event_unification136.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification137"
+		texturefile = "gfx/event_pictures/news_event_unification137.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification138"
+		texturefile = "gfx/event_pictures/news_event_unification138.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification139"
+		texturefile = "gfx/event_pictures/news_event_unification139.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification140"
+		texturefile = "gfx/event_pictures/news_event_unification140.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification141"
+		texturefile = "gfx/event_pictures/news_event_unification141.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification142"
+		texturefile = "gfx/event_pictures/news_event_unification142.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification143"
+		texturefile = "gfx/event_pictures/news_event_unification143.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification144"
+		texturefile = "gfx/event_pictures/news_event_unification144.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification145"
+		texturefile = "gfx/event_pictures/news_event_unification145.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification146"
+		texturefile = "gfx/event_pictures/news_event_unification146.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification147"
+		texturefile = "gfx/event_pictures/news_event_unification147.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification148"
+		texturefile = "gfx/event_pictures/news_event_unification148.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification149"
+		texturefile = "gfx/event_pictures/news_event_unification149.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification150"
+		texturefile = "gfx/event_pictures/news_event_unification150.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification151"
+		texturefile = "gfx/event_pictures/news_event_unification151.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification152"
+		texturefile = "gfx/event_pictures/news_event_unification152.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification153"
+		texturefile = "gfx/event_pictures/news_event_unification153.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification154"
+		texturefile = "gfx/event_pictures/news_event_unification154.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification155"
+		texturefile = "gfx/event_pictures/news_event_unification155.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unification156"
+		texturefile = "gfx/event_pictures/news_event_unification156.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification157"
+		texturefile = "gfx/event_pictures/news_event_unification157.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification158"
+		texturefile = "gfx/event_pictures/news_event_unification158.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification159"
+		texturefile = "gfx/event_pictures/news_event_unification159.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification160"
+		texturefile = "gfx/event_pictures/news_event_unification160.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_keenga_wnook"
+		texturefile = "gfx/event_pictures/news_event_keenga_wnook.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_roenig" # Szkoda, że z Łakomcem, gdyż on w tym wszechświecie nie istnieje
+		texturefile = "gfx/event_pictures/news_event_roenig.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification161"
+		texturefile = "gfx/event_pictures/news_event_unification161.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification162"
+		texturefile = "gfx/event_pictures/news_event_unification162.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification163"
+		texturefile = "gfx/event_pictures/news_event_unification163.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification164"
+		texturefile = "gfx/event_pictures/news_event_unification164.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification165"
+		texturefile = "gfx/event_pictures/news_event_unification165.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification166"
+		texturefile = "gfx/event_pictures/news_event_unification166.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_unification167"
+		texturefile = "gfx/event_pictures/news_event_unification167.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_zagan"
+		texturefile = "gfx/event_pictures/news_event_zagan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_ziobro_lose"
+		texturefile = "gfx/event_pictures/news_event_ziobro_lose.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_ziobro_win"
+		texturefile = "gfx/event_pictures/news_event_ziobro_win.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_jomsborg"
+		texturefile = "gfx/event_pictures/news_event_jomsborg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_procesja"
+		texturefile = "gfx/event_pictures/news_event_procesja.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_ek"
+		texturefile = "gfx/event_pictures/news_event_ek.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_rzeszow_siege"
+		texturefile = "gfx/event_pictures/news_event_rzeszow_siege.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_ek"
+		texturefile = "gfx/event_pictures/news_event_ek.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_ziobro_revolt"
+		texturefile = "gfx/event_pictures/news_event_ziobro_revolt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_russian_lose"
+		texturefile = "gfx/event_pictures/news_event_russian_lose.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_russian_invasion"
+		texturefile = "gfx/event_pictures/news_event_russian_invasion.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_deblin.2"
+		texturefile = "gfx/event_pictures/news_event_deblin.2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_deblin.3"
+		texturefile = "gfx/event_pictures/news_event_deblin.3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_dulkiewicz_summit"
+		texturefile = "gfx/event_pictures/news_event_dulkiewicz_summit.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_jeblo_zuraw"
+		texturefile = "gfx/event_pictures/news_event_jeblo_zuraw.dds"
+	}
+}

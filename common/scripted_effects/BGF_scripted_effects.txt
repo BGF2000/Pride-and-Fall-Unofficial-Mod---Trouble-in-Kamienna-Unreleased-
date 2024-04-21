@@ -1,0 +1,2319 @@
+BGF_better_prepare = {
+    if = {
+		limit = { has_idea = BGF_a_long_road_ahead }
+		remove_ideas = BGF_a_long_road_ahead
+	}
+	else_if = {
+		limit = { has_idea = BGF_a_long_road_ahead_2 }
+		swap_ideas = {
+			remove_idea = BGF_a_long_road_ahead_2
+			add_idea = BGF_a_long_road_ahead
+		}
+	}
+	else_if = {
+		limit = { has_idea = BGF_a_long_road_ahead_3 }
+		swap_ideas = {
+			remove_idea = BGF_a_long_road_ahead_3
+			add_idea = BGF_a_long_road_ahead_2
+		}
+	}
+	
+}
+
+BGF_stabilise_government = {
+    if = {
+		limit = { has_idea = BGF_power_struggle_idea_lite }
+		remove_ideas = BGF_power_struggle_idea_lite
+	}
+	else_if = {
+		limit = { has_idea = BGF_power_struggle_idea_normal }
+		swap_ideas = {
+			remove_idea = BGF_power_struggle_idea_normal
+			add_idea = BGF_power_struggle_idea_lite
+		}
+	}
+	else_if = {
+		limit = { has_idea = BGF_power_struggle_idea_bad }
+		swap_ideas = {
+			remove_idea = BGF_power_struggle_idea_bad
+			add_idea = BGF_power_struggle_idea_normal
+		}
+	}
+    else_if = {
+		limit = { has_idea = BGF_power_struggle_idea_horrible }
+		swap_ideas = {
+			remove_idea = BGF_power_struggle_idea_horrible
+			add_idea = BGF_power_struggle_idea_bad
+		}
+	}
+    else_if = {
+		limit = { has_idea = BGF_power_struggle_idea }
+		swap_ideas = {
+			remove_idea = BGF_power_struggle_idea
+			add_idea = BGF_power_struggle_idea_horrible
+		}
+	}
+	
+}
+
+BGF_smash_corpos = {
+    if = {
+		limit = { has_idea = BGF_plagued_with_corporats_3 }
+		remove_ideas = BGF_plagued_with_corporats_3
+        clr_country_flag = BGF_deal_with_corpos
+	}
+    else_if = {
+		limit = { has_idea = BGF_plagued_with_corporats_2 }
+		swap_ideas = {
+			remove_idea = BGF_plagued_with_corporats_2
+			add_idea = BGF_plagued_with_corporats_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = BGF_plagued_with_corporats }
+		swap_ideas = {
+			remove_idea = BGF_plagued_with_corporats
+			add_idea = BGF_plagued_with_corporats_2
+		}
+	}
+	
+}
+
+BGF_support_sd_effect = {
+	random_list = {
+        # Euroliberalism
+        11 = {
+            if = {
+                limit = {
+                    NOT = { has_country_flag = BGF_befriended_liberals }
+                }
+                subtract_from_variable = {
+                    var = liberalism_support
+                    value = 5
+                    tooltip = BGF_sub_5_from_lib_tt
+                }
+                add_to_variable = {
+                    var = socialdemocrature_support
+                    value = 5
+                    tooltip = BGF_add_5_to_sd_tt
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = liberalism_support
+                            value = 0
+                            compare = less_than
+                        }
+                    }
+                    set_temp_variable = { temp_support = liberalism_support }
+                    add_to_variable = {
+                        var = socialdemocrature_support
+                        value = temp_support
+                    }
+                    set_variable = { liberalism_support = 0 }
+                }
+            }
+            else = {
+                add_stability = 0.05
+                add_political_power = 10
+            }
+        }
+        11 = {
+            if = {
+                limit = {
+                    NOT = { has_country_flag = BGF_befriended_liberals }
+                }
+                subtract_from_variable = {
+                    var = liberalism_support
+                    value = 10
+                    tooltip = BGF_sub_10_from_lib_tt
+                }
+                add_to_variable = {
+                    var = socialdemocrature_support
+                    value = 10
+                    tooltip = BGF_add_10_to_sd_tt
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = liberalism_support
+                            value = 0
+                            compare = less_than
+                        }
+                    }
+                    set_temp_variable = { temp_support = liberalism_support }
+                    add_to_variable = {
+                        var = socialdemocrature_support
+                        value = temp_support
+                    }
+                    set_variable = { liberalism_support = 0 }
+                }
+            }
+            else = {
+                add_stability = 0.1
+                add_political_power = 20
+            }
+        }
+        11 = {
+            if = {
+                limit = {
+                    NOT = { has_country_flag = BGF_befriended_liberals }
+                }
+                subtract_from_variable = {
+                    var = liberalism_support
+                    value = 15
+                    tooltip = BGF_sub_15_from_lib_tt
+                }
+                add_to_variable = {
+                    var = socialdemocrature_support
+                    value = 15
+                    tooltip = BGF_add_15_to_sd_tt
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = liberalism_support
+                            value = 0
+                            compare = less_than
+                        }
+                    }
+                    set_temp_variable = { temp_support = liberalism_support }
+                    add_to_variable = {
+                        var = socialdemocrature_support
+                        value = temp_support
+                    }
+                    set_variable = { liberalism_support = 0 }
+                }
+            }
+            else = {
+                add_stability = 0.15
+                add_political_power = 30
+            }
+        }
+        # Freemarketism
+        11 = {
+            subtract_from_variable = {
+                var = freemarketism_support
+                value = 5
+                tooltip = BGF_sub_5_from_free_tt
+            }
+		    add_to_variable = {
+                var = socialdemocrature_support
+                value = 5
+                tooltip = BGF_add_5_to_sd_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = freemarketism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+		 	    set_temp_variable = { temp_support = freemarketism_support }
+                add_to_variable = {
+                    var = socialdemocrature_support
+                    value = temp_support
+                }
+                set_variable = { freemarketism_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = freemarketism_support
+                value = 10
+                tooltip = BGF_sub_10_from_free_tt
+            }
+		    add_to_variable = {
+                var = socialdemocrature_support
+                value = 10
+                tooltip = BGF_add_10_to_sd_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = freemarketism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+		 	    set_temp_variable = { temp_support = freemarketism_support }
+                add_to_variable = {
+                    var = socialdemocrature_support
+                    value = temp_support
+                }
+                set_variable = { freemarketism_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = freemarketism_support
+                value = 15
+                tooltip = BGF_sub_15_from_free_tt
+            }
+			add_to_variable = {
+                var = socialdemocrature_support
+                value = 15
+                tooltip = BGF_add_15_to_sd_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = freemarketism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = freemarketism_support }
+                add_to_variable = {
+                    var = socialdemocrature_support
+                    value = temp_support
+                }
+                set_variable = { freemarketism_support = 0 }
+            }
+        }
+        # Centrism
+        11 = {
+            subtract_from_variable = {
+                var = holownite_support
+                value = 5
+                tooltip = BGF_sub_5_from_centre_tt
+            }
+			add_to_variable = {
+                var = socialdemocrature_support
+                value = 5
+                tooltip = BGF_add_5_to_sd_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = holownite_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = holownite_support }
+                add_to_variable = {
+                    var = socialdemocrature_support
+                    value = temp_support
+                }
+                set_variable = { holownite_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = holownite_support
+                value = 10
+                tooltip = BGF_sub_10_from_centre_tt
+            }
+			add_to_variable = {
+                var = socialdemocrature_support
+                value = 10
+                tooltip = BGF_add_10_to_sd_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = holownite_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = holownite_support }
+                add_to_variable = {
+                    var = socialdemocrature_support
+                    value = temp_support
+                }
+                set_variable = { holownite_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = holownite_support
+                value = 15
+                tooltip = BGF_sub_15_from_centre_tt
+            }
+			add_to_variable = {
+                var = socialdemocrature_support
+                value = 15
+                tooltip = BGF_add_15_to_sd_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = holownite_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = holownite_support }
+                add_to_variable = {
+                    var = socialdemocrature_support
+                    value = temp_support
+                }
+                set_variable = { holownite_support = 0 }
+            }
+        }
+        # Dunno what happens with 1%
+   }
+}
+
+BGF_support_lib_effect = {
+	random_list = {
+        # Socialdemocrature
+        11 = {
+            if = {
+                limit = {
+                    NOT = { has_country_flag = BGF_befriended_socialdems }
+                }
+                subtract_from_variable = {
+                    var = socialdemocrature_support
+                    value = 5
+                    tooltip = BGF_sub_5_from_sd_tt
+                }
+			    add_to_variable = {
+                    var = liberalism_support
+                    value = 5
+                    tooltip = BGF_add_5_to_lib_tt
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = socialdemocrature_support
+                            value = 0
+                            compare = less_than
+                        }
+                    }
+			    	set_temp_variable = { temp_support = socialdemocrature_support }
+                    add_to_variable = {
+                        var = liberalism_support
+                        value = temp_support
+                    }
+                    set_variable = { socialdemocrature_support = 0 }
+                }
+            }
+            else = {
+                add_stability = 0.05
+                add_political_power = 10
+            }
+        }
+        11 = {
+            if = {
+                limit = {
+                    NOT = { has_country_flag = BGF_befriended_socialdems }
+                }
+                subtract_from_variable = {
+                    var = socialdemocrature_support
+                    value = 10
+                    tooltip = BGF_sub_10_from_sd_tt
+                }
+			    add_to_variable = {
+                    var = liberalism_support
+                    value = 10
+                    tooltip = BGF_add_10_to_lib_tt
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = socialdemocrature_support
+                            value = 0
+                            compare = less_than
+                        }
+                    }
+			    	set_temp_variable = { temp_support = socialdemocrature_support }
+                    add_to_variable = {
+                        var = liberalism_support
+                        value = temp_support
+                    }
+                    set_variable = { socialdemocrature_support = 0 }
+                }
+            }
+            else = {
+                add_stability = 0.1
+                add_political_power = 20
+            }
+        }
+        11 = {
+            if = {
+                limit = {
+                    NOT = { has_country_flag = BGF_befriended_socialdems }
+                }
+                subtract_from_variable = {
+                    var = socialdemocrature_support
+                    value = 15
+                    tooltip = BGF_sub_15_from_sd_tt
+                }
+			    add_to_variable = {
+                    var = liberalism_support
+                    value = 15
+                    tooltip = BGF_add_15_to_lib_tt
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = socialdemocrature_support
+                            value = 0
+                            compare = less_than
+                        }
+                    }
+			    	set_temp_variable = { temp_support = socialdemocrature_support }
+                    add_to_variable = {
+                        var = liberalism_support
+                        value = temp_support
+                    }
+                    set_variable = { socialdemocrature_support = 0 }
+                }
+            }
+            else = {
+                add_stability = 0.15
+                add_political_power = 30
+            }
+        }
+        # Freemarketism
+        11 = {
+            subtract_from_variable = {
+                var = freemarketism_support
+                value = 5
+                tooltip = BGF_sub_5_from_free_tt
+            }
+			add_to_variable = {
+                var = liberalism_support
+                value = 5
+                tooltip = BGF_add_5_to_lib_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = freemarketism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = freemarketism_support }
+                add_to_variable = {
+                    var = liberalism_support
+                    value = temp_support
+                }
+                set_variable = { freemarketism_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = freemarketism_support
+                value = 10
+                tooltip = BGF_sub_10_from_free_tt
+            }
+			add_to_variable = {
+                var = liberalism_support
+                value = 10
+                tooltip = BGF_add_10_to_lib_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = freemarketism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = freemarketism_support }
+                add_to_variable = {
+                    var = liberalism_support
+                    value = temp_support
+                }
+                set_variable = { freemarketism_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = freemarketism_support
+                value = 15
+                tooltip = BGF_sub_15_from_free_tt
+            }
+			add_to_variable = {
+                var = liberalism_support
+                value = 15
+                tooltip = BGF_add_15_to_lib_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = freemarketism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = freemarketism_support }
+                add_to_variable = {
+                    var = liberalism_support
+                    value = temp_support
+                }
+                set_variable = { freemarketism_support = 0 }
+            }
+        }
+        # Centrism
+        11 = {
+            subtract_from_variable = {
+                var = holownite_support
+                value = 5
+                tooltip = BGF_sub_5_from_centre_tt
+            }
+			add_to_variable = {
+                var = liberalism_support
+                value = 5
+                tooltip = BGF_add_5_to_lib_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = holownite_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = holownite_support }
+                add_to_variable = {
+                    var = liberalism_support
+                    value = temp_support
+                }
+                set_variable = { holownite_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = holownite_support
+                value = 10
+                tooltip = BGF_sub_10_from_centre_tt
+            }
+			add_to_variable = {
+                var = liberalism_support
+                value = 10
+                tooltip = BGF_add_10_to_lib_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = holownite_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = holownite_support }
+                add_to_variable = {
+                    var = liberalism_support
+                    value = temp_support
+                }
+                set_variable = { holownite_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = holownite_support
+                value = 15
+                tooltip = BGF_sub_15_from_centre_tt
+            }
+			add_to_variable = {
+                var = liberalism_support
+                value = 15
+                tooltip = BGF_add_15_to_lib_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = holownite_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = holownite_support }
+                add_to_variable = {
+                    var = liberalism_support
+                    value = temp_support
+                }
+                set_variable = { holownite_support = 0 }
+            }
+        }
+        # Dunno what happens with 1%
+    }
+}
+
+BGF_support_free_effect = {
+	random_list = {
+        # Socialdemocrature
+        11 = {
+            subtract_from_variable = {
+                var = socialdemocrature_support
+                value = 5
+                tooltip = BGF_sub_5_from_sd_tt
+            }
+			add_to_variable = {
+                var = freemarketism_support
+                value = 5
+                tooltip = BGF_add_5_to_free_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = socialdemocrature_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = socialdemocrature_support }
+                add_to_variable = {
+                    var = freemarketism_support
+                    value = temp_support
+                }
+                set_variable = { socialdemocrature_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = socialdemocrature_support
+                value = 10
+                tooltip = BGF_sub_10_from_sd_tt
+            }
+			add_to_variable = {
+                var = freemarketism_support
+                value = 10
+                tooltip = BGF_add_10_to_free_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = socialdemocrature_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = socialdemocrature_support }
+                add_to_variable = {
+                    var = freemarketism_support
+                    value = temp_support
+                }
+                set_variable = { socialdemocrature_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = socialdemocrature_support
+                value = 15
+                tooltip = BGF_sub_15_from_sd_tt
+            }
+			add_to_variable = {
+                var = freemarketism_support
+                value = 15
+                tooltip = BGF_add_15_to_free_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = socialdemocrature_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = socialdemocrature_support }
+                add_to_variable = {
+                    var = freemarketism_support
+                    value = temp_support
+                }
+                set_variable = { socialdemocrature_support = 0 }
+            }
+        }
+        # Euroliberalism
+        11 = {
+            subtract_from_variable = {
+                var = liberalism_support
+                value = 5
+                tooltip = BGF_sub_5_from_lib_tt
+            }
+			add_to_variable = {
+                var = freemarketism_support
+                value = 5
+                tooltip = BGF_add_5_to_free_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = liberalism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = liberalism_support }
+                add_to_variable = {
+                    var = freemarketism_support
+                    value = temp_support
+                }
+                set_variable = { liberalism_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = liberalism_support
+                value = 10
+                tooltip = BGF_sub_10_from_lib_tt
+            }
+			add_to_variable = {
+                var = freemarketism_support
+                value = 10
+                tooltip = BGF_add_10_to_free_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = liberalism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = liberalism_support }
+                add_to_variable = {
+                    var = freemarketism_support
+                    value = temp_support
+                }
+                set_variable = { liberalism_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = liberalism_support
+                value = 15
+                tooltip = BGF_sub_15_from_lib_tt
+            }
+			add_to_variable = {
+                var = freemarketism_support
+                value = 15
+                tooltip = BGF_add_15_to_free_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = liberalism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = liberalism_support }
+                add_to_variable = {
+                    var = freemarketism_support
+                    value = temp_support
+                }
+                set_variable = { liberalism_support = 0 }
+            }
+        }
+        # Centrism
+        11 = {
+            subtract_from_variable = {
+                var = holownite_support
+                value = 5
+                tooltip = BGF_sub_5_from_centre_tt
+            }
+			add_to_variable = {
+                var = freemarketism_support
+                value = 5
+                tooltip = BGF_add_5_to_free_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = holownite_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = holownite_support }
+                add_to_variable = {
+                    var = freemarketism_support
+                    value = temp_support
+                }
+                set_variable = { holownite_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = holownite_support
+                value = 10
+                tooltip = BGF_sub_10_from_centre_tt
+            }
+			add_to_variable = {
+                var = freemarketism_support
+                value = 10
+                tooltip = BGF_add_10_to_free_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = holownite_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = holownite_support }
+                add_to_variable = {
+                    var = freemarketism_support
+                    value = temp_support
+                }
+                set_variable = { holownite_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = holownite_support
+                value = 15
+                tooltip = BGF_sub_15_from_centre_tt
+            }
+			add_to_variable = {
+                var = freemarketism_support
+                value = 15
+                tooltip = BGF_add_15_to_free_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = holownite_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = holownite_support }
+                add_to_variable = {
+                    var = freemarketism_support
+                    value = temp_support
+                }
+                set_variable = { holownite_support = 0 }
+            }
+        }
+        # Dunno what happens with 1%
+    }
+}
+
+BGF_support_centre_effect = {
+	random_list = {
+        # Socialdemocrature
+        11 = {
+            subtract_from_variable = {
+                var = socialdemocrature_support
+                value = 5
+                tooltip = BGF_sub_5_from_sd_tt
+            }
+			add_to_variable = {
+                var = holownite_support
+                value = 5
+                tooltip = BGF_add_5_to_centre_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = socialdemocrature_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = socialdemocrature_support }
+                add_to_variable = {
+                    var = holownite_support
+                    value = temp_support
+                }
+                set_variable = { socialdemocrature_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = socialdemocrature_support
+                value = 10
+                tooltip = BGF_sub_10_from_sd_tt
+            }
+			add_to_variable = {
+                var = holownite_support
+                value = 10
+                tooltip = BGF_add_10_to_centre_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = socialdemocrature_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = socialdemocrature_support }
+                add_to_variable = {
+                    var = holownite_support
+                    value = temp_support
+                }
+                set_variable = { socialdemocrature_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = socialdemocrature_support
+                value = 15
+                tooltip = BGF_sub_15_from_sd_tt
+            }
+			add_to_variable = {
+                var = holownite_support
+                value = 15
+                tooltip = BGF_add_15_to_centre_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = socialdemocrature_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = socialdemocrature_support }
+                add_to_variable = {
+                    var = holownite_support
+                    value = temp_support
+                }
+                set_variable = { socialdemocrature_support = 0 }
+            }
+        }
+        # Euroliberalism
+        11 = {
+            subtract_from_variable = {
+                var = liberalism_support
+                value = 5
+                tooltip = BGF_sub_5_from_lib_tt
+            }
+			add_to_variable = {
+                var = holownite_support
+                value = 5
+                tooltip = BGF_add_5_to_centre_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = liberalism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = liberalism_support }
+                add_to_variable = {
+                    var = holownite_support
+                    value = temp_support
+                }
+                set_variable = { liberalism_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = liberalism_support
+                value = 10
+                tooltip = BGF_sub_10_from_lib_tt
+            }
+			add_to_variable = {
+                var = holownite_support
+                value = 10
+                tooltip = BGF_add_10_to_centre_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = liberalism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = liberalism_support }
+                add_to_variable = {
+                    var = holownite_support
+                    value = temp_support
+                }
+                set_variable = { liberalism_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = liberalism_support
+                value = 15
+                tooltip = BGF_sub_15_from_lib_tt
+            }
+			add_to_variable = {
+                var = holownite_support
+                value = 15
+                tooltip = BGF_add_15_to_centre_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = liberalism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = liberalism_support }
+                add_to_variable = {
+                    var = holownite_support
+                    value = temp_support
+                }
+                set_variable = { liberalism_support = 0 }
+            }
+        }
+        # Freemarketism
+        11 = {
+            subtract_from_variable = {
+                var = freemarketism_support
+                value = 5
+                tooltip = BGF_sub_5_from_free_tt
+            }
+			add_to_variable = {
+                var = holownite_support
+                value = 5
+                tooltip = BGF_add_5_to_centre_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = freemarketism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = freemarketism_support }
+                add_to_variable = {
+                    var = holownite_support
+                    value = temp_support
+                }
+                set_variable = { freemarketism_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = freemarketism_support
+                value = 10
+                tooltip = BGF_sub_10_from_free_tt
+            }
+			add_to_variable = {
+                var = holownite_support
+                value = 10
+                tooltip = BGF_add_10_to_centre_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = freemarketism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = freemarketism_support }
+                add_to_variable = {
+                    var = holownite_support
+                    value = temp_support
+                }
+                set_variable = { freemarketism_support = 0 }
+            }
+        }
+        11 = {
+            subtract_from_variable = {
+                var = freemarketism_support
+                value = 15
+                tooltip = BGF_sub_15_from_free_tt
+            }
+			add_to_variable = {
+                var = holownite_support
+                value = 15
+                tooltip = BGF_add_10_to_centre_tt
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        var = freemarketism_support
+                        value = 0
+                        compare = less_than
+                    }
+                }
+				set_temp_variable = { temp_support = freemarketism_support }
+                add_to_variable = {
+                    var = holownite_support
+                    value = temp_support
+                }
+                set_variable = { freemarketism_support = 0 }
+            }
+        }
+        # Dunno what happens with 1%
+    }
+}
+
+BGF_slash_sd_effect = {
+    random_list = {
+        33 = {
+            subtract_from_variable = {
+                var = socialdemocrature_support
+                value = 5
+                tooltip = BGF_sub_5_from_sd_tt
+            }
+            random_list = {
+                34 = { # Just don't tell anyone!
+                    if = {
+                        limit = {
+                            NOT = BGF_befriended_liberals
+                        }
+                        add_to_variable = {
+                            var = liberalism_support
+                            value = 5
+                            tooltip = BGF_add_5_to_lib_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = socialdemocrature_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = socialdemocrature_support }
+                            add_to_variable = {
+                                var = liberalism_support
+                                value = temp_support
+                            }
+                            set_variable = { socialdemocrature_support = 0 }
+                        }
+                    }
+                    else = {
+                        add_to_variable = {
+                            var = socialdemocrature_support
+                            value = 5
+                            tooltip = BGF_add_5_to_sd_tt # Doesn't have sense, but oh well
+                        }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = freemarketism_support
+                        value = 5
+                        tooltip = BGF_add_5_to_free_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = socialdemocrature_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = socialdemocrature_support }
+                        add_to_variable = {
+                            var = freemarketism_support
+                            value = temp_support
+                        }
+                        set_variable = { socialdemocrature_support = 0 }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = holownite_support
+                        value = 5
+                        tooltip = BGF_add_5_to_centre_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = socialdemocrature_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = socialdemocrature_support }
+                        add_to_variable = {
+                            var = holownite_support
+                            value = temp_support
+                        }
+                        set_variable = { socialdemocrature_support = 0 }
+                    }
+                }
+            }
+        }
+        33 = {
+            subtract_from_variable = {
+                var = socialdemocrature_support
+                value = 10
+                tooltip = BGF_sub_10_from_sd_tt
+            }
+            random_list = {
+                34 = { # Just don't tell anyone!
+                    if = {
+                        limit = {
+                            NOT = BGF_befriended_liberals
+                        }
+                        add_to_variable = {
+                            var = liberalism_support
+                            value = 10
+                            tooltip = BGF_add_10_to_lib_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = socialdemocrature_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = socialdemocrature_support }
+                            add_to_variable = {
+                                var = liberalism_support
+                                value = temp_support
+                            }
+                            set_variable = { socialdemocrature_support = 0 }
+                        }
+                    }
+                    else = {
+                        add_to_variable = {
+                            var = socialdemocrature_support
+                            value = 10
+                            tooltip = BGF_add_10_to_sd_tt # Doesn't have sense, but oh well
+                        }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = freemarketism_support
+                        value = 10
+                        tooltip = BGF_add_10_to_free_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = socialdemocrature_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = socialdemocrature_support }
+                        add_to_variable = {
+                            var = freemarketism_support
+                            value = temp_support
+                        }
+                        set_variable = { socialdemocrature_support = 0 }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = holownite_support
+                        value = 10
+                        tooltip = BGF_add_10_to_centre_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = socialdemocrature_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = socialdemocrature_support }
+                        add_to_variable = {
+                            var = holownite_support
+                            value = temp_support
+                        }
+                        set_variable = { socialdemocrature_support = 0 }
+                    }
+                }
+            }
+        }
+        33 = {
+            subtract_from_variable = {
+                var = socialdemocrature_support
+                value = 15
+                tooltip = BGF_sub_15_from_sd_tt
+            }
+            random_list = {
+                34 = { # Just don't tell anyone!
+                    if = {
+                        limit = {
+                            NOT = BGF_befriended_liberals
+                        }
+                        add_to_variable = {
+                            var = liberalism_support
+                            value = 15
+                            tooltip = BGF_add_15_to_lib_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = socialdemocrature_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = socialdemocrature_support }
+                            add_to_variable = {
+                                var = liberalism_support
+                                value = temp_support
+                            }
+                            set_variable = { socialdemocrature_support = 0 }
+                        }
+                    }
+                    else = {
+                        add_to_variable = {
+                            var = socialdemocrature_support
+                            value = 15
+                            tooltip = BGF_add_15_to_sd_tt # Doesn't have sense, but oh well
+                        }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = freemarketism_support
+                        value = 15
+                        tooltip = BGF_add_15_to_free_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = socialdemocrature_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = socialdemocrature_support }
+                        add_to_variable = {
+                            var = freemarketism_support
+                            value = temp_support
+                        }
+                        set_variable = { socialdemocrature_support = 0 }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = holownite_support
+                        value = 15
+                        tooltip = BGF_add_15_to_centre_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = socialdemocrature_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = socialdemocrature_support }
+                        add_to_variable = {
+                            var = holownite_support
+                            value = temp_support
+                        }
+                        set_variable = { socialdemocrature_support = 0 }
+                    }
+                }
+            }
+        }
+    }
+}
+
+BGF_slash_lib_effect = {
+    random_list = {
+        33 = {
+            subtract_from_variable = {
+                var = liberalism_support
+                value = 5
+                tooltip = BGF_sub_5_from_lib_tt
+            }
+            random_list = {
+                34 = { # Just don't tell anyone!
+                    if = {
+                        limit = {
+                            NOT = BGF_befriended_socialdems
+                        }
+                        add_to_variable = {
+                            var = socialdemocrature_support
+                            value = 5
+                            tooltip = BGF_add_5_to_sb_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = liberalism_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = liberalism_support }
+                            add_to_variable = {
+                                var = socialdemocrature_support
+                                value = temp_support
+                            }
+                            set_variable = { liberalism_support = 0 }
+                        }
+                    }
+                    else = {
+                        add_to_variable = {
+                            var = liberalism_support
+                            value = 5
+                            tooltip = BGF_add_5_to_lib_tt # Doesn't have sense, but oh well
+                        }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = freemarketism_support
+                        value = 5
+                        tooltip = BGF_add_5_to_free_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = liberalism_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = liberalism_support }
+                        add_to_variable = {
+                            var = freemarketism_support
+                            value = temp_support
+                        }
+                        set_variable = { liberalism_support = 0 }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = holownite_support
+                        value = 5
+                        tooltip = BGF_add_5_to_centre_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = liberalism_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = liberalism_support }
+                        add_to_variable = {
+                            var = holownite_support
+                            value = temp_support
+                        }
+                        set_variable = { liberalism_support = 0 }
+                    }
+                }
+            }
+        }
+        33 = {
+            subtract_from_variable = {
+                var = liberalism_support
+                value = 10
+                tooltip = BGF_sub_10_from_lib_tt
+            }
+            random_list = {
+                34 = { # Just don't tell anyone!
+                    if = {
+                        limit = {
+                            NOT = BGF_befriended_socialdems
+                        }
+                        add_to_variable = {
+                            var = socialdemocrature_support
+                            value = 10
+                            tooltip = BGF_add_10_to_sb_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = liberalism_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = liberalism_support }
+                            add_to_variable = {
+                                var = socialdemocrature_support
+                                value = temp_support
+                            }
+                            set_variable = { liberalism_support = 0 }
+                        }
+                    }
+                    else = {
+                        add_to_variable = {
+                            var = liberalism_support
+                            value = 10
+                            tooltip = BGF_add_10_to_lib_tt # Doesn't have sense, but oh well
+                        }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = freemarketism_support
+                        value = 10
+                        tooltip = BGF_add_10_to_free_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = liberalism_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = liberalism_support }
+                        add_to_variable = {
+                            var = freemarketism_support
+                            value = temp_support
+                        }
+                        set_variable = { liberalism_support = 0 }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = holownite_support
+                        value = 10
+                        tooltip = BGF_add_10_to_centre_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = liberalism_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = liberalism_support }
+                        add_to_variable = {
+                            var = holownite_support
+                            value = temp_support
+                        }
+                        set_variable = { liberalism_support = 0 }
+                    }
+                }
+            }
+        }
+        33 = {
+            subtract_from_variable = {
+                var = liberalism_support
+                value = 15
+                tooltip = BGF_sub_15_from_lib_tt
+            }
+            random_list = {
+                34 = { # Just don't tell anyone!
+                    if = {
+                        limit = {
+                            NOT = BGF_befriended_socialdems
+                        }
+                        add_to_variable = {
+                            var = socialdemocrature_support
+                            value = 15
+                            tooltip = BGF_add_15_to_sb_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = liberalism_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = liberalism_support }
+                            add_to_variable = {
+                                var = socialdemocrature_support
+                                value = temp_support
+                            }
+                            set_variable = { liberalism_support = 0 }
+                        }
+                    }
+                    else = {
+                        add_to_variable = {
+                            var = liberalism_support
+                            value = 15
+                            tooltip = BGF_add_15_to_lib_tt # Doesn't have sense, but oh well
+                        }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = freemarketism_support
+                        value = 15
+                        tooltip = BGF_add_15_to_free_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = liberalism_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = liberalism_support }
+                        add_to_variable = {
+                            var = freemarketism_support
+                            value = temp_support
+                        }
+                        set_variable = { liberalism_support = 0 }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = holownite_support
+                        value = 15
+                        tooltip = BGF_add_15_to_centre_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = liberalism_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = liberalism_support }
+                        add_to_variable = {
+                            var = holownite_support
+                            value = temp_support
+                        }
+                        set_variable = { liberalism_support = 0 }
+                    }
+                }
+            }
+        }
+    }
+}
+
+BGF_slash_free_effect = {
+    random_list = {
+        33 = {
+            subtract_from_variable = {
+                var = freemarketism_support
+                value = 5
+                tooltip = BGF_sub_5_from_free_tt
+            }
+            random_list = {
+                34 = { # Just don't tell anyone!
+                    if = {
+                        limit = {
+                            NOT = BGF_befriended_centrists
+                        }
+                        add_to_variable = {
+                            var = holownite_support
+                            value = 5
+                            tooltip = BGF_add_5_to_centre_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = freemarketism_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = freemarketism_support }
+                            add_to_variable = {
+                                var = holownite_support
+                                value = temp_support
+                            }
+                            set_variable = { freemarketism_support = 0 }
+                        }
+                    }
+                    else = {
+                        add_to_variable = {
+                            var = freemarketism_support
+                            value = 5
+                            tooltip = BGF_add_5_to_free_tt # Doesn't have sense, but oh well
+                        }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = socialdemocrature_support
+                        value = 5
+                        tooltip = BGF_add_5_to_sd_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = freemarketism_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = freemarketism_support }
+                        add_to_variable = {
+                            var = socialdemocrature_support
+                            value = temp_support
+                        }
+                        set_variable = { freemarketism_support = 0 }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = liberalism_support
+                        value = 5
+                        tooltip = BGF_add_5_to_lib_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = freemarketism_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = freemarketism_support }
+                        add_to_variable = {
+                            var = liberalism_support
+                            value = temp_support
+                        }
+                        set_variable = { freemarketism_support = 0 }
+                    }
+                }
+            }
+        }
+        33 = {
+            subtract_from_variable = {
+                var = freemarketism_support
+                value = 10
+                tooltip = BGF_sub_10_from_free_tt
+            }
+            random_list = {
+                34 = { # Just don't tell anyone!
+                    if = {
+                        limit = {
+                            NOT = BGF_befriended_centrists
+                        }
+                        add_to_variable = {
+                            var = holownite_support
+                            value = 10
+                            tooltip = BGF_add_10_to_centre_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = freemarketism_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = freemarketism_support }
+                            add_to_variable = {
+                                var = holownite_support
+                                value = temp_support
+                            }
+                            set_variable = { freemarketism_support = 0 }
+                        }
+                    }
+                    else = {
+                        add_to_variable = {
+                            var = freemarketism_support
+                            value = 10
+                            tooltip = BGF_add_10_to_free_tt # Doesn't have sense, but oh well
+                        }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = socialdemocrature_support
+                        value = 10
+                        tooltip = BGF_add_10_to_sd_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = freemarketism_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = freemarketism_support }
+                        add_to_variable = {
+                            var = socialdemocrature_support
+                            value = temp_support
+                        }
+                        set_variable = { freemarketism_support = 0 }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = liberalism_support
+                        value = 10
+                        tooltip = BGF_add_10_to_lib_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = freemarketism_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = freemarketism_support }
+                        add_to_variable = {
+                            var = liberalism_support
+                            value = temp_support
+                        }
+                        set_variable = { freemarketism_support = 0 }
+                    }
+                }
+            }
+        }
+        33 = {
+            subtract_from_variable = {
+                var = freemarketism_support
+                value = 15
+                tooltip = BGF_sub_15_from_free_tt
+            }
+            random_list = {
+                34 = { # Just don't tell anyone!
+                    if = {
+                        limit = {
+                            NOT = BGF_befriended_centrists
+                        }
+                        add_to_variable = {
+                            var = holownite_support
+                            value = 15
+                            tooltip = BGF_add_15_to_centre_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = freemarketism_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = freemarketism_support }
+                            add_to_variable = {
+                                var = holownite_support
+                                value = temp_support
+                            }
+                            set_variable = { freemarketism_support = 0 }
+                        }
+                    }
+                    else = {
+                        add_to_variable = {
+                            var = freemarketism_support
+                            value = 15
+                            tooltip = BGF_add_10_to_free_tt # Doesn't have sense, but oh well
+                        }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = socialdemocrature_support
+                        value = 15
+                        tooltip = BGF_add_15_to_sd_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = freemarketism_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = freemarketism_support }
+                        add_to_variable = {
+                            var = socialdemocrature_support
+                            value = temp_support
+                        }
+                        set_variable = { freemarketism_support = 0 }
+                    }
+                }
+                33 = {
+                    add_to_variable = {
+                        var = liberalism_support
+                        value = 15
+                        tooltip = BGF_add_15_to_lib_tt
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                var = freemarketism_support
+                                value = 0
+                                compare = less_than
+                            }
+                        }
+                        set_temp_variable = { temp_support = freemarketism_support }
+                        add_to_variable = {
+                            var = liberalism_support
+                            value = temp_support
+                        }
+                        set_variable = { freemarketism_support = 0 }
+                    }
+                }
+            }
+        }
+    }
+}
+
+BGF_slash_centre_effect = {
+    random_list = {
+        33 = {
+            subtract_from_variable = {
+                var = holownite_support
+                value = 5
+                tooltip = BGF_sub_5_from_centre_tt
+            }
+            if = {
+                limit = { NOT = { has_country_flag = BGF_sd_slashed_centre } }
+                random_list = {
+                    34 = { # Just don't tell anyone!
+                        if = {
+                            limit = {
+                                NOT = BGF_befriended_freemarketists
+                            }
+                            add_to_variable = {
+                                var = freemarketism_support
+                                value = 5
+                                tooltip = BGF_add_5_to_free_tt
+                            }
+                            if = {
+                                limit = {
+                                    check_variable = {
+                                        var = holownite_support
+                                        value = 0
+                                        compare = less_than
+                                    }
+                                }
+                                set_temp_variable = { temp_support = holownite_support }
+                                add_to_variable = {
+                                    var = freemarketism_support
+                                    value = temp_support
+                                }
+                                set_variable = { holownite_support = 0 }
+                            }
+                        }
+                        else = {
+                            add_to_variable = {
+                                var = holownite_support
+                                value = 5
+                                tooltip = BGF_add_5_to_centre_tt # Doesn't have sense, but oh well
+                            }
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            var = socialdemocrature_support
+                            value = 5
+                            tooltip = BGF_add_5_to_sd_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = holownite_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = holownite_support }
+                            add_to_variable = {
+                                var = socialdemocrature_support
+                                value = temp_support
+                            }
+                            set_variable = { holownite_support = 0 }
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            var = liberalism_support
+                            value = 5
+                            tooltip = BGF_add_5_to_lib_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = holownite_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = holownite_support }
+                            add_to_variable = {
+                                var = liberalism_support
+                                value = temp_support
+                            }
+                            set_variable = { holownite_support = 0 }
+                        }
+                    }
+                }
+            }
+            else = {
+                add_to_variable = {
+                    var = socialdemocrature_support
+                    value = 5
+                    tooltip = BGF_add_5_to_sd_tt
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = holownite_support
+                            value = 0
+                            compare = less_than
+                        }
+                    }
+                    set_temp_variable = { temp_support = holownite_support }
+                    add_to_variable = {
+                        var = socialdemocrature_support
+                        value = temp_support
+                    }
+                    set_variable = { holownite_support = 0 }
+                }
+            }
+        }
+        33 = {
+            subtract_from_variable = {
+                var = holownite_support
+                value = 10
+                tooltip = BGF_sub_10_from_centre_tt
+            }
+            if = {
+                limit = { NOT = { has_country_flag = BGF_sd_slashed_centre } }
+                random_list = {
+                    34 = { # Just don't tell anyone!
+                        if = {
+                            limit = {
+                                NOT = BGF_befriended_freemarketists
+                            }
+                            add_to_variable = {
+                                var = freemarketism_support
+                                value = 10
+                                tooltip = BGF_add_10_to_free_tt
+                            }
+                            if = {
+                                limit = {
+                                    check_variable = {
+                                        var = holownite_support
+                                        value = 0
+                                        compare = less_than
+                                    }
+                                }
+                                set_temp_variable = { temp_support = holownite_support }
+                                add_to_variable = {
+                                    var = freemarketism_support
+                                    value = temp_support
+                                }
+                                set_variable = { holownite_support = 0 }
+                            }
+                        }
+                        else = {
+                            add_to_variable = {
+                                var = holownite_support
+                                value = 10
+                                tooltip = BGF_add_10_to_centre_tt # Doesn't have sense, but oh well
+                            }
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            var = socialdemocrature_support
+                            value = 10
+                            tooltip = BGF_add_10_to_sd_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = holownite_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = holownite_support }
+                            add_to_variable = {
+                                var = socialdemocrature_support
+                                value = temp_support
+                            }
+                            set_variable = { holownite_support = 0 }
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            var = liberalism_support
+                            value = 10
+                            tooltip = BGF_add_10_to_lib_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = holownite_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = holownite_support }
+                            add_to_variable = {
+                                var = liberalism_support
+                                value = temp_support
+                            }
+                            set_variable = { holownite_support = 0 }
+                        }
+                    }
+                }
+            }
+            else = {
+                add_to_variable = {
+                    var = socialdemocrature_support
+                    value = 10
+                    tooltip = BGF_add_10_to_sd_tt
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = holownite_support
+                            value = 0
+                            compare = less_than
+                        }
+                    }
+                    set_temp_variable = { temp_support = holownite_support }
+                    add_to_variable = {
+                        var = socialdemocrature_support
+                        value = temp_support
+                    }
+                    set_variable = { holownite_support = 0 }
+                }
+            }
+        }
+        33 = {
+            subtract_from_variable = {
+                var = holownite_support
+                value = 15
+                tooltip = BGF_sub_15_from_centre_tt
+            }
+            if = {
+                limit = { NOT = { has_country_flag = BGF_sd_slashed_centre } }
+                random_list = {
+                    34 = { # Just don't tell anyone!
+                        if = {
+                            limit = {
+                                NOT = BGF_befriended_freemarketists
+                            }
+                            add_to_variable = {
+                                var = freemarketism_support
+                                value = 15
+                                tooltip = BGF_add_15_to_free_tt
+                            }
+                            if = {
+                                limit = {
+                                    check_variable = {
+                                        var = holownite_support
+                                        value = 0
+                                        compare = less_than
+                                    }
+                                }
+                                set_temp_variable = { temp_support = holownite_support }
+                                add_to_variable = {
+                                    var = freemarketism_support
+                                    value = temp_support
+                                }
+                                set_variable = { holownite_support = 0 }
+                            }
+                        }
+                        else = {
+                            add_to_variable = {
+                                var = holownite_support
+                                value = 15
+                                tooltip = BGF_add_15_to_centre_tt # Doesn't have sense, but oh well
+                            }
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            var = socialdemocrature_support
+                            value = 15
+                            tooltip = BGF_add_15_to_sd_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = holownite_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = holownite_support }
+                            add_to_variable = {
+                                var = socialdemocrature_support
+                                value = temp_support
+                            }
+                            set_variable = { holownite_support = 0 }
+                        }
+                    }
+                    33 = {
+                        add_to_variable = {
+                            var = liberalism_support
+                            value = 15
+                            tooltip = BGF_add_15_to_lib_tt
+                        }
+                        if = {
+                            limit = {
+                                check_variable = {
+                                    var = holownite_support
+                                    value = 0
+                                    compare = less_than
+                                }
+                            }
+                            set_temp_variable = { temp_support = holownite_support }
+                            add_to_variable = {
+                                var = liberalism_support
+                                value = temp_support
+                            }
+                            set_variable = { holownite_support = 0 }
+                        }
+                    }
+                }
+            }
+            else = {
+                add_to_variable = {
+                    var = socialdemocrature_support
+                    value = 15
+                    tooltip = BGF_add_15_to_sd_tt
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = holownite_support
+                            value = 0
+                            compare = less_than
+                        }
+                    }
+                    set_temp_variable = { temp_support = holownite_support }
+                    add_to_variable = {
+                        var = socialdemocrature_support
+                        value = temp_support
+                    }
+                    set_variable = { holownite_support = 0 }
+                }
+            }
+        }
+    }
+    clr_country_flag = BGF_sd_slashed_centre
+}
+
+#ideological_compatibility_with_BGF = {
+#    if = {
+#        limit = {
+#            OR = {
+#                AND = {
+#                    OR = {
+#                        has_government = socialdemocrature
+#                        has_government = euroliberalism
+#                        has_government = freemarketism
+#                    }
+#                    NOT = { is_ideologically_compatible_with_BGF_dem = yes }
+#                }
+#                AND = {
+#                    OR = {
+#                        has_government = paternal_conservatism
+#                        has_government = corporativism
+#                        has_government = reactionary
+#                    }
+#                    NOT = { is_ideologically_compatible_with_BGF_auth = yes }
+#                }
+#                AND = {
+#                    OR = {
+#                        has_government = neonationalism
+#                        has_government = marxism_cranism
+#                        has_government = postpolonism
+#                    }
+#                    NOT = { is_ideologically_compatible_with_BGF_total = yes }
+#                }
+#            }
+#        }
+#        custom_effect_tooltip = not_compatible_with_BGF_tt
+#    }
+#    else = {
+#        custom_effect_tooltip = compatible_with_BGF_tt
+#    }
+#}

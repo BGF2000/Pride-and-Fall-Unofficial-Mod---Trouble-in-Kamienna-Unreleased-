@@ -1,0 +1,170 @@
+add_namespace = sandomierz
+
+### Powstanie przeciwko Ziobru ###
+country_event = {
+	id = sandomierz.1 # Kontekst geopolityczny
+	title = sandomierz.1.t
+	desc = sandomierz.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = sandomierz.1.a
+        add_war_support = 0.05
+	}
+}
+
+country_event = {
+	id = sandomierz.2 # Ziobro jest zły
+	title = sandomierz.2.t
+	desc = sandomierz.2.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = sandomierz.2.a
+        add_political_power = 50
+	}
+}
+
+country_event = {
+	id = sandomierz.3 # Ale Kinga również
+	title = sandomierz.3.t
+	desc = sandomierz.3.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = sandomierz.3.a
+        add_political_power = 50
+	}
+}
+
+country_event = {
+	id = sandomierz.4 # OSTROWIEC - dać pistolety oraz siekiery czy nie dać?
+	title = sandomierz.4.t
+	desc = sandomierz.4.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = sandomierz.4.a # Tak
+        ai_chance = {
+			base = 10
+			modifier = {
+				add = 10
+				OR = {
+                    has_equipment = {
+                        melee_equipment_1 > 150
+                    }
+                    has_equipment = {
+                        ranged_equipment_1 > 150
+                    }
+                }
+			}
+		}
+        SND = { country_event = { id = sandomierz.5 days = 2 } }
+	}
+    option = {
+		name = sandomierz.4.b # Nie
+        ai_chance = {
+			base = 10
+			modifier = {
+				add = 15
+				has_opinion = {
+                    target = SND
+                    value < 0
+                }
+			}
+		}
+        SND = { country_event = { id = sandomierz.6 days = 2 } }
+	}
+}
+
+country_event = {
+	id = sandomierz.5 # Ostrowiec zgadza się na wysłanie broni do nas
+	title = sandomierz.5.t
+	desc = sandomierz.5.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = sandomierz.5.a
+        BGF = {
+            send_equipment = {
+                equipment = melee_equipment_1
+                amount = 150
+                target = ROOT
+            }
+            send_equipment = {
+                equipment = ranged_equipment_1
+                amount = 150
+                target = ROOT
+            }
+        }
+        add_ideas = SND_splacanie_dlugow
+	}
+}
+
+country_event = {
+	id = sandomierz.6 # Ostrowiec ma nas w czterech literach
+	title = sandomierz.6.t
+	desc = sandomierz.6.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = sandomierz.6.a
+        add_war_support = -0.05
+        add_stability = -0.05
+        add_opinion_modifier = {
+			target = BGF
+			modifier = SND_enemies_by_ideology
+		}
+	}
+}
+
+country_event = {
+	id = sandomierz.7 # Wygrana!
+	title = sandomierz.7.t
+	desc = sandomierz.7.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = sandomierz.7.a
+        set_country_flag = SND_pierwsze_koty_za_ploty
+	}
+}
+
+country_event = {
+	id = sandomierz.8 # Możliwy wypadek Sienkiewicza
+	title = sandomierz.8.t
+	desc = sandomierz.8.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = sandomierz.8.a # Kontynuacja polityki (oraz wzrost znaczenia Ojca)
+        trigger = {
+			has_country_flag = SND_demokratyczni_bracia
+		}
+        # Dodać coś
+	}
+
+    option = {
+		name = sandomierz.8.b # Oh shoot, he's gonna die!
+        trigger = {
+			has_country_flag = SND_autorytarni_bracia
+		}
+        # Dodać coś
+	}
+}

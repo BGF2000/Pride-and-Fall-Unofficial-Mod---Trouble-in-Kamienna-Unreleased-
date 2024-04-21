@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_bop_BGF_conglomerate_side"
+		texturefile = "gfx/interface/ideologies/orange_joe_subtype.dds" # Zostanie zmienione, kiedy znajdę jakiś lepszy templaż
+	}
+	spriteType = {
+		name = "GFX_bop_BGF_government_side"
+		texturefile = "gfx/interface/ideologies/orange_joe_subtype.dds" # Zostanie zmienione, kiedy znajdę jakiś lepszy templaż
+	}
+}

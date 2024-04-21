@@ -1,0 +1,526 @@
+scripted_gui = {
+
+	Super_Window = {
+		context_type = player_context
+		window_name = "Super_Event_Window"
+		visible = {
+			is_ai = no
+			has_global_flag = Super_Event_Visible
+		}
+
+		triggers = {
+			ATM_wiech_super_image_visible = {
+				has_global_flag = ATM_wiech_super_visible
+			}	
+			ATM_berlin_super_image_visible = {
+				has_global_flag = ATM_berlin_super_visible
+			}	
+			ATM_rozjebane_super_image_visible = {
+				has_global_flag = ATM_rozjebane_super_visible
+			}	
+			BBW_postsmog_super_image_visible = {
+				has_global_flag = BBW_postsmog_super_visible
+			}		
+			MNI_galla_super_image_visible = {
+				has_global_flag = MNI_galla_super_visible
+			}
+			MNI_merkel_super_image_visible = {
+				has_global_flag = MNI_merkel_super_visible
+			}
+			OPO_ojczyzna_super_image_visible = {
+				has_global_flag = OPO_ojczyzna_super_visible
+			}
+			GNI_piast_super_image_visible = {
+				has_global_flag = GNI_piast_super_visible
+			}
+			CAL_populares_super_image_visible = {
+				has_global_flag = CAL_populares_super_visible
+			}
+			CAL_augustus_super_image_visible = {
+				has_global_flag = CAL_augustus_super_visible
+			}
+			FEL_sarmatia_super_image_visible = {
+				has_global_flag = FEL_sarmatia_super_visible
+			}
+			EKW_tusklib_super_image_visible = {
+				has_global_flag = EKW_tusklib_super_visible
+			}
+			EKW_furdeutschland_super_image_visible = {
+				has_global_flag = EKW_furdeutschland_super_visible
+			}
+			EKW_slonceperu_super_image_visible = {
+				has_global_flag = EKW_slonceperu_super_visible
+			}
+			JOM_harald_super_image_visible = {
+				has_global_flag = JOM_harald_super_visible
+			}
+			JOM_halfdan_super_image_visible = {
+				has_global_flag = JOM_halfdan_super_visible
+			}
+			OWS_wosp_super_image_visible = {
+				has_global_flag = OWS_wosp_super_visible
+			}
+			KOR_korsarz_super_image_visible = {
+				has_global_flag = KOR_korsarz_super_visible
+			}
+			INO_polak_super_image_visible = {
+				has_global_flag = INO_polak_super_visible
+			}
+			PIL_rzeznia_super_image_visible = {
+				has_global_flag = PIL_rzeznia_super_visible
+			}
+			ARK_exodus_super_image_visible = {
+				has_global_flag = ARK_exodus_super_visible
+			}
+			BBW_karbonizacja_super_image_visible = {
+				has_global_flag = BBW_karbonizacja_super_visible
+			}
+			BBW_roksi_super_image_visible = {
+				has_global_flag = BBW_roksi_super_visible
+			}
+			DGR_nazbol_super_image_visible = {
+				has_global_flag = DGR_nazbol_super_visible
+			}
+			DGR_rasta_super_image_visible = {
+				has_global_flag = DGR_rasta_super_visible
+			}
+			EK_collapse_super_image_visible = {
+				has_global_flag = EK_collapse_super_visible
+			}
+			KRS_kwiatki_super_image_visible = {
+				has_global_flag = KRS_kwiatki_super_visible
+			}
+			KRS_rutkowski_super_image_visible = {
+				has_global_flag = KRS_rutkowski_super_visible
+			}
+			KRS_pavulon_super_image_visible = {
+				has_global_flag = KRS_pavulon_super_visible
+			}
+			SAP_sane_super_image_visible = {
+				has_global_flag = SAP_sane_super_visible
+			}
+			SAP_insane_super_image_visible = {
+				has_global_flag = SAP_insane_super_visible
+			}
+			SAP_carlistas_super_image_visible = {
+				has_global_flag = SAP_carlistas_super_visible
+			}
+			WML_hoiownia_super_image_visible = {
+				has_global_flag = WML_hoiownia_super_visible
+			}
+			WML_dialog_super_image_visible = {
+				has_global_flag = WML_dialog_super_visible
+			}
+			ZHP_zhp_super_image_visible = {
+				has_global_flag = ZHP_zhp_super_visible
+			}
+			ZHP_zhr_super_image_visible = {
+				has_global_flag = ZHP_zhr_super_visible
+			}
+			ZHP_zawisza_super_image_visible = {
+				has_global_flag = ZHP_zawisza_super_visible
+			}
+			ZYD_widzew_super_image_visible = {
+				has_global_flag = ZYD_widzew_super_visible
+			}
+			ZYD_urban_super_image_visible = {
+				has_global_flag = ZYD_urban_super_visible
+			}
+			ZYD_lks_super_image_visible = {
+				has_global_flag = ZYD_lks_super_visible
+			}
+			ZERO_super_image_visible = {
+				has_global_flag = ZERO_super_visible
+			}
+			RUS_fsb_super_image_visible = {
+				has_global_flag = RUS_fsb_super_visible
+			}
+			RUS_cw_super_image_visible = {
+				has_global_flag = RUS_cw_super_visible
+			}
+			RUS_army_super_image_visible = {
+				has_global_flag = RUS_army_super_visible
+			}
+			RUS_zsrr_super_image_visible = {
+				has_global_flag = RUS_zsrr_super_visible
+			}
+			RUS_nawalny_super_image_visible = {
+				has_global_flag = RUS_nawalny_super_visible
+			}
+			RUS_medvedev_super_image_visible = {
+				has_global_flag = RUS_medvedev_super_visible
+			}
+			RUS_dugin_super_image_visible = {
+				has_global_flag = RUS_dugin_super_visible
+			}
+			RUS_czeczen_super_image_visible = {
+				has_global_flag = RUS_czeczen_super_visible
+			}
+			BRZ_buzzer_super_image_visible = {
+				has_global_flag = BRZ_buzzer_super_visible
+			}
+			BRZ_kuba_super_image_visible = {
+				has_global_flag = BRZ_kuba_super_visible
+			}
+			BRZ_lewy_super_image_visible = {
+				has_global_flag = BRZ_lewy_super_visible
+			}
+			CCH_paulins_super_image_visible = {
+				has_global_flag = CCH_paulins_super_visible
+			}
+			CCH_joannites_super_image_visible = {
+				has_global_flag = CCH_joannites_super_visible
+			}
+			CCH_masons_super_image_visible = {
+				has_global_flag = CCH_masons_super_visible
+			}
+			KAT_budka_super_image_visible = {
+				has_global_flag = KAT_budka_super_visible
+			}
+			KAT_senior_super_image_visible = {
+				has_global_flag = KAT_senior_super_visible
+			}
+			KAT_junior_super_image_visible = {
+				has_global_flag = KAT_junior_super_visible
+			}
+			WOD_bekier_super_image_visible = {
+				has_global_flag = WOD_bekier_super_visible
+			}
+			WOD_szczery_super_image_visible = {
+				has_global_flag = WOD_szczery_super_visible
+			}
+			WOD_ragnarok_super_image_visible = {
+				has_global_flag = WOD_ragnarok_super_visible
+			}
+			JSW_nszz_super_image_visible = {
+				has_global_flag = JSW_nszz_super_visible
+			}
+			JSW_jsw_super_image_visible = {
+				has_global_flag = JSW_jsw_super_visible
+			}	
+			BSK_bgolec_super_image_visible = {
+				has_global_flag = BSK_bgolec_super_visible
+			}
+			BSK_bpierdolec_super_image_visible = {
+				has_global_flag = BSK_bpierdolec_super_visible
+			}
+			CIE_malysz_super_image_visible = {
+				has_global_flag = CIE_malysz_super_visible
+			}
+			DGR_zprr_super_image_visible = {
+				has_global_flag = DGR_zprr_super_visible
+			}	
+			SOS_wcz_good_super_image_visible = {
+				has_global_flag = SOS_wcz_good_super_visible
+			}
+			SOS_wcz_prl_super_image_visible = {
+				has_global_flag = SOS_wcz_prl_super_visible
+			}	
+			JAW_antifa_super_image_visible = {
+				has_global_flag = JAW_antifa_super_visible
+			}
+			GLI_murzinytancujom_super_image_visible = {
+				has_global_flag = GLI_murzinytancujom_super_visible
+			}
+			GLI_rajch_super_image_visible = {
+				has_global_flag = GLI_rajch_super_visible
+			}	
+			CHO_ras_super_image_visible = {
+				has_global_flag = CHO_ras_super_visible
+			}	
+			LEH_sanjaj_super_image_visible = {
+				has_global_flag = LEH_sanjaj_super_visible
+			}	
+			LCH_bieszk_super_image_visible = {
+				has_global_flag = LCH_bieszk_super_visible
+			}	
+			WAN_wandale_super_image_visible = {
+				has_global_flag = WAN_wandale_super_visible
+			}	
+			OPO_cookies_super_image_visible = {
+				has_global_flag = OPO_cookies_super_visible
+			}
+			KON_knur_super_image_visible = {
+				has_global_flag = KON_knur_super_visible
+			}	
+			BOM_major_super_image_visible = {
+				has_global_flag = BOM_major_super_visible
+			}	
+			LMZ_piwo_super_image_visible = {
+				has_global_flag = LMZ_piwo_super_visible
+			}	
+			BEL_kartoszki_super_image_visible = {
+				has_global_flag = BEL_kartoszki_super_visible
+			}	
+			BEL_lukaszenka_super_image_visible = {
+				has_global_flag = BEL_lukaszenka_super_visible
+			}
+			JAS_poreba_super_image_visible = {
+				has_global_flag = JAS_poreba_super_visible
+			}	
+			JAS_serce_super_image_visible = {
+				has_global_flag = JAS_serce_super_visible
+			}
+			JAS_sendecki_super_image_visible = {
+				has_global_flag = JAS_sendecki_super_visible
+			}
+			BBW_atom_super_image_visible = {
+				has_global_flag = BBW_atom_super_visible
+			}
+			WAN_siwa_super_image_visible = {
+				has_global_flag = WAN_siwa_super_visible
+			}
+			BGF_progresywizm_super_image_visible = {
+				has_global_flag = BGF_progresywizm_super_visible
+			}
+			BGF_liberalizm_super_image_visible = {
+				has_global_flag = BGF_liberalizm_super_visible
+			}
+			BGF_oligarchia_super_image_visible = {
+				has_global_flag = BGF_oligarchia_super_visible
+			}
+			BGF_kaczyzm_super_image_visible = {
+				has_global_flag = BGF_kaczyzm_super_visible
+			}
+			BGF_wnuk_super_image_visible = {
+				has_global_flag = BGF_wnuk_super_visible
+			}
+			BGF_mafia_super_image_visible = {
+				has_global_flag = BGF_mafia_super_visible
+			}
+			BGF_celsa_super_image_visible = {
+				has_global_flag = BGF_celsa_super_visible
+			}
+			BGF_konarski_super_image_visible = {
+				has_global_flag = BGF_konarski_super_visible
+			}
+			BGF_doom_super_image_visible = {
+				has_global_flag = BGF_doom_super_visible
+			}
+			BGF_ateizm_super_image_visible = {
+				has_global_flag = BGF_ateizm_super_visible
+			}
+			BGF_nazbol_super_image_visible = {
+				has_global_flag = BGF_nazbol_super_visible
+			}
+		}
+
+		properties = {
+			Super_Event_Image_Default = {
+				image = "[get_my_superevent_texture]"
+			}
+		}
+
+		effects = {
+			Super_Event_Close_click = {
+				clr_global_flag = Super_Event_Visible
+				if = {
+					limit = { has_global_flag = BBW_postsmog_super_visible }
+					PaF_initiate_ending_screen = yes
+				}
+				if = {
+					limit = {
+						OR = {
+							has_global_flag = ATM_rozjebane_super_visible								
+							has_global_flag = ATM_wiech_super_visible								
+							has_global_flag = ATM_berlin_super_visible								
+							has_global_flag = BBW_postsmog_super_visible								
+							has_global_flag = MNI_merkel_super_visible								
+							has_global_flag = MNI_galla_super_visible								
+							has_global_flag = OPO_ojczyzna_super_visible								
+							has_global_flag = GNI_piast_super_visible								
+							has_global_flag = CAL_populares_super_visible								
+							has_global_flag = CAL_augustus_super_visible								
+							has_global_flag = FEL_sarmatia_super_visible								
+							has_global_flag = EKW_tusklib_super_visible								
+							has_global_flag = EKW_furdeutschland_super_visible								
+							has_global_flag = EKW_slonceperu_super_visible								
+							has_global_flag = JOM_harald_super_visible								
+							has_global_flag = JOM_halfdan_super_visible								
+							has_global_flag = OWS_wosp_super_visible								
+							has_global_flag = KOR_korsarz_super_visible								
+							has_global_flag = INO_polak_super_visible								
+							has_global_flag = PIL_rzeznia_super_visible						
+							has_global_flag = ARK_exodus_super_visible
+							has_global_flag = BBW_karbonizacja_super_visible
+							has_global_flag = BBW_roksi_super_visible
+							has_global_flag = ZYD_lks_super_visible
+							has_global_flag = ZYD_urban_super_visible
+							has_global_flag = ZYD_widzew_super_visible
+							has_global_flag = ZHP_zawisza_super_visible
+							has_global_flag = ZHP_zhr_super_visible
+							has_global_flag = ZHP_zhp_super_visible
+							has_global_flag = WML_dialog_super_visible
+							has_global_flag = WML_hoiownia_super_visible
+							has_global_flag = SAP_carlistas_super_visible
+							has_global_flag = SAP_insane_super_visible
+							has_global_flag = SAP_sane_super_visible
+							has_global_flag = KRS_pavulon_super_visible
+							has_global_flag = KRS_rutkowski_super_visible
+							has_global_flag = KRS_kwiatki_super_visible
+							has_global_flag = EK_collapse_super_visible
+							has_global_flag = DGR_rasta_super_visible
+							has_global_flag = DGR_nazbol_super_visible
+							has_global_flag = ZERO_super_visible
+							has_global_flag = RUS_cw_super_visible
+							has_global_flag = RUS_army_super_visible
+							has_global_flag = RUS_dugin_super_visible
+							has_global_flag = RUS_fsb_super_visible
+							has_global_flag = RUS_zsrr_super_visible
+							has_global_flag = RUS_medvedev_super_visible	
+							has_global_flag = RUS_nawalny_super_visible
+							has_global_flag = RUS_czeczen_super_visible
+							has_global_flag = BRZ_buzzer_super_visible	
+							has_global_flag = BRZ_kuba_super_visible
+							has_global_flag = BRZ_lewy_super_visible	
+							has_global_flag = CCH_paulins_super_visible
+							has_global_flag = CCH_joannites_super_visible
+							has_global_flag = CCH_masons_super_visible
+							has_global_flag = KAT_budka_super_visible
+							has_global_flag = KAT_senior_super_visible
+							has_global_flag = KAT_junior_super_visible
+							has_global_flag = WOD_bekier_super_visible
+							has_global_flag = WOD_szczery_super_visible
+							has_global_flag = WOD_ragnarok_super_visible
+							has_global_flag = JSW_nszz_super_visible
+							has_global_flag = JSW_jsw_super_visible
+							has_global_flag = BSK_bgolec_super_visible
+							has_global_flag = BSK_bpierdolec_super_visible
+							has_global_flag = CIE_malysz_super_visible
+							has_global_flag = DGR_zprr_super_visible
+							has_global_flag = SOS_wcz_good_super_visible
+							has_global_flag = SOS_wcz_prl_super_visible
+							has_global_flag = JAW_antifa_super_visible
+							has_global_flag = GLI_murzinytancujom_super_visible
+							has_global_flag = GLI_rajch_super_visible
+							has_global_flag = CHO_ras_super_visible	
+							has_global_flag = WAN_wandale_super_visible
+							has_global_flag = OPO_cookies_super_visible
+							has_global_flag = LCH_bieszk_super_visible
+							has_global_flag = LEH_sanjaj_super_visible
+							has_global_flag = BEL_lukaszenka_super_visible
+							has_global_flag = BEL_kartoszki_super_visible
+							has_global_flag = LMZ_piwo_super_visible
+							has_global_flag = BOM_major_super_visible
+							has_global_flag = KON_knur_super_visible
+							has_global_flag = JAS_poreba_super_visible
+							has_global_flag = JAS_sendecki_super_visible
+							has_global_flag = JAS_serce_super_visible
+							has_global_flag = BBW_atom_super_visible
+							has_global_flag = WAN_siwa_super_visible
+							has_global_flag = BGF_progresywizm_super_visible
+							has_global_flag = BGF_liberalizm_super_visible
+							has_global_flag = BGF_oligarchia_super_visible
+							has_global_flag = BGF_kaczyzm_super_visible
+							has_global_flag = BGF_wnuk_super_visible
+							has_global_flag = BGF_mafia_super_visible
+							has_global_flag = BGF_celsa_super_visible
+							has_global_flag = BGF_konarski_super_visible
+							has_global_flag = BGF_doom_super_visible
+							has_global_flag = BGF_ateizm_super_visible
+							has_global_flag = BGF_nazbol_super_visible
+						}
+					}
+							clr_global_flag = ATM_rozjebane_super_visible							
+							clr_global_flag = ATM_wiech_super_visible							
+							clr_global_flag = ATM_berlin_super_visible							
+							clr_global_flag = BBW_postsmog_super_visible							
+							clr_global_flag = MNI_merkel_super_visible							
+							clr_global_flag = MNI_galla_super_visible							
+							clr_global_flag = OPO_ojczyzna_super_visible							
+							clr_global_flag = GNI_piast_super_visible							
+							clr_global_flag = CAL_augustus_super_visible							
+							clr_global_flag = CAL_populares_super_visible							
+							clr_global_flag = FEL_sarmatia_super_visible							
+							clr_global_flag = EKW_furdeutschland_super_visible							
+							clr_global_flag = EKW_slonceperu_super_visible							
+							clr_global_flag = EKW_tusklib_super_visible							
+							clr_global_flag = JOM_harald_super_visible							
+							clr_global_flag = JOM_halfdan_super_visible							
+							clr_global_flag = OWS_wosp_super_visible							
+							clr_global_flag = KOR_korsarz_super_visible							
+							clr_global_flag = INO_polak_super_visible							
+							clr_global_flag = PIL_rzeznia_super_visible							
+							clr_global_flag = ARK_exodus_super_visible
+							clr_global_flag = BBW_karbonizacja_super_visible
+							clr_global_flag = BBW_roksi_super_visible
+							clr_global_flag = ZYD_lks_super_visible
+							clr_global_flag = ZYD_urban_super_visible
+							clr_global_flag = ZYD_widzew_super_visible
+							clr_global_flag = ZHP_zawisza_super_visible
+							clr_global_flag = ZHP_zhr_super_visible
+							clr_global_flag = ZHP_zhp_super_visible
+							clr_global_flag = WML_dialog_super_visible
+							clr_global_flag = WML_hoiownia_super_visible
+							clr_global_flag = SAP_carlistas_super_visible
+							clr_global_flag = SAP_insane_super_visible
+							clr_global_flag = SAP_sane_super_visible
+							clr_global_flag = KRS_pavulon_super_visible
+							clr_global_flag = KRS_rutkowski_super_visible
+							clr_global_flag = KRS_kwiatki_super_visible
+							clr_global_flag = EK_collapse_super_visible
+							clr_global_flag = DGR_rasta_super_visible
+							clr_global_flag = DGR_nazbol_super_visible
+							clr_global_flag = ZERO_super_visible
+							clr_global_flag = RUS_cw_super_visible
+							clr_global_flag = RUS_army_super_visible
+							clr_global_flag = RUS_dugin_super_visible
+							clr_global_flag = RUS_fsb_super_visible
+							clr_global_flag = RUS_zsrr_super_visible
+							clr_global_flag = RUS_medvedev_super_visible	
+							clr_global_flag = RUS_nawalny_super_visible
+							clr_global_flag = RUS_czeczen_super_visible		
+							clr_global_flag = BRZ_buzzer_super_visible	
+							clr_global_flag = BRZ_kuba_super_visible
+							clr_global_flag = BRZ_lewy_super_visible	
+							clr_global_flag = CCH_paulins_super_visible
+							clr_global_flag = CCH_joannites_super_visible
+							clr_global_flag = CCH_masons_super_visible
+							clr_global_flag = KAT_budka_super_visible
+							clr_global_flag = KAT_senior_super_visible
+							clr_global_flag = KAT_junior_super_visible
+							clr_global_flag = WOD_bekier_super_visible
+							clr_global_flag = WOD_szczery_super_visible
+							clr_global_flag = WOD_ragnarok_super_visible
+							clr_global_flag = JSW_nszz_super_visible
+							clr_global_flag = JSW_jsw_super_visible
+							clr_global_flag = BSK_bgolec_super_visible
+							clr_global_flag = BSK_bpierdolec_super_visible
+							clr_global_flag = CIE_malysz_super_visible
+							clr_global_flag = DGR_zprr_super_visible
+							clr_global_flag = SOS_wcz_good_super_visible
+							clr_global_flag = SOS_wcz_prl_super_visible
+							clr_global_flag = JAW_antifa_super_visible
+							clr_global_flag = GLI_murzinytancujom_super_visible
+							clr_global_flag = GLI_rajch_super_visible
+							clr_global_flag = CHO_ras_super_visible		
+							clr_global_flag = WAN_wandale_super_visible
+							clr_global_flag = OPO_cookies_super_visible
+							clr_global_flag = LCH_bieszk_super_visible
+							clr_global_flag = LEH_sanjaj_super_visible	
+							clr_global_flag = BEL_lukaszenka_super_visible
+							clr_global_flag = BEL_kartoszki_super_visible
+							clr_global_flag = LMZ_piwo_super_visible
+							clr_global_flag = BOM_major_super_visible
+							clr_global_flag = KON_knur_super_visible	
+							clr_global_flag = JAS_poreba_super_visible
+							clr_global_flag = JAS_sendecki_super_visible
+							clr_global_flag = JAS_serce_super_visible
+							clr_global_flag = BBW_atom_super_visible
+							clr_global_flag = WAN_siwa_super_visible
+							clr_global_flag = BGF_progresywizm_super_visible
+							clr_global_flag = BGF_liberalizm_super_visible
+							clr_global_flag = BGF_oligarchia_super_visible
+							clr_global_flag = BGF_kaczyzm_super_visible
+							clr_global_flag = BGF_wnuk_super_visible
+							clr_global_flag = BGF_mafia_super_visible
+							clr_global_flag = BGF_celsa_super_visible
+							clr_global_flag = BGF_konarski_super_visible
+							clr_global_flag = BGF_doom_super_visible
+							clr_global_flag = BGF_ateizm_super_visible
+							clr_global_flag = BGF_nazbol_super_visible
+				}
+			}
+		}
+	}
+}

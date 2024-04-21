@@ -1,0 +1,79 @@
+﻿division_template = {
+	name = "Ochotnicy Parafialni"
+	template_counter = 64
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Zwolennicy"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Batalion Parafialny"
+	regiments = {
+		bicycle_battalion = { x = 0 y = 0 }
+		bicycle_battalion = { x = 0 y = 1 }
+		bicycle_battalion = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Parafianie Sandomierscy"
+		location = 16761
+		division_template = "Ochotnicy Parafialni"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Tarłowscy Bojownicy Jezusa Chrystusa" # Może niech jeszcze staną się komandosami xD
+		location = 16770
+		division_template = "Ochotnicy Parafialni"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Bracia Arianie" # Może w Kielcach tak naprawdę są, ale i tak pasuje na Święty Krzyż
+		location = 16770
+		division_template = "Zwolennicy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Międzychrześcijańska Dywizja Zwolennicza"
+		location = 16761
+		division_template = "Zwolennicy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Batalion Parafialny im. Jana Pawła II" # Z cyklu "Wioska tematyczna im. Jana Pawła II"
+		location = 16776
+		division_template = "Batalion Parafialny"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Dywizja Ojca Mateusza"
+		location = 3958
+		division_template = "Batalion Parafialny"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+}

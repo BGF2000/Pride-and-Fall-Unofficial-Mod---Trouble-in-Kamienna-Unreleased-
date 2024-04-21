@@ -1,0 +1,38 @@
+﻿division_template = {
+	name = "Ochotnicy Opatowscy"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		melee_infantry = { x = 2 y = 0 }
+		melee_infantry = { x = 2 y = 1 }
+	}
+}
+
+
+units = {
+	division = {
+		name = "1. Ochotnicza Dywizja Opatowska"
+		location = 16761
+		division_template = "Ochotnicy Opatowscy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+
+	division = {
+		name = "2. Ochotnicza Dywizja Opatowska"
+		location = 16770
+		division_template = "Ochotnicy Opatowscy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+
+	division = {
+		name = "1. Ochotnicza Dywizja Ćmielowska"
+		location = 16770
+		division_template = "Ochotnicy Opatowscy"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
+	}
+}

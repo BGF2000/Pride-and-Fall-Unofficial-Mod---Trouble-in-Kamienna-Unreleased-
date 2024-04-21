@@ -1,0 +1,3222 @@
+
+# $$$$$$$$$$$$$$   $$$$      $$$$$$$$      $$$$$$$$$$      $$$$$$$$$$          $$$$$$$$
+# $$$$$$$$$$$$$$   $$$$    $$$$$$$$$$$$    $$$$$$$$$$$$    $$$$$$$$$$$$      $$$$$$$$$$$$
+#         $$$$     $$$$    $$$$    $$$$    $$$$    $$$$    $$$$    $$$$      $$$$    $$$$
+#       $$$$       $$$$    $$$$    $$$$    $$$$$$$$$$      $$$$$$$$$$$$      $$$$    $$$$
+#     $$$$         $$$$    $$$$    $$$$    $$$$$$$$$$      $$$$$$$$$$        $$$$    $$$$
+#   $$$$           $$$$    $$$$    $$$$    $$$$    $$$$    $$$$    $$$$      $$$$    $$$$
+# $$$$$$$$$$$$$    $$$$    $$$$$$$$$$$$    $$$$$$$$$$$$    $$$$     $$$$     $$$$$$$$$$$$
+# $$$$$$$$$$$$$    $$$$      $$$$$$$$      $$$$$$$$$$      $$$$      $$$$      $$$$$$$$
+# TY K**WO J**ANA, PRZESTAŃ MI K**WA RODZINĘ PRZEŚLADOWAĆ! (Ziobro)
+focus_tree = {
+    id = wspolnota_ziobro_focus
+
+    country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BGF
+		}
+	}
+    default = no
+	
+	continuous_focus_position = {x = 50 y = 2000 }
+
+    focus = {
+		id = BGF_anti_zero_uprising
+		icon = BGF_anti_zero_uprising
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = 5
+		y = 0
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			add_war_support = 0.05
+			country_event = { id = ostrowiec.1 }
+		}
+	}
+
+    focus = {
+		id = BGF_fight_for_freedom
+		icon = BGF_fight_for_freedom
+        relative_position_id = BGF_anti_zero_uprising
+		prerequisite = { focus = BGF_anti_zero_uprising }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			If = {
+				limit = {
+					NOT = { is_ai = yes }
+				}
+				add_timed_idea = { idea = BGF_wara_ziobro days = 75 }
+			}
+			# Jeżeli chcemy permanentne, to używamy add_ideas bez klamerek
+		}
+	}
+
+    focus = {
+		id = BGF_no_more_compromise
+		icon = BGF_no_more_compromise
+        relative_position_id = BGF_anti_zero_uprising
+		prerequisite = { focus = BGF_anti_zero_uprising }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			add_popularity = {
+				ideology = paternal_conservatism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = autocracy
+				popularity = -0.05
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_a_right_revolt
+		icon = BGF_a_right_revolt
+        relative_position_id = BGF_fight_for_freedom
+		prerequisite = { focus = BGF_fight_for_freedom }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			add_stability = 0.05
+			add_manpower = 5000
+		}
+	}
+
+	focus = {
+		id = BGF_cooperate_with_others
+		icon = BGF_cooperate_with_others
+        relative_position_id = BGF_fight_for_freedom
+		prerequisite = { focus = BGF_fight_for_freedom focus = BGF_no_more_compromise }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			add_opinion_modifier = {
+				target = SND
+				modifier = BGF_were_all_in_this_together
+			}
+			add_opinion_modifier = {
+				target = STA
+				modifier = BGF_were_all_in_this_together
+			}
+			STA = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = BGF_were_all_in_this_together
+				}
+				add_opinion_modifier = {
+					target = SND
+					modifier = BGF_were_all_in_this_together
+				}
+			}
+			SND = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = BGF_were_all_in_this_together
+				}
+				add_opinion_modifier = {
+					target = STA
+					modifier = BGF_were_all_in_this_together
+				}
+			}
+			country_event = { id = ostrowiec.2 }
+		}
+	}
+
+	focus = {
+		id = BGF_supply_soldiers
+		icon = BGF_supply_soldiers
+        relative_position_id = BGF_no_more_compromise
+		prerequisite = { focus = BGF_no_more_compromise }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = melee_equipment_1
+				amount = 250
+				producer = BGF
+			}
+			add_equipment_to_stockpile = {
+				type = ranged_equipment_1
+				amount = 250
+				producer = BGF
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_hooray
+		icon = BGF_hooray
+        relative_position_id = BGF_cooperate_with_others
+		prerequisite = { focus = BGF_supply_soldiers }
+		prerequisite = { focus = BGF_cooperate_with_others }
+		prerequisite = { focus = BGF_a_right_revolt }
+		available = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_hooray_tt
+			load_focus_tree = wspolnota_post_uprising_focus
+			country_event = { id = ostrowiec.3 }
+		}
+	}
+}
+
+# $$$$$$$$$$$$$$   $$$$    $$$$$$$$$$      $$$$$$$$$$          $$$$$$$$
+# $$$$$$$$$$$$$$   $$$$    $$$$$$$$$$$$    $$$$$$$$$$$$      $$$$$$$$$$$$
+#         $$$$     $$$$    $$$$    $$$$    $$$$    $$$$      $$$$    $$$$
+#       $$$$       $$$$    $$$$$$$$$$      $$$$$$$$$$$$      $$$$    $$$$
+#     $$$$         $$$$    $$$$$$$$$$      $$$$$$$$$$        $$$$    $$$$
+#   $$$$           $$$$    $$$$    $$$$    $$$$    $$$$      $$$$    $$$$
+# $$$$$$$$$$$$$    $$$$    $$$$$$$$$$$$    $$$$     $$$$     $$$$$$$$$$$$
+# $$$$$$$$$$$$$    $$$$    $$$$$$$$$$      $$$$      $$$$      $$$$$$$$
+# Łojojoj, ale Zibro narozrabiał
+focus_tree = {
+    id = wspolnota_nagrabiles_se_zioberko_focus
+
+    country = {
+		factor = 0
+	}
+    default = no
+	
+	continuous_focus_position = {x = 50 y = 2000 }
+
+    focus = {
+		id = BGF_back_from_dead
+		icon = BGF_back_from_dead
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 10
+		y = 0
+		
+		cost = 0
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = ostrowiec_zibro.1 }
+		}
+	}
+
+    focus = {
+		id = BGF_no_mercy_for_him
+		icon = BGF_no_mercy_for_him
+        relative_position_id = BGF_back_from_dead
+		prerequisite = { focus = BGF_back_from_dead }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			add_timed_idea = { idea = BGF_wara_ziobro days = 25 }
+		}
+	}
+
+    focus = {
+		id = BGF_until_death_do_us_part
+		icon = BGF_until_death_do_us_part
+        relative_position_id = BGF_no_mercy_for_him
+		prerequisite = { focus = BGF_no_mercy_for_him }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = BGF_hooray_zibro
+		icon = BGF_hooray
+        relative_position_id = BGF_until_death_do_us_part
+		prerequisite = { focus = BGF_until_death_do_us_part }
+		available = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = ostrowiec_zibro.2 }
+		}
+	}
+}
+
+# $$$$$$$$$$        $$$$$$$$    $$$$$$$$      $$$$$$$$      $$$$$$$$$$        $$$$            $$$$    $$$$    $$$$
+# $$$$$$$$$$$$      $$$$$$$$    $$$$$$$$    $$$$$$$$$$$$    $$$$$$$$$$$$      $$$$$$        $$$$$$    $$$$    $$$$
+# $$$$    $$$$      $$$$        $$$$        $$$$    $$$$    $$$$    $$$$      $$$$$$$$    $$$$$$$$      $$$$$$$$
+# $$$$$$$$$$        $$$$$$$$    $$$$$$$$    $$$$    $$$$    $$$$$$$$$$$$      $$$$  $$$$$$$$  $$$$      $$$$$$$$
+# $$$$$$$$$$        $$$$$$$$    $$$$$$$$    $$$$    $$$$    $$$$$$$$$$        $$$$    $$$$    $$$$        $$$$
+# $$$$    $$$$      $$$$        $$$$        $$$$    $$$$    $$$$    $$$$      $$$$            $$$$        $$$$
+# $$$$     $$$$     $$$$$$$$    $$$$        $$$$$$$$$$$$    $$$$     $$$$     $$$$            $$$$        $$$$
+# $$$$      $$$$    $$$$$$$$    $$$$          $$$$$$$$      $$$$      $$$$    $$$$            $$$$        $$$$
+# Przecież bez reform nie przeżyjemy
+focus_tree = {
+    id = wspolnota_post_uprising_focus
+
+    country = {
+		factor = 0
+	}
+    default = no
+	
+	continuous_focus_position = {x = 50 y = 2000 }
+
+    focus = {
+		id = BGF_celebrations_in_ostrowiec
+		icon = generic_celebrations
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 10
+		y = 0
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = ostrowiec.4 }
+		}
+	}
+
+	focus = {
+		id = BGF_now_for_the_real_work
+		icon = generic_time_to_work
+		relative_position_id = BGF_celebrations_in_ostrowiec
+		prerequisite = { focus = BGF_celebrations_in_ostrowiec }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = BGF_a_long_road_ahead_3
+		}
+	}
+
+	##### Cywile #####
+	focus = {
+		id = BGF_restore_civilian_infrastructure
+		icon = generic_civilian
+		relative_position_id = BGF_now_for_the_real_work
+		prerequisite = { focus = BGF_now_for_the_real_work }
+		available = {
+			NOT = {
+				has_country_flag = BGF_under_pressure
+			}
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			add_stability = -0.1
+			custom_effect_tooltip = BGF_restore_civilian_infrastructure_tt
+			set_country_flag = BGF_under_pressure
+			country_event = { id = ostrowiec.5 }
+		}
+	}
+
+	focus = {
+		id = BGF_repair_roads
+		icon = generic_infrastructure
+		relative_position_id = BGF_restore_civilian_infrastructure
+		prerequisite = { focus = BGF_restore_civilian_infrastructure }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_focus_on_quality # Nie pytaj, czemu tu są wojskowe rzeczy
+		icon = generic_quality
+		relative_position_id = BGF_repair_roads
+		prerequisite = { focus = BGF_repair_roads }
+		mutually_exclusive = { focus = BGF_focus_on_quantity }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_focus_on_quantity
+		icon = generic_spam
+		relative_position_id = BGF_repair_roads
+		prerequisite = { focus = BGF_repair_roads }
+		mutually_exclusive = { focus = BGF_focus_on_quality }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = melee_equipment_1
+				amount = 750
+				producer = BGF
+			}
+			add_equipment_to_stockpile = {
+				type = ranged_equipment_1
+				amount = 750
+				producer = BGF
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_computer_in_every_house # Niestety Windows, bo Linux jest darmowy, a jak wiadomo rzeczy za darmo są gorsze od tych płatnych (np. LibreOffice < M$Office)
+		icon = generic_computer
+		relative_position_id = BGF_focus_on_quality
+		prerequisite = { focus = BGF_focus_on_quality focus = BGF_focus_on_quantity }
+		mutually_exclusive = { focus = BGF_tv_in_every_house }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = computing_tech
+			}
+			country_event = { id = ostrowiec.8 }
+		}
+	}
+
+	focus = {
+		id = BGF_tv_in_every_house # Jak wiadomo telewizja jest najlepszym narzędziem propagan- znaczy się edukującym
+		icon = generic_tv
+		relative_position_id = BGF_focus_on_quality
+		prerequisite = { focus = BGF_focus_on_quality focus = BGF_focus_on_quantity }
+		mutually_exclusive = { focus = BGF_computer_in_every_house }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = computing_tech
+			}
+			country_event = { id = ostrowiec.9 }
+		}
+	}
+
+	focus = {
+		id = BGF_the_work_is_done_civ
+		icon = BGF_the_work_is_done_civ
+		relative_position_id = BGF_tv_in_every_house
+		prerequisite = { focus = BGF_tv_in_every_house focus = BGF_computer_in_every_house }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_the_work_is_done_tt
+			BGF_better_prepare = yes
+			clr_country_flag = BGF_under_pressure
+		}
+	}
+
+	##### Militaria.pl #####
+	focus = {
+		id = BGF_restore_military_infrastructure
+		icon = generic_military
+		relative_position_id = BGF_now_for_the_real_work
+		prerequisite = { focus = BGF_now_for_the_real_work }
+		available = {
+			NOT = {
+				has_country_flag = BGF_under_pressure
+			}
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			add_war_support = 0.05
+			custom_effect_tooltip = BGF_restore_military_infrastructure_tt
+			set_country_flag = BGF_under_pressure
+			country_event = { id = ostrowiec.6 }
+		}
+	}
+
+	focus = {
+		id = BGF_look_through_trash
+		icon = BGF_look_through_trash
+		relative_position_id = BGF_restore_military_infrastructure
+		prerequisite = { focus = BGF_restore_military_infrastructure }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = melee_equipment_1
+				amount = 150
+				producer = BGF
+			}
+			add_equipment_to_stockpile = {
+				type = ranged_equipment_1
+				amount = 350
+				producer = BGF
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_more_meatshields # Rumunia i jej wasale (Cyganie)
+		icon = BGF_more_meatshields
+		relative_position_id = BGF_look_through_trash
+		prerequisite = { focus = BGF_look_through_trash }
+		mutually_exclusive = { focus = BGF_better_weapons }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			add_manpower = 7500
+			swap_ideas = {
+				remove_idea = training_basic
+				add_idea = training_battle
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_better_weapons # Rosja i jej broń/nie (AK-47 i T-34)
+		icon = BGF_better_weapons
+		relative_position_id = BGF_look_through_trash
+		prerequisite = { focus = BGF_look_through_trash }
+		mutually_exclusive = { focus = BGF_more_meatshields }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = training_basic
+				add_idea = training_veterans
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = melee_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_blast_from_the_past # AK może i nie wygrało powstania, ale ich taktyki jak najbardziej zadziałają na naszych kumplach "Dygnitarzach wojskowych" (dosłownie warlordzi)
+		icon = BGF_blast_from_the_past
+		relative_position_id = BGF_more_meatshields
+		prerequisite = { focus = BGF_more_meatshields focus = BGF_better_weapons }
+		mutually_exclusive = { focus = BGF_technologie_uber_alles }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_partisan
+			}
+			country_event = { id = ostrowiec.10 }
+		}
+	}
+
+	focus = {
+		id = BGF_technologie_uber_alles # Niemcy były tak zaawansowanym technicznie wrogiem, że przez 2-3 lata podczas II WŚ nikt ich nie mógł zbyt pokonać (z wyjątkiem spamu)
+		icon = BGF_technologie_uber_alles
+		relative_position_id = BGF_more_meatshields
+		prerequisite = { focus = BGF_more_meatshields focus = BGF_better_weapons }
+		mutually_exclusive = { focus = BGF_blast_from_the_past }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_nato
+			}
+			country_event = { id = ostrowiec.11 }
+		}
+	}
+
+	focus = {
+		id = BGF_the_work_is_done_mil
+		icon = BGF_the_work_is_done_mil
+		relative_position_id = BGF_technologie_uber_alles
+		prerequisite = { focus = BGF_blast_from_the_past focus = BGF_technologie_uber_alles }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_the_work_is_done_tt
+			BGF_better_prepare = yes
+			clr_country_flag = BGF_under_pressure
+		}
+	}
+
+	##### Szkoła (w wykonaniu TVNu) #####
+	focus = {
+		id = BGF_restore_education_infrastructure
+		icon = generic_science
+		relative_position_id = BGF_now_for_the_real_work
+		prerequisite = { focus = BGF_now_for_the_real_work }
+		available = {
+			NOT = {
+				has_country_flag = BGF_under_pressure
+			}
+		}
+		
+		bypass = {
+		}
+		
+		x = 4
+		y = 1
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_restore_education_infrastructure_tt
+			set_country_flag = BGF_under_pressure
+			country_event = { id = ostrowiec.7 }
+		}
+	}
+
+	focus = {
+		id = BGF_print_new_textbooks
+		icon = BGF_print_new_textbooks
+		relative_position_id = BGF_restore_education_infrastructure
+		prerequisite = { focus = BGF_restore_education_infrastructure }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			add_political_power = 100
+			custom_effect_tooltip = BGF_more_companies_tt
+		}
+	}
+
+	focus = {
+		id = BGF_everyone_is_equal # I tak jesteśmy tak samo głupi
+		icon = BGF_everyone_is_equal
+		relative_position_id = BGF_print_new_textbooks
+		prerequisite = { focus = BGF_print_new_textbooks }
+		mutually_exclusive = { focus = BGF_put_pressure_on_intelligentsia }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = lgbt_limited_laws
+				add_idea = lgbt_equal_laws
+			}
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = BGF_put_pressure_on_intelligentsia # Kogo obchodzą nierówności społeczne i wykształceniowe?
+		icon = BGF_put_pressure_on_intelligentsia
+		relative_position_id = BGF_print_new_textbooks
+		prerequisite = { focus = BGF_print_new_textbooks }
+		mutually_exclusive = { focus = BGF_everyone_is_equal }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 1
+		y = 1
+		
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = lgbt_limited_laws
+				add_idea = lgbt_illegal_tolerated
+			}
+			add_stability = -0.01
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = BGF_focus_on_science # Status szkół Konarskiego - komunistyczne
+		icon = BGF_focus_on_science
+		relative_position_id = BGF_everyone_is_equal
+		prerequisite = { focus = BGF_everyone_is_equal focus = BGF_put_pressure_on_intelligentsia }
+		mutually_exclusive = { focus = BGF_focus_on_history }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = computing_tech
+			}
+			country_event = { id = ostrowiec.12 }
+		}
+	}
+
+	focus = {
+		id = BGF_focus_on_history # Status szkół Konarskiego - nazistowsko-faszystowskie
+		icon = BGF_focus_on_history
+		relative_position_id = BGF_everyone_is_equal
+		prerequisite = { focus = BGF_everyone_is_equal focus = BGF_put_pressure_on_intelligentsia }
+		mutually_exclusive = { focus = BGF_focus_on_science }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.1
+			country_event = { id = ostrowiec.13 }
+		}
+	}
+
+	focus = {
+		id = BGF_the_work_is_done_edu
+		icon = generic_science_done
+		relative_position_id = BGF_focus_on_history
+		prerequisite = { focus = BGF_focus_on_history focus = BGF_focus_on_science }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_the_work_is_done_tt
+			BGF_better_prepare = yes
+			clr_country_flag = BGF_under_pressure
+		}
+	}
+
+	focus = {
+		id = BGF_the_path_to_war
+		icon = generic_holy_cross
+		relative_position_id = BGF_the_work_is_done_mil
+		prerequisite = { focus = BGF_the_work_is_done_civ }
+		prerequisite = { focus = BGF_the_work_is_done_mil }
+		prerequisite = { focus = BGF_the_work_is_done_edu }
+		available = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_the_path_to_war_tt
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_claimed_by = BGF
+					}
+					remove_claim_by = BGF
+					add_core_of = BGF
+				}
+			}
+		}
+	}
+
+# $$$$$$$$$$        $$$$$$$$      $$$$$$$$$$      $$$$$$$$$$        $$$$$$$$      $$$$$$$$    $$$$$$$$
+# $$$$$$$$$$$$    $$$$$$$$$$$$    $$$$$$$$$$$$    $$$$$$$$$$$$    $$$$$$$$$$$$    $$$$$$$$    $$$$$$$$
+# $$$$    $$$$    $$$$    $$$$    $$$$    $$$$    $$$$    $$$$    $$$$    $$$$        $$$$    $$$$
+# $$$$$$$$$$      $$$$    $$$$    $$$$    $$$$    $$$$$$$$$$      $$$$    $$$$        $$$$    $$$$$$$$
+# $$$$$$$$        $$$$    $$$$    $$$$    $$$$    $$$$$$$$$$      $$$$    $$$$        $$$$    $$$$$$$$
+# $$$$            $$$$    $$$$    $$$$    $$$$    $$$$    $$$$    $$$$    $$$$        $$$$    $$$$
+# $$$$            $$$$$$$$$$$$    $$$$$$$$$$$$    $$$$$$$$$$$$    $$$$$$$$$$$$    $$$$$$$$    $$$$$$$$
+# $$$$              $$$$$$$$      $$$$$$$$$       $$$$$$$$$$        $$$$$$$$        $$$$      $$$$$$$$
+# Z serii "KEENGA WNÓK Y PODBOJE F SANTA KRUZ"
+	# Darude byłby/aby dumny/a
+	focus = {
+		id = BGF_destroy_catholic_cult
+		icon = generic_attack_tourist_hotspot
+		will_lead_to_war_with = SND
+		available = {
+			has_completed_focus = BGF_the_path_to_war
+			ROOT = { any_neighbor_country = { original_tag = SND } }
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		bypass = {
+			date > 2028.02.18
+		  	OR = {
+				NOT = { country_exists = SND }
+				BGF = { has_war_with = SND }
+			}
+		}
+		
+		x = 20
+		y = 0
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_potezny_ostrowiec_SND_tt
+			declare_war_on = {
+				target = SND
+				type = annex_everything
+			}
+		}
+	}
+
+	# Holy S is that Kajzerrajch Reference?!
+	focus = {
+		id = BGF_combine_the_syndicates
+		icon = generic_attack_syndicalists
+		will_lead_to_war_with = STA
+		available = {
+			has_completed_focus = BGF_the_path_to_war
+			ROOT = { any_neighbor_country = { original_tag = STA } }
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		bypass = {
+			date > 2028.02.18
+		  	OR = {
+				NOT = { country_exists = STA }
+				BGF = { has_war_with = STA }
+			}
+		}
+		
+		x = 22
+		y = 0
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_potezny_ostrowiec_STA_tt
+			declare_war_on = {
+				target = STA
+				type = annex_everything
+			}
+		}
+	}
+
+	# Waffen-SS dla idiotów (również znany jako Kel na pewno nie z hitowej gry "OMORIUSZ")
+	focus = {
+		id = BGF_strangle_ancap
+		icon = generic_attack_waffen_kesh_kesh
+		relative_position_id = BGF_destroy_catholic_cult
+		prerequisite = { focus = BGF_destroy_catholic_cult focus = BGF_combine_the_syndicates }
+		will_lead_to_war_with = KEL
+		available = {
+			has_completed_focus = BGF_the_path_to_war
+			ROOT = { any_neighbor_country = { original_tag = KEL } }
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		bypass = {
+			date > 2028.02.18
+		  	OR = {
+				NOT = { country_exists = KEL }
+				BGF = { has_war_with = KEL }
+			}
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			declare_war_on = {
+				target = KEL
+				type = annex_everything
+			}
+		}
+	}
+
+	# Towarzysz Michał zaraz się...
+	focus = {
+		id = BGF_try_the_stalinists
+		icon = generic_attack_idiots
+		relative_position_id = BGF_combine_the_syndicates
+		prerequisite = { focus = BGF_destroy_catholic_cult focus = BGF_combine_the_syndicates }
+		will_lead_to_war_with = NRA
+		available = {
+			has_completed_focus = BGF_the_path_to_war
+			ROOT = { any_neighbor_country = { original_tag = NRA } }
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		bypass = {
+			date > 2028.02.18
+		  	OR = {
+				NOT = { country_exists = NRA }
+				BGF = { has_war_with = NRA }
+			}
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_potezny_ostrowiec_NRA_tt
+			declare_war_on = {
+				target = NRA
+				type = annex_everything
+			}
+		}
+	}
+
+	# Myślałem lepiej o Tarczyńskim... (jako mięsie)
+	focus = {
+		id = BGF_festung_kjelzy
+		icon = generic_attack_kielbasa
+		relative_position_id = BGF_strangle_ancap
+		prerequisite = { focus = BGF_strangle_ancap focus = BGF_try_the_stalinists }
+		will_lead_to_war_with = KIE
+		available = {
+			has_completed_focus = BGF_the_path_to_war
+			ROOT = { any_neighbor_country = { original_tag = KIE } }
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		bypass = {
+			date > 2028.02.18
+		  	OR = {
+				NOT = { country_exists = KIE }
+				BGF = { has_war_with = KIE }
+			}
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_potezny_ostrowiec_KIE_tt
+			declare_war_on = {
+				target = KIE
+				type = annex_everything
+			}
+		}
+	}
+
+	# Mój bracie w Chrystusie, ty żyjesz w XXI wieku, ogarnij się
+	focus = {
+		id = BGF_return_fundamentalists_to_monke
+		icon = generic_attack_polacks_catholics
+		relative_position_id = BGF_try_the_stalinists
+		prerequisite = { focus = BGF_strangle_ancap focus = BGF_try_the_stalinists }
+		will_lead_to_war_with = NSZ
+		available = {
+			has_completed_focus = BGF_the_path_to_war
+			ROOT = { any_neighbor_country = { original_tag = NSZ } }
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		bypass = {
+			date > 2028.02.18
+		  	OR = {
+				NOT = { country_exists = NSZ }
+				BGF = { has_war_with = NSZ }
+			}
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			declare_war_on = {
+				target = NSZ
+				type = annex_everything
+			}
+		}
+	}
+
+	# Budzę się codziennie i myślę sobie "Trzeba znowu zabić Polaków"
+	focus = {
+		id = BGF_im_sorry_little_one
+		icon = generic_attack_zbysiu_stonoga
+		relative_position_id = BGF_return_fundamentalists_to_monke
+		prerequisite = { focus = BGF_festung_kjelzy focus = BGF_return_fundamentalists_to_monke }
+		will_lead_to_war_with = STO
+		available = {
+			has_completed_focus = BGF_the_path_to_war
+			ROOT = { any_neighbor_country = { original_tag = STO } }
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		bypass = {
+			date > 2028.02.18
+		  	OR = {
+				NOT = { country_exists = STO }
+				BGF = { has_war_with = STO }
+			}
+		}
+		
+		x = -1
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			declare_war_on = {
+				target = STO
+				type = annex_everything
+			}
+		}
+	}
+
+	# We've did it Patrick, we've saved the Holy Cross!
+	focus = {
+		id = BGF_united_in_friendship
+		icon = generic_holy_cross_united
+		relative_position_id = BGF_im_sorry_little_one
+		prerequisite = { focus = BGF_im_sorry_little_one }
+		available = {
+			NOT = {
+				has_war = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_holy_cross_voivodeship
+				can_unify_holy_cross = yes
+			}
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_united_in_friendship_tt
+		}
+	}
+
+	# $$$$$$$$$$$$$$   $$$$    $$$$$$$$$$      $$$$$$$$$$          $$$$$$$$            $$$$$$$$
+	# $$$$$$$$$$$$$$   $$$$    $$$$$$$$$$$$    $$$$$$$$$$$$      $$$$$$$$$$$$        $$$$$$$$$$$$
+	#         $$$$     $$$$    $$$$    $$$$    $$$$    $$$$      $$$$    $$$$        $$$$    $$$$
+	#       $$$$       $$$$    $$$$$$$$$$      $$$$$$$$$$$$      $$$$    $$$$              $$$$
+	#     $$$$         $$$$    $$$$$$$$$$      $$$$$$$$$$        $$$$    $$$$            $$$$
+	#   $$$$           $$$$    $$$$    $$$$    $$$$    $$$$      $$$$    $$$$          $$$$
+	# $$$$$$$$$$$$$    $$$$    $$$$$$$$$$$$    $$$$     $$$$     $$$$$$$$$$$$        $$$$$$$$$$$$
+	# $$$$$$$$$$$$$    $$$$    $$$$$$$$$$      $$$$      $$$$      $$$$$$$$          $$$$$$$$$$$$
+	# Holy scheiße, somehow Ziobro won over HC! We must secure it! (Zibro 2)
+	focus = {
+		id = BGF_holy_scheisse
+		icon = generic_attack_kielbasa
+		will_lead_to_war_with = PRK
+		available = {
+			date > 2028.02.18
+			has_completed_focus = BGF_the_path_to_war
+			ROOT = {
+				any_neighbor_country = { original_tag = PRK }
+			}
+			NOT = {
+				country_exists = SND
+				country_exists = STA
+				has_war = yes
+				has_global_flag = zero_withdraws
+			}
+		}
+		
+		x = 30
+		y = 0
+		
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_holy_scheisse_tt
+			set_global_flag = krusada_przeciwko_idiocie
+			declare_war_on = {
+				target = PRK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KIE
+				type = annex_everything
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_kibole_kszo_na_ratunek
+		icon = BGF_hooray
+		relative_position_id = BGF_holy_scheisse
+		prerequisite = { focus = BGF_holy_scheisse }
+		available = {
+
+		}
+
+		bypass = {
+			date > 2028.02.18
+		  	OR = {
+				NOT = { country_exists = PRK }
+				BGF = { has_war_with = PRK }
+			}
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_kibole_kszo_na_ratunek_tt
+			hidden_effect = {
+				load_oob = "BGF_Zibro_Wojenka"
+			}
+		}
+	}
+}
+
+# 																											   $$$
+#																											  $$$
+#
+# $$$$      $$$$$$$$      $$$$      $$$$$$$$      $$$$$$$$    $$$$$$$$    $$$$      $$$$$$$$      $$$$      $$$$$$$$      $$$$$$$$$$      $$$$$$$$$$$$$$    $$$$$$$$$$$$    $$$$      $$$$$$$$      $$$$      $$$$$$$$
+# $$$$      $$$$$$$$      $$$$    $$$$$$$$$$$$    $$$$$$$$    $$$$$$$$    $$$$      $$$$$$$$      $$$$    $$$$$$$$$$$$    $$$$$$$$$$$$    $$$$$$$$$$$$$$    $$$$$$$$$$$$    $$$$      $$$$$$$$      $$$$    $$$$$$$$$$$$
+#  $$$$    $$$$  $$$$    $$$$     $$$$    $$$$        $$$$    $$$$         $$$$    $$$$  $$$$    $$$$     $$$$    $$$$    $$$$    $$$$            $$$$          $$$$         $$$$    $$$$  $$$$    $$$$     $$$$    $$$$
+#  $$$$    $$$$  $$$$    $$$$     $$$$    $$$$        $$$$    $$$$$$$$     $$$$    $$$$  $$$$    $$$$     $$$$    $$$$    $$$$    $$$$          $$$$            $$$$         $$$$    $$$$  $$$$    $$$$     $$$$    $$$$
+#   $$$$  $$$$    $$$$  $$$$      $$$$    $$$$        $$$$    $$$$$$$$      $$$$  $$$$    $$$$  $$$$      $$$$    $$$$    $$$$    $$$$        $$$$              $$$$          $$$$  $$$$    $$$$  $$$$      $$$$    $$$$
+#   $$$$  $$$$    $$$$  $$$$      $$$$    $$$$        $$$$    $$$$          $$$$  $$$$    $$$$  $$$$      $$$$    $$$$    $$$$    $$$$      $$$$                $$$$          $$$$  $$$$    $$$$  $$$$      $$$$    $$$$
+#    $$$$$$$$      $$$$$$$$       $$$$$$$$$$$$    $$$$$$$$    $$$$$$$$       $$$$$$$$      $$$$$$$$       $$$$$$$$$$$$    $$$$$$$$$$$$    $$$$$$$$$$$$$$        $$$$           $$$$$$$$      $$$$$$$$       $$$$$$$$$$$$
+#    $$$$$$$$      $$$$$$$$         $$$$$$$$        $$$$      $$$$$$$$       $$$$$$$$      $$$$$$$$         $$$$$$$$      $$$$$$$$$$      $$$$$$$$$$$$$$        $$$$           $$$$$$$$      $$$$$$$$         $$$$$$$$
+# Nasze województwo - Świętokrzyskie - znowu jedne
+focus_tree = {
+	id = wspolnota_voi_focus
+
+    country = {
+		factor = 0
+	}
+    default = no
+	
+	continuous_focus_position = {x = 50 y = 2000 }
+
+	focus = {
+		id = BGF_one_and_only
+		icon = BGF_one_and_only
+		available = {
+		
+		}
+		bypass = {
+
+		}
+		x = 10
+		y = 0
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = ostrowiec.14 random_days = 4 }
+		}
+	}
+
+	# ### ### ### ### ### #   ##  ### # # ### # # ##  ### ### ### ###
+	# #   # # #     # # # #   # # #   ### # # ##  # # # # #     # # #
+	# ### # # #     # ### #   # # ### # # # # #   ##  ### #     # ###
+	#   # # # #   # # # # #   # # #   # # # # ##  # # # # #   # # # #
+	# ### ### ###  #  # # ### ##  ### # # ### # # # # # # ###  #  # #
+	# Socjaldemokracja naszym sojusznikiem
+	focus = {
+		id = BGF_side_with_socialdems
+		icon = BGF_SD_uber_alles
+		relative_position_id = BGF_one_and_only
+		prerequisite = { focus = BGF_one_and_only }
+		available = {
+			has_country_flag = BGF_supports_SD
+		}
+		bypass = {
+
+		}
+		x = -3
+		y = 1
+
+		cost = 0
+		search_filters = { }
+		completion_reward = {
+			add_political_power = 75
+			custom_effect_tooltip = BGF_use_it_wisely_tt
+			add_ideas = BGF_power_struggle_idea
+		}
+	}
+
+	focus = {
+		id = BGF_cooperation_above_all
+		icon = BGF_cooperation_above_all
+		relative_position_id = BGF_side_with_socialdems
+		prerequisite = { focus = BGF_side_with_socialdems }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_SD
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			BGF_stabilise_government = yes # Sprawi, że będzie więcej stabilności oraz pozysku SP (zaczynając od -20% do -4% stabliności - podobnie będzie z innymi)
+			BGF_slash_sd_effect = yes # Oczywiście kosztem naszej popularności
+		}
+	}
+
+	focus = {
+		id = BGF_remove_competition # Centrystów
+		icon = BGF_remove_competition
+		relative_position_id = BGF_cooperation_above_all
+		prerequisite = { focus = BGF_cooperation_above_all }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_SD
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			add_timed_idea = {
+				idea = BGF_remove_competition_idea
+				days = 180
+			}
+			set_country_flag = BGF_sd_slashed_centre # Przyda sie później w kreowaniu efektów (zostanie automatycznie usunięta po wykonaniu efektu)
+			BGF_slash_centre_effect = yes
+			country_event = { id = ostrowiec_power_struggles.11 hours = 12 }
+		}
+	}
+
+	focus = {
+		id = BGF_antagonise_freemarketists
+		icon = BGF_antagonise_freemarketists
+		relative_position_id = BGF_remove_competition
+		prerequisite = { focus = BGF_remove_competition }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_SD
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_befriend_liberals_tt # Może się udać, bądź nie
+			hidden_effect = { # Przyda się w budowaniu eventów
+				random_list = {
+					50 = { country_event = { id = ostrowiec_power_struggles.7 days = 7 } }
+					50 = { country_event = { id = ostrowiec_power_struggles.8 days = 7 } }
+				}
+			}
+			BGF_slash_free_effect = yes
+		}
+	}
+
+	focus = {
+		id = BGF_walking_a_lone_path # Negocjacje się zje*ały
+		icon = BGF_walking_a_lone_path
+		relative_position_id = BGF_antagonise_freemarketists
+		prerequisite = { focus = BGF_antagonise_freemarketists }
+		mutually_exclusive = { focus = BGF_great_minds focus = BGF_less_allies }
+		available = {
+			has_country_flag = BGF_antagonised_liberals
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_SD
+			}
+		}
+		x = -1
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			add_political_power = -25 # Nie udało się
+			country_event = { id = ostrowiec_power_struggles.12 hours = 12 }
+		}
+	}
+
+	focus = {
+		id = BGF_we_dont_need_anyone
+		icon = BGF_we_dont_need_anyone
+		relative_position_id = BGF_walking_a_lone_path
+		prerequisite = { focus = BGF_walking_a_lone_path }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_SD
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			add_stability = -0.05
+		}
+	}
+
+	focus = {
+		id = BGF_we_just_need_ourselves
+		icon = BGF_we_just_need_ourselves
+		relative_position_id = BGF_we_dont_need_anyone
+		prerequisite = { focus = BGF_we_dont_need_anyone }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_SD
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			BGF_support_sd_effect = yes
+			country_event = { id = ostrowiec_power_struggles.13 hours = 12 }
+		}
+	}
+
+	focus = {
+		id = BGF_continue_on_unbothered
+		icon = BGF_continue_on_unbothered
+		relative_position_id = BGF_we_just_need_ourselves
+		prerequisite = { focus = BGF_we_just_need_ourselves }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_SD
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_lesser_costs_tt
+			set_country_flag = BGF_lesser_costs
+		}
+	}
+
+	# #   # ##  ### ##  ### #   # ### # #
+	# #   # # # #   # # # # #   #   # ###
+	# #   # ##  ### ##  ### #   #  #  # #
+	# #   # # # #   # # # # #   # #   # #
+	# ### # ##  ### # # # # ### # ### # #
+	# Liberalizm naszym sojusznikiem
+	focus = {
+		id = BGF_side_with_liberals
+		icon = BGF_KO_uber_alles
+		relative_position_id = BGF_one_and_only
+		prerequisite = { focus = BGF_one_and_only }
+		available = {
+			has_country_flag = BGF_supports_liberals
+		}
+		bypass = {
+
+		}
+		x = -1
+		y = 1
+
+		cost = 0
+		search_filters = { }
+		completion_reward = {
+			add_political_power = 75
+			custom_effect_tooltip = BGF_use_it_wisely_tt
+			add_ideas = BGF_power_struggle_idea
+		}
+	}
+
+	focus = {
+		id = BGF_liberalise_our_society
+		icon = BGF_liberalise_our_society
+		relative_position_id = BGF_side_with_liberals
+		prerequisite = { focus = BGF_side_with_liberals }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_liberals
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			BGF_stabilise_government = yes
+			BGF_support_lib_effect = yes
+			country_event = { id = ostrowiec_power_struggles.14 hours = 12 }
+		}
+	}
+
+	focus = {
+		id = BGF_cut_social_spendings
+		icon = BGF_cut_social_spendings
+		relative_position_id = BGF_liberalise_our_society
+		prerequisite = { focus = BGF_liberalise_our_society }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_liberals
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			add_ideas = no_subsidies
+			add_timed_idea = {
+				idea = BGF_cut_social_spendings_idea
+				days = 180
+			}
+			BGF_slash_lib_effect = yes
+		}
+	}
+
+	focus = {
+		id = BGF_no_centrist_bs
+		icon = BGF_no_centrist_bs
+		relative_position_id = BGF_cut_social_spendings
+		prerequisite = { focus = BGF_cut_social_spendings }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_liberals
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			BGF_slash_centre_effect = yes
+			custom_effect_tooltip = BGF_befriend_socialdems_tt # Może się udać, bądź nie
+			hidden_effect = { # Przyda się w budowaniu eventów
+				random_list = {
+					50 = { country_event = { id = ostrowiec_power_struggles.9 days = 7 } }
+					50 = { country_event = { id = ostrowiec_power_struggles.10 days = 7 } }
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_less_allies # Negocjacje się zje*ały
+		icon = BGF_less_allies
+		relative_position_id = BGF_no_centrist_bs
+		prerequisite = { focus = BGF_no_centrist_bs }
+		mutually_exclusive = { focus = BGF_walking_a_lone_path focus = BGF_great_minds }
+		available = {
+			has_country_flag = BGF_antagonised_socialdems
+		}
+		bypass = {
+			NOT = { # Będzie połączone z liberalistami
+				has_country_flag = BGF_supports_SD
+				has_country_flag = BGF_supports_liberals
+			}
+		}
+		x = 1
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			add_political_power = -25 # Nie udało się
+		}
+	}
+
+	focus = {
+		id = BGF_just_as_expected
+		icon = BGF_just_as_expected
+		relative_position_id = BGF_less_allies
+		prerequisite = { focus = BGF_less_allies }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_liberals
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			BGF_slash_lib_effect = yes
+			country_event = { id = ostrowiec_power_struggles.15 hours = 12 }
+		}
+	}
+
+	focus = {
+		id = BGF_the_worse_side_of_SD
+		icon = BGF_the_worse_side_of_SD
+		relative_position_id = BGF_just_as_expected
+		prerequisite = { focus = BGF_just_as_expected }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_liberals
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			BGF_slash_sd_effect = yes # Oko za oko, ząb za ząb
+		}
+	}
+
+	focus = {
+		id = BGF_dont_get_sad
+		icon = BGF_dont_get_sad
+		relative_position_id = BGF_the_worse_side_of_SD
+		prerequisite = { focus = BGF_the_worse_side_of_SD }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_liberals
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_lesser_costs_tt
+			set_country_flag = BGF_lesser_costs
+		}
+	}
+
+	# ### ### ### ### ### #   ##  ### # # ### # # ##  ### ### ### ###   #   #   # ##  ### ##  ### #   # ### # #
+	# #   # # #     # # # #   # # #   ### # # ##  # # # # #     # # #   #   #   # # # #   # # # # #   #   # ###
+	# ### # # #     # ### #   # # ### # # # # #   ##  ### #     # ###   #   #   # ##  ### ##  ### #   #  #  # #
+	#   # # # #   # # # # #   # # #   # # # # ##  # # # # #   # # # #   #   #   # # # #   # # # # #   # #   # #
+	# ### ### ###  #  # # ### ##  ### # # ### # # # # # # ###  #  # #   #   ### # ##  ### # # # # ### # ### # #
+	# Socjaldemokracja i liberalizm walczą razem przed łamaniem praworządności (przez ich partyjnych wrogów)
+	focus = {
+		id = BGF_great_minds # Negocjacje udały się
+		icon = BGF_great_minds
+		relative_position_id = BGF_antagonise_freemarketists
+		prerequisite = { focus = BGF_antagonise_freemarketists focus = BGF_no_centrist_bs }
+		mutually_exclusive = { focus = BGF_less_allies focus = BGF_walking_a_lone_path }
+		available = {
+			OR = {
+				has_country_flag = BGF_befriended_liberals
+				has_country_flag = BGF_befriended_socialdems
+			}
+		}
+		bypass = {
+			NOT = { # Będzie połączone z liberalistami
+				has_country_flag = BGF_supports_SD
+				has_country_flag = BGF_supports_liberals
+			}
+		}
+		x = 1
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = BGF_befriended_liberals }
+					has_country_flag = BGF_befriended_socialdems
+				}
+				set_country_flag = BGF_befriended_liberals
+			}
+			else_if = {
+				limit = {
+					NOT = { has_country_flag = BGF_befriended_socialdems }
+					has_country_flag = BGF_befriended_liberals
+				}
+				set_country_flag = BGF_befriended_socialdems
+			}
+			BGF_stabilise_government = yes
+			BGF_support_sd_effect = yes
+			BGF_support_lib_effect = yes
+		}
+	}
+
+	focus = {
+		id = BGF_think_alike
+		icon = BGF_think_alike
+		relative_position_id = BGF_great_minds
+		prerequisite = { focus = BGF_great_minds }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_SD
+				has_country_flag = BGF_supports_liberals
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			add_political_power = 75
+			add_popularity = { ideology = euroliberalism popularity = 0.13 }
+			country_event = { id = ostrowiec_power_struggles.16 hours = 12 }
+		}
+	}
+
+	focus = {
+		id = BGF_under_one_banner
+		icon = BGF_under_one_banner
+		relative_position_id = BGF_think_alike
+		prerequisite = { focus = BGF_think_alike }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_SD
+				has_country_flag = BGF_supports_liberals
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			BGF_stabilise_government = yes
+		}
+	}
+
+	focus = {
+		id = BGF_for_holy_cross
+		icon = BGF_for_holy_cross
+		relative_position_id =  BGF_under_one_banner
+		prerequisite = { focus =  BGF_under_one_banner }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_SD
+				has_country_flag = BGF_supports_liberals
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_lesser_costs_tt
+			set_country_flag = BGF_lesser_costs
+		}
+	}
+
+	# # # ### #   # # # #   ##  # # # # ### # #   #   ### ### # # ### ##  # # ### # #
+	# # # # # #   ###  #    # #  #  ### #   ##    #   #   #   ###  #  # #  #    # ###
+	# # # # # #   ###  #    ##   #  ### ### #     #   #   ### ###  #  ##   #   #  # #
+	# ### # # #   # #  #    # #  #  # # #   ##    #   #   #   # #  #  # #  #  #   # #
+	# # # ### ### # #  #    # #  #  # # ### # #   #   ### ### # #  #  # #  #  ### # #
+	# Wolny rynek i centryzm łączą siły, aby zniszczyć socjaldemokratów i liberałów (jedyne co ich łączy to nienawiść do nich)
+	focus = {
+		id = BGF_united_against_radicals
+		icon = BGF_united_against_radicals
+		relative_position_id = BGF_side_with_free_markets
+		prerequisite = { focus = BGF_side_with_free_markets focus = BGF_side_with_centrists }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				OR = {
+					has_country_flag = BGF_supports_free_market
+					has_country_flag = BGF_supports_centrist_party
+				}
+			}
+		}
+		x = 1
+		y = 1
+
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			BGF_stabilise_government = yes
+			BGF_slash_sd_effect = yes
+			BGF_slash_lib_effect = yes
+		}
+	}
+
+	focus = {
+		id = BGF_reorganise_free_markets
+		icon = BGF_reorganise_free_markets
+		relative_position_id = BGF_united_against_radicals
+		prerequisite = { focus = BGF_united_against_radicals }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				OR = {
+					has_country_flag = BGF_supports_free_market
+					has_country_flag = BGF_supports_centrist_party
+				}
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			add_timed_idea = {
+				idea = BGF_regulated_markets
+				days = 180
+			}
+			if = {
+				limit = {
+					has_country_flag = BGF_supports_free_market
+				}
+				BGF_slash_free_effect = yes
+			}
+			else = {
+				BGF_slash_centre_effect = yes
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_denounce_gabriel_and_kinga
+		icon = BGF_denounce_gabriel_and_kinga
+		relative_position_id = BGF_reorganise_free_markets
+		prerequisite = { focus = BGF_reorganise_free_markets }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				OR = {
+					has_country_flag = BGF_supports_free_market
+					has_country_flag = BGF_supports_centrist_party
+				}
+			}
+		}
+		x = 1
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			BGF_stabilise_government = yes # Nie pytaj, dlaczego
+			add_political_power = -50
+			country_event = { id = ostrowiec_power_struggles.17 hours = 12 }
+		}
+	}
+
+	# # # ### #   # # # #   ##  # # # # ### # #
+	# # # # # #   ###  #    # #  #  ### #   ##
+	# # # # # #   ###  #    ##   #  ### ### #
+	# ### # # #   # #  #    # #  #  # # #   ##
+	# # # ### ### # #  #    # #  #  # # ### # #
+	# Wolny rynek naszym sojusznikiem
+	focus = {
+		id = BGF_side_with_free_markets
+		icon = BGF_KO_uber_alles_gura
+		relative_position_id = BGF_one_and_only
+		prerequisite = { focus = BGF_one_and_only }
+		available = {
+			has_country_flag = BGF_supports_free_market
+		}
+		bypass = {
+
+		}
+		x = 1
+		y = 1
+
+		cost = 0
+		search_filters = { }
+		completion_reward = {
+			add_political_power = 75
+			custom_effect_tooltip = BGF_use_it_wisely_tt
+			add_ideas = BGF_power_struggle_idea
+		}
+	}
+
+	focus = {
+		id = BGF_free_market_to_go
+		icon = BGF_free_market_to_go
+		relative_position_id = BGF_denounce_gabriel_and_kinga
+		prerequisite = { focus = BGF_denounce_gabriel_and_kinga }
+		mutually_exclusive = { focus = BGF_centrism_to_go }
+		available = {
+			has_country_flag = BGF_supports_free_market
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_centrist_party
+				has_country_flag = BGF_supports_free_market
+			}
+		}
+		x = -1
+		y = 1
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_game_rule = { rule = BGF_path_behavior option = OSTROWIEC_CBA }
+			}
+		}
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			BGF_slash_centre_effect = yes
+		}
+	}
+
+	focus = {
+		id = BGF_trust_in_kel # Klifosław (Kel) wie najlepiej, co jest dobre dla wolnego rynku (nie mylić z Kelthuz'em)
+		icon = BGF_trust_in_kel
+		relative_position_id = BGF_free_market_to_go
+		prerequisite = { focus = BGF_free_market_to_go }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_free_market
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = ostrowiec_power_struggles.18 hours = 12 }
+		}
+	}
+
+	focus = {
+		id = BGF_amnesty_for_waffen_kesh_kesh
+		icon = BGF_amnesty_for_waffen_kesh_kesh
+		relative_position_id = BGF_trust_in_kel
+		prerequisite = { focus = BGF_trust_in_kel }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_free_market
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			add_stability = -0.15
+			BGF_support_free_effect = yes
+		}
+	}
+
+	focus = {
+		id = BGF_employ_oligarchs
+		icon = BGF_employ_oligarchs
+		relative_position_id = BGF_amnesty_for_waffen_kesh_kesh
+		prerequisite = { focus = BGF_amnesty_for_waffen_kesh_kesh }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_free_market
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_lesser_costs_tt
+			set_country_flag = BGF_lesser_costs
+		}
+	}
+
+	# ### ### # # ### ##  # # ### # #
+	# #   #   ###  #  # #  #    # ###
+	# #   ### ###  #  ##   #   #  # #
+	# #   #   # #  #  # #  #  #   # #
+	# ### ### # #  #  # #  #  ### # #
+	# Centryzm naszym sojusznikiem
+	focus = {
+		id = BGF_side_with_centrists
+		icon = BGF_Roenig_uber_alles
+		relative_position_id = BGF_one_and_only
+		prerequisite = { focus = BGF_one_and_only }
+		available = {
+			has_country_flag = BGF_supports_centrist_party
+		}
+		bypass = {
+
+		}
+		x = 3
+		y = 1
+
+		cost = 0
+		search_filters = { }
+		completion_reward = {
+			add_political_power = 75
+			custom_effect_tooltip = BGF_use_it_wisely_tt
+			add_ideas = BGF_power_struggle_idea
+		}
+	}
+
+	focus = {
+		id = BGF_centrism_to_go
+		icon = BGF_centrism_to_go
+		relative_position_id = BGF_denounce_gabriel_and_kinga
+		prerequisite = { focus = BGF_denounce_gabriel_and_kinga }
+		mutually_exclusive = { focus = BGF_free_market_to_go }
+		available = {
+			has_country_flag = BGF_supports_centrist_party
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_centrist_party
+				has_country_flag = BGF_supports_free_market
+			}
+		}
+		x = 1
+		y = 1
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_game_rule = { rule = BGF_path_behavior option = OSTROWIEC_KACZOR }
+			}
+		}
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			BGF_slash_centre_effect = yes
+		}
+	}
+
+	focus = {
+		id = BGF_trust_in_domi # Perhaps we can be friends again?
+		icon = BGF_trust_in_domi
+		relative_position_id = BGF_centrism_to_go
+		prerequisite = { focus = BGF_centrism_to_go }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_centrist_party
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = ostrowiec_power_struggles.19 hours = 12 }
+		}
+	}
+
+	focus = {
+		id = BGF_unia_unia_zwal_se_kunia # Pięciogodzinny wykład na temat dlaczego Unia jest zła (jako despotyczna siła limitująca prawa Polaków na ich ziemiach)
+		icon = BGF_unia_unia_zwal_se_kunia
+		relative_position_id = BGF_trust_in_domi
+		prerequisite = { focus = BGF_trust_in_domi }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_centrist_party
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			BGF_stabilise_government = yes
+			BGF_support_centre_effect = yes
+		}
+	}
+
+	focus = {
+		id = BGF_one_last_gambit
+		icon = BGF_one_last_gambit
+		relative_position_id = BGF_unia_unia_zwal_se_kunia
+		prerequisite = { focus = BGF_unia_unia_zwal_se_kunia }
+		available = {
+
+		}
+		bypass = {
+			NOT = {
+				has_country_flag = BGF_supports_centrist_party
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_lesser_costs_tt
+			set_country_flag = BGF_lesser_costs
+		}
+	}
+}
+
+# $$$$$$$$$$      $$$$$$$$    $$$$            $$$$      $$$$$$$$      $$$$      $$$$    $$$$$$$$$$              $$$$$$$$            $$$$$$      $$$$$$$$          $$$$$$$$
+# $$$$$$$$$$$$    $$$$$$$$    $$$$$$        $$$$$$    $$$$$$$$$$$$    $$$$    $$$$      $$$$$$$$$$$$            $$$$$$$$          $$$$$$$$$$    $$$$$$$$          $$$$$$$$
+# $$$$    $$$$    $$$$        $$$$$$$$    $$$$$$$$    $$$$    $$$$    $$$$  $$$$        $$$$    $$$$          $$$$    $$$$        $$$$              $$$$        $$$$    $$$$
+# $$$$    $$$$    $$$$$$$$    $$$$  $$$$$$$$  $$$$    $$$$    $$$$    $$$$$$$$          $$$$$$$$$$$$          $$$$    $$$$        $$$$              $$$$        $$$$    $$$$
+# $$$$    $$$$    $$$$$$$$    $$$$    $$$$    $$$$    $$$$    $$$$    $$$$$$$$          $$$$$$$$$$          $$$$$$$$$$$$$$$$      $$$$              $$$$      $$$$$$$$$$$$$$$$
+# $$$$    $$$$    $$$$        $$$$            $$$$    $$$$    $$$$    $$$$  $$$$        $$$$    $$$$        $$$$$$$$$$$$$$$$      $$$$              $$$$      $$$$$$$$$$$$$$$$
+# $$$$$$$$$$$$    $$$$$$$$    $$$$            $$$$    $$$$$$$$$$$$    $$$$    $$$$      $$$$     $$$$     $$$$            $$$$    $$$$$$$$$$    $$$$$$$$    $$$$            $$$$
+# $$$$$$$$$$      $$$$$$$$    $$$$            $$$$      $$$$$$$$      $$$$      $$$$    $$$$      $$$$    $$$$            $$$$      $$$$$$        $$$$      $$$$            $$$$
+# Koniec walk o władzę (Demokracja)
+focus_tree = {
+	id = wspolnota_voi_democrats_focus
+	country = {
+		factor = 0
+	}
+    default = no
+	
+	continuous_focus_position = {x = 50 y = 2000 }
+
+	# ### ### ### ### ### #   ##  ### # # ### # # ##  ### ### ### ###
+	# #   # # #     # # # #   # # #   ### # # ##  # # # # #     # # #
+	# ### # # #     # ### #   # # ### # # # # #   ##  ### #     # ###
+	#   # # # #   # # # # #   # # #   # # # # ##  # # # # #   # # # #
+	# ### ### ###  #  # # ### ##  ### # # ### # # # # # # ###  #  # #
+	focus = {
+		id = BGF_SD_uber_alles
+		icon = BGF_SD_uber_alles
+		available = {
+			always = no
+			#has_government = socialdemocrature
+		}
+		bypass = {
+
+		}
+		x = 15
+		y = 0
+		
+		cost = 0
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = ostrowiec.16 }
+			hidden_effect = {
+				add_ideas = BGF_plagued_with_corporats
+				add_ideas = BGF_plagued_with_defeatism
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_now_what
+		icon = BGF_now_what
+		relative_position_id = BGF_SD_uber_alles
+		prerequisite = { focus = BGF_SD_uber_alles }
+		available = {
+
+		}
+		bypass = {
+
+		}
+		x = 0
+		y = 1
+
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = ostrowiec.20 random = 96 }
+		}
+	}
+
+	focus = {
+		id = BGF_time_to_progress
+		icon = BGF_time_to_progress
+		relative_position_id = BGF_now_what
+		prerequisite = { focus = BGF_now_what }
+		available = {
+			has_idea = BGF_SD_status_quo
+		}
+		bypass = {
+
+		}
+		x = 0
+		y = 1
+
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_time_to_progress_tt
+		}
+	}
+
+	# ### #  # ### # # ### # # # ###       ### ##
+	# #   # #  # # ### # # ### # # #       #   # #
+	# ### ##   # # ### # # # # # ###  ###  ### # #
+	# #   # #  # # # # # # # # # # #         # # #
+	# ### #  # ### # # ### # # # # #       ### ##
+	focus = {
+		id = BGF_the_economy_SD
+		icon = BGF_the_economy_SD
+		relative_position_id = BGF_time_to_progress
+		prerequisite = { focus = BGF_time_to_progress }
+		available = {
+
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo } # Może zostać utracone np. w wyniku wojny z innym warlordem
+		}
+		x = -6
+		y = 1
+
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = ostrowiec.21 }
+		}
+	}
+
+	focus = {
+		id = BGF_rebuild_factories
+		icon = BGF_rebuild_factories
+		relative_position_id = BGF_the_economy_SD
+		prerequisite = { focus = BGF_the_economy_SD }
+		available = {
+
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = 0
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			378 = {
+				limit = {
+					free_building_slots = {
+						building = high_tech_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = high_tech_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_improve_celsa_factory
+		icon = BGF_improve_celsa_factory
+		relative_position_id = BGF_rebuild_factories
+		prerequisite = { focus = BGF_rebuild_factories }
+		available = {
+
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = 0
+		y = 1
+
+		cost = 5
+		search_filters = { }
+		completion_reward = {
+			add_victory_points = { province = 16816 value = 10 }
+			392 = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			country_event = { id = ostrowiec.24 }
+		}
+	}
+
+	focus = {
+		id = BGF_look_into_local_metropolies
+		icon = BGF_look_into_local_metropolies
+		relative_position_id = BGF_improve_celsa_factory
+		prerequisite = { focus = BGF_improve_celsa_factory }
+		mutually_exclusive = { focus = BGF_look_at_the_countryside }
+		available = {
+
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = -1
+		y = 1
+
+		cost = 5
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 25
+				has_game_rule = { rule = BGF_path_behavior option = OSTROWIEC_CELSA }
+			}
+		}
+		search_filters = { }
+		completion_reward = {
+			416 = {
+				limit = {
+					free_building_slots = {
+						building = university
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = university
+					level = 1
+					instant_build = yes
+				}
+			}
+			392 = {
+				limit = {
+					free_building_slots = {
+						building = prison
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = prison
+					level = 1
+					instant_build = yes
+				}
+			}
+			377 = {
+				limit = {
+					free_building_slots = {
+						building = hospital
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = hospital
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_look_at_the_countryside
+		icon = BGF_look_at_the_countryside
+		relative_position_id = BGF_improve_celsa_factory
+		prerequisite = { focus = BGF_improve_celsa_factory }
+		mutually_exclusive = { focus = BGF_look_into_local_metropolies }
+		available = {
+
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = 1
+		y = 1
+
+		cost = 5
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_game_rule = { rule = BGF_path_behavior option = OSTROWIEC_CELSA }
+			}
+		}
+		search_filters = { }
+		completion_reward = {
+			362 = {
+				limit = {
+					free_building_slots = {
+						building = cathedral
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = cathedral
+					level = 1
+					instant_build = yes
+				}
+			}
+			855 = {
+				limit = {
+					free_building_slots = {
+						building = steel_works
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = steel_works
+					level = 1
+					instant_build = yes
+				}
+			}
+			443 = {
+				limit = {
+					free_building_slots = {
+						building = hospital
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = hospital
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_destroy_conglomerates
+		icon = BGF_destroy_conglomerates
+		relative_position_id = BGF_look_into_local_metropolies
+		prerequisite = { focus = BGF_look_into_local_metropolies focus = BGF_look_at_the_countryside }
+		available = {
+
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = 1
+		y = 1
+
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			custom_effect_tooltip = BGF_unlock_decisions_corpos_tt
+			set_country_flag = BGF_deal_with_corpos
+			hidden_effect = {
+				set_variable = {
+					var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+					value = 0 # Nic nie dajemy se rady :(
+				}
+				set_power_balance = {
+				    id = BGF_power_balance
+					left_side = BGF_conglomerate_side
+					right_side = BGF_government_side
+					set_value = 0.25
+				}
+			}
+			country_event = { id = ostrowiec.25 }
+		}
+	}
+
+	focus = {
+		id = BGF_peace_in_our_time
+		icon = BGF_peace_in_our_time
+		relative_position_id = BGF_destroy_conglomerates
+		prerequisite = { focus = BGF_destroy_conglomerates }
+		available = {
+			NOT = {
+				has_country_flag = BGF_deal_with_corpos
+			}
+			power_balance_value = {
+				id = BGF_power_balance
+				value > -0.7
+			}
+		}
+		bypass = {
+			NOT = {
+				has_idea = BGF_SD_status_quo
+				has_power_balance = {
+				    id = BGF_power_balance
+				}
+			}
+		}
+		x = 0
+		y = 1
+
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 100
+			add_popularity = {
+				ideology = socialdemocrature
+				popularity = 0.1
+			}
+			hidden_effect = {
+				clr_country_flag = BGF_lessons_from_attacks
+				remove_ideas = BGF_major_corpo_strike
+				remove_ideas = BGF_minor_corpo_strike
+				remove_power_balance = {
+					id = BGF_power_balance
+				}
+			}
+			country_event = { id = ostrowiec.26 }
+		}
+	}
+
+	# ### ##  # # # ###      ### ##
+	# # # # # ### # # #      #   # #
+	# ### ##  # # # ###  ##  ### # #
+	# # # # # # # # # #        # # #
+	# # # # # # # # # #      ### ##
+
+	focus = {
+		id = BGF_the_army_SD
+		icon = BGF_the_army_SD
+		relative_position_id = BGF_time_to_progress
+		prerequisite = { focus = BGF_time_to_progress }
+		available = {
+
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = 0
+		y = 1
+
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = ostrowiec.22 }
+		}
+	}
+
+	focus = {
+		id = BGF_ensure_better_logistics
+		icon = BGF_ensure_better_logistics
+		relative_position_id = BGF_the_army_SD
+		prerequisite = { focus = BGF_the_army_SD }
+		available = {
+
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = 0
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = logistics_tech
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = maintenance_company_tech
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_reinforce_our_industry
+		icon = BGF_reinforce_our_industry
+		relative_position_id = BGF_ensure_better_logistics
+		prerequisite = { focus = BGF_ensure_better_logistics }
+		available = {
+
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = -1
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			add_timed_idea = {
+				idea = BGF_better_industry_idea
+				days = 270
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_connect_various_cities
+		icon = BGF_connect_various_cities
+		relative_position_id = BGF_ensure_better_logistics
+		prerequisite = { focus = BGF_ensure_better_logistics }
+		available = {
+
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = 1
+		y = 1
+
+		cost = 12 # Troche to zajmie, co nie?
+		search_filters = { }
+		select_effect = {
+			hidden_effect = {
+				country_event = { id = ostrowiec.23 days = 7 }
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = BGF_kolej_lepsza_niz_na_mazowszu_tt
+			hidden_effect = {
+				build_railway = { # Kielce - Ostrowiec Świętokrzyski - Opatów - Sandomierz
+				    level = 2
+				    path = { 3262 2800 16867 16937 16938 16943 2542 16954 16836 1352 2682 3080 16827 16793 16789 3934 16790 16786 16777 16775 16762 2845 }
+				}
+				build_railway = { # Kielce - Skarżysko-Kamienna - Starachowice
+				    level = 2
+				    path = { 3262 16871 3275 16897 16900 2263 16852 16854 16864 3906 1532 2489 788 3921 16837 2858 }
+				}
+				build_railway = { # Kielce - Busko-Zdrój - Staszów
+				    level = 2
+				    path = { 3262 2800 16865 16911 16913 16915 355 16921 16922 16920 3961 14296 14299 14287 3027 14289 3988 14294 14322 14319 14320 14327 14329 16754 3210 }
+				}
+				build_railway = { # Kielce - Jędrzejów - Pińczów - Kazimierza Wielka
+				    level = 2
+				    path = { 3262 16866 3943 422 16908 132 1297 1084 644 460 242 2888 14350 14349 14347 14348 14357 2655 14361 14280 14265 14262 }
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_ideas = BGF_sprawna_armia
+			}
+			add_stability = 0.15
+		}
+	}
+
+	focus = {
+		id = BGF_make_use_of_patriotism
+		icon = BGF_make_use_of_patriotism
+		relative_position_id = BGF_reinforce_our_industry
+		prerequisite = { focus = BGF_reinforce_our_industry }
+		prerequisite = { focus = BGF_connect_various_cities }
+		mutually_exclusive = { focus = BGF_little_technocracy focus = BGF_en_masse }
+		available = {
+			has_idea = BGF_polak_historyk
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = -1
+		y = 1
+
+		cost = 4
+		search_filters = { }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BGF_polak_historyk
+				add_idea = BGF_polak_patriota
+			}
+			custom_effect_tooltip = BGF_jeszcze_wincyj_korzysci_tt
+			if = {
+				limit = {
+					has_idea = BGF_AK_heritage
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 1
+					category = infantry_training
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 2
+					category = ranged_weapons
+				}
+				add_doctrine_cost_reduction = {
+					cost_reduction = 1
+					uses = 1
+					category = land_partisan
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_little_technocracy
+		icon = BGF_little_technocracy
+		relative_position_id = BGF_reinforce_our_industry
+		prerequisite = { focus = BGF_reinforce_our_industry }
+		prerequisite = { focus = BGF_connect_various_cities }
+		mutually_exclusive = { focus = BGF_make_use_of_patriotism focus = BGF_en_masse }
+		available = {
+			has_idea = BGF_technology_our_future
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = 1
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BGF_technology_our_future
+				add_idea = BGF_little_technocracy_idea
+			}
+			custom_effect_tooltip = BGF_jeszcze_wincyj_korzysci_tt
+			if = {
+				limit = {
+					has_idea = BGF_NATO_heritage
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 2
+					category = artillery
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 3
+					category = special_forces_training
+				}
+				add_doctrine_cost_reduction = {
+					cost_reduction = 1
+					uses = 1
+					category = land_nato
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_en_masse
+		icon = BGF_en_masse
+		relative_position_id = BGF_connect_various_cities
+		prerequisite = { focus = BGF_reinforce_our_industry }
+		prerequisite = { focus = BGF_connect_various_cities }
+		mutually_exclusive = { focus = BGF_make_use_of_patriotism focus = BGF_little_technocracy }
+		available = {
+			
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = 1
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			add_manpower = 15000
+			add_war_support = 0.1
+			add_equipment_to_stockpile = {
+				type = melee_equipment_1
+				amount = 1250
+				producer = BGF
+			}
+			add_equipment_to_stockpile = {
+				type = ranged_equipment_1
+				amount = 1250
+				producer = BGF
+			}
+		}
+	}
+
+	focus = {
+		id = BGF_army_supremacy
+		icon = BGF_army_supremacy
+		relative_position_id = BGF_make_use_of_patriotism
+		prerequisite = { focus = BGF_make_use_of_patriotism focus = BGF_little_technocracy }
+		mutually_exclusive = { focus = BGF_number_supremacy }
+		available = {
+			
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = 1
+		y = 2
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			add_ideas = training_western_instructors
+			add_ideas = officer_schools
+		}
+	}
+
+	focus = {
+		id = BGF_number_supremacy
+		icon = BGF_number_supremacy
+		relative_position_id = BGF_make_use_of_patriotism
+		prerequisite = { focus = BGF_en_masse focus = BGF_little_technocracy }
+		mutually_exclusive = { focus = BGF_army_supremacy }
+		available = {
+			
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = 3
+		y = 2
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			add_ideas = ubiquitous_military_service
+			add_ideas = training_russian_instructors
+		}
+	}
+
+	focus = {
+		id = BGF_wiencej_ropy_dla_ojczyzny
+		icon = BGF_wiencej_ropy_dla_ojczyzny
+		relative_position_id = BGF_army_supremacy
+		prerequisite = { focus = BGF_number_supremacy focus = BGF_army_supremacy }
+		available = {
+			
+		}
+		bypass = {
+			NOT = { has_idea = BGF_SD_status_quo }
+		}
+		x = 1
+		y = 1
+
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 100
+			add_popularity = {
+				ideology = socialdemocrature
+				popularity = 0.1
+			}
+			set_country_flag = BGF_conglomerates_are_poof
+			remove_ideas = BGF_plagued_with_defeatism
+			country_event = { id = ostrowiec.32 }
+		}
+	}
+
+	# #   # ##  ### ##  ### #   # ### # #
+	# #   # # # #   # # # # #   #   # ###
+	# #   # ##  ### ##  ### #   #  #  # #
+	# #   # # # #   # # # # #   # #   # #
+	# ### # ##  ### # # # # ### # ### # #
+	focus = {
+		id = BGF_KO_uber_alles
+		icon = BGF_KO_uber_alles
+		available = {
+			always = no
+			#has_government = euroliberalism
+		}
+		bypass = {
+
+		}
+		x = 30
+		y = 0
+		
+		cost = 0
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = ostrowiec.17 }
+			custom_effect_tooltip = BGF_end_of_mod_WIP_tt # "To już jest koniec... Nie ma już nic..."
+			hidden_effect = {
+				set_global_flag = PaFK_end_of_mod
+				PaF_initiate_ending_screen = yes
+			}
+		}
+	}
+
+	# # # ### #   # # # #   ##  # # # # ### # #
+	# # # # # #   ###  #    # #  #  ### #   ## 
+	# # # # # #   ###  #    ##   #  ### ### #  
+	# ### # # #   # #  #    # #  #  # # #   ## 
+	# # # ### ### # #  #    # #  #  # # ### # #
+	focus = {
+		id = BGF_KO_uber_alles_gura
+		icon = BGF_KO_uber_alles_gura
+		available = {
+			always = no
+			#has_government = freemarketism
+		}
+		bypass = {
+
+		}
+		x = 45
+		y = 0
+		
+		cost = 0
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = ostrowiec.18 }
+			custom_effect_tooltip = BGF_end_of_mod_WIP_tt # "To już jest koniec... Nie ma już nic..."
+			hidden_effect = {
+				set_global_flag = PaFK_end_of_mod
+				PaF_initiate_ending_screen = yes
+			}
+		}
+	}
+
+	# ### ### # # ### ##  # # ### # #
+	# #   #   ###  #  # #  #    # ###
+	# #   ### ###  #  ##   #   #  # #
+	# #   #   # #  #  # #  #  #   # #
+	# ### ### # #  #  # #  #  ### # #
+	focus = {
+		id = BGF_Roenig_uber_alles # Przeczytaj "Pastę o kaczym szaleństwie i pisowskiej propagandzie"
+		icon = BGF_Roenig_uber_alles
+		available = {
+			always = no
+			#has_government = socialdemocrature
+		}
+		bypass = {
+
+		}
+		x = 60
+		y = 0
+		
+		cost = 0
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = ostrowiec.19 }
+			custom_effect_tooltip = BGF_end_of_mod_WIP_tt # "To już jest koniec... Nie ma już nic..."
+			hidden_effect = {
+				set_global_flag = PaFK_end_of_mod
+				PaF_initiate_ending_screen = yes
+			}
+		}
+	}
+}
+
+focus_tree = {
+	id = wspolnota_voi_radicals_focus
+	country = {
+		factor = 0
+	}
+    default = no
+	
+	continuous_focus_position = {x = 50 y = 2000 }
+}

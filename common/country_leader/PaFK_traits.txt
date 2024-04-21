@@ -1,0 +1,289 @@
+leader_traits = {
+	principal = {
+		random = no
+		army_attack_factor = -0.05
+		army_defence_factor = 0.05
+		research_speed_factor = 0.05
+		stability_factor = 0.05
+	}
+
+	eager_reformist = {
+		random = no
+		euroliberalism_drift = 0.05
+		paternal_conservatism_drift = -0.05
+		autocracy_drift = -0.05
+		political_power_gain = 0.25
+	}
+
+	corrupt_liberal = {
+		random = yes
+		stability_factor = -0.1
+		freemarketism_drift = 0.01
+		political_power_gain = 0.3
+		consumer_goods_factor = 0.02
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_government = freemarketism
+			}
+		}
+	}
+
+	atheist_fighter = {
+		random = no
+		army_attack_factor = 0.15
+		army_defence_factor = -0.15
+		army_attack_speed_factor = 0.05
+		stability_factor = -0.25
+	}
+
+	matgeo = {
+		random = yes
+		consumer_goods_factor = -0.05
+		research_speed_factor = 0.03
+		industrial_capacity_factory = 0.25
+		dig_in_speed_factor = 0.05
+		local_resources_factor = 0.1
+		army_attack_speed_factor = 0.1
+	}
+	
+	artificial_foreigners_stigma = { # Nie zostanie na długo, gdyż chłopo zaraz odejdzie
+		random = no
+		stability_factor = -0.2
+		socialdemocrature_drift = -0.05
+		stability_weekly = -0.05
+		political_power_gain = -0.5
+	}
+
+	hidden_autism = { # Jak poniższe efekty mają się do autyzmu? A byście się zaskoczyli!
+		random = no
+		army_attack_factor = -0.2
+		army_defence_factor = -0.2
+	}
+
+	third_kaczynski  = {
+		random = no
+		paternal_conservatism_drift = 0.05
+		stability_weekly = 0.01
+		consumer_goods_factor = 0.05 # Skądś trzeba kraść, co nie?
+		research_speed_factor = -0.1
+	}
+
+	biolchem = {
+		random = yes
+		monthly_population = 0.15
+		conscription = 0.03
+		stability_factor = -0.15
+		opinion_gain_monthly_factor = -1
+		consumer_goods_factor = -0.1
+	}
+
+	comafiaist = {
+		random = no
+		monthly_population = -0.3
+		stability_weekly = -0.02
+		stability_factor = -0.4
+		political_power_gain = 0.7
+		consumer_goods_factor = 0.12
+	}
+
+	nostalgist = {
+		random = yes
+		monthly_population = 0.05
+		stability_weekly = 0.02
+		reactionary_drift = 0.05
+		political_power_gain = 0.25
+		consumer_goods_factor = 0.05
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_government = reactionary
+			}
+		}
+	}
+
+	KO_enthusiast = {
+		random = no
+		euroliberalism_drift = 0.02
+		consumer_goods_factor = -0.01
+		political_power_gain = 0.25
+		trade_laws_cost_factor = -0.25
+		economy_cost_factor = -0.25
+	}
+
+	friend_of_the_people = {
+		random = no
+		stability_weekly = 0.03
+		party_popularity_stability_factor = 0.5
+		defensive_war_stability_factor = 0.6
+	}
+
+	submissive_principal = {
+		random = no
+		stability_weekly = -0.03
+		party_popularity_stability_factor = 0.75
+		defensive_war_stability_factor = 0.6
+		offensive_war_stability_factor = 0.35
+		political_power_gain = 0.65
+	}
+
+	hedonist_gamer = {
+		random = no
+		consumer_goods_factor = 0.05
+		production_factory_efficiency_gain_factor = 0.15
+		production_factory_max_efficiency_factor = 0.15
+		stability_factor = -0.05
+	}
+
+	businesswoman = {
+		random = no
+		consumer_goods_factor = -0.02
+		production_factory_efficiency_gain_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
+	}
+
+	regionalist_army_commander = {
+		random = no
+		offensive_war_stability_factor = 0.35
+		army_attack_speed_factor = 0.15
+		command_power_gain_mult = 0.05
+		experience_gain_army_factor	= 0.15
+	}
+
+	panslavic_activist = {
+		random = no
+		opinion_gain_monthly_factor = 0.5
+		army_artillery_attack_factor = 0.25
+		special_forces_attack_factor = 0.15
+	}
+
+	hoi4_player = {
+		random = no
+		opinion_gain_monthly_factor = 0.5
+		army_artillery_attack_factor = 0.25
+		experience_gain_army_factor = 0.1
+		experience_gain_air_factor = 0.1
+		experience_gain_navy_factor = -0.2
+	}
+
+	hentai_connoseur = {
+		random = no
+		neonationalism_drift = 0.02
+		army_org_factor = -0.15 # Mokre sny są tu codziennością
+		army_morale_factor = 0.05
+		army_attack_speed_factor = 0.25 # Te ręce będą prędkie jak wiatr ;)
+	}
+
+	cyberpunk_enthusiast = {
+		random = no
+		experience_gain_army_factor = 0.25
+		army_speed_factor = 0.25
+		monthly_population = 0.5
+		consumer_goods_factor = -0.05
+	}
+
+	renaissance_man = { # Wszystkie te efekty znikno niedługo... (sadge)
+		random = no
+		research_speed_factor = 0.25
+		consumer_goods_factor = -0.08
+		production_speed_buildings_factor = 0.1
+		production_factory_max_efficiency_factor = 0.2
+		opinion_gain_monthly_factor = 0.65
+		production_speed_infrastructure_factor = 0.15
+	}
+
+	foreigner = {
+		random = no
+		improve_relations_maintain_cost_factor = 0.75
+		conscription_factor = -0.4
+		compliance_gain = -0.15
+		resistance_growth = 0.1
+		stability_factor = -0.25
+	}
+
+	orange_joe_enthusiast = {
+		random = no
+		monthly_population = 0.45
+		army_attack_speed_factor = 0.75
+		army_attack_factor = 0.25
+		stability_factor = -0.15
+		stability_weekly = 0.02
+		civilian_factory_use = 3 # Skądś trzeba produkować ten napój
+	}
+
+	orange_joe_despiser = {
+		random = no
+		freemarketism_drift = -0.05
+		consumer_goods_factor = -0.05
+		stability_factor = 0.05
+	}
+
+	compassionate_pacifist = {
+		random = no
+		army_attack_factor = -0.25
+		army_defence_factor = 0.15
+		defensive_war_stability_factor = -0.35
+		offensive_war_stability_factor = -0.5
+	}
+
+	overprotective = {
+		random = no
+		resistance_decay = 0.25
+		compliance_growth = 0.35
+	}
+
+	scarred_sister = {
+		stability_weekly = -0.002
+		monthly_population = -0.25
+		socialdemocrature_drift = 0.02
+		consumer_goods_factor = 0.05
+	}
+
+	ruthless_liberal = {
+		random = no
+		autocracy_drift = -0.05
+		reactionary_drift = -0.01
+		paternal_conservatism_drift = -0.05
+		political_power_gain = 0.1
+		stability_factor = -0.1
+		socialdemocrature_drift = 0.01
+	}
+
+	humanitarian_priest = {
+		random = no
+		socialdemocrature_drift = 0.05
+		stability_weekly = 0.005
+		compliance_gain = 0.15
+		compliance_growth = 0.05
+		army_defence_factor = 0.15
+		army_attack_factor = -0.05
+		consumer_goods_factor = 0.1
+		resistance_growth = -0.25
+	}
+
+	man_behind_the_slaughter = {
+		random = no
+		stability_factor = -0.25
+		political_power_gain = -0.05
+		army_speed_factor = 0.85
+		army_attack_speed_factor = 0.35
+		improve_relations_maintain_cost_factor = 0.75
+		resistance_decay = -0.15
+		resistance_growth = 0.25
+	}
+	###Firmy###
+	school_textbooks_producer = {
+		random = no
+		research_speed_factor = 0.05
+	}
+	charity_organisation = {
+		random = no
+		stability_weekly = 0.02
+		political_power_gain = 0.02
+		#ai_will_do = {
+		#	factor = 1
+		#}
+	}
+}

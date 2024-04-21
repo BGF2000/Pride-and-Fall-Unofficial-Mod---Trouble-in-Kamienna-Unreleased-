@@ -1,0 +1,243 @@
+BGF_power_balance = {
+    initial_value = 0.65
+	left_side = BGF_conglomerate_side
+	right_side = BGF_government_side
+	decision_category = BGF_balance_of_power_category
+
+    ### Neutralny ###
+    range = {
+        id = BGF_middle_ground_range
+		min = -0.05
+		max = 0.05
+		modifier = {
+            
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+    }
+
+    ### Walka przeciwko konglomeratom ###
+    ## Konglomeraty (CELSA przewodzi im) ##
+    side = {
+		id = BGF_conglomerate_side
+		icon = GFX_bop_BGF_conglomerate_side
+
+		range = {
+			id = BGF_conglomerate_low_control_range
+			min = -0.35
+			max = -0.05
+			modifier = {
+				corporativism_drift = 0.01
+			}
+			on_activate = {
+				random_list = {
+                    50 = { add_political_power = -75 }
+                    50 = { add_stability = -0.05 }
+                }
+			}
+			on_deactivate = {
+				random_list = {
+                    50 = { add_political_power = 25 }
+                    50 = { add_stability = 0.02 }
+                }
+			}
+		}
+
+		range = {
+			id = BGF_conglomerate_medium_control_range
+			min = -0.7
+			max = -0.35
+			modifier = {
+                corporativism_drift = 0.02
+				consumer_goods_factor = 0.02
+				stability_factor = -0.05
+			}
+			on_activate = {
+				random_list = {
+                    33 = { add_political_power = -100 }
+                    34 = { add_stability = -0.1 }
+                    33 = { country_event = { id = ostrowiec_konglomeraty.13 } }
+                }
+			}
+			on_deactivate = {
+				random_list = {
+                    50 = { add_political_power = 50 }
+                    50 = { add_stability = 0.05 }
+                }
+			}
+		}
+
+		range = {
+			id = BGF_conglomerate_high_control_range
+			min = -0.95
+			max = -0.7
+			modifier = {
+                corporativism_drift = 0.05
+				consumer_goods_factor = 0.1
+				stability_factor = -0.15
+			}
+			on_activate = {
+				random_list = {
+                    25 = { add_political_power = -150 }
+                    25 = { add_stability = -0.25 }
+                    25 = { country_event = { id = ostrowiec_konglomeraty.13 } }
+                    25 = { country_event = { id = ostrowiec_konglomeraty.14 } }
+                }
+			}
+			on_deactivate = {
+				random_list = {
+                    33 = { add_political_power = 75 }
+                    34 = { add_stability = 0.1 }
+                    33 = { country_event = { id = ostrowiec_konglomeraty.15 } }
+                }
+			}
+		}
+
+		range = {
+			id = BGF_conglomerate_total_control_range
+			min = -1
+			max = -0.95
+			modifier = {
+				corporativism_drift = 0.1
+				consumer_goods_factor = 0.2
+				stability_factor = -0.3
+			}
+			on_activate = {
+				if = {
+					limit = {
+						NOT = {
+                            OR = {
+                                has_idea = BGF_plagued_with_corporats
+                                has_idea = BGF_plagued_with_corporats_2
+                                has_idea = BGF_plagued_with_corporats_3
+                            }
+                        }
+					}
+					hidden_effect = {
+						country_event = { id = ostrowiec_power_struggles.102 }
+					}
+					
+					effect_tooltip = {
+						set_politics = {
+                            ruling_party = corporativism
+                            last_election = "1936.1.1"
+                            election_frequency = 48
+                            elections_allowed = no
+                        }
+					}
+				}
+			}
+			on_deactivate = {
+				random_list = {
+                    33 = { add_political_power = 150 }
+                    34 = { add_stability = 0.15 }
+                    33 = { country_event = { id = ostrowiec_konglomeraty.15 } }
+                }
+			}
+		}
+	}
+    ## Rząd ##
+    side = {
+		id = BGF_government_side
+		icon = GFX_bop_BGF_government_side
+
+		range = {
+			id = BGF_government_low_control_range
+			min = 0.05
+			max = 0.35
+			modifier = {
+                stability_factor = 0.02
+                socialdemocrature_drift = 0.01
+			}
+			on_activate = {
+                random_list = {
+                    50 = { add_political_power = 75 }
+                    50 = { add_stability = 0.05 }
+                }
+			}
+			on_deactivate = {
+                random_list = {
+                    50 = { add_political_power = -25 }
+                    50 = { add_stability = -0.02 }
+                }
+			}
+		}
+
+		range = {
+			id = BGF_government_medium_control_range
+			min = 0.35
+			max = 0.7
+			modifier = {
+                stability_factor = 0.05
+                socialdemocrature_drift = 0.02
+			}
+			on_activate = {
+				random_list = {
+                    50 = { add_political_power = 100 }
+                    50 = { add_stability = 0.1 }
+                }
+			}
+			on_deactivate = {
+				random_list = {
+                    50 = { add_political_power = -50 }
+                    50 = { add_stability = -0.05 }
+                }
+			}
+		}
+
+		range = {
+			id = BGF_government_high_control_range
+			min = 0.7
+			max = 0.95
+			modifier = {
+                stability_factor = 0.1
+                socialdemocrature_drift = 0.04
+                consumer_goods_factor = -0.03
+			}
+			on_activate = {
+				random_list = {
+                    45 = { add_political_power = 150 }
+                    45 = { add_stability = 0.25 }
+                    10 = { country_event = { id = ostrowiec_konglomeraty.16 } }
+                }
+			}
+			on_deactivate = {
+				random_list = {
+                    50 = { add_political_power = -75 }
+                    50 = { add_stability = -0.1 }
+                }
+			}
+		}
+
+		range = {
+			id = BGF_government_total_control_range
+			min = 0.95
+			max = 1
+			modifier = {
+				stability_factor = 0.15
+                socialdemocrature_drift = 0.05
+                consumer_goods_factor = -0.05
+			}
+			on_activate = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = BGF_zamach_stanu_nieunikniony }
+                    }
+                    country_event = { id = ostrowiec_konglomeraty.16 }
+                }
+			}
+			on_deactivate = {
+				random_list = {
+                    50 = { add_political_power = -150 }
+                    50 = { add_stability = -0.15 }
+                }
+			}
+		}
+	}
+
+    ### Rywalizacja Nazbol - Ateofaszyzm ###
+}

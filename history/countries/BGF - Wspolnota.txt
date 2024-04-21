@@ -1,0 +1,115 @@
+capital = 392
+add_manpower = 1500
+
+oob = "BGF_2027"
+
+# Starting tech
+set_technology = {
+		melee_weapons = 1 
+		melee_weapons_upgrade = 1
+		melee_weapons1 = 1 
+		ranged_weapons = 1
+		ranged_weapons_upgrade = 1
+		ranged_weapons1 = 1
+		infantry_training = 1
+		army_uniform = 1
+		army_uniform1 = 1
+        special_forces_equipment = 1
+		
+		tech_support = 1
+		basic_train = 1
+		
+		heavy_artillery = 1
+		light_artillery = 1
+		
+		primitive_aircraft = 1
+		fighter_0 = 1
+		
+		drone_0 = 1
+		
+		construction1 = 1
+		synth_oil_experiments = 1
+		fuel_silos = 1
+
+		nsb_bicycle = 1
+		nsb_truck_1 = 1
+		nsb_sidecar = 1
+
+		wind_farm = 1
+power_generation = 1
+}
+
+
+
+set_convoys = 0
+
+add_ideas = {
+	controlled_opposition
+	autocensorship
+	direct_security
+	public_healthcare
+	civil_industry_subsidies
+	system_enlistment
+	training_basic
+	officer_schools
+	economy_regulated_capitalism
+	taxes_high
+	trade_regulated
+	lgbt_limited_laws
+	drugs_harsh_penalised
+	women_gender_equality
+	minorities_equal_rights
+	full_secularism
+}
+
+recruit_character = BGF_kinga_wnuk
+recruit_character = BGF_gabi_gabi
+recruit_character = BGF_average_cba_despiser
+recruit_character = BGF_lukasz_stolarek
+recruit_character = BGF_marcel_nazbolejarczyk
+recruit_character = BGF_celsa
+recruit_character = BGF2000
+recruit_character = BGF_pawel_rogowski
+recruit_character = BGF_ukrainka
+recruit_character = BGF_felipe
+recruit_character = BGF_oskar_rogowski
+recruit_character = BGF_domi
+recruit_character = BGF_armandzio
+recruit_character = BGF_pieprzykowski
+recruit_character = BGF_konrad_lebek
+recruit_character = BGF_burdel
+recruit_character = BGF_podwladna_kingi
+recruit_character = BGF_andrzej
+recruit_character = BGF_mountaineer_from_zahorie
+recruit_character = BGF_mountain_general
+recruit_character = BGF_piotr_dasios
+recruit_character = BGF_idiota
+recruit_character = BGF_drugi_idiota
+recruit_character = BGF_krzysiu
+recruit_character = BGF_sergiusz_adamik
+recruit_character = BGF_radio_rekord
+recruit_character = BGF_biolog_help
+recruit_character = BGF_nie_lec
+recruit_character = BGF_domi_armia
+recruit_character = BGF_jakub_teodecki
+
+set_politics = {
+	ruling_party = socialdemocrature
+	last_election = "2027.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	marxism_cranism	= 2
+	squattism = 1
+	socialdemocrature = 67
+	euroliberalism = 13
+	freemarketism = 11
+	paternal_conservatism = 1
+	autocracy = 1
+	corporativism = 0
+	neonationalism = 4
+	reactionary = 0
+	postpolonism = 0
+}

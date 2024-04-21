@@ -1,0 +1,79 @@
+characters={
+	KEL_kelthuz={
+		name="Kelthuz"
+		portraits={
+			civilian={
+				large="gfx/leaders/KEL/KEL_Kelthuz1.dds"
+			}
+		}
+		country_leader={
+			ideology=freemarketism_anarchocapitalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	KEL_from_omoriusz={
+		name="Kel"
+		portraits={
+			civilian={
+				large="gfx/leaders/KEL/KEL_z_gry_omoriusz.dds"
+			}
+		}
+		#country_leader={
+		#	desc = "POLITICS_KEL_DESC"
+		#	ideology=orange_joe_subtype
+		#   traits = { foreigner orange_joe_enthusiast }
+		#	expire="1.1.1.1"
+		#	id=-1
+		#}
+	}
+
+	KEL_aubersko={
+		name="Aubrey"
+		portraits={
+			civilian={
+				large="gfx/leaders/KEL/KEL_aubersko.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_AUBERSKO_DESC"
+			ideology=paternal_conservatism_liberal_conservatism_subtype
+		    traits = { foreigner }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	KEL_i_jego_brat={
+		name="Hero"
+		portraits={
+			civilian={
+				large="gfx/leaders/KEL/KEL_i_jego_brat.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_HERO_DESC"
+			ideology=hero_subtype
+		    traits = { foreigner compassionate_pacifist overprotective }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	KEL_maree={
+		name="Mari"
+		portraits={
+			civilian={
+				large="gfx/leaders/KEL/KEL_maria_sklodowska_curie.dds"
+			}
+		}
+		#country_leader={
+		#	desc = "POLITICS_STAIRS_DESC"
+		#	ideology=hero_subtype
+		#   traits = { foreigner scarred_sister }
+		#	expire="1.1.1.1"
+		#	id=-1
+		#}
+	}
+}

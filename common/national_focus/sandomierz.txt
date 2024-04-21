@@ -1,0 +1,409 @@
+# $$$$$$$$$$$$$$   $$$$      $$$$$$$$      $$$$$$$$$$      $$$$$$$$$$          $$$$$$$$
+# $$$$$$$$$$$$$$   $$$$    $$$$$$$$$$$$    $$$$$$$$$$$$    $$$$$$$$$$$$      $$$$$$$$$$$$
+#         $$$$     $$$$    $$$$    $$$$    $$$$    $$$$    $$$$    $$$$      $$$$    $$$$
+#       $$$$       $$$$    $$$$    $$$$    $$$$$$$$$$      $$$$$$$$$$$$      $$$$    $$$$
+#     $$$$         $$$$    $$$$    $$$$    $$$$$$$$$$      $$$$$$$$$$        $$$$    $$$$
+#   $$$$           $$$$    $$$$    $$$$    $$$$    $$$$    $$$$    $$$$      $$$$    $$$$
+# $$$$$$$$$$$$$    $$$$    $$$$$$$$$$$$    $$$$$$$$$$$$    $$$$     $$$$     $$$$$$$$$$$$
+# $$$$$$$$$$$$$    $$$$      $$$$$$$$      $$$$$$$$$$      $$$$      $$$$      $$$$$$$$
+# TY K**WO J**ANA, PRZESTAŃ MI K**WA RODZINĘ PRZEŚLADOWAĆ! (Ziobro)
+focus_tree = {
+    id = sandomierz_initial_focus
+
+    country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SND
+		}
+	}
+    default = no
+	
+	continuous_focus_position = {x = 50 y = 2000 }
+
+    focus = {
+		id = SND_pile_of_rubble
+		icon = BGF_anti_zero_uprising
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = 5
+		y = 0
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = sandomierz.1 }
+		}
+	}
+
+    focus = {
+		id = SND_organise_rallies
+		icon = SND_organise_rallies
+        relative_position_id = SND_pile_of_rubble
+		prerequisite = { focus = SND_pile_of_rubble }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+			If = {
+				limit = {
+					NOT = { is_ai = yes }
+				}
+				add_timed_idea = { idea = SND_the_power_of_united_centre days = 75 }
+			}
+			# Jeżeli chcemy permanentne, to używamy add_ideas bez klamerek
+		}
+	}
+
+    # Prokuratura #
+    focus = {
+		id = SND_focus_on_prosecutorship
+		icon = SND_focus_on_prosecutorship
+        relative_position_id = SND_organise_rallies
+		prerequisite = { focus = SND_organise_rallies }
+        mutually_exclusive = { focus = SND_focus_on_ostrowiec }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = -5
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+            custom_effect_tooltip = SND_focus_on_prosecutorship_tt # Droga do KO oraz Ojca Mateusza
+            set_country_flag = SND_demokratyczni_bracia
+			add_popularity = {
+				ideology = autocracy
+				popularity = -0.05
+			}
+            country_event = { id = sandomierz.2 }
+		}
+	}
+
+    focus = {
+		id = SND_loan_guns_from_our_neighbour
+		icon = SND_loan_guns_from_our_neighbour
+        relative_position_id = SND_focus_on_prosecutorship
+		prerequisite = { focus = SND_focus_on_prosecutorship }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+            BGF = { country_event = { id = sandomierz.4 } }
+		}
+	}
+
+    focus = {
+		id = SND_recruit_volunteers_from_opatow
+		icon = SND_recruit_volunteers_from_opatow
+        relative_position_id = SND_loan_guns_from_our_neighbour
+		prerequisite = { focus = SND_loan_guns_from_our_neighbour }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+            custom_effect_tooltip = SND_recruit_volunteers_from_opatow_tt
+            hidden_effect = {
+                load_oob = "SND_Ochotnicy"
+            }
+		}
+	}
+
+    focus = {
+		id = SND_protect_sandomierz
+		icon = SND_protect_sandomierz
+        relative_position_id = SND_recruit_volunteers_from_opatow
+		prerequisite = { focus = SND_recruit_volunteers_from_opatow }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+            add_stability = 0.1
+		}
+	}
+
+    # Ostrowiec #
+    focus = {
+		id = SND_focus_on_ostrowiec
+		icon = SND_focus_on_ostrowiec
+        relative_position_id = SND_organise_rallies
+		prerequisite = { focus = SND_organise_rallies }
+        mutually_exclusive = { focus = SND_focus_on_prosecutorship }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = 5
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+            custom_effect_tooltip = SND_focus_on_ostrowiec_tt # Droga do krula Radzia oraz Ziarna prawdy
+            set_country_flag = SND_autorytarni_bracia
+			add_popularity = {
+				ideology = socialdemocrature
+				popularity = -0.05
+			}
+            add_opinion_modifier = {
+				target = BGF
+				modifier = SND_enemies_by_ideology
+			}
+            BGF = {
+                add_opinion_modifier = {
+				    target = SND
+				    modifier = SND_enemies_by_ideology
+			    }
+            }
+            country_event = { id = sandomierz.3 }
+		}
+	}
+
+    focus = {
+		id = SND_fortify_the_border
+		icon = SND_fortify_the_border
+        relative_position_id = SND_focus_on_ostrowiec
+		prerequisite = { focus = SND_focus_on_ostrowiec }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3
+		search_filters = { }
+		completion_reward = {
+			417 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border_country = BGF
+					}
+				}
+			}
+			671 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border_country = BGF
+					}
+				}
+			}
+			672 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border_country = BGF
+					}
+				}
+			}
+		}
+	}
+
+    focus = {
+		id = SND_recruit_fanatics
+		icon = SND_recruit_fanatics
+        relative_position_id = SND_fortify_the_border
+		prerequisite = { focus = SND_fortify_the_border }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+            custom_effect_tooltip = SND_recruit_fanatics_tt
+            hidden_effect = {
+                load_oob = "SND_Fanatycy"
+            }
+		}
+	}
+
+    focus = {
+		id = SND_use_scrap_for_guns
+		icon = SND_use_scrap_for_guns
+        relative_position_id = SND_recruit_fanatics
+		prerequisite = { focus = SND_recruit_fanatics }
+		available = {
+		
+		}
+		
+		bypass = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 2
+		search_filters = { }
+		completion_reward = {
+            670 = {
+                add_resource = {
+                    type = steel
+                    amount = -2
+                }
+                add_resource = {
+                    type = aluminium
+                    amount = -2
+                }
+            }
+            add_equipment_to_stockpile = {
+                type = ranged_equipment_1
+				amount = 100
+				producer = SND
+            }
+		}
+	}
+
+    focus = {
+		id = SND_winner
+		icon = SND_winner
+        relative_position_id = SND_protect_sandomierz
+		prerequisite = { focus = SND_use_scrap_for_guns focus = SND_protect_sandomierz }
+		available = {
+            NOT = {
+				has_war = yes
+			}
+		}
+		
+		bypass = {
+            
+		}
+		
+		x = 5
+		y = 1
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+            add_stability = 0.15
+            add_political_power = 75
+            country_event = { id = sandomierz.7 }
+		}
+	}
+
+    focus = {
+		id = SND_continue_radical_reforms
+		icon = SND_continue_radical_reforms
+		available = {
+            has_country_flag = SND_pierwsze_koty_za_ploty
+            has_government = euroliberalism
+		}
+
+        allow_branch = {
+			has_country_flag = SND_pierwsze_koty_za_ploty
+		}
+		
+		bypass = {
+
+		}
+		
+		x = 12
+		y = 0
+		
+		cost = 1
+		search_filters = { }
+		completion_reward = {
+			country_event = { id = sandomierz.8 }
+		}
+	}
+}

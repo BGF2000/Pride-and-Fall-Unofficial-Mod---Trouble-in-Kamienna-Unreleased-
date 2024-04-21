@@ -1,0 +1,39 @@
+NEG = { # Negociating country
+    targets = { KEL KIE SND STA STO NSZ NRA } # Holy Cross countries
+    country_score = {
+		base = 0
+		modifier = {
+			add = 10
+			# If mapped tag is negociating with Ostrowiec
+			has_country_flag = BGF_negociating_country
+		}
+	}
+}
+
+SWK = { # Demanding country
+    targets = { KEL SND STA STO NSZ NRA BGF } # Holy Cross countries
+    country_score = {
+		base = 0
+		modifier = {
+			add = 10
+			# If mapped tag is threatening as a "new legitimate government"
+			has_country_flag = SWK_dominacja_nad_plebsem
+		}
+	}
+}
+
+#CON = { # Contestant country (HC)
+#	targets = { KEL SND STA STO NSZ NRA BGF }
+#	NOT = { has_country_flag = SWK_dominacja_nad_plebsem }
+#	country_score = {
+#		base = 15
+#		modifier = {
+#			add = 10
+#			416 = { is_controlled_by = CON } # Redirects to itself in order to check whether it controls
+#		}
+#		modifier = {
+#			add = -15
+#			country_exists = SWK # If it's a legitimate government, there is no need for it to contest others (maybe)
+#		}
+#	}
+#}

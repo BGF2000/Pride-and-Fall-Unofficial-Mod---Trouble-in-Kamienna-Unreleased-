@@ -1,0 +1,39 @@
+characters = {
+    MAZ_adam_mazgula={
+		name="Adam Mazguła"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAZ/MAZ_Wojskowy.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_MAZGULA_DESC"
+			ideology=autocracy_military_junta_subtype
+			traits = { KO_enthusiast regionalist_army_commander }
+			expire="1.1.1.1"
+			id=-1
+		}
+        country_leader={
+			desc = "POLITICS_MAZGULA_DESC"
+			ideology=euroliberalism_subtype
+			traits = { KO_enthusiast regionalist_army_commander }
+			expire="1.1.1.1"
+			id=-1
+		}
+		field_marshal = {
+			traits = { army_commando_3 army_chief_offensive_3 army_chief_drill_3 army_chief_reform_3 }
+			skill=5
+			attack_skill=5
+			defense_skill=4
+			planning_skill=7
+			logistics_skill=5
+			legacy_id=-1
+			visible = {
+				OR = {
+					has_government = autocracy
+					has_government = euroliberalism
+				}
+			}			
+		}
+	}
+}

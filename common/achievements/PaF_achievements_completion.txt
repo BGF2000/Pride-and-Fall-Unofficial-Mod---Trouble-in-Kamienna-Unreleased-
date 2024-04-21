@@ -1,0 +1,189 @@
+# possible - filters out achivements on game start so we dont have to check everything all the
+#time
+## happened - checks if achivement happened
+
+unique_id = completion_achievements
+
+##### BBW #####
+BBW_complete_smog = {
+	possible = {
+		original_tag = BBW
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = BBW_complete_smog_tt
+			has_cosmetic_tag = BBW_karbonizacja_final		
+		}
+	}
+}
+
+BBW_complete_roxi = {
+	possible = {
+		original_tag = BBW
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			has_cosmetic_tag = BBW_roksi_final
+			tooltip = BBW_complete_roxi_tt
+		}
+	}
+}
+
+ATM_complete_wiech = {
+	possible = {
+		original_tag = ATM
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			has_cosmetic_tag = ATM_krucjata_final
+			tooltip = ATM_complete_wiech_tt
+		}
+	}
+}
+
+##### BGF #####
+BGF_complete_wnuk = {
+	possible = {
+		original_tag = BGF
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = BGF_complete_wnuk_tt
+			has_cosmetic_tag = BGF_sd_final
+		}
+	}
+}
+
+BGF_complete_wnuk2 = {
+	possible = {
+		original_tag = BGF
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = BGF_complete_wnuk2_tt
+			has_cosmetic_tag = BGF_polska_kraj_trudna_final
+		}
+	}
+}
+
+BGF_complete_nlo = {
+	possible = {
+		original_tag = BGF
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = BGF_complete_nlo_tt
+			has_cosmetic_tag = BGF_final_nlo_dominacja
+		}
+	}
+}
+
+BGF_complete_kwietniak = {
+	possible = {
+		original_tag = BGF
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = BGF_complete_kwietniak_tt
+			has_cosmetic_tag = BGF_tusk_final
+		}
+	}
+}
+
+BGF_complete_gorczynski = {
+	possible = {
+		original_tag = BGF
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = BGF_complete_gorczynski_tt
+			has_cosmetic_tag = BGF_cba_final
+		}
+	}
+}
+
+BGF_complete_kaczor = {
+	possible = {
+		original_tag = BGF
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = BGF_complete_kaczor_tt
+			has_cosmetic_tag = BGF_kaczor_final
+		}
+	}
+}
+
+BGF_complete_stolarek = {
+	possible = {
+		original_tag = BGF
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = BGF_complete_stolarek_tt
+			has_cosmetic_tag = BGF_stolarek_final
+		}
+	}
+}
+
+BGF_complete_mienso = {
+	possible = {
+		original_tag = BGF
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = BGF_complete_mienso_tt
+			has_cosmetic_tag = BGF_doom_final
+		}
+	}
+}
+
+BGF_complete_komuna = {
+	possible = {
+		original_tag = BGF
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = BGF_complete_komuna_tt
+			has_cosmetic_tag = BGF_komuna_final
+		}
+	}
+}
+
+BGF_complete_nazbolejarczyk = {
+	possible = {
+		original_tag = BGF
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = BGF_complete_nazbolejarczyk_tt
+			has_cosmetic_tag = BGF_nazbol_final
+		}
+	}
+}
+
+BGF_complete_celsa = {
+	possible = {
+		original_tag = BGF
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = BGF_complete_celsa_tt
+			has_cosmetic_tag = BGF_celsa_final
+		}
+	}
+}

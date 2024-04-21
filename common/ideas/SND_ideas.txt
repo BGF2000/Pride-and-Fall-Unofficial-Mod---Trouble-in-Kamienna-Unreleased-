@@ -1,0 +1,39 @@
+ideas = {
+    country = {
+        # Cała rozgrywka #
+        SND_the_power_of_united_centre = {
+            allowed = {
+				original_tag = SND
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = SND_the_power_of_united_centre
+			modifier = {
+                army_defence_factor = 0.15
+                army_attack_factor = -0.05
+                army_speed_factor = -0.05
+                stability_weekly = 0.005
+			}
+        }
+
+        SND_splacanie_dlugow = {
+            allowed = {
+				original_tag = SND
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			#picture = SND_splacanie_dlugow
+			modifier = {
+                consumer_goods_factor = 0.15
+			}
+        }
+    }
+}

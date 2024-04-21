@@ -1,0 +1,710 @@
+ideas = {
+    country = {
+		# Specyficzne dla danej ścieżki (tylko dla SI) #
+		#BGF_radicals_debuff = {
+        #    allowed = {
+		#		original_tag = BGF
+		#		is_ai = yes
+		#	}
+		#	
+		#	allowed_civil_war = {
+		#		always = yes
+		#	}
+		#
+		#	available = {
+		#		OR = {
+		#			has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_ATEIZM }
+		#			has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_NAZBOL }
+		#			has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_CELSA }
+		#			has_game_rule = { rule = BGF_PATH_BEHAVIOR option = OSTROWIEC_DOOM }
+		#		}
+		#		NOT = { has_completed_focus = BGF_back_from_dead }
+		#	}
+		#
+		#	removal_cost = -1
+		#	#picture = BGF_wara_ziobro
+		#	modifier = {
+		#		army_attack_factor = -10
+        #        army_defence_factor = -10
+        #        army_morale_factor = -1
+		#		army_speed_factor = -1
+		#	}
+        #}
+
+		# Cała rozgrywka #
+        BGF_wara_ziobro = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_wara_ziobro
+			modifier = {
+				army_attack_factor = 0.05
+                army_defence_factor = 0.1
+                army_morale_factor = 0.02
+				political_power_gain = -0.1
+			}
+        }
+
+		BGF_a_long_road_ahead_3 = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_a_long_road_ahead_pic
+			modifier = {
+				civilian_factory_use = 3
+				political_power_gain = -0.3
+			}
+        }
+
+		BGF_a_long_road_ahead_2 = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_a_long_road_ahead_pic
+			modifier = {
+				civilian_factory_use = 2
+				political_power_gain = -0.2
+			}
+        }
+
+		BGF_a_long_road_ahead = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_a_long_road_ahead_pic
+			modifier = {
+				civilian_factory_use = 1
+				political_power_gain = -0.1
+			}
+        }
+
+		BGF_computer_in_every_house_idea = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_computer_in_every_house_pic
+			modifier = {
+				research_speed_factor = 0.05
+			}
+        }
+
+		BGF_tv_in_every_house_idea = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_tv_in_every_house_pic
+			modifier = {
+				non_core_manpower = 0.03
+				compliance_growth = 0.05
+			}
+        }
+
+		BGF_AK_heritage = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_AK_heritage_pic
+			modifier = {
+				resistance_growth_on_our_occupied_states = 0.2
+				compliance_growth_on_our_occupied_states = -0.2
+			}
+        }
+
+		BGF_NATO_heritage = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_NATO_heritage_pic
+			modifier = {
+				army_speed_factor = 0.2
+				army_morale_factor = 0.1
+			}
+        }
+
+		BGF_technology_our_future = {
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_technology_our_future_pic
+			modifier = {
+				research_speed_factor = 0.25
+				consumer_goods_factor = 0.1
+				paternal_conservatism_drift = -0.02
+				autocracy_dirft = -0.02
+			}
+		}
+
+		BGF_little_technocracy_idea = {
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_technology_our_future_pic
+			modifier = {
+				research_speed_factor = 0.35
+				consumer_goods_factor = 0.2
+				master_ideology_drift = 0.05
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+		BGF_polak_historyk = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_polak_historyk_pic
+			modifier = {
+				neonationalism_drift = 0.01
+				reactionary_drift = 0.01
+				stability_factor = -0.25
+				war_support_factor = 0.2
+				war_stability_factor = 0.5
+				coring_cost_factor = -0.3
+				army_attack_factor = 0.15
+				army_defence_factor = -0.15
+				army_morale_factor = -0.1
+			}
+        }
+
+		BGF_polak_patriota = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_polak_historyk_pic
+			modifier = {
+				master_ideology_drift = 0.02
+				war_support_factor = 0.2
+				war_stability_factor = 0.5
+				coring_cost_factor = -0.3
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_morale_factor = 0.1
+				conscription_factor = 0.015
+			}
+        }
+
+		BGF_power_struggle_idea = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_power_struggle_idea_pic
+			modifier = {
+				political_power_gain = -0.8
+				stability_factor = -0.2
+				socialdemocrature_drift = -0.01
+				euroliberalism_drift = -0.01
+				freemarketism_drift = -0.01
+				paternal_conservatism_drift = -0.01
+				if = {
+					limit = {
+						has_idea = BGF_polak_historyk
+					}
+					neonationalism_drift = 0.01
+					reactionary_drift = 0.01
+					corporativism_drift = 0.02
+				}
+			}
+        }
+
+		BGF_power_struggle_idea_horrible = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_power_struggle_idea_pic
+			modifier = {
+				political_power_gain = -0.64
+				stability_factor = -0.16
+				socialdemocrature_drift = -0.01
+				euroliberalism_drift = -0.01
+				freemarketism_drift = -0.01
+				paternal_conservatism_drift = -0.01
+			}
+        }
+
+		BGF_power_struggle_idea_bad = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_power_struggle_idea_pic
+			modifier = {
+				political_power_gain = -0.48
+				stability_factor = -0.12
+			}
+        }
+
+		BGF_power_struggle_idea_normal = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_power_struggle_idea_pic
+			modifier = {
+				political_power_gain = -0.32
+				stability_factor = -0.08
+			}
+        }
+
+		BGF_power_struggle_idea_lite = {
+            allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_power_struggle_idea_pic
+			modifier = {
+				political_power_gain = -0.16
+				stability_factor = -0.04
+				socialdemocrature_drift = 0.01
+				euroliberalism_drift = 0.01
+				freemarketism_drift = 0.01
+				paternal_conservatism_drift = 0.01
+			}
+        }
+
+		BGF_remove_competition_idea = {
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_remove_competition_idea_pic
+			modifier = {
+				socialdemocrature_drift = -0.05
+				political_power_gain = 0.25
+				stability_weekly = 0.02
+			}
+		}
+
+		BGF_cut_social_spendings_idea = {
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_cut_social_spendings_idea_pic
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.1
+				political_power_gain = 0.2
+				euroliberalism_drift = -0.05
+			}
+		}
+
+		BGF_regulated_markets = {
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_regulated_markets_pic
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = -0.1 # Ludzie nie lubią zmian, o czym świadczy wygrana KO w wyborach i niezadowolenie wśród biskupów
+				freemarketism_drift = 0.05 # A jednak to przekonuje niektórych
+				socialdemocrature_drift = 0.05
+			}
+		}
+
+		BGF_SD_status_quo = { # Jaka będzie nasza polityka?
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_status_quo
+			modifier = {
+				political_power_gain = -0.25
+				stability_factor = -0.15
+				master_ideology_drift = -0.02
+			}
+		}
+
+		BGF_lib_status_quo = { # Jakie wolności damy naszym obywatelom?
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_status_quo
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_weekly = -0.01
+				master_ideology_drift = -0.02
+			}
+		}
+
+		BGF_free_status_quo = { # Co pozwolimy sprzedawać na wolnym rynku?
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_status_quo
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				local_resources_factor = -0.1
+			}
+		}
+
+		BGF_centre_status_quo = { # Jak sobie poradzimy z PiSem?
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_status_quo
+			modifier = {
+				paternal_conservatism_drift = 0.1
+				political_power_factor = -0.35
+			}
+		}
+
+		BGF_plagued_with_corporats = {
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_plagued_with_corporats_pic
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_factor = -0.3
+				production_speed_industrial_complex_factor = -0.3
+				production_speed_arms_factory_factor = -0.3
+				industrial_capacity_factory = -0.15
+			}
+		}
+
+		BGF_plagued_with_corporats_2 = {
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_plagued_with_corporats_pic
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = -0.2
+				production_speed_industrial_complex_factor = -0.2
+				production_speed_arms_factory_factor = -0.2
+				industrial_capacity_factory = -0.1
+			}
+		}
+
+		BGF_plagued_with_corporats_3 = {
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_plagued_with_corporats_pic
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = -0.1
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = -0.1
+				industrial_capacity_factory = -0.05
+			}
+		}
+
+		BGF_plagued_with_defeatism = {
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_plagued_with_defeatism_pic
+			modifier = {
+				conscription = -0.025
+				war_support_factor = -0.25
+				war_stability_factor = -0.35
+				army_defence_factor = -0.25
+			}
+		}
+
+		BGF_better_industry_idea = {
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_better_industry_pic
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+				production_speed_rail_way_factor = 0.1
+			}
+		}
+
+		BGF_minor_corpo_strike = {
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_plagued_with_corporats_pic
+			modifier = {
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.15
+				political_power_factor = -0.25
+			}
+		}
+
+		BGF_major_corpo_strike = {
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_plagued_with_corporats_pic
+			modifier = {
+				industrial_capacity_factory = -0.25
+				production_speed_buildings_factor = -0.45
+				political_power_factor = -0.5
+				stability_weekly = -0.03
+			}
+		}
+
+		BGF_refugees_idea = {
+			allowed = {
+				is_poland_unifier = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = BGF_remove_competition_idea_pic
+			modifier = {
+				monthly_population = 0.25
+				stability_weekly = -0.005
+				opinion_gain_monthly_factor = -0.35
+				political_power_gain = -0.045
+			}
+		}
+
+		BGF_sprawna_armia = { # Warto będzie czekać
+			allowed = {
+				original_tag = BGF
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			picture = BGF_sprawna_armia_pic
+			modifier = {
+				production_speed_rail_way_factor = 0.25
+				production_speed_infrastructure_factor = 0.25
+				army_speed_factor = 0.65
+				army_morale_factor = 0.35
+				army_attack_factor = 0.15
+			}
+		}
+	}
+
+	industrial_company = {
+		use_list_view = yes
+
+		nowa_era_ostrowiec = {
+			picture = generic_industrial_concern_1
+			allowed = { original_tag = BGF }
+			available = { has_completed_focus = BGF_print_new_textbooks NOT = { has_country_flag = BGF_conglomerates_are_poof } }
+			cost = 200
+			traits = { school_textbooks_producer }
+			research_bonus = {
+				electronics = 0.05
+				industry = 0.05 # Inne nie pasujo
+			}
+			#stability_factor = 0.01 # Czeka nas Nowa Era po zjedoczeniu Polski
+			#war_support_factor = 0.04 # WCZORAJ I DZIŚ - MARZENIA O WIELKIEJ POLSCE
+			#consumer_goods_factor = 0.03 # Najbardziej bogata firma szkolna potrzebuje też funduszy na propa- znaczy się dokształcanie młodych ludzi
+		}
+
+		wsip_ostrowiec = {
+			picture = generic_industrial_concern_1
+			allowed = { original_tag = BGF }
+			available = { has_completed_focus = BGF_print_new_textbooks }
+			cost = 200
+			traits = { school_textbooks_producer }
+			research_bonus = {
+				electronics = 0.2
+				industry = -0.1 # Nauki ścicłe, bo tak
+			}
+			#political_power_gain = 0.15 # Dosłownie rok 1945 (wtedy został stworzone WSiP)
+		}
+		
+		#fundacja_promyk = { # Kinga Wnuk moment (na razie nie będzie używany)
+		#	picture = generic_industrial_concern_1
+		#	#picture = promyk
+		#	allowed = {
+		#		original_tag = BGF
+		#		has_country_leader = { character = BGF_kinga_wnuk }
+		#	}
+		#	cost = 200
+		#	traits = { charity_organisation }
+		#	#stability_weekly = 0.02
+		#	#political_power_gain = 0.2
+		#}
+	}
+}

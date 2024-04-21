@@ -1,0 +1,79 @@
+division_template = {
+	name = "Gwardia Miejska"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Standardowy Batalion Piechoty"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 1 y = 0 }
+		melee_infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Dywizja Rzeczna"
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Milicja Świętokrzyska"
+		location = 3080
+		division_template = "Gwardia Miejska"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Gwardia Liderska"
+		location = 16816
+		division_template = "Standardowy Batalion Piechoty"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Oddział Dzielnicowy Piaski"
+		location = 16817
+		division_template = "Gwardia Miejska"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Oddział Częstocicki"
+		location = 2682
+		division_template = "Gwardia Miejska"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Jurajska Dywizja Opatowa"
+		location = 3934
+		division_template = "Standardowy Batalion Piechoty"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Dywizja Kamienna"
+		location = 16822
+		division_template = "Dywizja Rzeczna"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Oddział Ćmielowski"
+		location = 2134
+		division_template = "Standardowy Batalion Piechoty"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}

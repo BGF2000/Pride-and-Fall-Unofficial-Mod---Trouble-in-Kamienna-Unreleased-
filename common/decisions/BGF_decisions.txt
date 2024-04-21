@@ -1,0 +1,1284 @@
+BGF_try_to_negociate = {
+    BGF_negociate_with_SND = {
+        visible = {
+            any_neighbor_country = { original_tag = SND }
+            NOT = { has_war_with = SND }
+            SND = { country_exists = yes }
+        }
+
+        available = {
+            always = yes
+            #SND = {
+            #    custom_trigger_tooltip = {
+			#	    tooltip = BGF_negociate_with_SND_tt
+			#	    OR = {
+            #            has_government = socialdemocrature
+            #            has_government = euroliberalism
+            #            has_government = freemarketism
+            #        }
+			#    }
+            #}
+        }
+        cost = 75
+		fire_only_once = yes
+		days_remove = 14
+        remove_effect = {
+            #custom_effect_tooltip = BGF_warning_tt
+			SND = { country_event = { id = ostrowiec_negociations.1 } }
+		}
+    }
+}
+
+BGF_power_struggle = {
+    ### Our alignment towards certain parties ###
+    BGF_support_socialdemocrature = {
+        allowed {
+            original_tag = BGF
+        }
+
+        visible = {
+            OR = {
+                has_country_flag = BGF_mamy_bardzo_zle
+                has_country_flag = BGF_mamy_przejebane
+            }
+            NOT = {
+                OR = {
+                    has_country_flag = BGF_supports_SD
+                    has_country_flag = BGF_supports_liberals
+                    has_country_flag = BGF_supports_free_market
+                    has_country_flag = BGF_supports_centrist_party
+                }
+                has_country_flag = BGF_no_more_power_struggle
+            }
+        }
+
+        available = {
+            always = yes
+        }
+        cost = 5
+        fire_only_once = yes
+        ai_will_do = {
+			base = 25 # They ARE Social-Democrats, after all...
+            modifier = {
+                add = 50
+                OR = {
+                    has_game_rule = { rule = BGF_path_behavior option = OSTROWIEC_WHOLESOME }
+                    has_game_rule = { rule = BGF_path_behavior option = OSTROWIEC_UNWHOLESOME }
+                }
+            }
+		}
+		#days_remove = 3
+        complete_effect = {
+            custom_effect_tooltip = BGF_wincyj_opcyji_tt
+			set_country_flag = BGF_supports_SD
+            activate_mission = BGF_end_of_internal_fights
+            complete_national_focus = BGF_side_with_socialdems
+        }
+    }
+    BGF_support_euroliberalism = {
+        allowed {
+            original_tag = BGF
+        }
+
+        visible = {
+            OR = {
+                has_country_flag = BGF_mamy_bardzo_zle
+                has_country_flag = BGF_mamy_przejebane
+            }
+            NOT = {
+                OR = {
+                    has_country_flag = BGF_supports_SD
+                    has_country_flag = BGF_supports_liberals
+                    has_country_flag = BGF_supports_free_market
+                    has_country_flag = BGF_supports_centrist_party
+                }
+                has_country_flag = BGF_no_more_power_struggle
+            }
+        }
+
+        available = {
+            always = yes
+        }
+        cost = 5
+        fire_only_once = yes
+        ai_will_do = {
+			base = 25
+            modifier = {
+                add = 50
+                has_game_rule = { rule = BGF_path_behavior option = OSTROWIEC_LIBERAL }
+            }
+		}
+		#days_remove = 3
+        complete_effect = {
+            custom_effect_tooltip = BGF_wincyj_opcyji_tt
+			set_country_flag = BGF_supports_liberals
+            activate_mission = BGF_end_of_internal_fights
+            complete_national_focus = BGF_side_with_liberals
+        }
+    }
+    BGF_support_freemarketism = {
+        allowed {
+            original_tag = BGF
+        }
+
+        visible = {
+            OR = {
+                has_country_flag = BGF_mamy_bardzo_zle
+                has_country_flag = BGF_mamy_przejebane
+            }
+            NOT = {
+                OR = {
+                    has_country_flag = BGF_supports_SD
+                    has_country_flag = BGF_supports_liberals
+                    has_country_flag = BGF_supports_free_market
+                    has_country_flag = BGF_supports_centrist_party
+                }
+                has_country_flag = BGF_no_more_power_struggle
+            }
+        }
+
+        available = {
+            always = yes
+        }
+        cost = 5
+        fire_only_once = yes
+        ai_will_do = {
+			base = 25
+            modifier = {
+                add = 50
+                has_game_rule = { rule = BGF_path_behavior option = OSTROWIEC_CBA }
+            }
+		}
+		#days_remove = 3
+        complete_effect = {
+            custom_effect_tooltip = BGF_wincyj_opcyji_tt
+			set_country_flag = BGF_supports_free_market
+            activate_mission = BGF_end_of_internal_fights
+            complete_national_focus = BGF_side_with_free_markets
+        }
+    }
+    BGF_support_centrism = {
+        allowed {
+            original_tag = BGF
+        }
+
+        visible = {
+            OR = {
+                has_country_flag = BGF_mamy_bardzo_zle
+                has_country_flag = BGF_mamy_przejebane
+            }
+            NOT = {
+                OR = {
+                    has_country_flag = BGF_supports_SD
+                    has_country_flag = BGF_supports_liberals
+                    has_country_flag = BGF_supports_free_market
+                    has_country_flag = BGF_supports_centrist_party
+                }
+                has_country_flag = BGF_no_more_power_struggle
+            }
+        }
+
+        available = {
+            always = yes
+        }
+        cost = 5
+        fire_only_once = yes
+        ai_will_do = {
+			base = 25
+            modifier = {
+                add = 50
+                has_game_rule = { rule = BGF_path_behavior option = OSTROWIEC_KACZOR }
+            }
+		}
+		#days_remove = 3
+        complete_effect = {
+            custom_effect_tooltip = BGF_wincyj_opcyji_tt
+			set_country_flag = BGF_supports_centrist_party
+            activate_mission = BGF_end_of_internal_fights
+            complete_national_focus = BGF_side_with_centrists
+        }
+    }
+    BGF_choose_something_god_damnit = {
+        allowed {
+            always = no
+        }
+
+        visible = {
+            NOT = {
+                has_country_flag = BGF_supports_SD
+                has_country_flag = BGF_supports_liberals
+                has_country_flag = BGF_supports_free_market
+                has_country_flag = BGF_supports_centrist_party
+                has_country_flag = BGF_no_more_power_struggle
+            }
+            has_completed_focus = BGF_one_and_only
+        }
+
+        available = {
+            OR = {
+                has_country_flag = BGF_supports_SD
+                has_country_flag = BGF_supports_liberals
+                has_country_flag = BGF_supports_free_market
+                has_country_flag = BGF_supports_centrist_party
+            }
+        }
+        icon = mission_icon
+		fire_only_once = yes
+		days_mission_timeout = 10
+
+        timeout_effect = {
+            log = "[GetDateText]: Decision BGF_power_struggle Ktoś tu gra Szwajcara"
+                custom_effect_tooltip = BGF_wincyj_opcyji_schweiz_tt
+                hidden_effect = {
+                    random_list = {
+                        25 = { set_country_flag = BGF_supports_SD }
+                        25 = { set_country_flag = BGF_supports_liberals }
+                        25 = { set_country_flag = BGF_supports_free_market }
+                        25 = { set_country_flag = BGF_supports_centrist_party }
+                    }
+                }
+                activate_mission = BGF_end_of_internal_fights
+        }
+    }
+    ### Generic options ###
+    BGF_end_of_internal_fights = {
+
+        allowed = {
+            always = no
+        }
+
+        visible = {
+            OR = {
+                has_country_flag = BGF_supports_SD
+                has_country_flag = BGF_supports_liberals
+                has_country_flag = BGF_supports_free_market
+                has_country_flag = BGF_supports_centrist_party
+            }
+        }
+
+        available = {
+            always = no
+        }
+
+        cancel_trigger = {
+            OR = {
+                custom_trigger_tooltip = {
+                    tooltip = BGF_radykalisci_w_akcji_tt
+                    has_country_flag = BGF_radykalizm_gurom
+                }
+                custom_trigger_tooltip = {
+                    tooltip = BGF_uogromnie_maua_szansa_tt
+                    has_country_flag = BGF_kel_to_gigaczad
+                }
+            }
+        }
+        icon = mission_icon
+		fire_only_once = yes
+		days_mission_timeout = 256
+
+        timeout_effect = {
+            log = "[GetDateText]: Decision BGF_end_of_internal_fights ended"
+            if = {
+                limit = {
+                    custom_trigger_tooltip = {
+                        tooltip = BGF_SD_gurom_tt
+                        OR = {
+                            check_variable = { # Majority (over 50%)
+                                var = socialdemocrature_support
+                                value = 50
+                                compare = greater_than
+                            }
+                            check_variable = { # Phyrric majority (more than any other party but less than 50%)
+                                socialdemocrature_support > liberalism_support
+                                socialdemocrature_support > freemarketism_support
+                                socialdemocrature_support > holownite_support
+                            }
+                        }
+                    }
+                }
+                log = "[GetDateText]: Decision BGF_end_of_internal_fights - Socialdemocrature Win"
+                country_event = { id = ostrowiec_power_struggles.2 days = 1 }
+            }
+            else_if = {
+                limit = {
+                    custom_trigger_tooltip = {
+                        tooltip = BGF_EL_gurom_tt
+                        OR = {
+                            check_variable = { # Majority (over 50%)
+                                var = liberalism_support
+                                value = 50
+                                compare = greater_than
+                            }
+                            check_variable = { # Phyrric majority (more than any other party but less than 50%)
+                                liberalism_support > socialdemocrature_support
+                                liberalism_support > freemarketism_support
+                                liberalism_support > holownite_support
+                            }
+                        }
+                    }
+                }
+                log = "[GetDateText]: Decision BGF_end_of_internal_fights - Euroliberalism Win"
+                country_event = { id = ostrowiec_power_struggles.3 days = 1 }
+            }
+            else_if = {
+                limit = {
+                    custom_trigger_tooltip = {
+                        tooltip = BGF_FM_gurom_tt
+                        OR = {
+                            check_variable = { # Majority (over 50%)
+                                var = freemarketism_support
+                                value = 50
+                                compare = greater_than
+                            }
+                            check_variable = { # Phyrric majority (more than any other party but less than 50%)
+                                freemarketism_support > socialdemocrature_support
+                                freemarketism_support > liberalism_support
+                                freemarketism_support > holownite_support
+                            }
+                        }
+                    }
+                }
+                log = "[GetDateText]: Decision BGF_end_of_internal_fights - Freemarketism Win"
+                country_event = { id = ostrowiec_power_struggles.4 days = 1 }
+            }
+            else_if = {
+                limit = {
+                    custom_trigger_tooltip = {
+                        tooltip = BGF_SH_gurom_tt
+                        OR = {
+                            check_variable = { # Majority (over 50%)
+                                var = holownite_support
+                                value = 50
+                                compare = greater_than
+                            }
+                            check_variable = { # Phyrric majority (more than any other party but less than 50%)
+                                holownite_support > socialdemocrature_support
+                                holownite_support > liberalism_support
+                                holownite_support > freemarketism_support
+                            }
+                        }
+                    }
+                }
+                log = "[GetDateText]: Decision BGF_end_of_internal_fights - Centrism Win"
+                country_event = { id = ostrowiec_power_struggles.5 days = 1 }
+            }
+            else = { # No real majority (a.k.a. a tie)
+                log = "[GetDateText]: Decision BGF_end_of_internal_fights - No Winner"
+                country_event = { id = ostrowiec_power_struggles.6 days = 1 }
+            }
+        }
+    }
+
+    BGF_gather_army_support = {
+        allowed {
+            original_tag = BGF
+        }
+
+        visible = {
+            OR = {
+                has_country_flag = BGF_mamy_bardzo_zle
+                has_country_flag = BGF_mamy_przejebane
+            }
+            OR = {
+                has_country_flag = BGF_supports_SD
+                has_country_flag = BGF_supports_liberals
+                has_country_flag = BGF_supports_free_market
+                has_country_flag = BGF_supports_centrist_party
+            }
+            NOT = { has_country_flag = BGF_lesser_costs }
+        }
+
+        available = {
+            always = yes
+        }
+
+        custom_cost_text = decision_cost_CP_50
+        custom_cost_trigger = {
+            command_power > 49
+        }
+
+        ai_will_do = {
+			base = 20
+		}
+		days_remove = 10
+        days_re_enable = 30
+        remove_effect = {
+            add_command_power = -50
+            add_political_power = 50
+        }
+    }
+
+    BGF_gather_army_support_less_cost = {
+        allowed {
+            original_tag = BGF
+        }
+
+        visible = {
+            OR = {
+                has_country_flag = BGF_mamy_bardzo_zle
+                has_country_flag = BGF_mamy_przejebane
+            }
+            OR = {
+                has_country_flag = BGF_supports_SD
+                has_country_flag = BGF_supports_liberals
+                has_country_flag = BGF_supports_free_market
+                has_country_flag = BGF_supports_centrist_party
+            }
+            has_country_flag = BGF_lesser_costs
+        }
+
+        available = {
+            always = yes
+        }
+
+        custom_cost_text = decision_cost_CP_35
+        custom_cost_trigger = {
+            command_power > 34
+        }
+
+        ai_will_do = {
+			base = 20
+		}
+		days_remove = 5
+        days_re_enable = 15
+        remove_effect = {
+            add_command_power = -35
+            add_political_power = 35
+        }
+    }
+
+    BGF_fight_with_other_ideologies = {
+        allowed {
+            original_tag = BGF
+        }
+
+        visible = {
+            OR = {
+                has_country_flag = BGF_mamy_bardzo_zle
+                has_country_flag = BGF_mamy_przejebane
+            }
+            OR = {
+                has_country_flag = BGF_supports_SD
+                has_country_flag = BGF_supports_liberals
+                has_country_flag = BGF_supports_free_market
+                has_country_flag = BGF_supports_centrist_party
+            }
+            NOT = { has_country_flag = BGF_lesser_costs }
+        }
+
+        available = {
+            always = yes
+        }
+
+        cost = 35
+
+        ai_will_do = {
+			base = 15
+		}
+        days_remove = 20
+        days_re_enable = 30
+        remove_effect = {
+            if = {
+                limit = {
+                    ROOT = { has_country_flag = BGF_supports_SD }
+                }
+                BGF_support_sd_effect = yes
+            }
+            else_if = {
+                limit = {
+                    ROOT = { has_country_flag = BGF_supports_liberals }
+                }
+                BGF_support_lib_effect = yes
+            }
+            else_if = {
+                limit = {
+                    ROOT = { has_country_flag = BGF_supports_free_market }
+                }
+                BGF_support_free_effect = yes
+            }
+            else_if = {
+                limit = {
+                    ROOT = { has_country_flag = BGF_supports_centrist_party }
+                }
+                BGF_support_centre_effect = yes
+            }
+        }
+    }
+
+    BGF_fight_with_other_ideologies_less_cost = {
+        allowed {
+            original_tag = BGF
+        }
+
+        visible = {
+            OR = {
+                has_country_flag = BGF_mamy_bardzo_zle
+                has_country_flag = BGF_mamy_przejebane
+            }
+            OR = {
+                has_country_flag = BGF_supports_SD
+                has_country_flag = BGF_supports_liberals
+                has_country_flag = BGF_supports_free_market
+                has_country_flag = BGF_supports_centrist_party
+            }
+            has_country_flag = BGF_lesser_costs
+        }
+
+        available = {
+            always = yes
+        }
+
+        cost = 20
+
+        ai_will_do = {
+			base = 15
+		}
+        days_remove = 10
+        days_re_enable = 15
+        remove_effect = {
+            if = {
+                limit = {
+                    ROOT = { has_country_flag = BGF_supports_SD }
+                }
+                BGF_support_sd_effect = yes
+            }
+            else_if = {
+                limit = {
+                    ROOT = { has_country_flag = BGF_supports_liberals }
+                }
+                BGF_support_lib_effect = yes
+            }
+            else_if = {
+                limit = {
+                    ROOT = { has_country_flag = BGF_supports_free_market }
+                }
+                BGF_support_free_effect = yes
+            }
+            else_if = {
+                limit = {
+                    ROOT = { has_country_flag = BGF_supports_centrist_party }
+                }
+                BGF_support_centre_effect = yes
+            }
+        }
+    }
+    ### Side-specific options ###
+    BGF_socialdems_are_up_to_sth = {
+        allowed = {
+            always = no
+        }
+
+        visible = {
+            OR = {
+                AND = {
+                    has_country_flag = BGF_supports_liberals
+                    NOT = { has_country_flag = BGF_befriended_socialdems }
+                }
+                has_country_flag = BGF_supports_free_market
+                has_country_flag = BGF_supports_centrist_party
+            }
+        }
+
+        available = {
+            always = no
+        }
+        icon = mission_icon
+		fire_only_once = yes
+		days_mission_timeout = 20
+        timeout_effect = {
+            log = "[GetDateText]: Decision BGF_end_of_internal_fights BGF_socialdems_are_up_to_sth"
+            BGF_support_sd_effect = yes
+        }
+    }
+
+    BGF_liberals_are_up_to_sth = {
+        allowed = {
+            always = no
+        }
+
+        visible = {
+            OR = {
+                AND = {
+                    has_country_flag = BGF_supports_SD
+                    NOT = { has_country_flag = BGF_befriended_liberals }
+                }
+                has_country_flag = BGF_supports_free_market
+                has_country_flag = BGF_supports_centrist_party
+            }
+        }
+
+        available = {
+            always = no
+        }
+        icon = mission_icon
+		fire_only_once = yes
+		days_mission_timeout = 20
+        timeout_effect = {
+            log = "[GetDateText]: Decision BGF_end_of_internal_fights BGF_liberals_are_up_to_sth"
+            BGF_support_lib_effect = yes
+        }
+    }
+
+    BGF_free_markets_are_up_to_sth = {
+        allowed = {
+            always = no
+        }
+
+        visible = {
+            OR = {
+                has_country_flag = BGF_supports_SD
+                has_country_flag = BGF_supports_liberals
+                AND = {
+                    has_country_flag = BGF_supports_centrist_party
+                    NOT = { has_completed_focus = BGF_centrism_to_go }
+                }
+            }
+        }
+
+        available = {
+            always = no
+        }
+        icon = mission_icon
+		fire_only_once = yes
+		days_mission_timeout = 20
+        timeout_effect = {
+            log = "[GetDateText]: Decision BGF_end_of_internal_fights BGF_free_markets_are_up_to_sth"
+            BGF_support_free_effect = yes
+        }
+    }
+
+    BGF_centrists_are_up_to_sth = {
+        allowed = {
+            always = no
+        }
+
+        visible = {
+            OR = {
+                has_country_flag = BGF_supports_SD
+                has_country_flag = BGF_supports_liberals
+                AND = {
+                    has_country_flag = BGF_supports_free_market
+                    NOT = { has_completed_focus = BGF_free_market_to_go }
+                }
+            }
+        }
+
+        available = {
+            always = no
+        }
+        icon = mission_icon
+		fire_only_once = yes
+		days_mission_timeout = 20
+        timeout_effect = {
+            log = "[GetDateText]: Decision BGF_end_of_internal_fights BGF_centrists_are_up_to_sth"
+            BGF_support_centre_effect = yes
+        }
+    }
+}
+
+BGF_kolejna_runda_z_zerem = {
+    BGF_recruit_kibole_kszo = {
+        available = {
+            has_completed_focus = BGF_kibole_kszo_na_ratunek
+        }
+
+        custom_cost_text = decision_cost_CP_15
+        custom_cost_trigger = {
+            command_power > 14
+        }
+
+        ai_will_do = {
+			base = 15
+		}
+        days_remove = 5
+        days_re_enable = 10
+        remove_effect = {
+            add_manpower = -3500
+            custom_effect_tooltip = BGF_kibole_kszo_na_ratunek_decyzja
+            hidden_effect = {
+                load_oob = "BGF_Zibro_Wojenka"
+            }
+        }
+    }
+}
+
+BGF_fight_conglomerates = {
+    # CELSA
+    BGF_cut_ties_with_celsa = {
+        available = {
+            has_completed_focus = BGF_destroy_conglomerates
+            NOT = {
+                has_country_flag = BGF_dealing_with_neue_aera
+                has_country_flag = BGF_dealing_with_schappka
+            }
+        }
+
+        visible = {
+            always = yes
+        }
+
+        cost = 75
+        ai_will_do = {
+			base = 15
+		}
+        fire_only_once = yes
+        complete_effect = {
+            set_country_flag = BGF_dealing_with_tselssa
+        }
+        remove_effect = {
+            country_event = { id = ostrowiec_konglomeraty.1 days = 2 }
+        }
+    }
+    BGF_limit_influence_of_celsa = {
+        available = {
+            check_variable = {
+                var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+                value = 1
+                compare = equals
+            }
+            NOT = {
+                has_country_flag = BGF_dealing_with_neue_aera
+                has_country_flag = BGF_dealing_with_schappka
+            }
+        }
+
+        visible = {
+            always = yes
+        }
+
+        cost = 75
+        ai_will_do = {
+			base = 15
+		}
+        fire_only_once = yes
+        days_remove = 14
+        remove_effect = {
+            country_event = { id = ostrowiec_konglomeraty.2 days = 2 }
+        }
+    }
+    BGF_replace_celsa_with_ursus = { # To nie tak, że polski rolnik nie będzie kupował polskiego sprzętu (choć nadal chce, by Polak kupował jego polskie ziemniaki - nawet, jeżeli ich nie lubi)
+        available = {
+            check_variable = {
+                var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+                value = 2
+                compare = equals
+            }
+            NOT = {
+                has_country_flag = BGF_dealing_with_neue_aera
+                has_country_flag = BGF_dealing_with_schappka
+            }
+        }
+
+        visible = {
+            always = yes
+        }
+
+        cost = 75
+        ai_will_do = {
+			base = 15
+		}
+        fire_only_once = yes
+        days_remove = 28
+        remove_effect = {
+            country_event = { id = ostrowiec_konglomeraty.3 days = 2 }
+        }
+    }
+    BGF_smash_spaniards = {
+        available = {
+            check_variable = {
+                var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+                value = 3
+                compare = equals
+            }
+            NOT = {
+                has_country_flag = BGF_dealing_with_neue_aera
+                has_country_flag = BGF_dealing_with_schappka
+            }
+        }
+
+        visible = {
+            always = yes
+        }
+
+        cost = 75
+        ai_will_do = {
+			base = 15
+		}
+        fire_only_once = yes
+        days_remove = 14
+        remove_effect = {
+            country_event = { id = ostrowiec_konglomeraty.4 days = 2 }
+        }
+    }
+
+    # Nowa Era
+    BGF_cut_ties_with_nowa_era = {
+        available = {
+            has_completed_focus = BGF_destroy_conglomerates
+            NOT = {
+                has_country_flag = BGF_dealing_with_tselssa
+                has_country_flag = BGF_dealing_with_schappka
+            }
+        }
+
+        visible = {
+            always = yes
+        }
+
+        cost = 75
+        ai_will_do = {
+			base = 15
+		}
+        fire_only_once = yes
+        complete_effect = {
+            set_country_flag = BGF_dealing_with_neue_aera
+        }
+        remove_effect = {
+            country_event = { id = ostrowiec_konglomeraty.5 days = 2 }
+        }
+    }
+    BGF_give_more_power_to_wsip = { # WSiP (według wielu nauczycieli w 2028 roku) jest bardziej zaufane niż Nowa Era, która jest częściowo ideologiczna w sprawach historii oraz języka polskiego
+        available = {
+            check_variable = {
+                var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+                value = 1
+                compare = equals
+            }
+            NOT = {
+                has_country_flag = BGF_dealing_with_tselssa
+                has_country_flag = BGF_dealing_with_schappka
+            }
+        }
+
+        visible = {
+            always = yes
+        }
+
+        cost = 75
+        ai_will_do = {
+			base = 15
+		}
+        fire_only_once = yes
+        days_remove = 14
+        remove_effect = {
+            country_event = { id = ostrowiec_konglomeraty.6 days = 2 }
+        }
+    }
+    BGF_weaken_nowa_era = {
+        available = {
+            check_variable = {
+                var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+                value = 2
+                compare = equals
+            }
+            NOT = {
+                has_country_flag = BGF_dealing_with_tselssa
+                has_country_flag = BGF_dealing_with_schappka
+            }
+        }
+
+        visible = {
+            always = yes
+        }
+
+        cost = 75
+        ai_will_do = {
+			base = 15
+		}
+        fire_only_once = yes
+        days_remove = 21
+        remove_effect = {
+            country_event = { id = ostrowiec_konglomeraty.7 days = 2 }
+        }
+    }
+    BGF_rapture_textbook_companys_intestines = {
+        available = {
+            check_variable = {
+                var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+                value = 3
+                compare = equals
+            }
+            NOT = {
+                has_country_flag = BGF_dealing_with_tselssa
+                has_country_flag = BGF_dealing_with_schappka
+            }
+        }
+
+        visible = {
+            always = yes
+        }
+
+        cost = 75
+        ai_will_do = {
+			base = 15
+		}
+        fire_only_once = yes
+        days_remove = 7
+        remove_effect = {
+            country_event = { id = ostrowiec_konglomeraty.8 days = 2 }
+        }
+    }
+
+    # Żabka
+    BGF_cut_ties_with_imbeciles = {
+        available = {
+            has_completed_focus = BGF_destroy_conglomerates
+            NOT = {
+                has_country_flag = BGF_dealing_with_neue_aera
+                has_country_flag = BGF_dealing_with_tselssa
+            }
+        }
+
+        visible = {
+            always = yes
+        }
+
+        cost = 75
+        ai_will_do = {
+			base = 15
+		}
+        fire_only_once = yes
+        complete_effect = {
+            set_country_flag = BGF_dealing_with_schappka
+        }
+        remove_effect = {
+            country_event = { id = ostrowiec_konglomeraty.9 days = 2 }
+        }
+    }
+    BGF_avenge_1st_of_september_1992 = { # Niech pamięć o kolesiu rozpuszczonym w kwasie solnym pozostanie na zawsze!
+        available = {
+            check_variable = {
+                var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+                value = 1
+                compare = equals
+            }
+            NOT = {
+                has_country_flag = BGF_dealing_with_tselssa
+                has_country_flag = BGF_dealing_with_neue_aera
+            }
+        }
+
+        visible = {
+            always = yes
+        }
+
+        cost = 75
+        ai_will_do = {
+			base = 15
+		}
+        fire_only_once = yes
+        days_remove = 21
+        remove_effect = {
+            country_event = { id = ostrowiec_konglomeraty.10 days = 2 }
+        }
+    }
+    BGF_demolish_schappkas = {
+        available = {
+            check_variable = {
+                var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+                value = 2
+                compare = equals
+            }
+            NOT = {
+                has_country_flag = BGF_dealing_with_tselssa
+                has_country_flag = BGF_dealing_with_neue_aera
+            }
+        }
+
+        visible = {
+            always = yes
+        }
+
+        cost = 75
+        ai_will_do = {
+			base = 15
+		}
+        fire_only_once = yes
+        days_remove = 35
+        remove_effect = {
+            country_event = { id = ostrowiec_konglomeraty.11 days = 2 }
+        }
+    }
+    BGF_kill_its_leaders = {
+        available = {
+            check_variable = {
+                var = BGF_progres_zwiazany_z_walka_z_konglomeratami
+                value = 3
+                compare = equals
+            }
+            NOT = {
+                has_country_flag = BGF_dealing_with_tselssa
+                has_country_flag = BGF_dealing_with_neue_aera
+            }
+        }
+
+        visible = {
+            always = yes
+        }
+
+        cost = 75
+        ai_will_do = {
+			base = 15
+		}
+        fire_only_once = yes
+        days_remove = 7
+        remove_effect = {
+            country_event = { id = ostrowiec_konglomeraty.12 days = 2 }
+        }
+    }
+}
+
+BGF_balance_of_power_category = { # To Do
+    # Korporacje
+    BGF_organise_pro_corporacy_parades = {
+        allowed = {
+			original_tag = BGF
+		}
+
+        visible = {
+			has_completed_focus = BGF_look_into_local_metropolies
+		}
+
+        available = {
+            NOT = {
+                has_country_leader = { character = BGF2000 } # Chłopiszony mają ważniejsze sprawy niż walka z wojackami firmowymi
+            }
+        }
+
+        cost = 25
+        ai_will_do = {
+			base = 0
+            modifier = {
+                add = 35
+                has_game_rule = { rule = BGF_path_behavior option = OSTROWIEC_CELSA }
+            }
+		}
+
+        days_remove = 5
+        days_re_enable = 25
+        remove_effect = {
+            add_power_balance_value = {
+                id = BGF_power_balance
+                value = -0.1
+            }
+        }
+    }
+
+    # Rząd
+    BGF_divide_and_conquer = {
+        allowed = {
+			original_tag = BGF
+		}
+
+        visible = {
+			always = yes
+		}
+
+        available = {
+            NOT = {
+                has_country_leader = { character = BGF2000 }
+            }
+        }
+
+        cost = 25
+        ai_will_do = {
+			base = 35
+            modifier = {
+                add = -35
+                has_game_rule = { rule = BGF_path_behavior option = OSTROWIEC_CELSA }
+            }
+		}
+
+        days_remove = 5
+        days_re_enable = 25
+        remove_effect = {
+            if = {
+                limit = {
+                    NOT = { has_country_flag = BGF_lessons_from_attacks }
+                }
+                random_list = {
+                    50 = {
+                        add_power_balance_value = {
+                            id = BGF_power_balance
+                            value = 0.1
+                        }
+                    }
+                    50 = {
+                        country_event = { id = ostrowiec_konglomeraty.17 }
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    has_country_flag = BGF_lessons_from_attacks
+                }
+                random_list = {
+                    75 = {
+                        add_power_balance_value = {
+                            id = BGF_power_balance
+                            value = 0.1
+                        }
+                    }
+                    25 = {
+                        country_event = { id = ostrowiec_konglomeraty.17 }
+                    }
+                }
+            }
+        }
+    }
+}
+
+BGF_debug_decisions = {
+    BGF_wara_ziobro_decision = { # Komu chce się bić z Ziobrem?
+        available = {
+            has_war_with = PRK
+        }
+        ai_will_do = {
+            factor = 0
+        }
+        complete_effect = {
+            PRK = {
+                clr_country_flag = ziobro_start_war
+				set_country_flag = ziobro_start_war_lose
+				every_country = {
+					limit = { NOT = { is_ai = yes } }
+					news_event = { id = ziobro.2 }
+					}
+				SND = {
+					add_to_variable = {
+						global.deadPolacksFromPastWars = this.casualties_k
+					}
+				}
+				STA = {
+					add_to_variable = {
+						global.deadPolacksFromPastWars = this.casualties_k
+					}
+				}
+                BGF = {
+					add_to_variable = {
+						global.deadPolacksFromPastWars = this.casualties_k
+					}
+				}
+				add_to_variable = {
+					global.deadPolacksFromPastWars = this.casualties_k
+				}
+                white_peace = SND
+                white_peace = STA
+                white_peace = BGF
+				end_puppet = OSW
+				end_puppet = BOH
+			}
+			BOH = { drop_cosmetic_tag = yes }
+			OSW = { drop_cosmetic_tag = yes }
+        }
+    }
+
+    BGF_wielki_ostrowiec = { # Wszystkie tereny uznawane za należycie ostrowieckie zostaną inkorporowane do Ostrowca
+        available = {
+            always = yes
+        }
+        ai_will_do = {
+            factor = 0
+        }
+        complete_effect = {
+            every_state = {
+                limit = {
+                    is_claimed_by = BGF
+                }
+                remove_claim_by = BGF
+                add_core_of = BGF
+                BGF = {
+                    transfer_state = PREV
+                    set_capital = { state = 416 }
+                }
+            }
+        }
+    }
+
+    BGF_load_focus_ziobro = {
+        available = {
+            always = yes
+        }
+        ai_will_do = {
+            factor = 0
+        }
+        complete_effect = {
+            load_focus_tree = wspolnota_ziobro_focus
+        }
+    }
+
+    BGF_load_focus_ziobro_alternative = {
+        available = {
+            always = yes
+        }
+        ai_will_do = {
+            factor = 0
+        }
+        complete_effect = {
+            load_focus_tree = wspolnota_nagrabiles_se_zioberko_focus
+        }
+    }
+
+    BGF_load_focus_recwar = {
+        available = {
+            always = yes
+        }
+        ai_will_do = {
+            factor = 0
+        }
+        complete_effect = {
+            load_focus_tree = wspolnota_post_uprising_focus
+        }
+    }
+
+    BGF_load_focus_voi = {
+        available = {
+            always = yes
+        }
+        ai_will_do = {
+            factor = 0
+        }
+        complete_effect = {
+            load_focus_tree = wspolnota_voi_focus
+        }
+    }
+
+    BGF_load_focus_voi_dem = {
+        available = {
+            always = yes
+        }
+        ai_will_do = {
+            factor = 0
+        }
+        complete_effect = {
+            load_focus_tree = wspolnota_voi_democrats_focus
+        }
+    }
+
+    BGF_load_focus_voi_auth = {
+        available = {
+            always = yes
+        }
+        ai_will_do = {
+            factor = 0
+        }
+        complete_effect = {
+            load_focus_tree = wspolnota_voi_radicals_focus
+        }
+    }
+
+    BGF_oob_spam = {
+        available = {
+            NOT = {
+                has_country_flag = spanish_or_vanish # CELSA
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+        complete_effect = {
+            load_oob = "BGF_2027"
+            load_oob = "BGF_Zibro_Wojenka"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+state={
+	id=899
+	name="STATE_899"
+	provinces={
+		1638 2745 16838 16839 16840 16841 16842 16843 16844 16845 18856 18857 16847
+	}
+	
+	history={
+		owner = STA
+		victory_points = {
+			16843 3 
+		}
+		victory_points = {
+			16839 3 
+		}
+		add_core_of = STA
+		add_core_of = HOL
+		add_claim_by = BGF
+		buildings = {
+			infrastructure = 5
+		}
+
+	}
+	
+	manpower=22546
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

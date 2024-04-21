@@ -1,0 +1,7 @@
+is_omoriusz = {
+    original_tag = KEL
+    OR = {
+        has_country_leader = { character = KEL_i_jego_brat }
+        has_country_leader = { character = KEL_from_omoriusz }
+    }
+}

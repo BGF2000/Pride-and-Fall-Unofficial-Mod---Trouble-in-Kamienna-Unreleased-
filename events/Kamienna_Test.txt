@@ -1,0 +1,254 @@
+add_namespace = kam_test
+
+country_event = {
+	id = kam_test.1 # Merkel staje się wucem has_country_flag = spanish_or_vanish
+	title = kam_test.1.t
+	desc = kam_test.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = kam_test.1.a
+        trigger = { original_tag = BGF has_government = neonationalism NOT = { has_country_leader = { character = BGF_marcel_nazbolejarczyk } } }
+		custom_effect_tooltip = kam_test_warning_nazbol
+		set_party_name = { ideology = neonationalism long_name = BGF_neonationalism_party_mrkel_long name = BGF_neonationalism_party_mrkel }
+        add_country_leader_role = {
+			character = BGF_marcel_nazbolejarczyk
+			promote_leader = yes
+			country_leader={
+				desc = "POLITICS_NAZBOL_DESC"
+				ideology=neonationalism_national_bolshevism_subtype
+				traits = { matgeo }
+				expire="1.1.1.1"
+				id=-1
+			}
+		}
+	}
+
+    option = {
+		name = kam_test.1.b
+        trigger = { original_tag = BGF NOT = { has_government = neonationalism } }
+		custom_effect_tooltip = kam_test_warning_nazbol
+        set_politics = {
+			ruling_party = neonationalism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_party_name = { ideology = neonationalism long_name = BGF_neonationalism_party_mrkel_long name = BGF_neonationalism_party_mrkel }
+        add_country_leader_role = {
+			character = BGF_marcel_nazbolejarczyk
+			promote_leader = yes
+			country_leader={
+				desc = "POLITICS_NAZBOL_DESC"
+				ideology=neonationalism_national_bolshevism_subtype
+				traits = { matgeo }
+				expire="1.1.1.1"
+				id=-1
+			}
+		}
+	}
+
+	option = {
+		name = kam_test.1.c
+        trigger = { original_tag = BGF has_government = neonationalism has_country_leader = { character = BGF_marcel_nazbolejarczyk } }
+		custom_effect_tooltip = kam_test_told_ya
+	}
+
+    option = {
+		name = kam_test.1.d
+        trigger = { NOT = { original_tag = BGF } }
+        # Bruh
+	}
+
+	option = { # Oh no... I have power...
+		name = kam_test.1.e
+		trigger = { original_tag = BGF }
+        # Ok then
+	}
+}
+
+country_event = {
+	id = kam_test.2 # It's simple - Spanish or vanish
+	title = kam_test.1.t
+	desc = kam_test.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = kam_test.2.a # Let me vanish
+        trigger = { original_tag = BGF has_government = corporativism NOT = { has_country_flag = spanish_or_vanish } }
+		set_country_flag = spanish_or_vanish
+	}
+
+	option = {
+		name = kam_test.2.b # Let me unvanish
+        trigger = { original_tag = BGF has_government = corporativism has_country_flag = spanish_or_vanish }
+		clr_country_flag = spanish_or_vanish
+	}
+
+	option = {
+		name = kam_test.2.c # Let me vanish (but first change government)
+        trigger = { original_tag = BGF NOT = { has_government = corporativism has_country_flag = spanish_or_vanish } }
+		set_politics = {
+			ruling_party = corporativism
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_country_flag = spanish_or_vanish
+	}
+
+	option = { # Let me not
+		name = kam_test.2.d
+		trigger = { original_tag = BGF }
+        # Ok then
+	}
+
+    option = { # Let me not (since I have a wrong tag)
+		name = kam_test.2.e
+		trigger = { NOT = { original_tag = BGF } }
+        # Bruh
+	}
+}
+
+country_event = {
+	id = kam_test.3 # Dobre zakończenie dla Polski, czy nie?
+	title = kam_test.1.t
+	desc = kam_test.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = kam_test.3.a
+        trigger = { original_tag = BGF has_government = socialdemocrature has_country_leader = { character = BGF_kinga_wnuk } }
+		custom_effect_tooltip = kam_test_warning_nazbol
+		set_party_name = { ideology = socialdemocrature long_name = BGF_socialdemocrature_party_centre_long name = BGF_socialdemocrature_party_centre }
+        add_country_leader_role = {
+			character = BGF_oskar_rogowski
+			promote_leader = yes
+			country_leader={
+				desc = "POLITICS_BGF_HAPPY_DESC"
+				ideology=socialdemocrature_national_coalition_subtype
+				traits = { renaissance_man matgeo }
+				expire="1.1.1.1"
+				id=-1
+			}
+		}
+	}
+
+    option = {
+		name = kam_test.3.b
+        trigger = { original_tag = BGF has_government = socialdemocrature has_country_leader = { character = BGF_kinga_wnuk } }
+        set_politics = {
+			ruling_party = reactionary
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+	}
+
+    option = {
+		name = kam_test.3.c
+        trigger = { NOT = { original_tag = BGF } }
+        # Bruh
+	}
+
+	option = { # Oh no... I have power...
+		name = kam_test.3.d
+		trigger = { original_tag = BGF }
+        # Ok then
+	}
+}
+
+country_event = {
+	id = kam_test.4 # Klifosław i Hieronim walczą o władzę w Waffen-$$
+	title = kam_test.1.t
+	desc = kam_test.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = kam_test.4.a
+        trigger = { original_tag = KEL has_government = freemarketism NOT = { has_country_leader = { character = KEL_from_omoriusz } } }
+		custom_effect_tooltip = kam_test_warning_nazbol
+		set_party_name = { ideology = freemarketism long_name = KEL_freemarketism_party_klifek_long name = KEL_freemarketism_party_klifek }
+        add_country_leader_role = {
+			character = KEL_from_omoriusz
+			promote_leader = yes
+			country_leader={
+				desc = "POLITICS_KEL_DESC"
+				ideology=orange_joe_subtype
+				traits = { foreigner orange_joe_enthusiast }
+				expire="1.1.1.1"
+				id=-1
+			}
+		}
+	}
+
+    option = {
+		name = kam_test.4.b
+        trigger = { original_tag = KEL NOT = { has_government = socialdemocrature } }
+        set_politics = {
+			ruling_party = socialdemocrature
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+	}
+
+    option = {
+		name = kam_test.4.c
+        trigger = { NOT = { original_tag = KEL } }
+        # Bruh
+	}
+
+	option = { # Oh no... I have power...
+		name = kam_test.4.d
+		trigger = { original_tag = KEL }
+        # Ok then
+	}
+}
+
+country_event = {
+	id = kam_test.5 # Mari ma dwie opcje - spaść ze schodów lub zbobyć Polskę
+	title = kam_test.1.t
+	desc = kam_test.1.desc
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+    option = {
+		name = kam_test.5.a
+        trigger = { original_tag = KEL has_government = socialdemocrature NOT = { has_country_leader = { character = KEL_maree } } }
+		custom_effect_tooltip = kam_test_warning_nazbol
+		#set_party_name = { ideology = freemarketism long_name = KEL_freemarketism_party_klifek_long name = KEL_freemarketism_party_klifek }
+        add_country_leader_role = {
+			character = KEL_maree
+			promote_leader = yes
+			country_leader={
+				desc = "POLITICS_STAIRS_DESC"
+				ideology=hero_subtype
+				traits = { foreigner scarred_sister }
+				expire="1.1.1.1"
+				id=-1
+			}
+		}
+	}
+
+    option = {
+		name = kam_test.5.b
+        trigger = { NOT = { original_tag = KEL } }
+        # Bruh
+	}
+
+	option = { # Oh no... I have power...
+		name = kam_test.5.c
+		trigger = { original_tag = KEL }
+        # Ok then
+	}
+}

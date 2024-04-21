@@ -1,0 +1,55 @@
+division_template = {
+	name = "Kibole KSZ Ostrowiec"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Ochotnicza Dywizja Antyziobrowska"
+	regiments = {
+		melee_infantry = { x = 0 y = 0 }
+		melee_infantry = { x = 0 y = 1 }
+		melee_infantry = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Ochotnicza Dywizja KSZ Ostrowiec"
+		location = 16801
+		division_template = "Kibole KSZ Ostrowiec"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "2. Ochotnicza Dywizja KSZ Ostrowiec"
+		location = 16801
+		division_template = "Kibole KSZ Ostrowiec"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "1. Ochotnicza Dywizja Antyziobrowska"
+		location = 16798
+		division_template = "Ochotnicza Dywizja Antyziobrowska"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "2. Ochotnicza Dywizja Antyziobrowska"
+		location = 16800
+		division_template = "Ochotnicza Dywizja Antyziobrowska"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3. Ochotnicza Dywizja Antyziobrowska"
+		location = 16799
+		division_template = "Ochotnicza Dywizja Antyziobrowska"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+}

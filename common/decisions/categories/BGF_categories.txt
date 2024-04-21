@@ -1,0 +1,62 @@
+BGF_debug_decisions = {
+    priority = 200
+    visible = {
+        original_tag = BGF
+        is_debug = yes
+    }
+}
+
+BGF_try_to_negociate = {
+    visible = {
+        original_tag = BGF
+        has_country_flag = BGF_open_negociations
+    }
+    priority = 100
+    visible_when_empty = yes
+}
+
+BGF_power_struggle = {
+    visible = {
+        original_tag = BGF
+        OR = {
+            has_country_flag = BGF_mamy_bardzo_zle
+            has_country_flag = BGF_mamy_przejebane
+        }
+        NOT = { has_country_flag = BGF_no_more_power_struggle }
+    }
+    priority = 150
+    visible_when_empty = yes
+}
+
+BGF_fight_conglomerates = {
+    visible = {
+        original_tag = BGF
+        has_country_flag = BGF_deal_with_corpos
+    }
+    priority = 150
+    visible_when_empty = yes
+}
+
+BGF_balance_of_power_category = {
+	icon = GFX_decision_category_power_struggle
+	
+	allowed = {
+		original_tag = BGF
+	}
+	
+	priority = 90
+	
+	visible = {
+		
+	}
+}
+
+BGF_kolejna_runda_z_zerem = {
+    visible = {
+        original_tag = BGF
+        has_completed_focus = BGF_holy_scheisse
+        has_war_with = PRK
+    }
+    priority = 125
+    visible_when_empty = yes
+}

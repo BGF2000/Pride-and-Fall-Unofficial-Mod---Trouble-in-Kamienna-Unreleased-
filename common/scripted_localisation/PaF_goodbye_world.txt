@@ -1,0 +1,378 @@
+### Ending Button ###
+defined_text = {
+	name = GET_ENDING_CLOSEBUTTON_TEXT
+	text = {
+		trigger = { tag = BBW }
+		localization_key = "[GET_BBW_ENDING_BUTTON_TEXT]"
+	}
+	text = {
+		trigger = { tag = ATM }
+		localization_key = "[GET_ATM_ENDING_BUTTON_TEXT]"
+	}
+	text = {
+		trigger = { tag = BGF }
+		localization_key = "[GET_BGF_ENDING_BUTTON_TEXT]"
+	}
+	## Generic
+	text = {
+		localization_key = PaF_ENDING_SCREEN_BUTTON_TEXT_GEN
+	}
+}
+
+defined_text = {
+	name = GET_BBW_ENDING_BUTTON_TEXT
+	text = {
+		trigger = {
+			has_country_flag = PaF_BBW_smog_ending
+		}
+		localization_key = PaF_BBW_SMOG_ENDING_BUTTON
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaF_BBW_roxi_ending
+		}
+		localization_key = PaF_BBW_ROXI_ENDING_BUTTON
+	}
+}
+
+defined_text = {
+	name = GET_ATM_ENDING_BUTTON_TEXT
+	text = {
+		trigger = {
+			has_country_flag = PaF_ATM_call_berlin_ending
+		}
+		localization_key = PaF_ATM_CALL_BERLIN_ENDING_BUTTON
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaF_ATM_what_berlin_ending
+		}
+		localization_key = PaF_ATM_WHAT_BERLIN_ENDING_BUTTON
+	}
+}
+
+defined_text = {
+	name = GET_BGF_ENDING_BUTTON_TEXT
+	text = {
+		trigger = {
+			has_global_flag = PaFK_end_of_mod
+		}
+		localization_key = PaFK_BGF_WIP_BUTTON
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_progresywizm_ending
+		}
+		localization_key = PaFK_BGF_SD_ENDING_BUTTON
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_polska_kraj_trudna_ending
+		}
+		localization_key = PaFK_BGF_POLSKA_KRAJ_TRUDNA_ENDING_BUTTON
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_polska_liberalna_ending
+		}
+		localization_key = PaFK_BGF_KWIETNIAK_ENDING_BUTTON
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_polska_korupcyjna_ending
+		}
+		localization_key = PaFK_BGF_GORCZYNSKI_ENDING_BUTTON
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_pax_kaczynski_ending
+		}
+		localization_key = PaFK_BGF_KACZOR_ENDING_BUTTON
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_anty_kwasniewski_ending
+		}
+		localization_key = PaFK_BGF_ATEIZM_ENDING_BUTTON
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_filip_z_kunowa_ending
+		}
+		localization_key = PaFK_BGF_KOMUNA_ENDING_BUTTON
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_marcel_nazbolejarczyk_ending
+		}
+		localization_key = PaFK_BGF_NAZBOL_ENDING_BUTTON
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_hiszpan_gurom_ending
+		}
+		localization_key = PaFK_BGF_CELSA_ENDING_BUTTON
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_konarski_reborn_ending
+		}
+		localization_key = PaFK_BGF_KONARSKI_DOMINACJA_ENDING_BUTTON
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_gdzie_polska_ending
+		}
+		localization_key = PaFK_BGF_DOOM_ENDING_BUTTON
+	}
+}
+
+### Ending Pictures ###
+defined_text = {
+	name = GET_ENDING_POSTER
+	text = {
+		trigger = { tag = BBW }
+		localization_key = "[GET_BBW_ENDING_PICTURE]"
+	}
+	text = {
+		trigger = { tag = ATM }
+		localization_key = "[GET_ATM_ENDING_PICTURE]"
+	}
+	text = {
+		trigger = { tag = BGF }
+		localization_key = "[GET_BGF_ENDING_PICTURE]"
+	}
+	## Generic
+	text = {
+		localization_key = "GFX_PaF_EndingScreen_Default"
+	}
+}
+
+defined_text = {
+	name = GET_BBW_ENDING_PICTURE
+	text = {
+		trigger = {
+			has_country_flag = PaF_BBW_smog_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_BBW_Smog"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaF_BBW_roxi_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_BBW_Roxi"
+	}
+}
+defined_text = {
+	name = GET_ATM_ENDING_PICTURE
+	text = {
+		trigger = {
+			has_country_flag = PaF_ATM_call_berlin_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_ATM_Call_Berlin"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaF_ATM_what_berlin_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_ATM_What_Berlin"
+	}
+}
+defined_text = {
+	name = GET_BGF_ENDING_PICTURE
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_progresywizm_ending
+		}
+		localization_key = "GFX_PaFK_EndingScreen_BGF_Progress"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_polska_kraj_trudna_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_BGF_WnukDom"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_polska_liberalna_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_BGF_Liberty"
+	}
+	text = { # Do Zrobienia
+		trigger = {
+			has_country_flag = PaFK_BGF_polska_korupcyjna_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_BGF_polska_korupcyjna"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_pax_kaczynski_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_BGF_pax_kaczynski"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_anty_kwasniewski_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_BGF_anty_kwasniewski"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_marcel_komunista_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_BGF_marcel_komunista"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_marcel_nazbolejarczyk_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_BGF_marcel_nazbolejarczyk"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_hiszpan_gurom_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_BGF_hiszpan_gurom"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_konarski_reborn_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_BGF_konarski_reborn"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_gdzie_polska_ending
+		}
+		localization_key = "GFX_PaF_EndingScreen_BGF_gdzie_polska"
+	}
+}
+
+### Ending Text ###
+defined_text = {
+	name = GET_ENDING_TEXT
+	text = {
+		trigger = { tag = BBW }
+		localization_key = "[GET_BBW_ENDING_TEXT]"
+	}
+	text = {
+		trigger = { tag = ATM }
+		localization_key = "[GET_ATM_ENDING_TEXT]"
+	}
+	text = {
+		trigger = { tag = BGF }
+		localization_key = "[GET_BGF_ENDING_TEXT]"
+	}
+	## Generic
+	text = {
+		localization_key = PaF_GENERIC_ENDING_TEXT
+	}
+}
+
+defined_text = {
+	name = GET_BBW_ENDING_TEXT
+	text = {
+		trigger = {
+			has_country_flag = PaF_BBW_smog_ending
+		}
+		localization_key = PaF_BBW_SMOG_ENDING_TEXT
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaF_BBW_roxi_ending
+		}
+		localization_key = PaF_BBW_ROXI_ENDING_TEXT
+	}
+}
+
+defined_text = {
+	name = GET_ATM_ENDING_TEXT
+	text = {
+		trigger = {
+			has_country_flag = PaF_ATM_call_berlin_ending
+		}
+		localization_key = PaF_ATM_CALL_BERLIN_ENDING_TEXT
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaF_ATM_what_berlin_ending
+		}
+		localization_key = PaF_ATM_WHAT_BERLIN_ENDING_TEXT
+	}
+}
+
+defined_text = {
+	name = GET_BGF_ENDING_TEXT
+	text = {
+		trigger = {
+			has_global_flag = PaFK_end_of_mod
+		}
+		localization_key = PaFK_BGF_WIP_TEXT
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_progresywizm_ending
+		}
+		localization_key = PaFK_BGF_SD_ENDING_TEXT
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_polska_kraj_trudna_ending
+		}
+		localization_key = PaFK_BGF_POLSKA_KRAJ_TRUDNA_ENDING_TEXT
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_polska_liberalna_ending
+		}
+		localization_key = PaFK_BGF_KWIETNIAK_ENDING_TEXT
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_polska_korupcyjna_ending
+		}
+		localization_key = PaFK_BGF_GORCZYNSKI_ENDING_TEXT
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_pax_kaczynski_ending
+		}
+		localization_key = PaFK_BGF_KACZOR_ENDING_TEXT
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_anty_kwasniewski_ending
+		}
+		localization_key = PaFK_BGF_ATEIZM_ENDING_TEXT
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_marcel_komunista_ending
+		}
+		localization_key = PaFK_BGF_KOMUNA_ENDING_TEXT
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_marcel_nazbolejarczyk_ending
+		}
+		localization_key = PaFK_BGF_NAZBOL_ENDING_TEXT
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_hiszpan_gurom_ending
+		}
+		localization_key = PaFK_BGF_CELSA_ENDING_TEXT
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_konarski_reborn_ending
+		}
+		localization_key = PaFK_BGF_KONARSKI_DOMINACJA_ENDING_TEXT
+	}
+	text = {
+		trigger = {
+			has_country_flag = PaFK_BGF_gdzie_polska_ending
+		}
+		localization_key = PaFK_BGF_DOOM_ENDING_TEXT
+	}
+}

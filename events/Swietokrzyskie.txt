@@ -1,0 +1,127 @@
+# Ta gra jest tak upośledzona z jakiegoś powodu, że kiedy próbuję w JAKIKOLWIEK sposób zaprzestać ciągłemu uruchamianiu się tych eventów, to ona na przekór robi swoje i crashuje grę. Fajne by to było (według mnie), gdyby można było dać ultimatum innym państwom
+# kiedy zdobędzie się Kielce (stolicę Świętokrzyskiego - nie będąc samymi Kielcami). No ale cóż można zrobić, jeżeli to nie chce działać (a muszę dodać, że TA SAMA IDENTYCZNA LOGIKA działa w normalnym HoI'u!)? Paradox, weźcie się ogarnijcie, a nie dodajecie
+# DLC'ki, które z pewnym czasem stają się przestarzałe i są przecenione z jakiegoś głupiego powodu. Po prostu ja nie rozumiem, czemu to nie chce działać w TYM przypadku!
+# To koniec mojej tzw. tyrady. Mam nadzieję, że czytający to zrozumiał, o co mi chodzi (i/lub pomoże jakoś polepszyć kod poniżej).
+
+
+#add_namespace = swietokrzyskie_capital
+#add_namespace = swietokrzyskie_ultimatum
+#
+#country_event = { # Kilce
+#    id = swietokrzyskie_capital.1
+#    title = swietokrzyskie_capital.1.t
+#    desc = swietokrzyskie_capital.1.desc
+#
+#    #fire_only_once = yes # Z jakiegoś powodu HoI jest upośledzony i ciągle chce uruchamiać ten event :/
+#
+#    trigger = {
+#        #416 = { is_controlled_by = CON } # Ktosiu ubiegający się o prawdziwy rząd w Świętokrzyskim (bo jest rozbity - duh!)
+#        #416 = { is_owned_by = CON }
+#        AND = {
+#            OR = {
+#                tag = KEL
+#                tag = SND
+#                tag = STA
+#                tag = STO
+#                tag = NSZ
+#                tag = NRA
+#                tag = BGF
+#            }
+#            controls_state = 416
+#        }
+#        NOT = { has_global_flag = zadupie_zdobyte } # Kielce, oczywiście ;)
+#    }
+#
+#    immediate = {
+#        log = "[GetDateText]: [Root.GetName]: event swietokrzyskie_capital.1 - Kielce zdobyte"
+#        set_global_flag = zadupie_zdobyte
+#        ROOT = { set_country_flag = SWK_dominacja_nad_plebsem }
+#    }
+#
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#    option = {
+#        name = swietokrzyskie_capital.1
+#        ROOT = { set_capital = { state = 416 } }
+#        custom_effect_tooltip = SWK_ultimatum_tt
+#        every_other_country = {
+#            limit = {
+#                is_holy_cross = yes
+#                NOT = { has_country_flag = SWK_dominacja_nad_plebsem }
+#            }
+#            country_event = { id = swietokrzyskie_ultimatum.1 days = 3 }
+#        }
+#    }
+#}
+#
+#country_event = { # Aneksja lub wojna
+#    id = swietokrzyskie_ultimatum.1
+#    title = swietokrzyskie_ultimatum.1.t
+#    desc = swietokrzyskie_ultimatum.1.desc
+#
+#    option = { # Aneksja
+#        name = swietokrzyskie_ultimatum.1.a
+#        ai_chance = {
+#            base = 10
+#            modifier = {
+#                add = 10
+#                has_opinion = {
+#                    target = SWK # SWK to państwo, które zdobyło Kielce (oprócz Tarczyńskiego - on kontroluje już to zadupie)
+#                    value > 20
+#                }
+#            }
+#            modifier = {
+#                add = 20
+#                strength_ratio = {
+#                    tag = SWK
+#                    ratio < 0.8
+#                }
+#            }
+#            modifier = {
+#                add = 10
+#                is_neighbor_of = SWK
+#            }
+#            
+#        }
+#        custom_effect_tooltip = SWK_ultimatum_poddanie_tt
+#        hidden_effect = {
+#            SWK = {
+#                annex_country = {
+#		    	    target = ROOT
+#		    	    transfer_troops = yes
+#		        }
+#            }
+#        }
+#    }
+#    option = { # Wojna
+#        name = swietokrzyskie_ultimatum.1.b
+#        ai_chance = {
+#            base = 10
+#            modifier = {
+#                add = 10
+#                has_opinion = {
+#                    target = SWK
+#                    value < -10
+#                }
+#            }
+#            modifier = {
+#                add = 20
+#                strength_ratio = {
+#                    tag = SWK
+#                    ratio > 1
+#                }
+#            }
+#        }
+#        custom_effect_tooltip = SWK_ultimatum_walka_tt
+#        hidden_effect = {
+#            SWK = {
+#                declare_war_on = {
+#		    	    target = ROOT
+#		    	    type = annex_everything
+#		        }
+#            }
+#        }
+#    }
+#}

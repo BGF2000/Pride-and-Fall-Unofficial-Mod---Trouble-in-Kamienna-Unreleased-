@@ -1,0 +1,188 @@
+#
+# List of options showing in the Game Rules screen
+#
+# format is:
+# rule_token = {
+#	name = "TEXT_KEY_FOR_NAME"
+#	required_dlc = "Name of the Required DLC"
+#	desc = "TEXT_KEY_FOR_LONG_DESC"
+#	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups 
+#	icon = gfx_option_token							# Optional icon
+#	option = {										# Unless other specified, the first option is the default option
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		allow_achievements = no						# Achievements cannot be earned if one or more game rules are set to an option that has this property set to no.
+#													# If not specified, this is set to yes for default options and no for all other options.
+#	}
+#	default = {										# Specify an option with the "default" token to override the behavior of treating the first option as the default.
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		...
+#	}
+# }
+
+#   $$$$$$$$        $$$$$$$$$      $$$$$$$$$$$$    $$$$$$$$$$          $$$$$$$$      $$$$      $$$$$$$$      $$$$    $$$$    $$$$$$$$      $$$$$$
+# $$$$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$$$$    $$$$$$$$$$$$      $$$$$$$$$$$$    $$$$      $$$$$$$$      $$$$    $$$$    $$$$$$$$    $$$$$$$$$$
+# $$$$    $$$$    $$$$     $$$$        $$$$        $$$$    $$$$      $$$$    $$$$     $$$$    $$$$  $$$$    $$$$     $$$$    $$$$        $$$$
+# $$$$    $$$$      $$$$$              $$$$        $$$$$$$$$$$$      $$$$    $$$$     $$$$    $$$$  $$$$    $$$$     $$$$    $$$$$$$$    $$$$
+# $$$$    $$$$         $$$$$           $$$$        $$$$$$$$$$        $$$$    $$$$      $$$$  $$$$    $$$$  $$$$      $$$$    $$$$$$$$    $$$$
+# $$$$    $$$$    $$$$    $$$$$        $$$$        $$$$    $$$$      $$$$    $$$$      $$$$  $$$$    $$$$  $$$$      $$$$    $$$$        $$$$
+# $$$$$$$$$$$$    $$$$$$$$$$$$$        $$$$        $$$$     $$$$     $$$$$$$$$$$$       $$$$$$$$      $$$$$$$$       $$$$    $$$$$$$$    $$$$$$$$$$
+#   $$$$$$$$        $$$$$$$$$          $$$$        $$$$      $$$$      $$$$$$$$         $$$$$$$$      $$$$$$$$       $$$$    $$$$$$$$      $$$$$$
+
+
+# # # ### ### ### ### # #      ### ###
+# # # # # #   #   #   ###      ##  ##
+# # # ### ### ### ### # #  ##  ### ###
+# ### # # #   #   #   # #       ##  ##
+# # # # # #   #   ### # #      ### ###
+KEL_cursed_path = { # Allows (or not) the OMORI path
+    name = "KEL_OMORI"
+    group = "PAFK_RULE_GROUP_MISC"
+    default = {
+        name = PAFK_KEL_NO
+        text = "RULE_OPTION_PAFK_NO"
+        desc = "RULE_OPTION_KEL_PATH_BLOCKED_DESC"
+    }
+    option = {
+        name = PAFK_KEL_YES
+        text = "RULE_OPTION_PAFK_YES"
+        desc = "RULE_OPTION_KEL_PATH_ALLOWED_DESC"
+        allow_achievements = no # Until more achievements are added, this will be a big no
+    }
+}
+
+### Which future is ours?
+BGF_path_behavior = {
+    name = "BGF_PATH_BEHAVIOR"
+    group = "RULE_GROUP_BGF"
+    option = {
+        name = OSTROWIEC_WHOLESOME # No Kinga Wnuk
+        text = "RULE_OPTION_BGF_SD"
+        desc = "RULE_OPTION_BGF_SD_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_UNWHOLESOME # Kinga Wnuk Above All
+        text = "RULE_OPTION_BGF_WNUK"
+        desc = "RULE_OPTION_BGF_WNUK_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_LIBERAL # KO's Wet Dream
+        text = "RULE_OPTION_BGF_LIBERAL"
+        desc = "RULE_OPTION_BGF_LIBERAL_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_CBA # Oligarchy
+        text = "RULE_OPTION_BGF_CBA"
+        desc = "RULE_OPTION_BGF_CBA_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_KACZOR # Godfather's Betrayal
+        text = "RULE_OPTION_BGF_KACZOR"
+        desc = "RULE_OPTION_BGF_KACZOR_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_ATEIZM # Atheism But Forced Upon Others
+        text = "RULE_OPTION_BGF_ATEIZM"
+        desc = "RULE_OPTION_BGF_ATEIZM_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_NAZBOL # Nazitsu Moment
+        text = "RULE_OPTION_BGF_NAZBOL"
+        desc = "RULE_OPTION_BGF_NAZBOL_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_CELSA # "Es muy caliente" - Some Anime Addict From LatAm Or Spain
+        text = "RULE_OPTION_BGF_CELSA"
+        desc = "RULE_OPTION_BGF_CELSA_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_NLO # Za Konara! (pod koniec będzie dostępne)
+        text = "RULE_OPTION_BGF_NLO"
+        desc = "RULE_OPTION_BGF_NLO_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_MAFIA # Prawdziwe PiS
+        text = "RULE_OPTION_BGF_MAFIA"
+        desc = "RULE_OPTION_BGF_MAFIA_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_DOOM # "But why... why would you do that?"
+        text = "RULE_OPTION_BGF_DOOM"
+        desc = "RULE_OPTION_BGF_DOOM_DESC"
+        allow_achievements = yes
+    }
+    default = {
+        name = RANDOM
+        text = "RULE_OPTION_PAFK_RANDOM" # In order not to cause conflicts with vanilla (just in case)
+        desc = "RULE_OPTION_BGF_PATH_RANDOM_DESC"
+    }
+}
+
+### Military Improvements and "Improvements"
+BGF_priorities_knowledge = {
+    name = "BGF_KNOWLEDGE_PRIORITIES"
+    group = "RULE_GROUP_BGF"
+    option = {
+        name = OSTROWIEC_TECHNOCRACY # Science... Science Will Bring Us To Victory (Just Like USSR; requires either SD or KO)
+        text = "RULE_OPTION_BGF_TECH"
+        desc = "RULE_OPTION_BGF_TECH_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_HISTORY # "Those who do not learn history are doomed to repeat it"
+        text = "RULE_OPTION_BGF_HISTORY"
+        desc = "RULE_OPTION_BGF_HISTORY_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_SPAM # What Is This, Some Kind Of Spam? (Requires neonationalists or Comafiaists)
+        text = "RULE_OPTION_BGF_SPAM"
+        desc = "RULE_OPTION_BGF_SPAM_DESC"
+        allow_achievements = yes
+    }
+    default = {
+        name = RANDOM
+        text = "RULE_OPTION_PAFK_RANDOM"
+        desc = "RULE_OPTION_BGF_KNOWLEDGE_RANDOM_DESC"
+    }
+}
+
+# This will come in handy at the end of the game (towards EU)
+BGF_foreign_policy = {
+    name = "BGF_FOREIGN_POLICY"
+    group = "RULE_GROUP_BGF"
+    option = {
+        name = OSTROWIEC_WELCOMING # The EU Is Our Best Friend (Stockholm Syndrome; requires NP or KO)
+        text = "RULE_OPTION_BGF_WELCOMING"
+        desc = "RULE_OPTION_BGF_WELCOMING_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_NEUTRAL # "The darkest places in hell are reserved for those who in times of great moral crisis remain their neutrality" (Or Something Like This)
+        text = "RULE_OPTION_BGF_NEUTRAL"
+        desc = "RULE_OPTION_BGF_NEUTRAL_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = OSTROWIEC_HOSTILE # Go F**k Yourself, Ursula! (Revanchism; requires any radical path)
+        text = "RULE_OPTION_BGF_HOSTILE"
+        desc = "RULE_OPTION_BGF_HOSTILE_DESC"
+        allow_achievements = yes
+    }
+    default = {
+        name = RANDOM
+        text = "RULE_OPTION_PAFK_RANDOM"
+        desc = "RULE_OPTION_BGF_RELATIONS_RANDOM_DESC"
+    }
+}

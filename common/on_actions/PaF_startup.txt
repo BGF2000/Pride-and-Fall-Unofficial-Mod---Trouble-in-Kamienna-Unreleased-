@@ -1,0 +1,1602 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			random_country = { #hoi znowu jest upośledzone i nie daje zrobić oskryptowanego efektu jak normalny koder by myślał
+				create_array_of_needed_poland_states = yes
+				set_global_flag = needed_array_initialized
+			}
+			every_country = {
+				limit = {
+					is_ai = no
+					or = {
+						tag = BOM
+						tag = BPD
+						tag = ARK
+						
+					}
+				}
+				set_country_flag = curse_of_piu
+			}
+			set_variable = {global.deadPolacks = 0}
+			set_variable = {global.deadMilions = 0}
+			set_variable = {global.deadPolacksFromPastWars = 0}
+			every_country = {
+				limit = {
+					OR = {
+						original_tag = COL
+						original_tag = ZAM
+						original_tag = HMA
+						original_tag = WIL
+						original_tag = UHL
+						original_tag = DRO
+						original_tag = ZAB
+						original_tag = SUP
+						original_tag = GRO
+						original_tag = TYK
+						original_tag = OSO
+						original_tag = DAM
+						original_tag = BRD
+						original_tag = AUG
+						original_tag = SEI
+						original_tag = RAJ
+						original_tag = LCZ
+						original_tag = KOL
+						original_tag = DBI
+						original_tag = MIE
+						original_tag = ANC
+						original_tag = JSO
+						original_tag = LEZ
+						original_tag = BOH
+						original_tag = PZL
+						original_tag = LAS
+						original_tag = LEG	
+						original_tag = KUR	
+						original_tag = ZWK	
+					}
+					}
+					
+				load_focus_tree = blank_tree
+			}
+			every_country = {
+				limit = {
+					not = {
+						has_tech = industry_revival
+					}
+				}
+				set_variable = {active_workshops = 0}
+				set_variable = {workshops_count = 0}
+			}
+			#podlasie	
+			add_to_array = { global.podlasie_tribes = TNO }
+			add_to_array = { global.podlasie_tribes = COL }
+			add_to_array = { global.podlasie_tribes = ZAM }
+			add_to_array = { global.podlasie_tribes = HMA }
+			add_to_array = { global.podlasie_tribes = WIL }
+			add_to_array = { global.podlasie_tribes = UHL }
+			add_to_array = { global.podlasie_tribes = DRO }
+			add_to_array = { global.podlasie_tribes = ZAB }
+			add_to_array = { global.podlasie_tribes = SUP }
+			add_to_array = { global.podlasie_tribes = GRO }
+			add_to_array = { global.podlasie_tribes = TYK }
+			add_to_array = { global.podlasie_tribes = OSO }
+			add_to_array = { global.podlasie_tribes = DAM }
+			add_to_array = { global.podlasie_tribes = BRD }
+			add_to_array = { global.podlasie_tribes = AUG }
+			add_to_array = { global.podlasie_tribes = SEI }
+			add_to_array = { global.podlasie_tribes = RAJ }
+			#warmia
+			add_to_array = { global.rightful_warmia_clay = 40}
+			add_to_array = { global.rightful_warmia_clay = 42}
+			add_to_array = { global.rightful_warmia_clay = 46}
+			add_to_array = { global.rightful_warmia_clay = 47}
+			add_to_array = { global.rightful_warmia_clay = 51}
+			add_to_array = { global.rightful_warmia_clay = 632}
+			add_to_array = { global.rightful_warmia_clay = 875}
+		
+			
+			every_state = {
+				set_variable = { coring_cost = state_population_k }
+				multiply_variable = { coring_cost = 0.6 }
+				round_variable = coring_cost
+				clamp_variable = {
+					var = coring_cost
+					max = 200
+				}
+				if = {
+					limit = {
+						is_controlled_by = CAL
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_CAL
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						is_controlled_by = BGF
+						has_country_flag = spanish_or_vanish
+						#has_country_leader = {
+						#	character = BGF_celsa
+						#	ruling_nly = yes
+						#}
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_SPA
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						is_controlled_by = CZE
+						CZE = {
+							has_country_leader = {
+								character = CZE_tomio_okamura
+								ruling_only = yes
+							}
+						}
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_CZE
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							is_controlled_by = KAM
+							is_controlled_by = MNI
+							is_controlled_by = RAS
+							is_controlled_by = WRT
+							is_controlled_by = POM
+							is_controlled_by = KES
+							is_controlled_by = KOS
+							is_controlled_by = GER
+							is_controlled_by = TEU
+							and = {
+								is_controlled_by = EKS
+								EKS = {
+									not = {
+										has_country_flag = eurokom_has_fallen
+									}
+								}
+							}
+							and = {
+								is_controlled_by = EKW
+								EKW = {
+									not = {
+										has_country_flag = eurokom_has_fallen
+									}
+								}
+							}
+						}
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_GER
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						is_controlled_by = JOM
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_JOM
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							is_controlled_by = LEH
+							is_controlled_by = LCH
+							is_controlled_by = WAN
+							is_controlled_by = JAS
+							is_controlled_by = LEN
+						}
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_LEH
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							is_controlled_by = UPA
+							is_controlled_by = KOZ
+							is_controlled_by = UHR
+							is_controlled_by = BEL
+							is_controlled_by = ROS
+							is_controlled_by = LEM
+							is_controlled_by = UKR
+							is_controlled_by = RUS
+						}
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_UKROS
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						is_controlled_by = USP
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_USP
+						}
+						STATE_ID = "[?THIS.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						is_controlled_by = PRU
+						is_prusy_state = yes
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_PRU
+						}
+						STATE_ID = "[?FROM.FROM.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						is_controlled_by = KSZ
+						or = {
+							state = 15
+							state = 20
+							state = 21
+							state = 23
+							state = 24
+							state = 33
+							state = 34
+							state = 35
+							state = 36
+							state = 38
+							state = 39
+							state = 44
+							state = 45
+							state = 53
+							state = 54
+							state = 55
+							state = 61
+							state = 62
+							state = 63
+							state = 65
+							state = 67
+							state = 68
+							state = 77
+							state = 78
+							state = 81
+							state = 82
+							state = 84
+							state = 88
+							state = 89
+							state = 100
+							state = 107
+							state = 118
+							state = 121
+							state = 133
+							state = 158
+							state = 614
+							state = 618
+							state = 623
+							state = 624
+							state = 626
+							state = 627
+							state = 628
+							state = 629
+							state = 630
+							state = 666
+							state = 709
+							state = 710
+							state = 711
+							state = 713
+							state = 714
+							state = 715
+							state = 716
+							state = 717
+							state = 871
+							state = 872
+						}
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_KSZ
+						}	
+						STATE_ID = "[?FROM.FROM.GetID]"
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							is_controlled_by = CHO
+							is_controlled_by = GLI
+							is_controlled_by = FER
+							is_controlled_by = RUD
+							is_controlled_by = JSW
+							is_controlled_by = TRC
+						}
+						OR = {
+							state = 312
+							state = 325
+							state = 339
+							state = 343
+							state = 371
+							state = 380
+							state = 401
+							state = 408
+							state = 419
+							state = 421
+							state = 425
+							state = 427
+							state = 428
+							state = 431
+							state = 434
+							state = 435
+							state = 439
+							state = 445
+							state = 446
+							state = 449
+							state = 451
+							state = 464
+							state = 466
+							state = 470
+							state = 471
+							state = 474
+							state = 475
+							state = 476
+							state = 478
+							state = 479
+							state = 486
+							state = 488
+							state = 490
+							state = 496
+							state = 497
+							state = 500
+							state = 502
+							state = 504
+							state = 510
+							state = 511
+							state = 516
+							state = 521
+							state = 590
+							state = 602
+							state = 726
+							state = 728
+							state = 729
+							state = 742
+							state = 743
+							state = 763
+							state = 764
+							state = 766
+							state = 785
+							state = 786
+							state = 788
+							state = 789
+							state = 790
+							state = 791
+							state = 792
+							state = 793
+							state = 794
+							state = 797
+							state = 802
+							state = 805
+							state = 806
+						}
+						#is_silesia_state = yes
+					}
+					meta_effect = {
+						text = {
+							set_state_name = STATE_[STATE_ID]_SIL
+						}	
+						STATE_ID = "[?FROM.FROM.GetID]"
+					}
+				}
+			}
+			every_country = {
+				set_variable = { coreable_number = 0}
+				set_variable = { rare_buildings_divider = 20 }
+				set_variable = {
+					var = doctrines_researched
+					value = 0
+				}
+				calculate_energy_balance = yes
+				public_buildings_effect = yes
+				set_variable = { global.PaF_Opening_Screen = 1 }
+			}
+			if = {
+				limit = { 
+					AND = {
+						is_poland_unifier = yes
+						is_ai = yes
+						}
+					}
+					add_ideas = fucking_ai 
+				}
+			if = {
+				limit = { 
+					AND = {
+						is_upper_silesia = yes
+						is_ai = yes
+						}
+					}
+					add_ideas = silesia_minor_surrender
+				}
+			if = {
+				limit = {
+					CRN = {
+						is_ai = yes
+					}
+					PUL = {
+						is_ai = yes
+					}
+					KSN = {
+						is_ai = yes
+					}
+					SWD = {
+						is_ai = yes
+					}
+					LEN = {
+						is_ai = yes
+					}
+					ZUK = {
+						is_ai = yes
+					}
+					BIL = {
+						is_ai = yes
+					}
+					BPD = {
+						is_ai = yes
+					}
+					TEN = {
+						is_ai = yes
+					}
+				}
+				CRN = {
+					lubelskie_starting_buffs = yes
+				}
+			}
+			PRK = {
+				set_country_flag = ziobro_start_war
+				activate_mission = ziobro_holy_war
+				country_event = {
+					id = ziobro.16
+					days = 1 
+					}
+			}
+			EKS = {
+				country_lock_all_division_template = yes
+				country_event = {
+					id = eksrozpad.1
+					days = 160 
+					}
+				country_event = {
+					id = eks.1
+					days = 1 
+					}
+			}			
+			EKW = {
+				country_lock_all_division_template = yes
+				country_event = {
+					id = ekwrozpad.1
+					days = 180
+					}
+				country_event = {
+					id = ekw.3
+					days = 1 
+					}
+			}
+			DGR = {
+				if = {
+				limit = {
+					 is_ai = no 
+					}
+				country_event = {
+					id = dgr_district.1
+					days = 1
+					}
+				}
+			}
+			GDA = {
+				country_lock_all_division_template = yes
+				country_event = {
+					id = gdarozpad.1
+					days = 194 
+					}
+				country_event = {
+					id = wmg.1
+					days = 1 
+				}
+			}
+			POZ = {
+				country_lock_all_division_template = yes
+				country_event = {
+					id = pozrozpad.1
+					days = 188
+					}
+				country_event = {
+					id = pozrozpad.2
+					days = 201
+					}
+				country_event = {
+					id = poz.1
+					days = 1
+					}
+			}
+			KSZ = {
+				country_lock_all_division_template = yes
+				country_event = {
+					id = kszrozpad.1
+					days = 190 
+					}
+				country_event = {
+					id = kaszub.1
+					days = 1 
+					}
+			}
+			RZE = {
+				country_event = {
+					id = rzeszow_siege.1
+					days = 14
+					}
+			}
+			OSW = {
+				add_to_war = { 
+					targeted_alliance = PRK 
+					enemy = SND 
+					hostility_reason = asked_to_join
+				}
+				add_to_war = { 
+					targeted_alliance = PRK 
+					enemy = STA
+					hostility_reason = asked_to_join
+				}
+				add_to_war = { 
+					targeted_alliance = PRK 
+					enemy = BGF
+					hostility_reason = asked_to_join
+				}
+			}
+			BOH = {
+				add_to_war = { 
+					targeted_alliance = PRK 
+					enemy = SND 
+					hostility_reason = asked_to_join
+				}
+				add_to_war = { 
+					targeted_alliance = PRK 
+					enemy = STA
+					hostility_reason = asked_to_join
+				}
+				add_to_war = { 
+					targeted_alliance = PRK 
+					enemy = BGF
+					hostility_reason = asked_to_join
+				}
+			}
+			BBW = {
+				set_variable = { energy_exported = 0 }
+				set_variable = { ideological_factor = 1}
+				every_neighbor_country = {
+					set_variable = { energy_imported = 0 }
+				}
+				BBW_calculate_smog_penalties = yes
+				every_state = {
+					limit = {
+						is_owned_by = BBW
+					}
+					add_dynamic_modifier = {
+						modifier = BBW_smog_effect
+					}
+				}
+				country_event = {
+					id = belchatow.101
+					days = 278 
+					}
+			}
+			WML = {
+				if = {
+					limit = { WML = { is_ai = yes } }
+					load_focus_tree = WML_festung_lodzig
+					}
+				else = {
+					load_focus_tree = holownia_focus
+					}
+			}
+			SAP = {
+				if = {
+					limit = {
+						tag = SAP
+						NOT = { is_ai = yes }
+					} 
+					BBW = { set_cosmetic_tag = BBW_witcher }
+					ZHP = { set_cosmetic_tag = ZHP_witcher }
+					ZYD = { set_cosmetic_tag = ZYD_witcher }
+					KRS = { set_cosmetic_tag = KRS_witcher }				
+					WML = { set_cosmetic_tag = WML_witcher }		
+					ZON = { set_cosmetic_tag = ZON_witcher }
+				}
+			}
+			ZHP = {
+				hidden_effect = {
+					set_variable = { ZHP_deurbanization_progress = 0 }
+				}
+			}
+			MNI = {
+				country_lock_all_division_template = yes
+				country_event = {
+					id = niemcy.1
+					days = 1 
+				}
+				MNI_activate_mechanic = yes
+			}
+			
+		}
+	}
+	on_daily = {
+		effect = {
+			calculate_energy_balance = yes
+			if = {
+				limit = {
+					date > "2033.01.01"
+					is_ai = yes
+				}
+				add_ideas = fasterfasterfaster
+			}
+			if = {
+				limit = {
+					or = {
+						has_country_flag = unified_voivodeship
+						has_country_flag = unified_regional
+					}
+				}
+				count_voi_ownership = yes
+			}
+			set_temp_variable = { coreable_temp = 0}
+			every_owned_state = {
+				limit = {
+					NOT = { is_core_of = ROOT }
+					compliance > 60
+				}
+				add_to_temp_variable = { coreable_temp = 1}
+				# every_country = {
+				# 	limit = {
+				# 		PREV = {
+				# 			is_claimed_by = THIS
+				# 		}
+				# 	}
+				#  	log = "CORING CHECK: [PREV.GetName] is claimed by [THIS.GetName]"
+				# }
+			}
+			set_variable = {coreable_number = coreable_temp }
+			every_owned_state = {
+				limit = {
+					NOT = { is_core_of = ROOT }
+					compliance > 90
+				}
+				auto_coring_effect = yes
+			}
+			every_owned_state = {
+				limit = {
+					NOT = { is_core_of = ROOT }
+					NOT = { is_in_array = { ROOT.noncores_array = THIS.id } }
+				}
+				add_to_array = { ROOT.noncores_array = THIS.id }
+			}
+			every_owned_state = {
+				limit = {
+					is_core_of = ROOT 
+					is_in_array = { ROOT.noncores_array = THIS.id } 
+				}
+				remove_from_array = { ROOT.noncores_array = THIS.id }
+			}
+			set_variable = {ROOT.noncores_count = 0}
+			for_each_loop = {
+				array = ROOT.noncores_array
+				add_to_variable = {ROOT.noncores_count = 1}
+			}
+			if = {
+				limit = {
+					check_variable = { ROOT.noncores_count < 1 }
+					has_dynamic_modifier = {
+						modifier = non_core_penalty
+					}
+				}
+				remove_dynamic_modifier = {
+					modifier = non_core_penalty
+				}
+			}
+			else = {
+				set_variable = { root.non_core_penalty_value = ROOT.noncores_count}
+				multiply_variable = { root.non_core_penalty_value = -0.01 }
+				if = {
+					limit = {
+						not = {
+							has_dynamic_modifier = {
+								modifier = non_core_penalty
+							}
+						}
+					}
+					add_dynamic_modifier = {
+						modifier = non_core_penalty
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_war = yes
+					has_country_flag = getting_ready_to_war
+				}
+				clr_country_flag = getting_ready_to_war
+			}
+			reset_vp_name = yes
+			public_buildings_effect = yes
+		}
+	}
+	on_weekly_SWE = {
+		effect = {
+			set_variable = { global.deadPolacksFromLastTick = global.deadPolacks}
+			set_temp_variable = { global.tempDeadPolacks = 0}
+			every_country = {
+				limit = {
+					NOT = {
+						original_tag = ROS
+						original_tag = UPA
+						original_tag = UHR
+					}
+				}
+				add_to_temp_variable = { global.tempDeadPolacks = THIS.casualties_k}
+				add_to_temp_variable = { global.tempDeadPolacks = THIS.casualtiesFromEvents}
+			}
+			add_to_temp_variable = { global.tempDeadPolacks = global.deadPolacksFromPastWars }
+			add_to_temp_variable = { global.tempDeadPolacks = global.deadPolacksFromDeadNations }
+			if = {
+				limit = {
+					check_variable = { global.tempDeadPolacks < 1}
+				}
+				set_variable = {global.deadPolacksSmall = global.tempDeadPolacks} 
+				multiply_variable = {global.deadPolacksSmall = 1000}
+			}
+			set_variable = {global.deadPolacks = global.tempDeadPolacks}
+			set_variable = {global.deadMillions = global.deadPolacks}
+			divide_variable = {global.deadMillions = 1000}
+			if = {
+				limit = {
+					check_variable = {
+						global.deadPolacksFromLastTick > global.deadPolacks
+					}
+				}
+				log = "[GetDateText]: WARNING - SOMETHING IS FUKED UP"
+				log = "current wars + [?global.deadPolacksFromDeadNations] + [?global.deadPolacksFromPastWars]  = [?global.deadPolacks]"
+			}
+		}
+	}
+	on_weekly_ZHP = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = { ZHP_deurbanization_progress < 25}
+				}
+				swap_ideas = {
+					remove_idea = ZHP_deurban2
+					add_idea = ZHP_deurban1
+				}
+			}
+			if = {
+				limit = {
+					check_variable = { ZHP_deurbanization_progress > 24}
+					has_idea = ZHP_deurban1
+				}
+				swap_ideas = {
+					remove_idea = ZHP_deurban1
+					add_idea = ZHP_deurban2
+				}
+			}
+			if = {
+				limit = {
+					check_variable = { ZHP_deurbanization_progress < 50}
+					has_idea = ZHP_deurban3
+				}
+				swap_ideas = {
+					remove_idea = ZHP_deurban3
+					add_idea = ZHP_deurban2
+				}
+			}
+			if = {
+				limit = {
+					check_variable = { ZHP_deurbanization_progress > 49}
+					has_idea = ZHP_deurban2
+				}
+				swap_ideas = {
+					remove_idea = ZHP_deurban2
+					add_idea = ZHP_deurban3
+				}
+			}
+			if = {
+				limit = {
+					check_variable = { ZHP_deurbanization_progress < 75}
+					has_idea = ZHP_deurban4
+				}
+				swap_ideas = {
+					remove_idea = ZHP_deurban4
+					add_idea = ZHP_deurban3
+				}
+			}
+			if = {
+				limit = {
+					check_variable = { ZHP_deurbanization_progress > 74}
+					has_idea = ZHP_deurban3
+				}
+				swap_ideas = {
+					remove_idea = ZHP_deurban3
+					add_idea = ZHP_deurban4
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = applied_the_final_solution
+				}
+				set_temp_variable = { days_after_last_fs = global.num_days}
+				log = "[?appliance_date]"
+				log = "[?days_after_last_fs]"
+				subtract_from_temp_variable = {days_after_last_fs = appliance_date}
+				log = "[?days_after_last_fs]"
+				if = {
+					limit = {
+						check_variable = {
+							var = days_after_last_fs
+							value = 365
+							compare = greater_than_or_equals
+						}
+					}
+					clr_country_flag = applied_the_final_solution
+				}
+			}
+		}
+	}
+	on_monthly_ZHR = {
+		effect = {
+			if = {
+				limit = {
+					has_character = ZHP_marek_jedraszewski
+					not = {
+						has_country_leader = {
+							character = ZHP_marek_jedraszewski
+							ruling_only = yes
+						}
+					}
+				}
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ZHP_marek_jedraszewski
+					promote_leader = yes
+					country_leader = {
+						ideology = paternal_conservatism_subtype
+						expire="1.1.1.1"
+						id = -1
+					}
+				}
+			}
+		}
+	}
+	
+	on_monthly_GFL = {
+		effect = {
+			if = {
+				limit = {
+					has_character = ZHP_orsza
+					not = {
+						has_country_leader = {
+							character = ZHP_orsza
+							ruling_only = yes
+						}
+					}
+				}
+				retire_country_leader = yes
+				add_country_leader_role = {
+					character = ZHP_orsza
+					country_leader = {
+						ideology = scout_system_subtype
+						expire="1.1.1.1"
+						id = -1
+					}
+				}
+			}
+		}
+	}
+	
+	on_monthly_CAL = {
+		effect = {
+			change_vp_name_to_latin = yes
+		}
+	}
+	on_monthly_BGF = {
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = spanish_or_vanish
+					#has_country_leader = {
+					#	character = BGF_celsa
+					#	ruling_only = yes
+					#}
+				}
+				change_vp_name_to_spanish = yes
+			}
+		}
+	}
+	on_monthly_CZE = {
+		effect = {
+			if = {
+				limit = {
+					has_country_leader = {
+						character = CZE_tomio_okamura
+						ruling_only = yes
+					}
+				}
+				change_vp_name_to_czepanese = yes
+			}
+		}
+	}
+	on_monthly_JOM = {
+		effect = {
+			change_vp_name_to_nordic = yes
+		}
+	}
+	on_monthly_USP = {
+		effect = {
+			change_vp_name_to_kolonkish = yes
+		}	
+	}
+	on_monthly_EKS = {
+		effect = {
+			if = {
+				limit = {
+					not = {
+						has_country_flag = eurokom_has_fallen
+					}
+				}
+				change_vp_name_to_german = yes
+			}
+		}
+	}
+	on_monthly_EKW = {
+		effect = {
+			if = {
+				limit = {
+					not = {
+						has_country_flag = eurokom_has_fallen
+					}
+				}
+				change_vp_name_to_german = yes
+			}
+		}
+	}
+	on_monthly_BRE = {
+		effect = {
+			change_vp_name_to_german = yes
+		}
+	}
+	on_monthly_KAM = {
+		effect = {
+			change_vp_name_to_german = yes
+		}
+	}
+	on_monthly_MNI = {
+		effect = {
+			change_vp_name_to_german = yes
+		}
+	}
+	on_monthly_RAS = {
+		effect = {
+			change_vp_name_to_german = yes
+		}
+	}
+	on_monthly_GER = {
+		effect = {
+			change_vp_name_to_german = yes
+		}
+	}
+	on_monthly_WRT = {
+		effect = {
+			change_vp_name_to_german = yes
+		}
+	}
+	on_monthly_POM = {
+		effect = {
+			change_vp_name_to_german = yes
+		}
+	}
+	on_monthly_KES = {
+		effect = {
+			change_vp_name_to_german = yes
+		}
+	}
+	on_monthly_KOS = {
+		effect = {
+			change_vp_name_to_german = yes
+		}
+	}
+	on_monthly_TEU = {
+		effect = {
+			change_vp_name_to_german = yes
+		}
+	}
+	on_monthly_GER = {
+		effect = {
+			change_vp_name_to_german = yes
+		}
+	}
+	on_monthly_LEH = {
+		effect = {
+			change_vp_name_to_lechite = yes
+		}
+	}
+	on_monthly_LCH = {
+		effect = {
+			change_vp_name_to_lechite = yes
+		}
+	}
+	on_monthly_WAN = {
+		effect = {
+			change_vp_name_to_lechite = yes
+		}
+	}
+	on_monthly_JAS = {
+		effect = {
+			change_vp_name_to_lechite = yes
+		}
+	}
+	on_monthly_UPA = {
+		effect = {
+			change_vp_name_to_russian = yes
+		}
+	}
+	on_monthly_KOZ = {
+		effect = {
+			change_vp_name_to_russian = yes
+		}
+	}
+	on_monthly_UKR = {
+		effect = {
+			change_vp_name_to_russian = yes
+		}
+	}
+	on_monthly_UHR = {
+		effect = {
+			change_vp_name_to_russian = yes
+		}
+	}
+	on_monthly_BEL = {
+		effect = {
+			change_vp_name_to_russian = yes
+		}
+	}
+	on_monthly_ROS = {
+		effect = {
+			change_vp_name_to_russian = yes
+		}
+	}
+	on_monthly_RUS = {
+		effect = {
+			change_vp_name_to_russian = yes
+		}
+	}
+	on_monthly_KSZ = {
+		effect = {
+			change_vp_name_to_kashubian = yes
+		}
+	}
+	on_monthly_PRU = {
+		effect = {
+			change_vp_name_to_notthatprussian = yes
+		}
+	}
+	#on_daily_CHO = {
+	#	effect = {
+	#		change_vp_name_to_silesian = yes
+	#	}
+	#}
+	#on_daily_GLI = {
+	#	effect = {
+	#		change_vp_name_to_silesian = yes
+	#	}
+	#}
+	#on_daily_FER = {
+	#	effect = {
+	#		change_vp_name_to_silesian = yes
+	#	}
+	#}
+	#on_daily_RUD = {
+	#	effect = {
+	#		change_vp_name_to_silesian = yes
+	#	}
+	#}
+	#on_daily_JSW = {
+	#	effect = {
+	#		change_vp_name_to_silesian = yes
+	#	}
+	#}
+	#on_daily_TRC = {
+	#	effect = {
+	#		change_vp_name_to_silesian = yes
+	#	}
+	#}
+	on_weekly_BBW = {
+		effect = {
+			every_owned_state = {
+				limit = {
+					not = {
+						has_dynamic_modifier = {
+							modifier = BBW_smog_effect
+						}
+					}
+					any_neighbor_state = {
+						has_dynamic_modifier = {
+							modifier = BBW_smog_effect
+						}
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = BBW_smog_effect
+				}
+			}
+			BBW_calculate_smog_penalties = yes
+		}
+	}
+	on_daily_ATM = {
+		effect = {
+			if = {
+				limit = {
+					has_completed_focus = ATM_green_fury
+					has_completed_focus = ATM_suffocating_smoke
+					has_completed_focus = ATM_black_eagle
+					has_completed_focus = ATM_hearts_and_minds
+					not = {
+						has_completed_focus = ATM_at_least_fair_trial
+						has_completed_focus = ATM_captain_planet
+						has_completed_focus = ATM_rad_eaters
+						has_completed_focus = ATM_knowledge_is_death_of_fear
+					}
+					OR ={
+						check_variable = {
+							var:party_popularity@paternal_conservatism < var:party_popularity@autocracy
+						}
+						check_variable = {
+							var:party_popularity@paternal_conservatism < var:party_popularity@corporativism
+						}
+						check_variable = {
+							var:party_popularity@paternal_conservatism < var:party_popularity@euroliberalism
+						}
+						check_variable = {
+							var:party_popularity@paternal_conservatism < var:party_popularity@freemarketism
+						}
+						check_variable = {
+							var:party_popularity@paternal_conservatism < var:party_popularity@marxism_cranism
+						}
+						check_variable = {
+							var:party_popularity@paternal_conservatism < var:party_popularity@neonationalism
+						}
+						check_variable = {
+							var:party_popularity@paternal_conservatism < var:party_popularity@postpolonism
+						}
+						check_variable = {
+							var:party_popularity@paternal_conservatism < var:party_popularity@reactionary
+						}
+						check_variable = {
+							var:party_popularity@paternal_conservatism < var:party_popularity@socialdemocrature
+						}
+						check_variable = {
+							var:party_popularity@paternal_conservatism < var:party_popularity@squattism
+						}
+					}
+					not = {
+						has_active_mission = ATM_brewing_tensions
+					}
+				}
+				activate_mission = ATM_brewing_tensions
+			}
+		}
+	}
+	on_weekly_ATM = {
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = fought_the_smog
+					}
+				}
+				every_owned_state = {
+					limit = {
+						not = {
+							has_dynamic_modifier = {
+								modifier = BBW_smog_effect
+							}
+						}
+						any_neighbor_state = {
+							has_dynamic_modifier = {
+								modifier = BBW_smog_effect
+							}
+						}
+					}
+					add_dynamic_modifier = {
+						modifier = BBW_smog_effect
+					}
+				}
+			}	
+			BBW_calculate_smog_penalties = yes
+		}
+	}	
+	on_monthly_BEX = {
+		effect = {
+			damage_units = {
+				damage = 0.05
+			}
+		}
+	}
+	on_declare_war = {
+		effect = {
+			log = "[?From.casualties] - [?ROOT.casualties_k]"
+			if = {
+				limit = {
+					FROM = {
+						has_country_flag = getting_ready_to_war
+					}
+				}
+				FROM = {
+					clr_country_flag = getting_ready_to_war
+				}
+			}
+			if = {
+				limit = {
+					ROOT = {
+						has_country_flag = getting_ready_to_war
+					}
+				}
+				ROOT = {
+					clr_country_flag = getting_ready_to_war
+				}
+			}
+			if = {
+				limit = {
+					FROM = { tag = BBW }
+					has_country_flag = importing_energy
+				}
+				clr_country_flag = importing_energy
+				remove_opinion_modifier = {
+					target = BBW
+					modifier = aided_industry
+				}
+				remove_ideas = importing_energy_idea
+				subtract_from_variable = {energy_imported = 750}
+				BBW = {
+					add_offsite_building = {
+						type = industrial_complex
+						level = -1
+					}
+					if = {
+						limit = {
+							check_variable = { energy_exported > 0 }
+						}
+						subtract_from_variable = {energy_exported = 750}
+					}
+				}
+				log = "[GetDateText]: [ROOT.GetName] cancels energy imports"
+			}
+			if = {
+				limit = {
+					tag = BBW
+					FROM = { has_country_flag = importing_energy }
+				}
+				FROM = {
+					clr_country_flag = importing_energy
+					remove_opinion_modifier = {
+						target = BBW
+						modifier = aided_industry
+					}
+					remove_ideas = importing_energy_idea
+					subtract_from_variable = {energy_imported = 750}
+				}
+				BBW = {
+					add_offsite_building = {
+						type = industrial_complex
+						level = -1
+					}
+					if = {
+						limit = {
+							check_variable = { energy_exported > 0 }
+						}
+						subtract_from_variable = {energy_exported = 750}
+					}
+				}
+				log = "[GetDateText]: [FROM.GetName] cancels energy imports"
+			}
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = CAL
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_CAL
+							
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = CZE
+					has_country_leader = {
+						character = CZE_tomio_okamura
+						ruling_only = yes
+					}
+				}
+				log = "xd"
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_CZE
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = BGF
+					has_country_flag = spanish_or_vanish
+					#has_country_leader = {
+					#	character = BGF_celsa
+					#	ruling_only = yes
+					#}
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_SPA
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						original_tag = KAM
+						original_tag = MNI
+						original_tag = RAS
+						original_tag = WRT
+						original_tag = POM
+						original_tag = KES
+						original_tag = KOS
+						original_tag = TEU 
+						original_tag = BRE
+						AND = {
+							or = {
+								original_tag = EKS
+								original_tag = EKW
+							}
+							NOT = {
+								has_country_flag = eurokom_has_fallen
+							}
+						}
+					}
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_GER
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = JOM
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_JOM
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						original_tag = LEH
+						original_tag = LCH
+						original_tag = WAN
+						original_tag = JAS
+					}
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_LEH
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						original_tag = UPA
+						original_tag = KOZ
+						original_tag = UHR
+						original_tag = BEL
+						original_tag = ROS
+					}
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_UKROS
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = USP
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_USP
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = PRU
+					FROM.FROM = {
+						is_prusy_state = yes
+					}
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_PRU
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = KSZ
+					FROM.FROM = {
+						or = {
+							state = 15
+							state = 20
+							state = 21
+							state = 23
+							state = 24
+							state = 33
+							state = 34
+							state = 35
+							state = 36
+							state = 38
+							state = 39
+							state = 44
+							state = 45
+							state = 53
+							state = 54
+							state = 55
+							state = 61
+							state = 62
+							state = 63
+							state = 65
+							state = 67
+							state = 68
+							state = 77
+							state = 78
+							state = 81
+							state = 82
+							state = 84
+							state = 88
+							state = 89
+							state = 100
+							state = 107
+							state = 118
+							state = 121
+							state = 133
+							state = 158
+							state = 614
+							state = 618
+							state = 623
+							state = 624
+							state = 626
+							state = 627
+							state = 628
+							state = 629
+							state = 630
+							state = 666
+							state = 709
+							state = 710
+							state = 711
+							state = 713
+							state = 714
+							state = 715
+							state = 716
+							state = 717
+							state = 871
+							state = 872
+						}
+					}
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_KSZ
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						original_tag = CHO
+						original_tag = GLI
+						original_tag = FER
+						original_tag = RUD
+						original_tag = JSW
+						original_tag = TRC
+					}
+					FROM.FROM = {
+						is_silesia_state = yes
+					}	
+				}
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]_SIL
+						}
+					}	
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+			else = {
+				meta_effect = {
+					text = {
+						FROM.FROM = {
+							set_state_name = STATE_[STATE_ID]
+						}
+					}
+					STATE_ID = "[?FROM.FROM.GetID]"
+				}
+			}
+		}
+	}
+}

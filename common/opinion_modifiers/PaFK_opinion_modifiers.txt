@@ -1,0 +1,26 @@
+opinion_modifiers = {
+
+    BGF_were_all_in_this_together = {
+        value = 40
+		months = 18
+		decay = 1
+    }
+
+    BGF_began_negociations = {
+        value = 20
+    }
+
+    BGF_began_negociations_trade = {
+        trade = yes
+        value = 30
+    }
+
+    BGF_refused_negociations = {
+        value = -50
+    }
+
+    SND_enemies_by_ideology = {
+        value = -35
+    }
+
+}

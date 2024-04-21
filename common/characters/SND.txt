@@ -1,0 +1,89 @@
+characters={
+	SND_bartłomiej_sienkiewicz={
+		name="Bartłomiej Sienkiewicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/SND/SND_Sienkiewicz1.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_SIENKIEWICZ_DESC"
+			ideology=euroliberalism_subtype
+			expire="1.1.1.1"
+			id=-1
+			traits = { ruthless_liberal }
+		}
+	}
+	SND_ojciec_mateusz={
+		name="Ojciec Mateusz"
+		portraits={
+			civilian={
+				large="gfx/leaders/SND/SND_Mateusz1.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_POLAK_APOSTOL_DESC"
+			ideology=socialdemocrature_humanitarianism_subtype
+			expire="1.1.1.1"
+			id=-1
+			traits = { humanitarian_priest }
+		}
+	}
+	SND_teodor_szacki={
+		name="Teodor Szacki"
+		portraits={
+			civilian={
+				large="gfx/leaders/SND/SND_Mateusz1.dds" # Zostanie zmienione oczywiście
+			}
+		}
+		country_leader={
+			desc = "POLITICS_ZIARNO_DESC"
+			ideology=autocracy_truth_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SND_gajewski={
+		name="Grzegorz Gajewski"
+		portraits={
+			civilian={
+				large="gfx/leaders/SND/SND_Mateusz1.dds" # Zostanie zmienione oczywiście
+			}
+		}
+		country_leader={
+			desc = "POLITICS_OPATUW_DESC"
+			ideology=paternal_conservatism_christian_democracy_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SND_MT={
+		name="Marcel-Tobi"
+		portraits={
+			civilian={
+				large="gfx/leaders/SND/SND_Mateusz1.dds" # Zostanie zmienione oczywiście
+			}
+		}
+		country_leader={
+			desc = "POLITICS_ZDRAJCA_DESC" # Jeśli nie wiesz, o co tu chodzi, zobacz loading_tips_l_english.yml
+			ideology=neonationalism_national_catholicism_subtype
+			expire="1.1.1.1"
+			id=-1
+			traits = { man_behind_the_slaughter }
+		}
+	}
+	SND_krul={
+		name="Radosław II Zdrowy"
+		portraits={
+			civilian={
+				large="gfx/leaders/SND/SND_Radoslaw_Drugi.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_RADZIO_DESC"
+			ideology=reactionary_medievalism_subtype
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

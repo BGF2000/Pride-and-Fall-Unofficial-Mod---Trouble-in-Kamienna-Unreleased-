@@ -1,0 +1,724 @@
+characters={
+	# UWAGA: Ponieważ nie umiem portretować w ten sposób (ani w ogóle), użyłem portretów już dostepnych w modyfikacji, które najlepiej odzwierciedlały osoby podane poniżej
+	BGF_kinga_wnuk={
+		name="Kinga Wnuk"
+		portraits={
+			civilian={
+				large="gfx/leaders/AMA/AMA_DKulczyk.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_KINGA_WNUK_DESC"
+			ideology=socialdemocrature_progressivism_subtype
+			traits = { principal }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	BGF_gabi_gabi={
+		name="Gabriel Kwietniak"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZHP/ZHP_rudy.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_GABI_DESC"
+			ideology=euroliberalism_regionalism_subtype
+			traits = { eager_reformist }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	BGF_felipe={
+		name="Filip Wójcik"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZHP/ZHP_zoska.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_FILIP_DESC"
+			ideology=marxism_cranism_mafia_subtype
+			traits = { comafiaist }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	BGF_average_cba_despiser={
+		name="Jarosław Górczyński"
+		portraits={
+			civilian={
+				large="gfx/leaders/ZAW/ZAW_Skalik.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_CBA_DESC"
+			ideology=freemarketism_subtype
+			traits = { corrupt_liberal }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	BGF_lukasz_stolarek={
+		name="Łukasz Stolarek"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRZ/BRZ_Kuba.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_ATEIZM_DESC"
+			ideology=neonationalism_subtype
+			traits = { atheist_fighter }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	BGF_marcel_nazbolejarczyk={
+		name="Marcel Olejarczyk"
+		portraits={
+			civilian={
+				large="gfx/leaders/EKW/EKW_Slawomir_Nitras.dds"
+			}
+		}
+		#country_leader={
+		#	desc = "POLITICS_NAZBOL_DESC"
+		#	ideology=neonationalism_national_bolshevism_subtype
+		#	traits = { matgeo }
+		#	expire="1.1.1.1"
+		#	id=-1
+		#}
+	}
+
+	BGF2000={
+		name="Oskar Rogowski-Bystroń"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHO/CHO_Szmyt.dds"
+			}
+		}
+		#country_leader={
+		#	desc = "POLITICS_BGF_DESC"
+		#	ideology=socialdemocrature_centrist_democracy_subtype
+		#	traits = { artificial_foreigners_stigma hidden_autism renaissance_man }
+		#	expire="1.1.1.1"
+		#	id=-1
+		#}
+	}
+
+	BGF_oskar_rogowski={
+		name="Oskar Rogowski-Bystroń"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHO/CHO_Szmyt.dds"
+			}
+		}
+		#country_leader={
+		#	desc = "POLITICS_BGF_HAPPY_DESC"
+		#	ideology=socialdemocrature_national_coalition_subtype
+		#	traits = { renaissance_man matgeo }
+		#	expire="1.1.1.1"
+		#	id=-1
+		#}
+	}
+
+	BGF_pawel_rogowski = {
+		name ="Paweł Rogowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAR/GAR_Fogiel2.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_POLONIA_DESC"
+			ideology = paternal_conservatism_kaczynskism_subtype
+			traits = { third_kaczynski }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	BGF_ukrainka = {
+		name ="Katerina Sosedko" # Również znana jako [REDACTED]
+		portraits={
+			civilian={
+				large="gfx/leaders/OWS/OWS_Niedzwiecka_Owsiak.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_UKRAJINA_DESC"
+			ideology=postpolonism_biolchem_subtype
+			traits = { biolchem }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	BGF_domi = {
+		name ="Dominika Mruk" # "Mmm, ale z*eb dodał tą osobę" - Katerina Sosedko (może)
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_LePen.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_WSTYDZIOCH_DESC"
+			ideology=reactionary_nostalgism_subtype
+			traits = { nostalgist biolchem }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	BGF_celsa={
+		name="Huta CELSA"
+		portraits={
+			civilian={
+				large="gfx/leaders/BGF/BGF_Hiszpanie.dds" # Nie umiem robić takich portretów, więc masz tutaj byle co
+			}
+		}
+		country_leader={
+			desc = "POLITICS_CELSA_DESC"
+			ideology=corporativism_subtype
+			traits = { }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BGF_armandzio={
+		name="Armando Malesza"
+		portraits=
+		{ civilian = {
+		small = gfx/interface/ideas/ATM/ATM_Byzdra.dds } # CZH_Bartos.dds
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BGF_min_armandzio
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BGF
+				NOT = {
+					has_government = neonationalism
+					has_government = marxism_cranism
+					has_government = paternal_conservatism
+					has_government = postpolonism
+					has_government = autocracy
+					has_government = squattism
+				}
+			}
+			traits = { KO_enthusiast }
+		}
+	}
+	BGF_pieprzykowski={
+		name="Paweł Pietrzykowski"
+		portraits=
+		{ civilian = {
+		small = gfx/interface/ideas/WRO/WRO_Ciazynski.dds }
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			idea_token = BGF_min_pieprzykowski
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BGF
+			}
+			traits = { submissive_principal }
+		}
+	}
+	BGF_konrad_lebek={
+		name="Konrad Łebek"
+		portraits=
+		{ civilian = {
+		small = gfx/interface/ideas/BIL/BIL_Marek_Poznanski.dds }
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			idea_token = BGF_min_armandzio
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BGF
+				NOT = {
+					has_government = neonationalism
+					has_government = marxism_cranism
+					has_government = paternal_conservatism
+					has_government = postpolonism
+					has_government = autocracy
+					has_government = squattism
+				}
+			}
+			traits = { friend_of_the_people }
+		}
+	}
+	BGF_burdel={
+		name="Jan Burda"
+		portraits=
+		{ civilian = {
+		small = gfx/interface/ideas/ZAW/ZAW_dorosz.dds }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BGF_min_burdel
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BGF
+				NOT = {
+					has_government = neonationalism
+					has_government = postpolonism
+					has_government = autocracy
+				}
+			}
+			traits = { hedonist_gamer }
+		}
+	}
+	BGF_podwladna_kingi={
+		name="Edyta Jakubczyk"
+		portraits=
+		{ civilian = {
+		small = gfx/interface/ideas/ZUK/ZUK_Beata_Stepaniuk-Kusmierzak.dds }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_economy
+			idea_token = BGF_podwladna_kingi
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BGF
+				has_government = socialdemocrature
+			}
+			traits = { businesswoman }
+		}
+	}
+
+	BGF_andrzej={
+		name="Andrzej" # Jaki? Nie wiadomo
+		portraits=
+		{ civilian = { large="gfx/leaders/ZHP/ZHP_Alek.dds"
+		small = "gfx/interface/ideas/ZHP/ZHP_alek.dds" }
+		}
+		advisor = {
+			cost = -1
+			slot = minister_of_war
+			idea_token = BGF_min_andrzej
+			removal_cost = -1
+			ledger = civilian
+			allowed = {
+				original_tag = BGF
+			}
+			traits = { army_chief_offensive_1 } # regionalist_army_commander
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BGF_hc_andrzej
+			ledger = army
+			allowed = {
+				original_tag = BGF
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	BGF_mountaineer_from_zahorie = {
+		name="Záhorácky Veliteľ" # Hmm...
+		portraits = {
+			army = {
+			    large="gfx/leaders/BGF/BGF_mountain_general.png"
+				small="gfx/leaders/BGF/BGF_mountain_general.png"
+			}
+		}
+		field_marshal = {
+			traits = { army_commando_3 army_chief_offensive_3 army_chief_drill_3 army_chief_reform_3 } # panslavic_activist hoi4_player
+			skill=6
+			attack_skill=7
+			defense_skill=2
+			planning_skill=8
+			logistics_skill=4
+			legacy_id=-1
+			visible = {
+				OR = {
+					has_country_leader = { character = BGF2000 }
+					has_country_leader = { character = BGF_oskar_rogowski }
+					has_government = autocracy
+				}
+			}			
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BGF_hc_mg
+			ledger = army
+			allowed = {
+				original_tag = BGF
+				OR = {
+					has_country_leader = { character = BGF2000 }
+					has_country_leader = { character = BGF_oskar_rogowski }
+					has_government = autocracy
+				}
+			}
+			available = {
+				always = yes
+			}
+			traits = {
+				army_chief_morale_3
+			}
+			cost = 75
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	BGF_mountain_general = {
+		name="Záhorácky Veliteľ"
+		portraits = {
+			civilian = {
+			    large="gfx/leaders/BGF/BGF_mountain_general.png"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_SLOVENSKO_DESC"
+			ideology=autocracy_mountain_generalism_subtype
+			traits = { panslavic_activist hoi4_player }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BGF_piotr_dasios = {
+		name="Piotr Dasios"
+		portraits = {
+			army = {
+			    large="gfx/leaders/TRZ/TRZ_Wlodarczyk.dds"
+				small = "gfx/interface/ideas/TRZ/TRZ_Wlodarczyk.dds"
+			}
+		}
+		field_marshal = {
+			traits = { commando }
+			skill=2
+			attack_skill=2
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=3
+			legacy_id=-1
+			visible = {
+				OR = {
+					has_government = socialdemocrature
+					has_government = euroliberalism
+					has_government = freemarketism
+				}
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BGF_hc_dasios
+			ledger = army
+			allowed = {
+				original_tag = BGF
+				OR = {
+					has_government = socialdemocrature
+					has_government = euroliberalism
+					has_government = freemarketism
+				}
+			}
+			available = {
+				always = yes
+			}
+			traits = {
+				army_chief_entrenchment_1
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	BGF_idiota = {
+		name="Olgierd Ostrowski"
+		portraits = {
+			army = {
+			    large="gfx/leaders/TRZ/TRZ_Domanski.dds"
+				small = "gfx/interface/ideas/TRZ/TRZ_Domanski.dds"
+			}
+		}
+		field_marshal = {
+			traits = { media_personality } # hentai_connoseur
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+			visible = {
+				OR = {
+					has_government = neonationalism
+					has_government = marxism_cranism
+				}
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BGF_hc_idiota
+			ledger = army
+			allowed = {
+				original_tag = BGF
+				OR = {
+					has_government = neonationalism
+					has_government = marxism_cranism
+				}
+			}
+			traits = {
+				army_chief_drill_1
+			}
+			cost = 125
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	BGF_drugi_idiota = {
+		name="Filip Chodorek"
+		portraits = {
+			army = {
+			    large="gfx/leaders/WOD/WOD_Kohut.dds"
+				small = "gfx/interface/ideas/WOD/WOD_Kohut.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+			visible = {
+				OR = {
+					has_government = neonationalism
+					has_government = marxism_cranism
+				}
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BGF_hc_chodorek
+			ledger = army
+			allowed = {
+				original_tag = BGF
+				OR = {
+					has_government = neonationalism
+					has_government = marxism_cranism
+				}
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	BGF_krzysiu = {
+		name="Krzysztof Kaszuba"
+		portraits = {
+			army = {
+			    large="gfx/leaders/WOW/WOW_Blaszczak.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious }
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+			visible = {
+				original_tag = BGF
+			}
+		}
+	}
+	BGF_sergiusz_adamik = {
+		name="Sergiusz Adamik"
+		portraits = {
+			army = {
+			    large="gfx/leaders/ZHP/ZHP_Orsza.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader }
+			skill=3
+			attack_skill=5
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+			visible = {
+				original_tag = BGF
+			}
+		}
+	}
+	BGF_radio_rekord = {
+		name="Łukasz Wiąsik" # Ten gościu z dawnego radia Rekord (nie ma chyba tak na nazwisko)
+		portraits = {
+			army = {
+			    large="gfx/leaders/WML/WML_Trela.dds"
+			}
+		}
+		corps_commander = {
+			traits = { media_personality }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+			visible = {
+				original_tag = BGF
+				OR = {
+					has_government = socialdemocrature
+					has_government = euroliberalism
+					has_government = freemarketism
+					has_government = paternal_conservatism
+				}
+			}
+		}
+	}
+	BGF_biolog_help = {
+		name="Michał Miernik"
+		portraits = {
+			army = {
+			    large="gfx/leaders/BGF/BGF_Michelle_Ekierka.dds"
+			}
+		}
+		corps_commander = {
+			traits = { media_personality } # cyberpunk_enthusiast
+			skill=6
+			attack_skill=6
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=8
+			legacy_id=-1
+			visible = {
+				original_tag = BGF
+				has_government = postpolonism
+			}
+		}
+	}
+	BGF_nie_lec = {
+		name="Stanisław Jerzy" # Może ma nazwisko, może nie
+		portraits = {
+			army = {
+			    large="gfx/leaders/WML/WML_Kornacki.dds"
+			}
+		}
+		field_marshal = {
+			traits = { educated engineer_officer }
+			skill=5
+			attack_skill=3
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=6
+			legacy_id=-1
+			visible = {
+				original_tag = BGF
+				OR = {
+					has_government = socialdemocrature
+					has_government = euroliberalism
+				}
+			}
+		}
+	}
+	BGF_domi_armia = {
+		name="Dominika Mruk"
+		portraits = {
+			army = {
+			    large="gfx/leaders/FRA/FRA_LePen.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+			visible = {
+				original_tag = BGF
+				OR = {
+					has_country_leader = { character = BGF2000 }
+					has_country_leader = { character = BGF_oskar_rogowski }
+					has_government = reactionary
+				}
+			}
+		}
+	}
+	BGF_jakub_teodecki = {
+		name="Jakub Teodecki"
+		portraits = {
+			army = {
+			    large="gfx/leaders/UKR/UKR_Zaluzhniy.dds"
+				small = "gfx/interface/ideas/UKR/UKR_Zaluzhniy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious media_personality }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+			visible = {
+				original_tag = BGF
+				OR = {
+					NOT = { has_country_leader = { character = BGF2000 } } # Autyście nie pomagam
+					NOT = { has_country_leader = { character = BGF_oskar_rogowski } }
+					has_government = socialdemocrature
+					has_government = euroliberalism
+				}
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BGF_hc_teodecki
+			ledger = army
+			allowed = {
+				original_tag = BGF
+				OR = {
+					NOT = { has_country_leader = { character = BGF2000 } } # Autyście nie pomagam
+					NOT = { has_country_leader = { character = BGF_oskar_rogowski } }
+					has_government = socialdemocrature
+					has_government = euroliberalism
+				}
+			}
+			available = {
+				always = yes
+			}
+			traits = {
+				air_chief_reform_2
+			}
+			cost = 125
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+}
